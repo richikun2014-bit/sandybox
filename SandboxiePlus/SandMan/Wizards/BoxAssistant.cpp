@@ -158,7 +158,7 @@ bool CBoxAssistant::StartEngine()
                 CSandMan::SafeShow(m_pDebugger);
             }
             else {
-                QMessageBox::critical(this, "sandybox", tr("V4ScriptDebuggerBackend could not be instantiated, probably V4ScriptDebugger.dll and or its dependencies are missing, script debugger could not be opened."));
+                QMessageBox::critical(this, "Sandybox", tr("V4ScriptDebuggerBackend could not be instantiated, probably V4ScriptDebugger.dll and or its dependencies are missing, script debugger could not be opened."));
             }
         }
 
@@ -208,7 +208,7 @@ void CBoxAssistant::reject()
     if (m_pEngine && currentId() != Page_Submit) {
         if (theConf->GetInt("Options/WarnWizardOnClose", -1) == -1) {
             bool State = false;
-            if (CCheckableMessageBox::question(this, "sandybox", tr("A troubleshooting procedure is in progress, canceling the wizard will abort it, this may leave the sandbox in an inconsistent state.")
+            if (CCheckableMessageBox::question(this, "Sandybox", tr("A troubleshooting procedure is in progress, canceling the wizard will abort it, this may leave the sandbox in an inconsistent state.")
                 , tr("Don't ask in future"), &State, QDialogButtonBox::Ok | QDialogButtonBox::Cancel, QDialogButtonBox::Cancel) == QDialogButtonBox::Cancel)
                 return;
             if (State)
@@ -234,7 +234,7 @@ CBeginPage::CBeginPage(QWidget *parent)
 
     int row = 0;
     m_pLayout = new QGridLayout;
-    QLabel* pTopLabel = new QLabel(tr("Welcome to the Troubleshooting Wizard for Sandboxie-Plus. "
+    QLabel* pTopLabel = new QLabel(tr("Welcome to the Troubleshooting Wizard for Sandybox. "
         "This interactive assistant is designed to help you in resolving sandboxing issues."));
     pTopLabel->setWordWrap(true);
     m_pLayout->addWidget(pTopLabel, row++, 0, 1, 3);
@@ -277,8 +277,8 @@ void CBeginPage::initializePage()
     m_pLayout->addItem(new QSpacerItem(10, 10, QSizePolicy::Fixed, QSizePolicy::Expanding), row++, 0);
 
     if (!g_CertInfo.active || g_CertInfo.expired) {
-        QLabel* pBottomLabel = new QLabel(tr("With a valid <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a> the wizard would be even more powerful. "
-            "It could access the <a href=\"https://sandboxie-plus.com/go.php?to=sbie-issue-db\">online solution database</a> to retrieve the latest troubleshooting instructions."));
+        QLabel* pBottomLabel = new QLabel(tr("With a valid supporter certificate the wizard would be even more powerful. "
+            "It could access the online solution database to retrieve the latest troubleshooting instructions."));
         connect(pBottomLabel, SIGNAL(linkActivated(const QString&)), theGUI, SLOT(OpenUrl(const QString&)));
         pBottomLabel->setWordWrap(true);
         m_pLayout->addWidget(pBottomLabel, row++, 0, 1, 3);
@@ -828,8 +828,8 @@ CSubmitPage::CSubmitPage(QWidget *parent)
     //m_pReport->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     pLayout->addWidget(m_pReport, row++, 0, 1, 3);
 
-    m_pAttachIni = new QCheckBox(tr("Attach Sandboxie.ini"));
-    m_pAttachIni->setToolTip(tr("Sandboxing compatibility is reliant on the configuration, hence attaching the Sandboxie.ini file helps a lot with finding the issue."));
+    m_pAttachIni = new QCheckBox(tr("Attach Base Configuration"));
+    m_pAttachIni->setToolTip(tr("Sandboxing compatibility is reliant on the configuration, hence attaching the base configuration file helps a lot with finding the issue."));
     pLayout->addWidget(m_pAttachIni, row, 0);
 
     m_pAttachLog = new QCheckBox(tr("Attach Logs"));
@@ -851,7 +851,7 @@ CSubmitPage::CSubmitPage(QWidget *parent)
 
 void CSubmitPage::initializePage()
 {
-    QString Info = tr("We apologize for the inconvenience you are currently facing with Sandboxie-Plus. ");
+    QString Info = tr("We apologize for the inconvenience you are currently facing with Sandybox. ");
 
     QString Report; // DO NOT TRANSLATE - Reports must be in English!
 
@@ -874,7 +874,7 @@ void CSubmitPage::initializePage()
     m_pTopLabel->setText(Info);
 
     Report += "\n\nFurther information:\n";
-    Report += "sandybox Version: " + theGUI->GetVersion() + "\n";
+    Report += "Sandybox Version: " + theGUI->GetVersion() + "\n";
     Report += "Operating System Version: " + QSysInfo::kernelVersion() + "-" + QSysInfo::currentCpuArchitecture() + "\n";
 
     bool bNewDumps = false;
@@ -1050,11 +1050,11 @@ bool CSubmitPage::validatePage()
 
         QVariantMap Result = QJsonDocument::fromJson(Reply).toVariant().toMap();
         if (!Result["success"].toBool()) {
-            QMessageBox::critical(this, "sandybox", tr("Failed to submit issue report, error %1\nTry submitting without the log attached.").arg(Result["error"].toInt()));
+            QMessageBox::critical(this, "Sandybox", tr("Failed to submit issue report, error %1\nTry submitting without the log attached.").arg(Result["error"].toInt()));
             return;
         }
 
-        QMessageBox::information(this, "sandybox", tr("Your issue report has been successfully submitted, thank you."));
+        QMessageBox::information(this, "Sandybox", tr("Your issue report has been successfully submitted, thank you."));
         wizard()->close();
     });
 
@@ -1083,7 +1083,7 @@ CCompletePage::CCompletePage(QWidget *parent)
 
     m_pLabel = new QLabel;
     m_pLabel->setWordWrap(true);
-    m_pLabel->setText(tr("Thank you for using the Troubleshooting Wizard for Sandboxie-Plus. We apologize for any inconvenience you experienced during the process. " 
+    m_pLabel->setText(tr("Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process. " 
         "If you have any additional questions or need further assistance, please don't hesitate to reach out. We're here to help. "
         "Thank you for your understanding and cooperation. \n\nYou can click Finish to close this wizard."));
     pLayout->addWidget(m_pLabel);

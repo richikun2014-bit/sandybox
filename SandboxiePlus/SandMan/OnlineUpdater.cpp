@@ -264,7 +264,7 @@ void CGetFileJob::Finish(QNetworkReply* pReply)
 	m_pProgress->Finish(SB_OK);
 
 	if (File.size() != Size) {
-		QMessageBox::critical(theGUI, "sandybox", tr("Failed to download file from: %1").arg(pReply->request().url().toString()));
+		QMessageBox::critical(theGUI, "Sandybox", tr("Failed to download file from: %1").arg(pReply->request().url().toString()));
 		return;
 	}
 
@@ -442,9 +442,9 @@ bool COnlineUpdater::ShowCertWarningIfNeeded()
 	if (!(g_CertInfo.active && g_CertInfo.expired))
 		return true;
 
-	QString Message = tr("Your sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.\n\n"
+	QString Message = tr("Your Sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.\n\n"
 		"Do you still want to update?");
-	int Ret = QMessageBox("sandybox", Message, QMessageBox::Warning, QMessageBox::Yes, QMessageBox::No | QMessageBox::Escape | QMessageBox::Default, QMessageBox::Cancel, theGUI).exec();
+	int Ret = QMessageBox("Sandybox", Message, QMessageBox::Warning, QMessageBox::Yes, QMessageBox::No | QMessageBox::Escape | QMessageBox::Default, QMessageBox::Cancel, theGUI).exec();
 	if (Ret == QMessageBox::Cancel) {
 		QTimer::singleShot(10, this, [=] {
 			theConf->DelValue("Updater/InstallerPath");
@@ -473,7 +473,7 @@ void COnlineUpdater::Process()
 			if (iCheckUpdates == 2)
 			{
 				bool bCheck = false;
-				iCheckUpdates = CCheckableMessageBox::question(theGUI, "sandybox", tr("Do you want to check if there is a new version of sandybox?")
+				iCheckUpdates = CCheckableMessageBox::question(theGUI, "Sandybox", tr("Do you want to check if there is a new version of Sandybox?")
 					, tr("Don't show this message again."), &bCheck, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) == QDialogButtonBox::Ok ? 1 : 0;
 
 				if (bCheck)
@@ -501,7 +501,7 @@ void COnlineUpdater::Process()
 			if (theConf->GetInt("Options/AutoUpdateTemplates", -1) != 1)
 			{
 				bool State = false;
-				if (CCheckableMessageBox::question(theGUI, "sandybox", tr("To ensure optimal compatibility with your software, sandybox needs to update its compatibility templates. Do you want to proceed?")
+				if (CCheckableMessageBox::question(theGUI, "Sandybox", tr("To ensure optimal compatibility with your software, Sandybox needs to update its compatibility templates. Do you want to proceed?")
 					, tr("Enable auto template updates"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) == QDialogButtonBox::No)
 					bCheck = false;
 				if (State)
@@ -560,7 +560,7 @@ void COnlineUpdater::OnUpdateData(const QVariantMap& Data, const QVariantMap& Pa
 		QString Error = Data.isEmpty() ? tr("server not reachable") : Data["errorMsg"].toString();
 		theGUI->OnLogMessage(tr("Failed to check for updates, error: %1").arg(Error), m_CheckMode != eManual);
 		if (m_CheckMode == eManual)
-			QMessageBox::critical(theGUI, "sandybox", tr("Failed to check for updates, error: %1").arg(Error));
+			QMessageBox::critical(theGUI, "Sandybox", tr("Failed to check for updates, error: %1").arg(Error));
 		m_CheckMode = eInit;
 		return;
 	}
@@ -589,7 +589,7 @@ void COnlineUpdater::OnUpdateData(const QVariantMap& Data, const QVariantMap& Pa
 #endif
 	}
 	else if (bNothing)  {
-		QMessageBox::information(theGUI, "sandybox", tr("No new updates found, your sandybox is up-to-date.\n"
+		QMessageBox::information(theGUI, "Sandybox", tr("No new updates found, your Sandybox is up-to-date.\n"
 			"\nNote: The update check is often behind the latest GitHub release to ensure that only tested updates are offered."));
 	}
 }
@@ -716,7 +716,7 @@ bool COnlineUpdater::AskDownload(const QVariantMap& Data, bool bAuto)
 	QString UpdateUrl = Data["infoUrl"].toString();
 	
 	QString FullMessage = !UpdateMsg.isEmpty() ? UpdateMsg : 
-		tr("<p>There is a new version of sandybox available.<br /><font color='red'><b>New version:</b></font> <b>%1</b></p>").arg(VersionStr);
+		tr("<p>There is a new version of Sandybox available.<br /><font color='red'><b>New version:</b></font> <b>%1</b></p>").arg(VersionStr);
 
 	QVariantMap Installer = Data["installer"].toMap();
 	QString DownloadUrl = Installer["downloadUrl"].toString();
@@ -737,12 +737,11 @@ bool COnlineUpdater::AskDownload(const QVariantMap& Data, bool bAuto)
 		FullMessage += tr("<p>Do you want to download the updates?</p>");
 	}
 	else if (!UpdateUrl.isEmpty()) {
-		Action = eNotify;
-		FullMessage += tr("<p>Do you want to go to the <a href=\"%1\">download page</a>?</p>").arg(UpdateUrl);
+		FullMessage += tr("<p>A new Sandybox update is available online.</p>");
 	}
 
 	CCheckableMessageBox mb(theGUI);
-	mb.setWindowTitle("sandybox");
+	mb.setWindowTitle("Sandybox");
 	QIcon ico(QLatin1String(":/SandMan.png"));
 	mb.setIconPixmap(ico.pixmap(64, 64));
 	//mb.setTextFormat(Qt::RichText);
@@ -766,7 +765,7 @@ bool COnlineUpdater::AskDownload(const QVariantMap& Data, bool bAuto)
 			return true;
 		}
 		else
-			QDesktopServices::openUrl(UpdateUrl);
+			return false;
 	}
 	else 
 	{
@@ -934,7 +933,7 @@ void COnlineUpdater::OnPrepareFinished(int exitCode, QProcess::ExitStatus exitSt
 	m_pUpdateProgress.clear();
 
 	if (exitCode < 0) {
-		QMessageBox::critical(theGUI, "sandybox", tr("Failed to download updates from server, error %1").arg(GetUpdErrorStr(exitCode)));
+		QMessageBox::critical(theGUI, "Sandybox", tr("Failed to download updates from server, error %1").arg(GetUpdErrorStr(exitCode)));
 		return; // failed
 	}
 
@@ -958,8 +957,8 @@ bool COnlineUpdater::ApplyUpdate(EUpdateScope Scope, bool bSilent)
 
 		if (!bSilent)
 		{
-			QString Message = tr("<p>Updates for sandybox have been downloaded.</p><p>Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.</p>");
-			int Ret = QMessageBox("sandybox", Message, QMessageBox::Information, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::Cancel, theGUI).exec();
+			QString Message = tr("<p>Updates for Sandybox have been downloaded.</p><p>Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.</p>");
+			int Ret = QMessageBox("Sandybox", Message, QMessageBox::Information, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::Cancel, theGUI).exec();
 			if (Ret == QMessageBox::Cancel) {
 				theConf->DelValue("Updater/UpdateVersion");
 				theGUI->UpdateLabel();
@@ -1106,9 +1105,9 @@ bool COnlineUpdater::RunInstaller(bool bSilent)
 	}
 
 	if (!bSilent) {
-		QString Message = tr("<p>A new sandybox installer has been downloaded to the following location:</p><p><a href=\"%2\">%1</a></p><p>Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.</p>")
-			.arg(FilePath).arg("File:///" + Split2(FilePath, "/", true).first);
-		int Ret = QMessageBox("sandybox", Message, QMessageBox::Information, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::Cancel, theGUI).exec();
+		QString Message = tr("<p>A new Sandybox installer has been downloaded to the following location:</p><p>%1</p><p>Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.</p>")
+			.arg(FilePath);
+		int Ret = QMessageBox("Sandybox", Message, QMessageBox::Information, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::Cancel, theGUI).exec();
 		if (Ret == QMessageBox::Cancel) {
 			QFile::remove(FilePath);
 			QFile::remove(FilePath + ".sig");
@@ -1167,7 +1166,7 @@ void COnlineUpdater::OnUpdateDataTmpl(const QVariantMap& Data, const QVariantMap
 	if (qHash.result() == TemplatesHash)
 		return; // no update
 
-	if (QMessageBox::question(theGUI, "sandybox", tr("There is a new Templates.ini available, do you want to download it?"), QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
+	if (QMessageBox::question(theGUI, "Sandybox", tr("There is a new template configuration available, do you want to download it?"), QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
 		return;
 
 	DownloadUpdate(Release, eTmpl, true);
@@ -1215,12 +1214,9 @@ bool COnlineUpdater::HandleUserMessage(const QVariantMap& Data)
 		if (!m_IgnoredUpdates.contains(MsgHash))
 		{
 			QString FullMessage = UserMsg;
-			QString InfoUrl = Data["infoUrl"].toString();
-			if (!InfoUrl.isEmpty())
-				FullMessage += tr("<p>Do you want to go to the <a href=\"%1\">info page</a>?</p>").arg(InfoUrl);
 
 			CCheckableMessageBox mb(theGUI);
-			mb.setWindowTitle("sandybox");
+			mb.setWindowTitle("Sandybox");
 			
 			QByteArray MsgIcon = QByteArray::fromBase64(Data["msgIcon"].toByteArray());
 			if (!MsgIcon.isEmpty())
@@ -1239,22 +1235,12 @@ bool COnlineUpdater::HandleUserMessage(const QVariantMap& Data)
 			mb.setText(UserMsg);
 			mb.setCheckBoxText(tr("Don't show this announcement in the future."));
 			
-			if (!InfoUrl.isEmpty()) {
-				mb.setStandardButtons(QDialogButtonBox::Yes | QDialogButtonBox::No);
-				mb.setDefaultButton(QDialogButtonBox::Yes);
-			}
-			else
-				mb.setStandardButtons(QDialogButtonBox::Ok);
+			mb.setStandardButtons(QDialogButtonBox::Ok);
 
 			mb.exec();
 
 			if (mb.isChecked())
 				theConf->SetValue("Options/IgnoredUpdates", m_IgnoredUpdates << MsgHash);
-
-			if (mb.clickedStandardButton() == QDialogButtonBox::Yes)
-			{
-				QDesktopServices::openUrl(InfoUrl);
-			}
 
 			return true;
 		}

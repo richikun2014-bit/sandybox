@@ -1110,7 +1110,7 @@ void CSbieView::OnGroupAction(QAction* Action)
 		
 		QString OldValue = List.first();
 
-		QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a new name for the Group."), QLineEdit::Normal, OldValue);
+		QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a new name for the Group."), QLineEdit::Normal, OldValue);
 		if (Value.isEmpty() || Value == OldValue)
 			return;
 		if (!TestNameAndWarn(Value))
@@ -1122,7 +1122,7 @@ void CSbieView::OnGroupAction(QAction* Action)
 	}
 	else if (Action == m_pDelGroupe)
 	{
-		if (QMessageBox("sandybox", tr("Do you really want to remove the selected group(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+		if (QMessageBox("Sandybox", tr("Do you really want to remove the selected group(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 			return;
 
 		QStringList SelectedGroups = GetSelectedGroups();
@@ -1186,7 +1186,7 @@ void CSbieView::OnGroupAction(QAction* Action)
 		else if (Action == m_pMenuMoveDown)
 			Offset = 1;
 		else
-			Offset = QInputDialog::getInt(this, "sandybox", tr("Move entries by (negative values move up, positive values move down):"), 0);
+			Offset = QInputDialog::getInt(this, "Sandybox", tr("Move entries by (negative values move up, positive values move down):"), 0);
 		if (Offset == 0)
 			return;
 
@@ -1293,7 +1293,7 @@ void CSbieView::OnMoveTo(const QString& Group)
 	foreach(const QString& Name, GetSelectedGroups(true))
 	{
 		if (Name == Group || IsParentOf(Name, Group)) {
-			QMessageBox("sandybox", tr("A group can not be its own parent."), QMessageBox::Critical, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+			QMessageBox("Sandybox", tr("A group can not be its own parent."), QMessageBox::Critical, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 			continue;
 		}
 
@@ -1374,7 +1374,7 @@ void CSbieView::AddNewBoxAction()
 
 QString CSbieView::AddNewGroup()
 {
-	QString Name = QInputDialog::getText(this, "sandybox", tr("Please enter a new group name"), QLineEdit::Normal);
+	QString Name = QInputDialog::getText(this, "Sandybox", tr("Please enter a new group name"), QLineEdit::Normal);
 	if (Name.isEmpty() || m_Groups.contains(Name))
 		return "";
 	if (!TestNameAndWarn(Name))
@@ -1404,17 +1404,17 @@ bool CSbieView::TestNameAndWarn(const QString& Name)
 {
 	if (Name.contains(QRegularExpression("[,()\r\n\t]")))
 	{
-		QMessageBox::critical(this, "sandybox", tr("The Sandbox name and Box Group name cannot use the ',()' symbol or control characters."));
+		QMessageBox::critical(this, "Sandybox", tr("The Sandbox name and Box Group name cannot use the ',()' symbol or control characters."));
 		return false;
 	}
 
 	if (m_Groups.contains(Name)) {
-		QMessageBox::critical(this, "sandybox", tr("This name is already used for a Box Group."));
+		QMessageBox::critical(this, "Sandybox", tr("This name is already used for a Box Group."));
 		return false;
 	}
 
 	if (!theAPI->GetBoxByName(QString(Name).replace(" ", "_")).isNull()) {
-		QMessageBox::critical(this, "sandybox", tr("This name is already used for a Sandbox."));
+		QMessageBox::critical(this, "Sandybox", tr("This name is already used for a Sandbox."));
 		return false;
 	}
 
@@ -1481,7 +1481,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 		if (theConf->GetInt("Options/ViewMode", 1) != 1 && theConf->GetBool("Options/BoxedExplorerInfo", true))
 		{
 			bool State = false;
-			CCheckableMessageBox::question(this, "sandybox",
+			CCheckableMessageBox::question(this, "Sandybox",
 				theAPI->GetSbieMsgStr(0x00000DCDL, theGUI->m_LanguageId) // MSG_3533
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Information);
 
@@ -1550,14 +1550,14 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 	else if (Action == m_pMenuExplore)
 	{
 		if (SandBoxes.first()->IsEmpty()) {
-			QMessageBox("sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+			QMessageBox("Sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 			return;
 		}
 
 		if (theConf->GetInt("Options/ViewMode", 1) != 1 && theConf->GetBool("Options/ExplorerInfo", true))
 		{
 			bool State = false;
-			CCheckableMessageBox::question(this, "sandybox",
+			CCheckableMessageBox::question(this, "Sandybox",
 				theAPI->GetSbieMsgStr(0x00000DCEL, theGUI->m_LanguageId) // MSG_3534
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Information);
 
@@ -1570,14 +1570,14 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 	else if (Action == m_pMenuRegEdit)
 	{
 		if (SandBoxes.first()->IsEmpty()) {
-			QMessageBox("sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+			QMessageBox("Sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 			return;
 		}
 
  		if (theConf->GetInt("Options/WarnOpenRegistry", -1) == -1)
 		{
 			bool State = false;
-			if (CCheckableMessageBox::question(this, "sandybox", tr("WARNING: The opened registry editor is not sandboxed, please be careful and only do changes to the preselected sandbox locations.")
+			if (CCheckableMessageBox::question(this, "Sandybox", tr("WARNING: The opened registry editor is not sandboxed, please be careful and only do changes to the preselected sandbox locations.")
 			  , tr("Don't show this warning in future"), &State, QDialogButtonBox::Ok | QDialogButtonBox::Cancel, QDialogButtonBox::Yes, QMessageBox::Information) != QDialogButtonBox::Ok)
 				return;
 
@@ -1640,7 +1640,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 		bool sourceAliasActive = !sourceAlias.isEmpty() && pSrcBox->GetText("BoxAliasDisabled").isEmpty();
 
 		QString OldValue = pSrcBox->GetName().replace("_", " ");
-		QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a new name for the duplicated Sandbox."), QLineEdit::Normal, tr("%1 Copy").arg(OldValue));
+		QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a new name for the duplicated Sandbox."), QLineEdit::Normal, tr("%1 Copy").arg(OldValue));
 		if (Value.isEmpty() || Value == OldValue)
 			return;
 		
@@ -1782,7 +1782,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 	{
 		QString message = tr("Do you really want to remove the following sandbox(es)?<br /><br />%1<br /><br />Warning: The box content will also be deleted!")
 			.arg(RenderSandboxNameList_(SandBoxes));
-		if (QMessageBox("sandybox", message, QMessageBox::Warning, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+		if (QMessageBox("Sandybox", message, QMessageBox::Warning, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 			return;
 
 		bool bChanged = false;
@@ -1833,7 +1833,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 		if (SandBoxes.count() == 1)
 		{
 			if (SandBoxes.first()->IsEmpty()) {
-				QMessageBox("sandybox", tr("This Sandbox is already empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+				QMessageBox("Sandybox", tr("This Sandbox is already empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 				return;
 			}
 
@@ -1849,11 +1849,11 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 					.arg(RenderSandboxNameList_(SandBoxes));
 				
 				if (SandBoxes.first()->HasSnapshots()) {
-					if (CCheckableMessageBox::question(this, "sandybox", message
+					if (CCheckableMessageBox::question(this, "Sandybox", message
 						, tr("Also delete all Snapshots"), &DeleteSnapshots, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes) != QDialogButtonBox::Yes)
 						return;
 				} else {
-					if (QMessageBox::question(this, "sandybox", message , QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
+					if (QMessageBox::question(this, "Sandybox", message , QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
 						return;
 				}
 			}
@@ -1872,11 +1872,11 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 			}
 
 			if (HashSnapshots) {
-				if (CCheckableMessageBox::question(this, "sandybox", message
+				if (CCheckableMessageBox::question(this, "Sandybox", message
 					, tr("Also delete all Snapshots"), &DeleteSnapshots, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes) != QDialogButtonBox::Yes)
 					return;
 			} else {
-				if (QMessageBox::question(this, "sandybox", message , QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
+				if (QMessageBox::question(this, "Sandybox", message , QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
 					return;
 			}
 		}
@@ -1894,7 +1894,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
  		if (theConf->GetInt("Options/WarnTerminate", -1) == -1)
 		{
 			bool State = false;
-			if(CCheckableMessageBox::question(this, "sandybox",  tr("Do you want to terminate all processes in the selected sandbox(es)?")
+			if(CCheckableMessageBox::question(this, "Sandybox",  tr("Do you want to terminate all processes in the selected sandbox(es)?")
 				, tr("Terminate without asking"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes) != QDialogButtonBox::Yes)
 				return;
 
@@ -1910,8 +1910,8 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
  		if (theConf->GetInt("Options/InfoMkLink", -1) == -1)
 		{
 			bool State = false;
-			CCheckableMessageBox::question(this, "sandybox", tr("The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a new "
-				"shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandboxie.")
+			CCheckableMessageBox::question(this, "Sandybox", tr("The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a new "
+				"shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.")
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Information);
 			if (State)
 				theConf->SetValue("Options/InfoMkLink", 1);
@@ -1990,7 +1990,7 @@ void CSbieView::OnProcessAction(QAction* Action, const QList<CBoxedProcessPtr>& 
 				return;
 
 			bool State = false;
-			if(CCheckableMessageBox::question(this, "sandybox", tr("Do you want to terminate %1?").arg(Processes.count() == 1 ? Processes[0]->GetProcessName() : tr("the selected processes"))
+			if(CCheckableMessageBox::question(this, "Sandybox", tr("Do you want to terminate %1?").arg(Processes.count() == 1 ? Processes[0]->GetProcessName() : tr("the selected processes"))
 				, tr("Terminate without asking"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes) != QDialogButtonBox::Yes)
 				return;
 
@@ -2049,7 +2049,7 @@ void CSbieView::OnProcessAction(QAction* Action, const QList<CBoxedProcessPtr>& 
 		{
 			if (!pProcess.objectCast<CSbieProcess>()->GetBox()->IsINetBlocked())
 			{
-				if (QMessageBox("sandybox", tr("This box does not have Internet restrictions in place, do you want to enable them?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+				if (QMessageBox("Sandybox", tr("This box does not have Internet restrictions in place, do you want to enable them?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 					return;
 				pProcess.objectCast<CSbieProcess>()->GetBox()->SetINetBlock(true);
 			}
@@ -2090,7 +2090,7 @@ void CSbieView::ShowOptions(const CSandBoxPtr& pBox)
 void CSbieView::ShowBrowse(const CSandBoxPtr& pBox)
 {
 	if (pBox->IsEmpty()) {
-		QMessageBox("sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+		QMessageBox("Sandybox", tr("This Sandbox is empty."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 		return;
 	}
 
@@ -2141,7 +2141,7 @@ void CSbieView::OnDoubleClicked(const CSandBoxPtr &pBox)
 
 	if (!pBox->IsEnabled())
 	{
-		if (QMessageBox("sandybox", tr("This sandbox is currently disabled or restricted to specific groups or users. Would you like to allow access for everyone?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+		if (QMessageBox("Sandybox", tr("This sandbox is currently disabled or restricted to specific groups or users. Would you like to allow access for everyone?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 			pBox->SetText("Enabled", "y");// Fix #3999
 	}
 	

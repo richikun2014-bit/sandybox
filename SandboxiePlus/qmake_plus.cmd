@@ -11,6 +11,13 @@ REM echo %*
 REM IF "%~3" == "" ( set "qt6_version=6.3.1" ) ELSE ( set "qt6_version=%~3" )
 REM IF "%~2" == "" ( set "qt_version=5.15.16" ) ELSE ( set "qt_version=%~2" )
 
+REM Prefer the project-local Visual Studio Build Tools installation.
+set "vs_root=%~dp0..\..\VS2022"
+if not exist "%vs_root%\VC\Auxiliary\Build\vcvars64.bat" set "vs_root=C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+if not exist "%vs_root%\VC\Auxiliary\Build\vcvars64.bat" set "vs_root=C:\Program Files\Microsoft Visual Studio\2022\Community"
+if not exist "%vs_root%\VC\Auxiliary\Build\vcvars64.bat" set "vs_root=C:\Program Files\Microsoft Visual Studio\2022\Professional"
+if not exist "%vs_root%\VC\Auxiliary\Build\vcvars64.bat" goto :vs_error
+
 IF %1 == Win32 (
   set qt_path=%~dp0..\..\Qt\%qt_version%\msvc2022
 
@@ -19,7 +26,7 @@ IF %1 == Win32 (
   
   set build_arch=Win32
   set qt_params= 
-call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars32.bat"
+call "%vs_root%\VC\Auxiliary\Build\vcvars32.bat"
 )
 IF %1 == x64 (
   set qt_path=%~dp0..\..\Qt\%qt_version%\msvc2022_64
@@ -31,7 +38,7 @@ REM  Xcopy /E /I /Y /Q %~dp0..\..\Qt\%qt6_version%\msvc2022_64\include\QtCore\%q
   
   set build_arch=x64
   set qt_params= 
-  call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+  call "%vs_root%\VC\Auxiliary\Build\vcvars64.bat"
 )
 IF %1 == ARM64 (
   set qt_path=%~dp0..\..\Qt\%qt6_version%\msvc2022_64
@@ -66,8 +73,13 @@ REM type %~dp0..\..\Qt\%qt6_version%\msvc2022_arm64\bin\target_qt.conf
   set qt_params=-qtconf "%~dp0..\..\Qt\%qt6_version%\msvc2022_arm64\bin\my_target_qt.conf"
   
 REM  set VSCMD_DEBUG=3
-call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvarsamd64_arm64.bat"
+call "%vs_root%\VC\Auxiliary\Build\vcvarsamd64_arm64.bat"
 )
+
+REM Normalize the VS environment before qmake/jom inherit it.
+set "_VS_PATH=%PATH%"
+set "PATH="
+set "Path=%_VS_PATH%"
 @echo on
 
 
@@ -137,4 +149,8 @@ goto :eof
 
 :error
 echo Build failed
+exit 1
+
+:vs_error
+echo Visual Studio 2022 C++ build tools were not found
 exit 1

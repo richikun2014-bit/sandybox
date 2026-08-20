@@ -40,15 +40,15 @@ bool CSupportDialog::CheckSupport(bool bOnRun)
 		if (!CERT_IS_INSIDER(g_CertInfo)) {
 			TArguments args = GetArguments(g_Certificate, L'\n', L':');
 			if (args.value("TYPE").contains("PATREON")) {
-				if (QMessageBox::question(NULL, "sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.\n"
-					"If you are a Great Supporter on Patreon already, sandybox can check online for an update of your certificate."), QMessageBox::Ok, QMessageBox::Cancel) == QMessageBox::Ok) {
+				if (QMessageBox::question(NULL, "Sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.\n"
+					"If you are a Great Supporter on Patreon already, Sandybox can check online for an update of your certificate."), QMessageBox::Ok, QMessageBox::Cancel) == QMessageBox::Ok) {
 					theGUI->m_pUpdater->UpdateCert(true);
 					if (CERT_IS_INSIDER(g_CertInfo))
 						return false;
 				}
 			}
 			else
-				QMessageBox::warning(NULL, "sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR."));
+				QMessageBox::warning(NULL, "Sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR."));
 		}
 		else
 			return false;
@@ -160,7 +160,7 @@ bool CSupportDialog::ShowDialog(bool NoGo, int Wait)
 #ifdef INSIDER_BUILD
 	if (!CERT_IS_INSIDER(g_CertInfo))
 	{
-		Message += tr("This is a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-insider\">exclusive Insider build</a> of sandybox it is only available to <a href=\"https://sandboxie-plus.com/go.php?to=patreon\">Patreon Supporters</a> on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.");
+		Message += tr("This is a exclusive Insider build of Sandybox it is only available to Patreon Supporters on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.");
 	}
 	else
 #endif
@@ -168,41 +168,41 @@ bool CSupportDialog::ShowDialog(bool NoGo, int Wait)
 	{
 		Message = tr("The installed supporter certificate allows for <b>%1 seats</b> to be active.<br /><br />").arg(g_CertAmount);
 
-		Message += tr("<b>There seems to be however %1 sandybox instances on your network, <font color='red'>you need to obtain additional <a href=\"https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&tip=more\">support certificates</a></font>.</b><br /><br />").arg(CountSeats());
+		Message += tr("<b>There seems to be however %1 Sandybox instances on your network, <font color='red'>you need to obtain additional support certificates</font>.</b><br /><br />").arg(CountSeats());
 	}
 	else if (IsBusinessUse()) 
 	{
 		if (g_CertInfo.expired) {
 			Days = -g_CertInfo.expirers_in_sec / (24 * 3600);
 
-			Message = tr("The installed supporter certificate <b>has expired %1 days ago</b> and <a href=\"https://sandboxie-plus.com/go.php?to=sbie-renew-cert\">must be renewed</a>.<br /><br />").arg(Days);
+			Message = tr("The installed supporter certificate <b>has expired %1 days ago</b> and must be renewed.<br /><br />").arg(Days);
 		} else
-			Message = tr("<b>You have installed sandybox more than %1 days ago.</b><br /><br />").arg(Days);
+			Message = tr("<b>You have installed Sandybox more than %1 days ago.</b><br /><br />").arg(Days);
 
-		Message += tr("<u>Commercial use of sandybox past the evaluation period</u>, requires a valid <a href=\"https://sandboxie-plus.com/go.php?to=sbie-obtain-cert\">support certificate</a>.").arg(Days);
+		Message += tr("<u>Commercial use of Sandybox past the evaluation period</u>, requires a valid support certificate.").arg(Days);
 	}
 	else
 	{
 		bool bOnARM64 = (g_FeatureFlags & CSbieAPI::eSbieFeatureARM64) != 0;
 
 		if (g_CertInfo.outdated)
-			Message = tr("The installed supporter certificate is <b>outdated</b> and it is <u>not valid for<b> this version</b></u> of Sandboxie-Plus.<br /><br />");
+			Message = tr("The installed supporter certificate is <b>outdated</b> and it is <u>not valid for<b> this version</b></u> of Sandybox.<br /><br />");
 		else if (g_CertInfo.expired)
 			Message = tr("The installed supporter certificate is <b>expired</b> and <u>should be renewed</u>.<br /><br />");
 		else
-			Message = tr("<b>You have been using sandybox for more than %1 days now.</b><br /><br />").arg(Days);
+			Message = tr("<b>You have been using Sandybox for more than %1 days now.</b><br /><br />").arg(Days);
 
 		if (bOnARM64)
-			Message += tr("sandybox on ARM64 requires a valid supporter certificate for continued use.<br /><br />");
+			Message += tr("Sandybox on ARM64 requires a valid supporter certificate for continued use.<br /><br />");
 		else
-			Message += tr("Personal use of sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.<br /><br />");
+			Message += tr("Personal use of Sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.<br /><br />");
 
 		if (g_CertInfo.expired)
-			Message += tr("Please continue <a href=\"https://sandboxie-plus.com/go.php?to=sbie-renew-cert\">supporting the project</a> "
-				"by renewing your <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a> and continue using the <b>enhanced functionality</b> in new builds.");
+			Message += tr("Please continue supporting the project "
+				"by renewing your supporter certificate and continue using the <b>enhanced functionality</b> in new builds.");
 		else
-			Message += tr("sandybox <u>without</u> a valid supporter certificate will sometimes <b><font color='red'>pause for a few seconds</font></b>. This pause allows you to consider <a href=\"https://sandboxie-plus.com/go.php?to=sbie-obtain-cert\">purchasing a supporter certificate</a> or <a href=\"https://sandboxie-plus.com/go.php?to=sbie-contribute\">earning one by contributing</a> to the project. <br /><br />"
-				"A <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a> not just removes this reminder, but also enables <b>exclusive enhanced functionality</b> providing better security and compatibility.");
+			Message += tr("Sandybox <u>without</u> a valid supporter certificate will sometimes <b><font color='red'>pause for a few seconds</font></b>. This pause allows you to consider purchasing a supporter certificate or earning one by contributing to the project. <br /><br />"
+				"A supporter certificate not just removes this reminder, but also enables <b>exclusive enhanced functionality</b> providing better security and compatibility.");
 	}
 
 	time_t LastReminder = QDateTime::currentDateTimeUtc().toSecsSinceEpoch();
@@ -232,7 +232,7 @@ CSupportDialog::CSupportDialog(const QString& Message, bool NoGo, int Wait, QWid
 
 	this->setWindowFlag(Qt::WindowStaysOnTopHint, theGUI->IsAlwaysOnTop());
 
-	this->setWindowTitle(tr("sandybox - Support Reminder"));
+	this->setWindowTitle(tr("Sandybox - Support Reminder"));
 
 	this->resize(420, 300);
 	QVBoxLayout* verticalLayout = new QVBoxLayout(this);
@@ -342,7 +342,7 @@ void CSupportDialog::OnButton()
 					}
 				}
 
-				QMessageBox::warning(this, "sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR."));
+				QMessageBox::warning(this, "Sandybox", tr("This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR."));
 				return;
 			}
 #endif
@@ -350,8 +350,8 @@ void CSupportDialog::OnButton()
 				accept();
 		});
 	}
-	else if (Action == 2) 
-		return theGUI->OpenUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-get-cert"));
+	else if (Action == 2)
+		return reject();
 	else if (Action == 1)
 		accept();
 	else

@@ -322,7 +322,7 @@ CRecoveryLogWnd::CRecoveryLogWnd(QWidget *parent)
 	//flags &= ~Qt::WindowSystemMenuHint;
 	setWindowFlags(flags);
 
-	this->setWindowTitle(tr("sandybox - Recovery Log"));
+	this->setWindowTitle(tr("Sandybox - Recovery Log"));
 
 	QGridLayout* pLayout = new QGridLayout();
 	//pLayout->setContentsMargins(3,3,3,3);

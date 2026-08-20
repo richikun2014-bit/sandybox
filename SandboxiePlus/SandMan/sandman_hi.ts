@@ -252,14 +252,14 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="237" />
-            <source>Welcome to the Troubleshooting Wizard for sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
+            <source>Welcome to the Troubleshooting Wizard for Sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
             <translation>सैंडबॉक्सी-प्लस के लिए समस्या निवारण विज़ार्ड में आपका स्वागत है। यह इंटरैक्टिव सहायक सैंडबॉक्सिंग समस्याओं को हल करने में आपकी सहायता के लिए डिज़ाइन किया गया है।</translation>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="280" />
-            <source>With a valid &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerful. It could access the &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-issue-db"&gt;online solution database&lt;/a&gt; to retrieve the latest troubleshooting instructions.</source>
-            <oldsource>With a valid &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerfull. It could access the &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-issue-db"&gt;online solution database&lt;/a&gt; to retriev the latest troubleshooting instructions.</oldsource>
-            <translation>वैध &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; के साथ विज़ार्ड और भी अधिक शक्तिशाली होगा। यह नवीनतम समस्या निवारण निर्देशों को पुनः प्राप्त करने के लिए &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-issue-db"&gt;ऑनलाइन समाधान डेटाबेस&lt;/a&gt; तक पहुंच सकता है।</translation>
+            <source>With a valid supporter certificate the wizard would be even more powerful. It could access the online solution database to retrieve the latest troubleshooting instructions.</source>
+            <oldsource>With a valid supporter certificate the wizard would be even more powerfull. It could access the online solution database to retriev the latest troubleshooting instructions.</oldsource>
+            <translation>वैध समर्थक प्रमाणपत्र के साथ विज़ार्ड और भी अधिक शक्तिशाली होगा। यह नवीनतम समस्या निवारण निर्देशों को पुनः प्राप्त करने के लिए ऑनलाइन समाधान डेटाबेस तक पहुंच सकता है।</translation>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="318" />
@@ -319,7 +319,7 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
         <name>CBoxImageWindow</name>
         <message>
             <location filename="Windows/BoxImageWindow.cpp" line="23" />
-            <source>sandybox - Password Entry</source>
+            <source>Sandybox - Password Entry</source>
             <translation>सैंडबॉक्सी-प्लस - पासवर्ड प्रविष्टि</translation>
         </message>
         <message>
@@ -548,7 +548,7 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="335" />
-            <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+            <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
             <translation>एक सैंडबॉक्स आपके होस्ट सिस्टम को बॉक्स के भीतर चल रही प्रक्रियाओं से अलग करता है, यह उन्हें आपके कंप्यूटर में अन्य प्रोग्राम और डेटा में स्थायी परिवर्तन करने से रोकता है। अलगाव का स्तर आपकी सुरक्षा के साथ-साथ अनुप्रयोगों के साथ संगतता को भी प्रभावित करता है, इसलिए चयनित बॉक्स प्रकार के आधार पर अलगाव का एक अलग स्तर होगा। सैंडबॉक्सी आपके व्यक्तिगत डेटा को उसकी देखरेख में चलने वाली प्रक्रियाओं द्वारा एक्सेस होने से भी बचा सकता है।</translation>
         </message>
         <message>
@@ -564,8 +564,8 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="401" />
-            <source>&lt;a href="sbie://docs/security-mode"&gt;Security Hardened&lt;/a&gt; Sandbox with &lt;a href="sbie://docs/privacy-mode"&gt;Data Protection&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://docs/security-mode"&gt;सुरक्षा कठोर&lt;/a&gt; सैंडबॉक्स &lt;a href="sbie://docs/privacy-mode"&gt;डेटा सुरक्षा&lt;/a&gt; के साथ</translation>
+            <source>Security Hardened Sandbox with Data Protection</source>
+            <translation>सुरक्षा कठोर सैंडबॉक्स डेटा सुरक्षा के साथ</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="402" />
@@ -578,8 +578,8 @@ The entire user profile remains hidden, ensuring maximum security.</source>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="405" />
-            <source>&lt;a href="sbie://docs/security-mode"&gt;Security Hardened&lt;/a&gt; Sandbox</source>
-            <translation>&lt;a href="sbie://docs/security-mode"&gt;सुरक्षा कठोर&lt;/a&gt; सैंडबॉक्स</translation>
+            <source>Security Hardened Sandbox</source>
+            <translation>सुरक्षा कठोर सैंडबॉक्स</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="406" />
@@ -588,8 +588,8 @@ The entire user profile remains hidden, ensuring maximum security.</source>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="407" />
-            <source>Sandbox with &lt;a href="sbie://docs/privacy-mode"&gt;Data Protection&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://docs/privacy-mode"&gt;डेटा प्रोटेक्शन&lt;/a&gt; के साथ सैंडबॉक्स</translation>
+            <source>Sandbox with Data Protection</source>
+            <translation>डेटा प्रोटेक्शन के साथ सैंडबॉक्स</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="408" />
@@ -605,15 +605,15 @@ only C:\Windows and C:\Program Files directories are accessible to processes run
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="411" />
-            <source>This box type offers the default behavior of sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
+            <source>This box type offers the default behavior of Sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
 Applications can be run within this sandbox, ensuring they operate within a controlled and isolated space.</source>
             <translation>यह बॉक्स प्रकार सैंडबॉक्सी क्लासिक का डिफ़ॉल्ट व्यवहार प्रदान करता है। यह उपयोगकर्ताओं को एक परिचित और विश्वसनीय सैंडबॉक्सिंग योजना प्रदान करता है। 
 एप्लिकेशन को इस सैंडबॉक्स के भीतर चलाया जा सकता है, यह सुनिश्चित करते हुए कि वे एक नियंत्रित और पृथक स्थान के भीतर काम करते हैं।</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="413" />
-            <source>&lt;a href="sbie://docs/compartment-mode"&gt;Application Compartment&lt;/a&gt; Box with &lt;a href="sbie://docs/privacy-mode"&gt;Data Protection&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://docs/compartment-mode"&gt;एप्लिकेशन कम्पार्टमेंट&lt;/a&gt; बॉक्स &lt;a href="sbie://docs/privacy-mode"&gt;डेटा सुरक्षा&lt;/a&gt; के साथ</translation>
+            <source>Application Compartment Box with Data Protection</source>
+            <translation>एप्लिकेशन कम्पार्टमेंट बॉक्स डेटा सुरक्षा के साथ</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="414" />
@@ -625,18 +625,18 @@ While the level of isolation is reduced compared to other box types, it offers i
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="416" />
-            <source>&lt;a href="sbie://docs/compartment-mode"&gt;Application Compartment&lt;/a&gt; Box</source>
-            <translation>&lt;a href="sbie://docs/compartment-mode"&gt;एप्लिकेशन कम्पार्टमेंट&lt;/a&gt; बॉक्स</translation>
+            <source>Application Compartment Box</source>
+            <translation>एप्लिकेशन कम्पार्टमेंट बॉक्स</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="425" />
-            <source>&lt;a href="sbie://docs/boxencryption"&gt;Encrypt&lt;/a&gt; Box content and set &lt;a href="sbie://docs/black-box"&gt;Confidential&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://docs/boxencryption"&gt;Encrypt&lt;/a&gt; बॉक्स सामग्री और सेट &lt;a href="sbie://docs/black-box"&gt;Confidential&lt;/a&gt;</translation>
+            <source>Encrypt Box content and set Confidential</source>
+            <translation>Encrypt बॉक्स सामग्री और सेट Confidential</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="426" />
             <source>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. 
-Access to the virtual disk when mounted is restricted to programs running within the sandbox. sandybox prevents other processes on the host system from accessing the sandboxed processes. 
+Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandybox prevents other processes on the host system from accessing the sandboxed processes. 
 This ensures the utmost level of privacy and data protection within the confidential sandbox environment.</source>
             <translation>इस बॉक्स प्रकार में सैंडबॉक्स अपने रूट फ़ोल्डर के रूप में एक एन्क्रिप्टेड डिस्क छवि का उपयोग करता है। यह गोपनीयता और सुरक्षा की एक अतिरिक्त परत प्रदान करता है। 
 माउंट होने पर वर्चुअल डिस्क तक पहुंच सैंडबॉक्स के भीतर चल रहे प्रोग्राम तक ही सीमित है। सैंडबॉक्सी होस्ट सिस्टम पर अन्य प्रक्रियाओं को सैंडबॉक्स वाली प्रक्रियाओं तक पहुंचने से रोकता है। 
@@ -847,8 +847,8 @@ Please browse to the correct user profile directory.</oldsource>
         </message>
         <message>
             <location filename="Wizards/TemplateWizard.cpp" line="329" />
-            <source>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</source>
-            <oldsource>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</oldsource>
+            <source>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</source>
+            <oldsource>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</oldsource>
             <translation>अपने वेब ब्राउज़र के मुख्य निष्पादन योग्य का चयन करें, इससे सैंडबॉक्सी को ब्राउज़र की पहचान करने की अनुमति मिल जाएगी।</translation>
         </message>
         <message>
@@ -894,8 +894,8 @@ Please browse to the correct user profile directory.</oldsource>
         <name>CCertificatePage</name>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="248" />
-            <source>Install your &lt;b&gt;sandybox&lt;/b&gt; support certificate</source>
-            <translation>अपना &lt;b&gt;sandybox&lt;/b&gt; समर्थन प्रमाणपत्र स्थापित करें</translation>
+            <source>Install your &lt;b&gt;Sandybox&lt;/b&gt; support certificate</source>
+            <translation>अपना &lt;b&gt;Sandybox&lt;/b&gt; समर्थन प्रमाणपत्र स्थापित करें</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="249" />
@@ -914,8 +914,8 @@ Please browse to the correct user profile directory.</oldsource>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="291" />
-            <source>&lt;b&gt;&lt;a href="_"&gt;&lt;font color='red'&gt;Get a free evaluation certificate&lt;/font&gt;&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-            <translation>&lt;b&gt;&lt;a href="_"&gt;&lt;font color='red'&gt; एक निःशुल्क मूल्यांकन प्रमाणपत्र प्राप्त करें&lt;/font&gt;&lt;/a&gt; और %1 दिनों के लिए सभी प्रीमियम सुविधाओं का आनंद लें।&lt;/b&gt;</translation>
+            <source>&lt;b&gt;&lt;font color='red'&gt;Get a free evaluation certificate&lt;/font&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+            <translation>&lt;b&gt;&lt;font color='red'&gt; एक निःशुल्क मूल्यांकन प्रमाणपत्र प्राप्त करें&lt;/font&gt; और %1 दिनों के लिए सभी प्रीमियम सुविधाओं का आनंद लें।&lt;/b&gt;</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="292" />
@@ -925,13 +925,13 @@ Please browse to the correct user profile directory.</oldsource>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="317" />
-            <source>To use &lt;b&gt;sandybox&lt;/b&gt; in a business setting, an appropriate &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;support certificate&lt;/a&gt; for business use is required. If you do not yet have the required certificate(s), you can get those from the &lt;a href="https://xanasoft.com/shop/"&gt;xanasoft.com web shop&lt;/a&gt;.</source>
-            <translation>व्यावसायिक सेटिंग में &lt;b&gt;sandybox&lt;/b&gt; का उपयोग करने के लिए, व्यावसायिक उपयोग के लिए एक उपयुक्त &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;support प्रमाणपत्र&lt;/a&gt; आवश्यक है। यदि आपके पास अभी तक आवश्यक प्रमाणपत्र नहीं हैं, तो आप उन्हें &lt;a href="https://xanasoft.com/shop/"&gt;xanasoft.com वेब शॉप&lt;/a&gt; से प्राप्त कर सकते हैं।</translation>
+            <source>To use &lt;b&gt;Sandybox&lt;/b&gt; in a business setting, an appropriate support certificate for business use is required. If you do not yet have the required certificate(s), you can get those from the the project store.</source>
+            <translation>व्यावसायिक सेटिंग में &lt;b&gt;Sandybox&lt;/b&gt; का उपयोग करने के लिए, व्यावसायिक उपयोग के लिए एक उपयुक्त support प्रमाणपत्र आवश्यक है। यदि आपके पास अभी तक आवश्यक प्रमाणपत्र नहीं हैं, तो आप उन्हें the project store वेब शॉप से प्राप्त कर सकते हैं।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="331" />
-            <source>&lt;b&gt;sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;supporting the project&lt;/a&gt; to ensure further development of sandybox and to receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;.</source>
-            <translation>&lt;b&gt;sandybox&lt;/b&gt; विशेष रूप से &lt;u&gt;प्रोजेक्ट समर्थकों&lt;/u&gt; को अतिरिक्त सुविधाएं और बॉक्स प्रकार प्रदान करता है। गोपनीयता संवर्धित बॉक्स &lt;b&gt;&lt;font color='red'&gt; जैसे बॉक्स उपयोगकर्ता डेटा को सैंडबॉक्स प्रोग्राम द्वारा अवैध पहुंच&lt;/font&gt;&lt;/b&gt; से सुरक्षित रखते हैं। यदि आप अभी तक समर्थक नहीं हैं, तो सैंडबॉक्सी के आगे के विकास को सुनिश्चित करने और &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; प्राप्त करने के लिए कृपया &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt; प्रोजेक्ट&lt;/a&gt; का समर्थन करने पर विचार करें।</translation>
+            <source>&lt;b&gt;Sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider supporting the project to ensure further development of Sandybox and to receive a supporter certificate.</source>
+            <translation>&lt;b&gt;Sandybox&lt;/b&gt; विशेष रूप से &lt;u&gt;प्रोजेक्ट समर्थकों&lt;/u&gt; को अतिरिक्त सुविधाएं और बॉक्स प्रकार प्रदान करता है। गोपनीयता संवर्धित बॉक्स &lt;b&gt;&lt;font color='red'&gt; जैसे बॉक्स उपयोगकर्ता डेटा को सैंडबॉक्स प्रोग्राम द्वारा अवैध पहुंच&lt;/font&gt;&lt;/b&gt; से सुरक्षित रखते हैं। यदि आप अभी तक समर्थक नहीं हैं, तो सैंडबॉक्सी के आगे के विकास को सुनिश्चित करने और समर्थक प्रमाणपत्र प्राप्त करने के लिए कृपया  प्रोजेक्ट का समर्थन करने पर विचार करें।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="368" />
@@ -1030,7 +1030,7 @@ Find String:</source>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="1086" />
-            <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don't hesitate to reach out. We're here to help. Thank you for your understanding and cooperation. 
+            <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don't hesitate to reach out. We're here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
             <translation>सैंडबॉक्सी-प्लस के लिए समस्या निवारण विज़ार्ड का उपयोग करने के लिए धन्यवाद। प्रक्रिया के दौरान आपको हुई किसी भी असुविधा के लिए हम क्षमा चाहते हैं। यदि आपके कोई अतिरिक्त प्रश्न हैं या अतिरिक्त सहायता की आवश्यकता है, तो कृपया संपर्क करने में संकोच न करें। हम मदद के लिए यहां हैं. अपनी समझ और सहयोग के लिए धन्यवाद। 
@@ -1042,7 +1042,7 @@ You can click Finish to close this wizard.</source>
         <name>CCompressDialog</name>
         <message>
             <location filename="Windows/CompressDialog.cpp" line="23" />
-            <source>sandybox - Sandbox Export</source>
+            <source>Sandybox - Sandbox Export</source>
             <translation>सैंडबॉक्सी-प्लस - सैंडबॉक्स निर्यात</translation>
         </message>
         <message>
@@ -1233,7 +1233,7 @@ You can click Finish to close this wizard.</source>
         <name>CExtractDialog</name>
         <message>
             <location filename="Windows/ExtractDialog.cpp" line="23" />
-            <source>sandybox - Sandbox Import</source>
+            <source>Sandybox - Sandbox Import</source>
             <translation>सैंडबॉक्सी-प्लस - सैंडबॉक्स आयात</translation>
         </message>
         <message>
@@ -1573,12 +1573,12 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="174" />
-            <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
-            <translation>सेटअप विज़ार्ड में आपका स्वागत है. यह विज़ार्ड आपको &lt;b&gt;sandybox&lt;/b&gt; की अपनी कॉपी कॉन्फ़िगर करने में मदद करेगा। यदि आप इसे अभी पूरा नहीं करना चाहते हैं तो आप इस विज़ार्ड को सैंडबॉक्स-&gt;रखरखाव मेनू से किसी भी समय प्रारंभ कर सकते हैं।</translation>
+            <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;Sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
+            <translation>सेटअप विज़ार्ड में आपका स्वागत है. यह विज़ार्ड आपको &lt;b&gt;Sandybox&lt;/b&gt; की अपनी कॉपी कॉन्फ़िगर करने में मदद करेगा। यदि आप इसे अभी पूरा नहीं करना चाहते हैं तो आप इस विज़ार्ड को सैंडबॉक्स-&gt;रखरखाव मेनू से किसी भी समय प्रारंभ कर सकते हैं।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="183" />
-            <source>Select how you would like to use sandybox</source>
+            <source>Select how you would like to use Sandybox</source>
             <translation>चुनें कि आप सैंडबॉक्सी-प्लस का उपयोग कैसे करना चाहेंगे</translation>
         </message>
         <message>
@@ -1672,12 +1672,12 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="802" />
-            <source>Use a sandybox login instead of an anonymous token</source>
+            <source>Use a Sandybox login instead of an anonymous token</source>
             <translation>अनाम टोकन के बजाय सैंडबॉक्सी लॉगिन का उपयोग करें</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="803" />
-            <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+            <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
             <translation>कस्टम सैंडबॉक्सी टोकन का उपयोग करने से अलग-अलग सैंडबॉक्स को एक-दूसरे से बेहतर ढंग से अलग किया जा सकता है, और यह कार्य प्रबंधकों के उपयोगकर्ता कॉलम में उस बॉक्स का नाम दिखाता है जिससे प्रक्रिया संबंधित है। हालाँकि, कुछ तृतीय पक्ष सुरक्षा समाधानों में कस्टम टोकन के साथ समस्याएँ हो सकती हैं।</translation>
         </message>
     </context>
@@ -1781,9 +1781,9 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="289" />
-            <source>The new sandbox has been created using the new &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-delete-v2"&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
-            <oldsource>The new sandbox has been created using the new &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-delete-v2"&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
-            <translation>नया सैंडबॉक्स नए &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-delete-v2"&gt; वर्चुअलाइजेशन स्कीम संस्करण 2&lt;/a&gt; का उपयोग करके बनाया गया है, यदि आप इस बॉक्स के साथ किसी अप्रत्याशित समस्या का अनुभव करते हैं, तो कृपया वर्चुअलाइजेशन स्कीम को संस्करण 1 पर स्विच करें और समस्या की रिपोर्ट करें, इस प्रीसेट को बदलने का विकल्प बॉक्स संरचना समूह में बॉक्स विकल्प में पाया जा सकता है।</translation>
+            <source>The new sandbox has been created using the new Virtualization Scheme Version 2, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
+            <oldsource>The new sandbox has been created using the new Virtualization Scheme Version 2, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
+            <translation>नया सैंडबॉक्स नए  वर्चुअलाइजेशन स्कीम संस्करण 2 का उपयोग करके बनाया गया है, यदि आप इस बॉक्स के साथ किसी अप्रत्याशित समस्या का अनुभव करते हैं, तो कृपया वर्चुअलाइजेशन स्कीम को संस्करण 1 पर स्विच करें और समस्या की रिपोर्ट करें, इस प्रीसेट को बदलने का विकल्प बॉक्स संरचना समूह में बॉक्स विकल्प में पाया जा सकता है।</translation>
         </message>
         <message>
             <location filename="Wizards/NewBoxWizard.cpp" line="83" />
@@ -1830,7 +1830,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <name>COnlineUpdater</name>
         <message>
             <location filename="OnlineUpdater.cpp" line="476" />
-            <source>Do you want to check if there is a new version of sandybox?</source>
+            <source>Do you want to check if there is a new version of Sandybox?</source>
             <translation>क्या आप जांचना चाहते हैं कि सैंडबॉक्सी-प्लस का कोई नया संस्करण है या नहीं?</translation>
         </message>
         <message>
@@ -1840,7 +1840,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="504" />
-            <source>To ensure optimal compatibility with your software, sandybox needs to update its compatibility templates. Do you want to proceed?</source>
+            <source>To ensure optimal compatibility with your software, Sandybox needs to update its compatibility templates. Do you want to proceed?</source>
             <translation>आपके सॉफ़्टवेयर के साथ इष्टतम अनुकूलता सुनिश्चित करने के लिए, सैंडबॉक्सी को अपने अनुकूलता टेम्पलेट्स को अद्यतन करने की आवश्यकता है। क्या आपकी आगे बढ़ने की इच्छा है?</translation>
         </message>
         <message>
@@ -1881,8 +1881,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="741" />
-            <source>&lt;p&gt;Do you want to go to the &lt;a href="%1"&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-            <translation>&lt;p&gt;क्या आप &lt;a href="%1"&gt;डाउनलोड पेज&lt;/a&gt; पर जाना चाहते हैं?&lt;/p&gt;</translation>
+            <source>&lt;p&gt;Do you want to go to the download page?&lt;/p&gt;</source>
+            <translation>&lt;p&gt;क्या आप डाउनलोड पेज पर जाना चाहते हैं?&lt;/p&gt;</translation>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="750" />
@@ -1949,7 +1949,7 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="961" />
-            <source>&lt;p&gt;Updates for sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+            <source>&lt;p&gt;Updates for Sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
             <translation>&lt;p&gt;सैंडबॉक्सी-प्लस के लिए अपडेट डाउनलोड कर दिए गए हैं।&lt;/p&gt;&lt;p&gt;क्या आप ये अपडेट लागू करना चाहते हैं? यदि कोई प्रोग्राम सैंडबॉक्स में चल रहा है, तो उन्हें समाप्त कर दिया जाएगा।&lt;/p&gt;</translation>
         </message>
         <message>
@@ -1959,18 +1959,18 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="1109" />
-            <source>&lt;p&gt;A new sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href="%2"&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-            <translation>&lt;p&gt;A नया सैंडबॉक्सी-प्लस इंस्टॉलर निम्नलिखित स्थान पर डाउनलोड किया गया है:&lt;/p&gt;&lt;p&gt;&lt;a href="%2"&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;क्या आप इंस्टॉलेशन शुरू करना चाहते हैं? यदि कोई प्रोग्राम सैंडबॉक्स में चल रहा है, तो उन्हें समाप्त कर दिया जाएगा।&lt;/p&gt;</translation>
+            <source>&lt;p&gt;A new Sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+            <translation>&lt;p&gt;A नया सैंडबॉक्सी-प्लस इंस्टॉलर निम्नलिखित स्थान पर डाउनलोड किया गया है:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;क्या आप इंस्टॉलेशन शुरू करना चाहते हैं? यदि कोई प्रोग्राम सैंडबॉक्स में चल रहा है, तो उन्हें समाप्त कर दिया जाएगा।&lt;/p&gt;</translation>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="1170" />
-            <source>There is a new Templates.ini available, do you want to download it?</source>
-            <translation>एक नया Templates.ini उपलब्ध है, क्या आप इसे डाउनलोड करना चाहते हैं?</translation>
+            <source>There is a new template configuration file available, do you want to download it?</source>
+            <translation>एक नया template configuration file उपलब्ध है, क्या आप इसे डाउनलोड करना चाहते हैं?</translation>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="1220" />
-            <source>&lt;p&gt;Do you want to go to the &lt;a href="%1"&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-            <translation>&lt;p&gt;क्या आप &lt;a href="%1"&gt;info पेज&lt;/a&gt; पर जाना चाहते हैं?&lt;/p&gt;</translation>
+            <source>&lt;p&gt;Do you want to go to the info page?&lt;/p&gt;</source>
+            <translation>&lt;p&gt;क्या आप info पेज पर जाना चाहते हैं?&lt;/p&gt;</translation>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="1240" />
@@ -1979,12 +1979,12 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="719" />
-            <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color='red'&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+            <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color='red'&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
             <translation>&lt;p&gt; सैंडबॉक्सी-प्लस का एक नया संस्करण उपलब्ध है।</translation>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="445" />
-            <source>Your sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
+            <source>Your Sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
 
 Do you still want to update?</source>
             <translation>आपका सैंडबॉक्सी-प्लस समर्थक प्रमाणपत्र समाप्त हो गया है, हालाँकि आप जिस वर्तमान बिल्ड का उपयोग कर रहे हैं उसके लिए यह सक्रिय रहता है, जब आप किसी नए बिल्ड में अपडेट करते हैं तो विशेष समर्थक सुविधाएँ अक्षम हो जाएंगी।
@@ -1993,7 +1993,7 @@ Do you still want to update?</source>
         </message>
         <message>
             <location filename="OnlineUpdater.cpp" line="592" />
-            <source>No new updates found, your sandybox is up-to-date.
+            <source>No new updates found, your Sandybox is up-to-date.
 
 Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
             <translation>कोई नया अपडेट नहीं मिला, आपका सैंडबॉक्सी-प्लस अद्यतित है।
@@ -2070,7 +2070,7 @@ Note: The update check is often behind the latest GitHub release to ensure that 
         </message>
         <message>
             <location filename="Windows/OptionsAccess.cpp" line="341" />
-            <source>Regular sandybox behavior - allow read and also copy on write.</source>
+            <source>Regular Sandybox behavior - allow read and also copy on write.</source>
             <translation>नियमित सैंडबॉक्सी व्यवहार - पढ़ने की अनुमति दें और लिखने पर कॉपी भी करें।</translation>
         </message>
         <message>
@@ -2923,7 +2923,7 @@ Please select a folder which contains this file.</source>
         </message>
         <message>
             <location filename="Windows/OptionsWindow.cpp" line="191" />
-            <source>sandybox Plus - '%1' Options</source>
+            <source>Sandybox Plus - '%1' Options</source>
             <translation>सैंडबॉक्सी प्लस - '%1' विकल्प</translation>
         </message>
         <message>
@@ -3224,7 +3224,7 @@ Choose autocomplete mode:
         <name>CPopUpWindow</name>
         <message>
             <location filename="Windows/PopUpWindow.cpp" line="24" />
-            <source>sandybox Notifications</source>
+            <source>Sandybox Notifications</source>
             <translation>सैंडबॉक्सी-प्लस सूचनाएं</translation>
         </message>
         <message>
@@ -3281,7 +3281,7 @@ Full path: %4</source>
         <name>CRecoveryLogWnd</name>
         <message>
             <location filename="SandManRecovery.cpp" line="325" />
-            <source>sandybox - Recovery Log</source>
+            <source>Sandybox - Recovery Log</source>
             <translation>सैंडबॉक्सी-प्लस - रिकवरी लॉग</translation>
         </message>
         <message>
@@ -3395,7 +3395,7 @@ Full path: %4</source>
         <name>CRenameSandboxDialog</name>
         <message>
             <location filename="Windows/RenameSandboxDialog.cpp" line="17" />
-            <source>sandybox - Rename Sandbox</source>
+            <source>Sandybox - Rename Sandbox</source>
             <translation>सैंडबॉक्सी-प्लस - सैंडबॉक्स का नाम बदलें</translation>
         </message>
         <message>
@@ -3441,41 +3441,41 @@ Error: </source>
         <name>CSBUpdate</name>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="622" />
-            <source>Configure &lt;b&gt;sandybox&lt;/b&gt; updater</source>
-            <translation>&lt;b&gt;sandybox&lt;/b&gt; अपडेटर कॉन्फ़िगर करें</translation>
+            <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; updater</source>
+            <translation>&lt;b&gt;Sandybox&lt;/b&gt; अपडेटर कॉन्फ़िगर करें</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="623" />
-            <source>Like with any other security product, it's important to keep your sandybox up to date.</source>
-            <oldsource>Like with any other security product it's important to keep your sandybox up to date.</oldsource>
+            <source>Like with any other security product, it's important to keep your Sandybox up to date.</source>
+            <oldsource>Like with any other security product it's important to keep your Sandybox up to date.</oldsource>
             <translation>किसी भी अन्य सुरक्षा उत्पाद की तरह, अपने सैंडबॉक्सी-प्लस को अद्यतन रखना महत्वपूर्ण है।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="631" />
-            <source>Regularly check for all updates to sandybox and optional components</source>
-            <oldsource>Regularly Check for all updates to sandybox and optional components</oldsource>
+            <source>Regularly check for all updates to Sandybox and optional components</source>
+            <oldsource>Regularly Check for all updates to Sandybox and optional components</oldsource>
             <translation>सैंडबॉक्सी-प्लस और वैकल्पिक घटकों के सभी अपडेट की नियमित जांच करें</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="632" />
-            <source>Let sandybox regularly check for latest updates.</source>
-            <oldsource>Let sandybox regularly check for latest updates.</oldsource>
+            <source>Let Sandybox regularly check for latest updates.</source>
+            <oldsource>Let Sandybox regularly check for latest updates.</oldsource>
             <translation>सैंडबॉक्सी को नवीनतम अपडेट के लिए नियमित रूप से जाँच करने दें।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="642" />
-            <source>Check for new sandybox versions:</source>
+            <source>Check for new Sandybox versions:</source>
             <translation>नए सैंडबॉक्सी-प्लस संस्करणों की जाँच करें:</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="643" />
-            <source>Check for new sandybox builds.</source>
+            <source>Check for new Sandybox builds.</source>
             <translation>नए सैंडबॉक्सी-प्लस बिल्ड की जाँच करें।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="649" />
-            <source>Select in which update channel to look for new sandybox builds:</source>
-            <oldsource>Sellect in which update channel to look for new sandybox builds:</oldsource>
+            <source>Select in which update channel to look for new Sandybox builds:</source>
+            <oldsource>Sellect in which update channel to look for new Sandybox builds:</oldsource>
             <translation>नए सैंडबॉक्सी-प्लस बिल्ड को देखने के लिए किस अपडेट चैनल में चयन करें:</translation>
         </message>
         <message>
@@ -3512,8 +3512,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="674" />
-            <source>More about the &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;Insider Channel&lt;/a&gt;</source>
-            <translation>&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;Insider चैनल&lt;/a&gt; के बारे में अधिक जानकारी</translation>
+            <source>More about the Insider Channel</source>
+            <translation>Insider चैनल के बारे में अधिक जानकारी</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="683" />
@@ -3551,13 +3551,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="703" />
-            <source>sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
+            <source>Sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with Sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
             <translation>सैंडबॉक्सी-प्लस सख्त एप्लिकेशन प्रतिबंध लागू करता है, जिससे संगतता समस्याएं पैदा हो सकती हैं। विंडोज़ अपडेट और एप्लिकेशन परिवर्तनों के बीच सुचारू संचालन सुनिश्चित करने के लिए, संगतता टेम्प्लेट और समस्या निवारण सहित सैंडबॉक्सी-प्लस के साथ अपडेट रहें।</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="709" />
-            <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;.</source>
-            <translation>नवीनतम संगतता टेम्प्लेट और ऑनलाइन समस्या निवारण डेटाबेस तक पहुंच के लिए एक वैध &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; की आवश्यकता होती है।</translation>
+            <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid supporter certificate.</source>
+            <translation>नवीनतम संगतता टेम्प्लेट और ऑनलाइन समस्या निवारण डेटाबेस तक पहुंच के लिए एक वैध समर्थक प्रमाणपत्र की आवश्यकता होती है।</translation>
         </message>
     </context>
     <context>
@@ -3671,7 +3671,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <message>
             <location filename="SandMan.cpp" line="514" />
             <location filename="SandMan.cpp" line="2795" />
-            <source>sandybox v%1</source>
+            <source>Sandybox v%1</source>
             <translation>सैंडबॉक्सी-प्लस v%1</translation>
         </message>
         <message>
@@ -3933,12 +3933,12 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="SandMan.cpp" line="817" />
-            <source>Visit Support Forum</source>
+            <source>Support Resources</source>
             <translation>सहायता फ़ोरम पर जाएँ</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="816" />
-            <source>Online Documentation</source>
+            <source>Local Documentation</source>
             <translation>ऑनलाइन दस्तावेज़ीकरण</translation>
         </message>
         <message>
@@ -3954,7 +3954,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <message>
             <location filename="SandMan.cpp" line="822" />
             <location filename="SandMan.cpp" line="4868" />
-            <source>About sandybox</source>
+            <source>About Sandybox</source>
             <translation>सैंडबॉक्सी-प्लस के बारे में</translation>
         </message>
         <message>
@@ -3976,27 +3976,27 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="SandMan.cpp" line="1404" />
-            <source>&lt;a href="sbie://update/installer" style="color: red;"&gt;There is a new sandybox release %1 ready&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://update/installer" style="color: red;"&gt;एक नया सैंडबॉक्सी-प्लस रिलीज़ है %1 तैयार&lt;/a&gt;</translation>
+            <source>There is a new Sandybox release %1 ready</source>
+            <translation>एक नया सैंडबॉक्सी-प्लस रिलीज़ है %1 तैयार</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1408" />
-            <source>&lt;a href="sbie://update/apply" style="color: red;"&gt;There is a new sandybox update %1 ready&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://update/apply" style="color: red;"&gt;एक नया सैंडबॉक्सी-प्लस अपडेट %1 तैयार है&lt;/a&gt;</translation>
+            <source>There is a new Sandybox update %1 ready</source>
+            <translation>एक नया सैंडबॉक्सी-प्लस अपडेट %1 तैयार है</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1412" />
-            <source>&lt;a href="sbie://update/check" style="color: red;"&gt;There is a new sandybox update v%1 available&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://update/check" style="color: red;"&gt;एक नया सैंडबॉक्सी-प्लस अपडेट v%1 उपलब्ध है&lt;/a&gt;</translation>
+            <source>There is a new Sandybox update v%1 available</source>
+            <translation>एक नया सैंडबॉक्सी-प्लस अपडेट v%1 उपलब्ध है</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1423" />
-            <source>&lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt;Support sandybox on Patreon&lt;/a&gt;</source>
-            <translation>&lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt;Patreon&lt;/a&gt; पर सैंडबॉक्सी-प्लस का समर्थन करें</translation>
+            <source>Sandybox Support</source>
+            <translation>Patreon पर सैंडबॉक्सी-प्लस का समर्थन करें</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1424" />
-            <source>Click to open web browser</source>
+            <source></source>
             <translation>वेब ब्राउज़र खोलने के लिए क्लिक करें</translation>
         </message>
         <message>
@@ -4023,12 +4023,12 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="SandMan.cpp" line="1685" />
-            <source>Do you want to close sandybox Manager?</source>
+            <source>Do you want to close Sandybox Manager?</source>
             <translation>क्या आप सैंडबॉक्सी मैनेजर को बंद करना चाहते हैं?</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1702" />
-            <source>sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
+            <source>Sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
 
 Do you want to do the clean up?</source>
             <translation>सैंडबॉक्सी-प्लस पोर्टेबल मोड में चल रहा था, अब इसे बनाई गई सेवाओं को साफ़ करना है। यह प्रशासनिक विशेषाधिकारों के लिए संकेत देगा.
@@ -4047,9 +4047,9 @@ Do you want to do the clean up?</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1895" />
-            <source>This box provides &lt;a href="sbie://docs/security-mode"&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
+            <source>This box provides enhanced security isolation, it is suitable to test untrusted software.</source>
             <oldsource>This box provides enhanced security isolation, it is suitable to test untrusted software.</oldsource>
-            <translation>यह बॉक्स &lt;a href="sbie://docs/security-mode"&gt;enउन्नत सुरक्षा अलगाव प्रदान करता है&lt;/a&gt;, यह अविश्वसनीय सॉफ़्टवेयर का परीक्षण करने के लिए उपयुक्त है।</translation>
+            <translation>यह बॉक्स enउन्नत सुरक्षा अलगाव प्रदान करता है, यह अविश्वसनीय सॉफ़्टवेयर का परीक्षण करने के लिए उपयुक्त है।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1899" />
@@ -4058,17 +4058,17 @@ Do you want to do the clean up?</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1903" />
-            <source>This box does not enforce isolation, it is intended to be used as an &lt;a href="sbie://docs/compartment-mode"&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
+            <source>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</source>
             <oldsource>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</oldsource>
-            <translation>यह बॉक्स अलगाव को लागू नहीं करता है, इसका उद्देश्य केवल सॉफ्टवेयर वर्चुअलाइजेशन के लिए &lt;a href="sbie://docs/compartment-mode"&gt;एप्लिकेशन कम्पार्टमेंट&lt;/a&gt; के रूप में उपयोग करना है।</translation>
+            <translation>यह बॉक्स अलगाव को लागू नहीं करता है, इसका उद्देश्य केवल सॉफ्टवेयर वर्चुअलाइजेशन के लिए एप्लिकेशन कम्पार्टमेंट के रूप में उपयोग करना है।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1911" />
-            <source>&lt;br /&gt;&lt;br /&gt;This box &lt;a href="sbie://docs/privacy-mode"&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</source>
+            <source>&lt;br /&gt;&lt;br /&gt;This box prevents access to all user data locations, except explicitly granted in the Resource Access options.</source>
             <oldsource>
 
-This box &lt;a href="sbie://docs/privacy-mode"&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</oldsource>
-            <translation>&lt;br /&gt;&lt;br /&gt;यह बॉक्स &lt;a href="sbie://docs/privacy-mode"&gt;सभी उपयोगकर्ता डेटा&lt;/a&gt; स्थानों तक पहुंच को रोकता है, सिवाय संसाधन पहुंच विकल्पों में स्पष्ट रूप से दिए गए।</translation>
+This box prevents access to all user data locations, except explicitly granted in the Resource Access options.</oldsource>
+            <translation>&lt;br /&gt;&lt;br /&gt;यह बॉक्स सभी उपयोगकर्ता डेटा स्थानों तक पहुंच को रोकता है, सिवाय संसाधन पहुंच विकल्पों में स्पष्ट रूप से दिए गए।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="2081" />
@@ -4191,23 +4191,23 @@ This box &lt;a href="sbie://docs/privacy-mode"&gt;prevents access to all user da
             <location filename="SandMan.cpp" line="3939" />
             <location filename="SandMan.cpp" line="3941" />
             <location filename="SandMan.cpp" line="4534" />
-            <source>sandybox - Error</source>
+            <source>Sandybox - Error</source>
             <translation>सैंडबॉक्सी-प्लस - त्रुटि</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3939" />
-            <source>Failed to stop all sandybox components</source>
+            <source>Failed to stop all Sandybox components</source>
             <translation>सभी सैंडबॉक्सी घटकों को रोकने में विफल</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3941" />
-            <source>Failed to start required sandybox components</source>
+            <source>Failed to start required Sandybox components</source>
             <translation>आवश्यक सैंडबॉक्सी घटकों को प्रारंभ करने में विफल</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="491" />
-            <source>WARNING: Sandboxie-Plus.ini in %1 cannot be written to, settings will not be saved.</source>
-            <translation>चेतावनी: %1 में Sandboxie-Plus.ini को नहीं लिखा जा सकता, सेटिंग्स सहेजी नहीं जाएंगी।</translation>
+            <source>WARNING: Sandybox configuration file in %1 cannot be written to, settings will not be saved.</source>
+            <translation>चेतावनी: %1 में Sandybox configuration file को नहीं लिखा जा सकता, सेटिंग्स सहेजी नहीं जाएंगी।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="2327" />
@@ -4216,7 +4216,7 @@ This box &lt;a href="sbie://docs/privacy-mode"&gt;prevents access to all user da
         </message>
         <message>
             <location filename="SandMan.cpp" line="2831" />
-            <source>sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
+            <source>Sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
 Yes will choose: %1
 No will choose: %2</source>
             <translation>सैंडबॉक्सी-प्लस पोर्टेबल मोड में शुरू किया गया था, क्या आप सैंडबॉक्स फ़ोल्डर को इसकी मूल निर्देशिका में रखना चाहते हैं?
@@ -4235,7 +4235,7 @@ No will choose: %2</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3476" />
-            <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;</source>
+            <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
             <translation>चयनित सुविधा सेट केवल परियोजना समर्थकों के लिए उपलब्ध है। समर्थक प्रमाणपत्र के बिना सक्षम इस सुविधा सेट के साथ एक बॉक्स में शुरू की गई प्रक्रियाएं 5 मिनट के बाद समाप्त हो जाएंगी।</translation>
         </message>
         <message>
@@ -4315,12 +4315,12 @@ No will choose: %2</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3802" />
-            <source>sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
+            <source>Sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
             <translation>सैंडबॉक्सी-प्लस को पोर्टेबल मोड में शुरू किया गया था और इसे आवश्यक सेवाएँ बनाने की आवश्यकता है। यह प्रशासनिक विशेषाधिकारों के लिए संकेत देगा.</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3836" />
-            <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this sandybox session, please close it first and reconnect to take over.</source>
+            <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this Sandybox session, please close it first and reconnect to take over.</source>
             <translation>सावधानी: एक अन्य एजेंट (संभवतः SbieCtrl.exe) पहले से ही इस सैंडबॉक्सी सत्र का प्रबंधन कर रहा है, कृपया पहले इसे बंद करें और कार्यभार संभालने के लिए पुनः कनेक्ट करें।</translation>
         </message>
         <message>
@@ -4430,7 +4430,7 @@ No will choose: %2</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="814" />
-            <source>Contribute to sandybox</source>
+            <source>Sandybox Development</source>
             <translation>सैंडबॉक्सी-प्लस में योगदान करें</translation>
         </message>
         <message>
@@ -4454,7 +4454,7 @@ No will choose: %2</source>
         <message>
             <location filename="SandMan.cpp" line="512" />
             <location filename="SandMan.cpp" line="2793" />
-            <source>sandybox Insider [%1]</source>
+            <source>Sandybox Insider [%1]</source>
             <translation>सैंडबॉक्सी-प्लस इनसाइडर [%1]</translation>
         </message>
         <message>
@@ -4472,18 +4472,18 @@ No will choose: %2</source>
             <location filename="SandMan.cpp" line="1103" />
             <location filename="SandMan.cpp" line="1348" />
             <location filename="SandMan.cpp" line="1349" />
-            <source>Edit Sandboxie.ini</source>
-            <translation>Sandboxie.ini संपादित करें</translation>
+            <source>Edit Base Configuration</source>
+            <translation>base configuration file संपादित करें</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="961" />
-            <source>Edit Templates.ini</source>
-            <translation>Templates.ini संपादित करें</translation>
+            <source>Edit Templates</source>
+            <translation>template configuration file संपादित करें</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="963" />
-            <source>Edit Sandboxie-Plus.ini</source>
-            <translation>Sandboxie-Plus.ini संपादित करें</translation>
+            <source>Edit Sandybox Configuration</source>
+            <translation>Sandybox configuration file संपादित करें</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="967" />
@@ -4608,7 +4608,7 @@ No will choose: %2</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="2808" />
-            <source>sandybox Version: %1 (%2)</source>
+            <source>Sandybox Version: %1 (%2)</source>
             <translation>सैंडबॉक्सी-प्लस संस्करण: %1 (%2)</translation>
         </message>
         <message>
@@ -4628,10 +4628,10 @@ No will choose: %2</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="2940" />
-            <source>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
-Please check if there is an update for sandybox.</source>
-            <oldsource>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd" />
-Please check if there is an update for sandybox.</oldsource>
+            <source>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
+Please check if there is an update for Sandybox.</source>
+            <oldsource>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd" />
+Please check if there is an update for Sandybox.</oldsource>
             <translation>आपका विंडोज़ बिल्ड %1 आपके सैंडबॉक्सी संस्करण की वर्तमान समर्थन क्षमताओं से अधिक है, जिसके परिणामस्वरूप टोकन-आधारित सुरक्षा अलगाव अक्षम हो गया है। नतीजतन, सभी एप्लिकेशन सुरक्षित अलगाव के बिना एप्लिकेशन कंपार्टमेंट मोड में काम करेंगे।
 कृपया जांचें कि क्या सैंडबॉक्सी के लिए कोई अपडेट है।</translation>
         </message>
@@ -4642,7 +4642,7 @@ Please check if there is an update for sandybox.</oldsource>
         </message>
         <message>
             <location filename="SandMan.cpp" line="2956" />
-            <source>Your Windows build %1 exceeds the current known support capabilities of your sandybox version, sandybox will attempt to use the last-known offsets which may cause system instability.</source>
+            <source>Your Windows build %1 exceeds the current known support capabilities of your Sandybox version, Sandybox will attempt to use the last-known offsets which may cause system instability.</source>
             <translation>आपका विंडोज़ बिल्ड %1 आपके सैंडबॉक्सी संस्करण की वर्तमान ज्ञात समर्थन क्षमताओं से अधिक है, सैंडबॉक्सी अंतिम-ज्ञात ऑफसेट का उपयोग करने का प्रयास करेगा जो सिस्टम अस्थिरता का कारण बन सकता है।</translation>
         </message>
         <message>
@@ -4667,8 +4667,8 @@ Please check if there is an update for sandybox.</oldsource>
             <location filename="SandMan.cpp" line="3366" />
             <location filename="SandMan.cpp" line="3378" />
             <location filename="SandMan.cpp" line="3465" />
-            <source>&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;</source>
-            <translation>&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;एक प्रोजेक्ट समर्थक बनें&lt;/a&gt;, और एक &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र प्राप्त करें&lt;/a&gt;</translation>
+            <source>&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+            <translation>&lt;br /&gt;एक प्रोजेक्ट समर्थक बनें, और एक समर्थक प्रमाणपत्र प्राप्त करें</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="774" />
@@ -4720,8 +4720,8 @@ Please check if there is an update for sandybox.</oldsource>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1906" />
-            <source>This box will be &lt;a href="sbie://docs/boxencryption"&gt;encrypted&lt;/a&gt; and &lt;a href="sbie://docs/black-box"&gt;access to sandboxed processes will be guarded&lt;/a&gt;.</source>
-            <translation>यह बॉक्स &lt;a href="sbie://docs/boxencryption"&gt;encrypted&lt;/a&gt; और &lt;a href="sbie://docs/black-box"&gt; होगा, सैंडबॉक्स वाली प्रक्रियाओं तक पहुंच की सुरक्षा की जाएगी&lt;/a&gt;।</translation>
+            <source>This box will be encrypted and access to sandboxed processes will be guarded.</source>
+            <translation>यह बॉक्स encrypted और  होगा, सैंडबॉक्स वाली प्रक्रियाओं तक पहुंच की सुरक्षा की जाएगी।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="1983" />
@@ -4741,7 +4741,7 @@ Please check if there is an update for sandybox.</oldsource>
             <location filename="SandMan.cpp" line="2009" />
             <location filename="SandMan.cpp" line="2021" />
             <location filename="SandMan.cpp" line="2025" />
-            <source>sandybox Warning</source>
+            <source>Sandybox Warning</source>
             <translation>सैंडबॉक्सी-प्लस चेतावनी</translation>
         </message>
         <message>
@@ -4803,8 +4803,8 @@ Do you want to disable Windows Updates scanning from the the software compatibil
         <message>
             <location filename="SandMan.cpp" line="3364" />
             <location filename="SandMan.cpp" line="3463" />
-            <source>&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert"&gt;Upgrade your Certificate&lt;/a&gt; to unlock advanced features.</source>
-            <translation>&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert"&gt;उन्नत सुविधाओं को अनलॉक करने के लिए अपना प्रमाणपत्र&lt;/a&gt; अपग्रेड करें।</translation>
+            <source>&lt;br /&gt;Upgrade your Certificate to unlock advanced features.</source>
+            <translation>&lt;br /&gt;उन्नत सुविधाओं को अनलॉक करने के लिए अपना प्रमाणपत्र अपग्रेड करें।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3459" />
@@ -4818,7 +4818,7 @@ Do you want to disable Windows Updates scanning from the the software compatibil
         </message>
         <message>
             <location filename="SandMan.cpp" line="3473" />
-            <source>The selected feature set is only available to project supporters.&lt;br /&gt;&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;</source>
+            <source>The selected feature set is only available to project supporters.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
             <translation>चयनित सुविधा सेट केवल प्रोजेक्ट समर्थकों के लिए उपलब्ध है।</translation>
         </message>
         <message>
@@ -4882,8 +4882,8 @@ Error: %1</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3840" />
-            <source>&lt;b&gt;ERROR:&lt;/b&gt; The sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get"&gt;official Download page&lt;/a&gt;.</source>
-            <translation>&lt;b&gt;ERROR:&lt;/b&gt; सैंडबॉक्सी-प्लस मैनेजर (SandMan.exe) के पास वैध हस्ताक्षर (SandMan.exe.sig) नहीं है। कृपया &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get"&gt;आधिकारिक डाउनलोड पेज&lt;/a&gt; से एक विश्वसनीय रिलीज़ डाउनलोड करें।</translation>
+            <source>&lt;b&gt;ERROR:&lt;/b&gt; The Sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the official Download page.</source>
+            <translation>&lt;b&gt;ERROR:&lt;/b&gt; सैंडबॉक्सी-प्लस मैनेजर (SandMan.exe) के पास वैध हस्ताक्षर (SandMan.exe.sig) नहीं है। कृपया आधिकारिक डाउनलोड पेज से एक विश्वसनीय रिलीज़ डाउनलोड करें।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3943" />
@@ -4907,16 +4907,16 @@ Error: %1</source>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4256" />
-            <source>You are about to edit the Templates.ini, this is generally not recommended.
-This file is part of sandybox and all change done to it will be reverted next time sandybox is updated.</source>
-            <oldsource>You are about to edit the Templates.ini, thsi is generally not recommeded.
-This file is part of sandybox and all changed done to it will be reverted next time sandybox is updated.</oldsource>
-            <translation>आप Templates.ini को संपादित करने वाले हैं, आमतौर पर इसकी अनुशंसा नहीं की जाती है।
+            <source>You are about to edit the template configuration file, this is generally not recommended.
+This file is part of Sandybox and all change done to it will be reverted next time Sandybox is updated.</source>
+            <oldsource>You are about to edit the template configuration file, thsi is generally not recommeded.
+This file is part of Sandybox and all changed done to it will be reverted next time Sandybox is updated.</oldsource>
+            <translation>आप template configuration file को संपादित करने वाले हैं, आमतौर पर इसकी अनुशंसा नहीं की जाती है।
 यह फ़ाइल सैंडबॉक्सी का हिस्सा है और अगली बार सैंडबॉक्सी अपडेट होने पर इसमें किए गए सभी बदलाव वापस कर दिए जाएंगे।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4336" />
-            <source>sandybox config has been reloaded</source>
+            <source>Sandybox config has been reloaded</source>
             <translation>सैंडबॉक्सी कॉन्फिगरेशन पुनः लोड किया गया है</translation>
         </message>
         <message>
@@ -4931,17 +4931,17 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="SandMan.cpp" line="4469" />
-            <source>Failed to communicate with sandybox Service: %1</source>
+            <source>Failed to communicate with Sandybox Service: %1</source>
             <translation>सैंडबॉक्सी सेवा के साथ संचार करने में विफल: %1</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4470" />
-            <source>An incompatible sandybox %1 was found. Compatible versions: %2</source>
+            <source>An incompatible Sandybox %1 was found. Compatible versions: %2</source>
             <translation>एक असंगत सैंडबॉक्सी %1 पाया गया। संगत संस्करण: %2</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4471" />
-            <source>Can't find sandybox installation path.</source>
+            <source>Can't find Sandybox installation path.</source>
             <translation>सैंडबॉक्सी स्थापना पथ नहीं मिल सका।</translation>
         </message>
         <message>
@@ -5123,23 +5123,23 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="SandMan.cpp" line="4837" />
-            <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
-            <translation>&lt;h3&gt;sandybox&lt;/h3&gt;&lt;p&gt;संस्करण %1&lt;/p&gt;&lt;p&gt; के बारे में</translation>
+            <source>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
+            <translation>&lt;h3&gt;Sandybox&lt;/h3&gt;&lt;p&gt;संस्करण %1&lt;/p&gt;&lt;p&gt; के बारे में</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4845" />
-            <source>This copy of sandybox is certified for: %1</source>
+            <source>This copy of Sandybox is certified for: %1</source>
             <translation>सैंडबॉक्सी-प्लस की यह प्रति इसके लिए प्रमाणित है: %1</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4847" />
-            <source>sandybox is free for personal and non-commercial use.</source>
+            <source>Sandybox is free for personal and non-commercial use.</source>
             <translation>सैंडबॉक्सी-प्लस व्यक्तिगत और गैर-व्यावसायिक उपयोग के लिए निःशुल्क है।</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="4851" />
-            <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href="https://sandboxie-plus.com"&gt;sandybox.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href="https://icons8.com"&gt;icons8.com&lt;/a&gt;</source>
-            <translation>सैंडबॉक्सी-प्लस सैंडबॉक्सी की एक ओपन सोर्स निरंतरता है।&lt;br /&gt; अधिक जानकारी के लिए &lt;a href="https://sandboxie-plus.com"&gt;sandybox.com&lt;/a&gt; पर जाएं। %3&lt;br /&gt;&lt;br /&gt;स्थापना: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;&lt;a href="https://icons8.com"&gt;icons8.com&lt;/a&gt; से प्रतीक</translation>
+            <source>Sandybox is an open source continuation of Sandybox.&lt;br /&gt;Visit Sandybox.com for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from the bundled icon resources</source>
+            <translation>सैंडबॉक्सी-प्लस सैंडबॉक्सी की एक ओपन सोर्स निरंतरता है।&lt;br /&gt; अधिक जानकारी के लिए Sandybox.com पर जाएं। %3&lt;br /&gt;&lt;br /&gt;स्थापना: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;the bundled icon resources से प्रतीक</translation>
         </message>
         <message>
             <location filename="SandMan.cpp" line="3606" />
@@ -5179,12 +5179,12 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="SbieFindWnd.cpp" line="204" />
-            <source>sandybox - Window Finder</source>
+            <source>Sandybox - Window Finder</source>
             <translation>सैंडबॉक्सी-प्लस - विंडो फाइंडर</translation>
         </message>
         <message>
             <location filename="main.cpp" line="210" />
-            <source>sandybox Manager can not be run sandboxed!</source>
+            <source>Sandybox Manager can not be run sandboxed!</source>
             <translation>सैंडबॉक्सी मैनेजर को सैंडबॉक्स करके नहीं चलाया जा सकता!</translation>
         </message>
     </context>
@@ -6045,8 +6045,8 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="Views/SbieView.cpp" line="1876" />
-            <source>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</source>
-            <oldsource>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</oldsource>
+            <source>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</source>
+            <oldsource>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</oldsource>
             <translation>सैंडबॉक्सी स्टार्ट मेनू अब प्रदर्शित किया जाएगा। मेनू से एक एप्लिकेशन का चयन करें, और सैंडबॉक्सी आपके वास्तविक डेस्कटॉप पर एक नया शॉर्टकट आइकन बनाएगा, जिसका उपयोग आप सैंडबॉक्सी की देखरेख में चयनित एप्लिकेशन को लागू करने के लिए कर सकते हैं।</translation>
         </message>
         <message>
@@ -6100,7 +6100,7 @@ This file is part of sandybox and all changed done to it will be reverted next t
         <name>CSelectBoxWindow</name>
         <message>
             <location filename="Windows/SelectBoxWindow.cpp" line="200" />
-            <source>sandybox - Run Sandboxed</source>
+            <source>Sandybox - Run Sandboxed</source>
             <translation>सैंडबॉक्सी-प्लस - सैंडबॉक्स्ड चलाएँ</translation>
         </message>
         <message>
@@ -6118,8 +6118,8 @@ This file is part of sandybox and all changed done to it will be reverted next t
         <name>CSettingsWindow</name>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="197" />
-            <source>sandybox Plus - Global Settings</source>
-            <oldsource>sandybox Plus - Settings</oldsource>
+            <source>Sandybox Plus - Global Settings</source>
+            <oldsource>Sandybox Plus - Settings</oldsource>
             <translation>सैंडबॉक्सी प्लस - वैश्विक सेटिंग्स</translation>
         </message>
         <message>
@@ -6250,17 +6250,17 @@ This file is part of sandybox and all changed done to it will be reverted next t
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3138" />
             <location filename="Windows/SettingsWindow.cpp" line="3147" />
-            <source>HwId: &lt;a href="show"&gt;[%1]&lt;/a&gt;</source>
-            <translation>HwId: &lt;a href="show"&gt;[%1]&lt;/a&gt;</translation>
+            <source>HwId: [%1]</source>
+            <translation>HwId: [%1]</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3143" />
-            <source>HwId: &lt;a href="hide" style="text-decoration:none; color:inherit;"&gt;%1&lt;/a&gt; &lt;a href="copy"&gt;(copy)&lt;/a&gt;</source>
-            <translation>HwId: &lt;a href="hide" style="text-decoration:none; color:inherit;"&gt;%1&lt;/a&gt; &lt;a href="copy"&gt;(कॉपी)&lt;/a&gt;</translation>
+            <source>HwId: %1 (copy)</source>
+            <translation>HwId: %1 (कॉपी)</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3156" />
-            <source>sandybox Version: %1</source>
+            <source>Sandybox Version: %1</source>
             <translation>सैंडबॉक्सी-प्लस संस्करण: %1</translation>
         </message>
         <message>
@@ -6287,8 +6287,8 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3222" />
-            <source>This supporter certificate has expired, please &lt;a href="%1"&gt;get an updated certificate&lt;/a&gt;.</source>
-            <translation>यह समर्थक प्रमाणपत्र समाप्त हो गया है, कृपया &lt;a href="%1"&gt; एक अद्यतन प्रमाणपत्र प्राप्त करें&lt;/a&gt;।</translation>
+            <source>This supporter certificate has expired, please get an updated certificate.</source>
+            <translation>यह समर्थक प्रमाणपत्र समाप्त हो गया है, कृपया  एक अद्यतन प्रमाणपत्र प्राप्त करें।</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3302" />
@@ -6297,14 +6297,14 @@ This file is part of sandybox and all changed done to it will be reverted next t
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3304" />
-            <source>&lt;b&gt;&lt;a href="_"&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-            <translation>&lt;b&gt;&lt;a href="_"&gt; एक निःशुल्क मूल्यांकन प्रमाणपत्र प्राप्त करें&lt;/a&gt; और %1 दिनों के लिए सभी प्रीमियम सुविधाओं का आनंद लें।&lt;/b&gt;</translation>
+            <source>&lt;b&gt;Get a free evaluation certificate and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+            <translation>&lt;b&gt; एक निःशुल्क मूल्यांकन प्रमाणपत्र प्राप्त करें और %1 दिनों के लिए सभी प्रीमियम सुविधाओं का आनंद लें।&lt;/b&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3235" />
-            <source>This supporter certificate will &lt;font color='red'&gt;expire in %1 days&lt;/font&gt;, please &lt;a href="%2"&gt;get an updated certificate&lt;/a&gt;.</source>
-            <oldsource>This supporter certificate has expired, please &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt;get an updated certificate&lt;/a&gt;.</oldsource>
-            <translation>यह समर्थक प्रमाणपत्र &lt;font color='red'&gt;%1 दिनों&lt;/font&gt; में समाप्त हो जाएगा, कृपया &lt;a href="%2"&gt; एक अद्यतन प्रमाणपत्र प्राप्त करें&lt;/a&gt;।</translation>
+            <source>This supporter certificate will &lt;font color='red'&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+            <oldsource>This supporter certificate has expired, please get an updated certificate.</oldsource>
+            <translation>यह समर्थक प्रमाणपत्र &lt;font color='red'&gt;%1 दिनों&lt;/font&gt; में समाप्त हो जाएगा, कृपया  एक अद्यतन प्रमाणपत्र प्राप्त करें।</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="425" />
@@ -6342,8 +6342,8 @@ Right-click to copy</oldsource>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3274" />
-            <source>; eligible Patreons can always &lt;a href="https://xanasoft.com/get-supporter-certificate/"&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
-            <translation>; पात्र संरक्षक हमेशा xanasoft.com से &lt;a href="https://xanasoft.com/get-supporter-certificate/"&gt;&lt;/a&gt; अद्यतन प्रमाणपत्र प्राप्त कर सकते हैं</translation>
+            <source>; eligible Patreons can always obtain an updated certificate from the project store</source>
+            <translation>; पात्र संरक्षक हमेशा the project store से  अद्यतन प्रमाणपत्र प्राप्त कर सकते हैं</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3286" />
@@ -6435,12 +6435,12 @@ Right-click to copy</oldsource>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3292" />
-            <source>sandybox Desktop (Desk): %1</source>
+            <source>Sandybox Desktop (Desk): %1</source>
             <translation>सैंडबॉक्सी डेस्कटॉप (डेस्क): %1</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3323" />
-            <source>This does not look like a sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
+            <source>This does not look like a Sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
             <translation>यह सैंडबॉक्सी-प्लस सीरियल नंबर जैसा नहीं दिखता है।&lt;br /&gt;यदि आपने किसी प्रमाणपत्र से अपडेटकी या हस्ताक्षर दर्ज करने का प्रयास किया है, तो यह सही नहीं है, कृपया इसके बजाय पूरे प्रमाणपत्र को ऊपर के टेक्स्ट क्षेत्र में दर्ज करें।</translation>
         </message>
         <message>
@@ -6463,7 +6463,7 @@ Right-click to copy</oldsource>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3372" />
-            <source>sandybox - Get EVALUATION Certificate</source>
+            <source>Sandybox - Get EVALUATION Certificate</source>
             <translation>सैंडबॉक्सी-प्लस - मूल्यांकन प्रमाणपत्र प्राप्त करें</translation>
         </message>
         <message>
@@ -6619,7 +6619,7 @@ Choose autocomplete mode:
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3550" />
-            <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+            <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
             <translation>हालाँकि यह प्रमाणपत्र समाप्त हो चुका है, वर्तमान में स्थापित संस्करण के लिए प्लस सुविधाएँ सक्षम रहेंगी। हालाँकि, अब आपके पास संगतता अद्यतन और ऑनलाइन समस्या निवारण डेटाबेस सहित सैंडबॉक्सी-लाइव सेवाओं तक पहुंच नहीं होगी।</translation>
         </message>
         <message>
@@ -6706,7 +6706,7 @@ Choose autocomplete mode:
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3227" />
-            <source>&lt;br /&gt;&lt;font color='red'&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+            <source>&lt;br /&gt;&lt;font color='red'&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
             <translation>&lt;br /&gt;&lt;font color='red'&gt;वर्तमान बिल्ड के लिए प्लस सुविधाएं सक्षम रहती हैं&lt;/font&gt;, लेकिन अब आपके पास संगतता अपडेट और ऑनलाइन समस्या निवारण डेटाबेस सहित सैंडबॉक्सी-लाइव सेवाओं तक पहुंच नहीं है।</translation>
         </message>
         <message>
@@ -6768,7 +6768,7 @@ Choose autocomplete mode:
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3559" />
-            <source>Thank you for supporting the development of sandybox.</source>
+            <source>Thank you for supporting the development of Sandybox.</source>
             <translation>सैंडबॉक्सी-प्लस के विकास का समर्थन करने के लिए धन्यवाद।</translation>
         </message>
         <message>
@@ -6780,7 +6780,7 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="3599" />
-            <source>A mandatory security update for your sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
+            <source>A mandatory security update for your Sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
             <translation>आपके सैंडबॉक्सी-प्लस सपोर्टर प्रमाणपत्र के लिए एक अनिवार्य सुरक्षा अद्यतन आवश्यक है। क्या आप अब अद्यतन प्रमाणपत्र डाउनलोड करना चाहेंगे?</translation>
         </message>
         <message>
@@ -6805,7 +6805,7 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="2398" />
-            <source>(info website)</source>
+            <source>(information)</source>
             <translation>(जानकारी वेबसाइट)</translation>
         </message>
         <message>
@@ -6821,8 +6821,8 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="2466" />
-            <source>&lt;a href="check"&gt;Check Now&lt;/a&gt;</source>
-            <translation>&lt;a href="check"&gt;अभी जांचें&lt;/a&gt;</translation>
+            <source>Check Now</source>
+            <translation>अभी जांचें</translation>
         </message>
         <message>
             <location filename="Windows/SettingsWindow.cpp" line="2535" />
@@ -6938,12 +6938,12 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         <name>CShellPage</name>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="533" />
-            <source>Configure &lt;b&gt;sandybox&lt;/b&gt; shell integration</source>
-            <translation>&lt;b&gt;sandybox&lt;/b&gt; शेल एकीकरण कॉन्फ़िगर करें</translation>
+            <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; shell integration</source>
+            <translation>&lt;b&gt;Sandybox&lt;/b&gt; शेल एकीकरण कॉन्फ़िगर करें</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="534" />
-            <source>Configure how sandybox should integrate with your system.</source>
+            <source>Configure how Sandybox should integrate with your system.</source>
             <translation>कॉन्फ़िगर करें कि सैंडबॉक्सी-प्लस को आपके सिस्टम के साथ कैसे एकीकृत होना चाहिए।</translation>
         </message>
         <message>
@@ -6958,7 +6958,7 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="548" />
-            <source>Add desktop shortcut for starting Web browser under sandybox</source>
+            <source>Add desktop shortcut for starting Web browser under Sandybox</source>
             <translation>सैंडबॉक्सी के अंतर्गत वेब ब्राउज़र शुरू करने के लिए डेस्कटॉप शॉर्टकट जोड़ें</translation>
         </message>
         <message>
@@ -6974,8 +6974,8 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="565" />
-            <source>Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart sandybox Manager as an admin by clicking 'Restart as Admin' in the 'Sandbox' menu in the main window.</source>
-            <translation>इस विकल्प को सक्षम करने से व्यवस्थापक अधिकारों के बिना उपयोगकर्ता इंटरफ़ेस से Sandboxie.ini कॉन्फ़िगरेशन में परिवर्तन को रोका जा सकता है। सावधान रहें, क्योंकि सामान्य उपयोगकर्ता अधिकारों के साथ सैंडबॉक्सी मैनेजर का उपयोग करने से लॉकआउट हो सकता है। कॉन्फ़िगरेशन में परिवर्तन करने के लिए, आपको मुख्य विंडो में 'सैंडबॉक्स' मेनू में 'एडमिन के रूप में पुनरारंभ करें' पर क्लिक करके सैंडबॉक्सी मैनेजर को एक व्यवस्थापक के रूप में पुनरारंभ करना होगा।</translation>
+            <source>Enabling this option prevents changes to the base configuration file configuration from the user interface without admin rights. Be careful, as using Sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart Sandybox Manager as an admin by clicking 'Restart as Admin' in the 'Sandbox' menu in the main window.</source>
+            <translation>इस विकल्प को सक्षम करने से व्यवस्थापक अधिकारों के बिना उपयोगकर्ता इंटरफ़ेस से base configuration file कॉन्फ़िगरेशन में परिवर्तन को रोका जा सकता है। सावधान रहें, क्योंकि सामान्य उपयोगकर्ता अधिकारों के साथ सैंडबॉक्सी मैनेजर का उपयोग करने से लॉकआउट हो सकता है। कॉन्फ़िगरेशन में परिवर्तन करने के लिए, आपको मुख्य विंडो में 'सैंडबॉक्स' मेनू में 'एडमिन के रूप में पुनरारंभ करें' पर क्लिक करके सैंडबॉक्सी मैनेजर को एक व्यवस्थापक के रूप में पुनरारंभ करना होगा।</translation>
         </message>
     </context>
     <context>
@@ -7053,13 +7053,13 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="831" />
-            <source>Attach Sandboxie.ini</source>
-            <translation>Sandboxie.ini संलग्न करें</translation>
+            <source>Attach base configuration file</source>
+            <translation>base configuration file संलग्न करें</translation>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="832" />
-            <source>Sandboxing compatibility is reliant on the configuration, hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
-            <translation>सैंडबॉक्सिंग अनुकूलता कॉन्फ़िगरेशन पर निर्भर है, इसलिए Sandboxie.ini फ़ाइल संलग्न करने से समस्या का पता लगाने में बहुत मदद मिलती है।</translation>
+            <source>Sandboxing compatibility is reliant on the configuration, hence attaching the base configuration file file helps a lot with finding the issue.</source>
+            <translation>सैंडबॉक्सिंग अनुकूलता कॉन्फ़िगरेशन पर निर्भर है, इसलिए base configuration file फ़ाइल संलग्न करने से समस्या का पता लगाने में बहुत मदद मिलती है।</translation>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="835" />
@@ -7098,7 +7098,7 @@ Before sending you can review the logs in the main window.</oldsource>
         </message>
         <message>
             <location filename="Wizards/BoxAssistant.cpp" line="854" />
-            <source>We apologize for the inconvenience you are currently facing with sandybox. </source>
+            <source>We apologize for the inconvenience you are currently facing with Sandybox. </source>
             <translation>सैंडबॉक्सी-प्लस के साथ आपको वर्तमान में हो रही असुविधा के लिए हमें खेद है। </translation>
         </message>
         <message>
@@ -7236,7 +7236,7 @@ Processes in this box will be running with a custom process token indicating the
         <message>
             <location filename="Windows/SupportDialog.cpp" line="43" />
             <source>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a Great Supporter on Patreon already, sandybox can check online for an update of your certificate.</source>
+If you are a Great Supporter on Patreon already, Sandybox can check online for an update of your certificate.</source>
             <translation>इस इनसाइडर बिल्ड के लिए GREAT_PATREON, PERSONAL-HUGE, या CONTRIBUTOR प्रकार के एक विशेष प्रमाणपत्र की आवश्यकता होती है।
 यदि आप पहले से ही पैट्रियन के महान समर्थक हैं, तो सैंडबॉक्सी आपके प्रमाणपत्र के अपडेट के लिए ऑनलाइन जांच कर सकता है।</translation>
         </message>
@@ -7253,8 +7253,8 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="163" />
-            <source>This is a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;exclusive Insider build&lt;/a&gt; of sandybox it is only available to &lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt;Patreon Supporters&lt;/a&gt; on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
-            <translation>यह सैंडबॉक्सी-प्लस का एक &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;एक्सक्लूसिव इनसाइडर बिल्ड&lt;/a&gt; है, यह केवल उच्च स्तरों पर &lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt;Patreon समर्थकों&lt;/a&gt; के साथ-साथ परियोजना योगदानकर्ताओं और एक विशाल समर्थक प्रमाणपत्र के मालिकों के लिए उपलब्ध है।</translation>
+            <source>This is a exclusive Insider build of Sandybox it is only available to Patreon Supporters on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
+            <translation>यह सैंडबॉक्सी-प्लस का एक एक्सक्लूसिव इनसाइडर बिल्ड है, यह केवल उच्च स्तरों पर Patreon समर्थकों के साथ-साथ परियोजना योगदानकर्ताओं और एक विशाल समर्थक प्रमाणपत्र के मालिकों के लिए उपलब्ध है।</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="169" />
@@ -7263,31 +7263,31 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="171" />
-            <source>&lt;b&gt;There seems to be however %1 sandybox instances on your network, &lt;font color='red'&gt;you need to obtain additional &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more"&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-            <oldsource>&lt;b&gt;There seams to be howeever %1 sandybox instances on your network, &lt;font color='red'&gt;you need to obtain additional &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more"&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
-            <translation>&lt;b&gt;हालांकि ऐसा प्रतीत होता है कि आपके नेटवर्क पर %1 सैंडबॉक्सी-प्लस उदाहरण हैं, &lt;font color='red'&gt;आपको अतिरिक्त &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more"&gt;समर्थन प्रमाणपत्र&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt; प्राप्त करने की आवश्यकता है</translation>
+            <source>&lt;b&gt;There seems to be however %1 Sandybox instances on your network, &lt;font color='red'&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+            <oldsource>&lt;b&gt;There seams to be howeever %1 Sandybox instances on your network, &lt;font color='red'&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
+            <translation>&lt;b&gt;हालांकि ऐसा प्रतीत होता है कि आपके नेटवर्क पर %1 सैंडबॉक्सी-प्लस उदाहरण हैं, &lt;font color='red'&gt;आपको अतिरिक्त समर्थन प्रमाणपत्र&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt; प्राप्त करने की आवश्यकता है</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="178" />
-            <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</source>
-            <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</oldsource>
-            <translation>स्थापित समर्थक प्रमाणपत्र &lt;b&gt;%1 दिन पहले समाप्त हो गया है&lt;/b&gt; और &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt; को नवीनीकृत किया जाना चाहिए&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</translation>
+            <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</source>
+            <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</oldsource>
+            <translation>स्थापित समर्थक प्रमाणपत्र &lt;b&gt;%1 दिन पहले समाप्त हो गया है&lt;/b&gt; और  को नवीनीकृत किया जाना चाहिए.&lt;br /&gt;&lt;br /&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="180" />
-            <source>&lt;b&gt;You have installed sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+            <source>&lt;b&gt;You have installed Sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
             <translation>&lt;b&gt;आपने सैंडबॉक्सी-प्लस को %1 से अधिक दिन पहले इंस्टॉल किया है।&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="182" />
-            <source>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt;support certificate&lt;/a&gt;.</source>
-            <oldsource>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;support certificate&lt;/a&gt;.</oldsource>
-            <translation>&lt;u&gt;मूल्यांकन अवधि के बाद सैंडबॉक्सी के व्यावसायिक उपयोग&lt;/u&gt; के लिए एक वैध &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt;समर्थन प्रमाणपत्र&lt;/a&gt; की आवश्यकता होती है।</translation>
+            <source>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</source>
+            <oldsource>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</oldsource>
+            <translation>&lt;u&gt;मूल्यांकन अवधि के बाद सैंडबॉक्सी के व्यावसायिक उपयोग&lt;/u&gt; के लिए एक वैध समर्थन प्रमाणपत्र की आवश्यकता होती है।</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="189" />
-            <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of sandybox.&lt;br /&gt;&lt;br /&gt;</source>
-            <translation>स्थापित समर्थक प्रमाणपत्र &lt;b&gt;आउटडेटेड&lt;/b&gt; है और यह &lt;u&gt;sandybox.&lt;br /&gt;&lt;br /&gt; के इस संस्करण&lt;/b&gt;&lt;/u&gt; के लिए मान्य नहीं है।</translation>
+            <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of Sandybox.&lt;br /&gt;&lt;br /&gt;</source>
+            <translation>स्थापित समर्थक प्रमाणपत्र &lt;b&gt;आउटडेटेड&lt;/b&gt; है और यह &lt;u&gt;Sandybox.&lt;br /&gt;&lt;br /&gt; के इस संस्करण&lt;/b&gt;&lt;/u&gt; के लिए मान्य नहीं है।</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="191" />
@@ -7297,34 +7297,34 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="193" />
-            <source>&lt;b&gt;You have been using sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+            <source>&lt;b&gt;You have been using Sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
             <translation>&lt;b&gt;आप सैंडबॉक्सी-प्लस का उपयोग %1 दिनों से अधिक समय से कर रहे हैं।&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="196" />
-            <source>sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
+            <source>Sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
             <translation>ARM64 पर सैंडबॉक्सी को निरंतर उपयोग के लिए एक वैध समर्थक प्रमाणपत्र की आवश्यकता है।&lt;br /&gt;&lt;br /&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="198" />
-            <source>Personal use of sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
+            <source>Personal use of Sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
             <translation>सैंडबॉक्सी का व्यक्तिगत उपयोग x86/x64 पर निःशुल्क है, हालाँकि कुछ कार्यक्षमता केवल प्रोजेक्ट समर्थकों के लिए उपलब्ध है।&lt;br /&gt;&lt;br /&gt;</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="201" />
-            <source>Please continue &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
-            <oldsource>Please continue &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
-            <translation>कृपया अपने &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; को नवीनीकृत करके &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt; प्रोजेक्ट&lt;/a&gt; का समर्थन जारी रखें और नए बिल्ड में &lt;b&gt;enउन्नत कार्यक्षमता&lt;/b&gt; का उपयोग जारी रखें।</translation>
+            <source>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
+            <oldsource>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
+            <translation>कृपया अपने समर्थक प्रमाणपत्र को नवीनीकृत करके  प्रोजेक्ट का समर्थन जारी रखें और नए बिल्ड में &lt;b&gt;enउन्नत कार्यक्षमता&lt;/b&gt; का उपयोग जारी रखें।</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="204" />
-            <source>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color='red'&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt;purchasing a supporter certificate&lt;/a&gt; or &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-contribute"&gt;earning one by contributing&lt;/a&gt; to the project. &lt;br /&gt;&lt;br /&gt;A &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
-            <oldsource>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color='red'&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;supporting the project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
-            <translation>sandybox &lt;u&gt;बिना&lt;/u&gt; एक वैध समर्थक प्रमाणपत्र कभी-कभी &lt;b&gt;&lt;font color='red'&gt;कुछ सेकंड के लिए रुक जाएगा&lt;/font&gt;&lt;/b&gt;। यह ठहराव आपको प्रोजेक्ट में &lt;/a&gt; का योगदान देकर एक समर्थक प्रमाणपत्र &lt;/a&gt; या &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-contribute"&gt; सीखने पर &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt; खरीदने पर विचार करने की अनुमति देता है। &lt;br /&gt;&lt;br /&gt;A &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; न केवल इस अनुस्मारक को हटाता है, बल्कि &lt;b&gt;विशेष उन्नत कार्यक्षमता को भी सक्षम बनाता है&lt;/b&gt; बेहतर सुरक्षा और अनुकूलता प्रदान करता है।</translation>
+            <source>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color='red'&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider purchasing a supporter certificate or earning one by contributing to the project. &lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
+            <oldsource>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color='red'&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of supporting the project.&lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
+            <translation>Sandybox &lt;u&gt;बिना&lt;/u&gt; एक वैध समर्थक प्रमाणपत्र कभी-कभी &lt;b&gt;&lt;font color='red'&gt;कुछ सेकंड के लिए रुक जाएगा&lt;/font&gt;&lt;/b&gt;। यह ठहराव आपको प्रोजेक्ट में  का योगदान देकर एक समर्थक प्रमाणपत्र  या  सीखने पर  खरीदने पर विचार करने की अनुमति देता है। &lt;br /&gt;&lt;br /&gt;A समर्थक प्रमाणपत्र न केवल इस अनुस्मारक को हटाता है, बल्कि &lt;b&gt;विशेष उन्नत कार्यक्षमता को भी सक्षम बनाता है&lt;/b&gt; बेहतर सुरक्षा और अनुकूलता प्रदान करता है।</translation>
         </message>
         <message>
             <location filename="Windows/SupportDialog.cpp" line="235" />
-            <source>sandybox - Support Reminder</source>
+            <source>Sandybox - Support Reminder</source>
             <translation>सैंडबॉक्सी-प्लस - समर्थन अनुस्मारक</translation>
         </message>
         <message>
@@ -7453,7 +7453,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
             <location filename="Windows/TestProxyDialog.cpp" line="375" />
             <location filename="Windows/TestProxyDialog.cpp" line="381" />
             <location filename="Windows/TestProxyDialog.cpp" line="387" />
-            <source>sandybox - Test Proxy</source>
+            <source>Sandybox - Test Proxy</source>
             <translation>सैंडबॉक्सी-प्लस - टेस्ट प्रॉक्सी</translation>
         </message>
         <message>
@@ -7807,7 +7807,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         <name>CTraceWindow</name>
         <message>
             <location filename="Views/TraceView.cpp" line="824" />
-            <source>sandybox - Trace Monitor</source>
+            <source>Sandybox - Trace Monitor</source>
             <translation>सैंडबॉक्सी-प्लस - ट्रेस मॉनिटर</translation>
         </message>
     </context>
@@ -7815,8 +7815,8 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         <name>CUIPage</name>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="418" />
-            <source>Configure &lt;b&gt;sandybox&lt;/b&gt; UI</source>
-            <translation>&lt;b&gt;sandybox&lt;/b&gt; UI कॉन्फ़िगर करें</translation>
+            <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; UI</source>
+            <translation>&lt;b&gt;Sandybox&lt;/b&gt; UI कॉन्फ़िगर करें</translation>
         </message>
         <message>
             <location filename="Wizards/SetupWizard.cpp" line="419" />
@@ -7939,7 +7939,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         <name>OptionsWindow</name>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="32" />
-            <source>sandybox Options</source>
+            <source>Sandybox Options</source>
             <translation>सैंडबॉक्सीप्लस विकल्प</translation>
         </message>
         <message>
@@ -8281,7 +8281,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="1308" />
-            <source>Security note: Elevated applications running under the supervision of sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
+            <source>Security note: Elevated applications running under the supervision of Sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
             <translation>सुरक्षा नोट: एडमिन या सिस्टम टोकन के साथ सैंडबॉक्सी की देखरेख में चलने वाले उन्नत अनुप्रयोगों में अलगाव को बायपास करने और सैंडबॉक्स के बाहर सिस्टम को संशोधित करने के अधिक अवसर होते हैं।</translation>
         </message>
         <message>
@@ -8311,8 +8311,8 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="90" />
-            <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
-            <translation>&lt;b&gt;अधिक बॉक्स प्रकार&lt;/b&gt; विशेष रूप से &lt;u&gt;प्रोजेक्ट समर्थकों के लिए उपलब्ध हैं&lt;/u&gt;, गोपनीयता उन्नत बॉक्स &lt;b&gt;&lt;font color='red'&gt; उपयोगकर्ता डेटा को सैंडबॉक्स प्रोग्राम द्वारा अवैध पहुंच से &lt;/font&gt;&lt;/b&gt; सुरक्षित रखें।&lt;br /&gt;यदि आप नहीं हैं अभी भी एक समर्थक है, तो कृपया &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र प्राप्त करने के लिए &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-get-cert"&gt;प्रोजेक्ट&lt;/a&gt; का समर्थन करने पर विचार करें&lt;/a&gt;.&lt;br /&gt;आप उन प्रकार के नए सैंडबॉक्स बनाकर अन्य बॉक्स प्रकारों का परीक्षण कर सकते हैं, हालांकि इनमें प्रक्रियाएं 5 मिनट के बाद स्वतः समाप्त हो जाएंगी।</translation>
+            <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider supporting the project, to receive a supporter certificate.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
+            <translation>&lt;b&gt;अधिक बॉक्स प्रकार&lt;/b&gt; विशेष रूप से &lt;u&gt;प्रोजेक्ट समर्थकों के लिए उपलब्ध हैं&lt;/u&gt;, गोपनीयता उन्नत बॉक्स &lt;b&gt;&lt;font color='red'&gt; उपयोगकर्ता डेटा को सैंडबॉक्स प्रोग्राम द्वारा अवैध पहुंच से &lt;/font&gt;&lt;/b&gt; सुरक्षित रखें।&lt;br /&gt;यदि आप नहीं हैं अभी भी एक समर्थक है, तो कृपया समर्थक प्रमाणपत्र प्राप्त करने के लिए प्रोजेक्ट का समर्थन करने पर विचार करें.&lt;br /&gt;आप उन प्रकार के नए सैंडबॉक्स बनाकर अन्य बॉक्स प्रकारों का परीक्षण कर सकते हैं, हालांकि इनमें प्रक्रियाएं 5 मिनट के बाद स्वतः समाप्त हो जाएंगी।</translation>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="208" />
@@ -8427,9 +8427,9 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="521" />
-            <source>When &lt;a href="sbie://docs/boxencryption"&gt;Box Encryption&lt;/a&gt; is enabled the box's root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href="https://diskcryptor.org"&gt;Disk Cryptor's&lt;/a&gt; AES-XTS implementation.</source>
-            <oldsource>When &lt;a href="sbie://docs/boxencryption"&gt;Box Encryption&lt;/a&gt; is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href="https://diskcryptor.org"&gt;Disk Cryptor's&lt;/a&gt; AES-XTS implementation.</oldsource>
-            <translation>जब &lt;a href="sbie://docs/boxencryption"&gt;Box एन्क्रिप्शन&lt;/a&gt; सक्षम किया जाता है, तो बॉक्स का रूट फ़ोल्डर, इसके रजिस्ट्री हाइव सहित, &lt;a href="https://diskcryptor.org"&gt;Disk क्रिप्टोर के&lt;/a&gt; AES-XTS कार्यान्वयन का उपयोग करके एक एन्क्रिप्टेड डिस्क छवि में संग्रहीत किया जाता है।</translation>
+            <source>When Box Encryption is enabled the box's root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor's AES-XTS implementation.</source>
+            <oldsource>When Box Encryption is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor's AES-XTS implementation.</oldsource>
+            <translation>जब Box एन्क्रिप्शन सक्षम किया जाता है, तो बॉक्स का रूट फ़ोल्डर, इसके रजिस्ट्री हाइव सहित, Disk क्रिप्टोर के AES-XTS कार्यान्वयन का उपयोग करके एक एन्क्रिप्टेड डिस्क छवि में संग्रहीत किया जाता है।</translation>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="410" />
@@ -8438,8 +8438,8 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="469" />
-            <source>&lt;a href="addon://ImDisk"&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-            <translation>&lt;a href="addon://ImDisk"&gt; रैम डिस्क और डिस्क छवि समर्थन को सक्षम करने के लिए ImDisk&lt;/a&gt; ड्राइवर स्थापित करें।</translation>
+            <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+            <translation> रैम डिस्क और डिस्क छवि समर्थन को सक्षम करने के लिए ImDisk ड्राइवर स्थापित करें।</translation>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="567" />
@@ -8492,7 +8492,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="742" />
-            <source>sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. sandybox offers options for handling these cases, which can be configured on this page.</source>
+            <source>Sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. Sandybox offers options for handling these cases, which can be configured on this page.</source>
             <translation>सैंडबॉक्सी होस्ट फ़ाइलों पर लिखने की अनुमति नहीं देता, जब तक कि उपयोगकर्ता द्वारा अनुमति न दी जाए। जब कोई सैंडबॉक्स्ड एप्लिकेशन किसी फ़ाइल को संशोधित करने का प्रयास करता है, तो पूरी फ़ाइल को सैंडबॉक्स में कॉपी किया जाना चाहिए, बड़ी फ़ाइलों के लिए इसमें काफी समय लग सकता है। सैंडबॉक्सी इन मामलों से निपटने के लिए विकल्प प्रदान करता है, जिन्हें इस पृष्ठ पर कॉन्फ़िगर किया जा सकता है।</translation>
         </message>
         <message>
@@ -8570,7 +8570,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="1641" />
-            <source>sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
+            <source>Sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
             <translation>सैंडबॉक्सी-प्लस गोपनीय सैंडबॉक्स बनाने में सक्षम है जो मेजबान प्रक्रियाओं द्वारा अनधिकृत निगरानी या छेड़छाड़ के खिलाफ मजबूत सुरक्षा प्रदान करता है। एन्क्रिप्टेड सैंडबॉक्स छवि का उपयोग करके, यह सुविधा सैंडबॉक्स प्रक्रियाओं की सुरक्षा और अखंडता सुनिश्चित करते हुए उच्चतम स्तर की परिचालन गोपनीयता प्रदान करती है।</translation>
         </message>
         <message>
@@ -8580,7 +8580,7 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="2018" />
-            <source>Use a sandybox login instead of an anonymous token</source>
+            <source>Use a Sandybox login instead of an anonymous token</source>
             <translation>अनाम टोकन के बजाय सैंडबॉक्सी लॉगिन का उपयोग करें</translation>
         </message>
         <message>
@@ -8626,16 +8626,16 @@ If you are a Great Supporter on Patreon already, sandybox can check online for a
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="4575" />
-            <source>sandybox's resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. 'ClosedFilePath=!iexplore.exe,C:Users*' will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the "Access policies" page.
+            <source>Sandybox's resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. 'ClosedFilePath=!iexplore.exe,C:Users*' will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the "Access policies" page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</source>
-            <oldsource>sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
+            <oldsource>Sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</oldsource>
             <translation>सैंडबॉक्सी के संसाधन पहुंच नियम अक्सर सैंडबॉक्स के अंदर स्थित प्रोग्राम बायनेरिज़ के विरुद्ध भेदभाव करते हैं। OpenFilePath और OpenKeyPath केवल मूल रूप से होस्ट पर स्थित एप्लिकेशन बायनेरिज़ के लिए काम करते हैं। इस प्रतिबंध के बिना किसी नियम को परिभाषित करने के लिए, OpenPipePath या OpenConfPath का उपयोग किया जाना चाहिए। इसी तरह, सभी बंद(फ़ाइल|कुंजी|आईपीसी)पथ निर्देश जो निषेध द्वारा परिभाषित हैं। 'ClosedFilePath=!iexplore.exe,C:Users*' सैंडबॉक्स के अंदर स्थित बायनेरिज़ के लिए हमेशा बंद रहेगा। दोनों प्रतिबंध नीतियों को "एक्सेस नीतियां" पृष्ठ पर अक्षम किया जा सकता है।
 ऐसा सैंडबॉक्स के अंदर दुष्ट प्रक्रियाओं को स्वयं की नामांकित प्रतिलिपि बनाने और संरक्षित संसाधनों तक पहुंचने से रोकने के लिए किया जाता है। एक अन्य शोषण वेक्टर एक लाइब्रेरी को एक अधिकृत प्रक्रिया में शामिल करना है ताकि वह हर चीज तक पहुंच प्राप्त कर सके जिसकी उसे अनुमति है। होस्ट इमेज प्रोटेक्शन का उपयोग करके, सैंडबॉक्स के अंदर चल रहे एप्लिकेशन (होस्ट पर इंस्टॉल) को सैंडबॉक्स से लाइब्रेरी लोड करने से रोककर इसे रोका जा सकता है।</translation>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="4599" />
-            <source>sandybox's functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
+            <source>Sandybox's functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
             <oldsource>sandyboxs functionality can be enhanced using optional dll’s which can be loaded into each sandboxed process on start by the SbieDll.dll, the add-on manager in the global settings offers a couple useful extensions, once installed they can be enabled here for the current box.</oldsource>
             <translation>सैंडबॉक्सी की कार्यक्षमता को वैकल्पिक डीएलएल का उपयोग करके बढ़ाया जा सकता है जिसे SbieDll.dll फ़ाइल द्वारा प्रारंभ में प्रत्येक सैंडबॉक्स प्रक्रिया में लोड किया जा सकता है, वैश्विक सेटिंग्स में ऐड-ऑन प्रबंधक कुछ उपयोगी एक्सटेंशन प्रदान करता है, एक बार इंस्टॉल होने के बाद उन्हें वर्तमान बॉक्स के लिए यहां सक्षम किया जा सकता है।</translation>
         </message>
@@ -8657,7 +8657,7 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="1979" />
-            <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+            <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
             <translation>कस्टम सैंडबॉक्सी टोकन का उपयोग करने से अलग-अलग सैंडबॉक्स को एक-दूसरे से बेहतर ढंग से अलग किया जा सकता है, और यह कार्य प्रबंधकों के उपयोगकर्ता कॉलम में उस बॉक्स का नाम दिखाता है जिससे प्रक्रिया संबंधित है। हालाँकि, कुछ तृतीय पक्ष सुरक्षा समाधानों में कस्टम टोकन के साथ समस्याएँ हो सकती हैं।</translation>
         </message>
         <message>
@@ -8824,7 +8824,7 @@ Partially checked: No groups will be added to the newly created sandboxed token.
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="2109" />
-            <source>By default, sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
+            <source>By default, Sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
 Enabling this option uses a LOW integrity token instead, which may improve compatibility but reduces sandbox isolation and security.</source>
             <translation>डिफ़ॉल्ट रूप से, सैंडबॉक्सी अधिकतम अलगाव के लिए एक अविश्वसनीय अखंडता टोकन के साथ प्रक्रियाएं चलाता है।
 इस विकल्प को सक्षम करने से इसके बजाय कम अखंडता टोकन का उपयोग होता है, जो संगतता में सुधार कर सकता है लेकिन सैंडबॉक्स अलगाव और सुरक्षा को कम कर देता है।</translation>
@@ -8846,9 +8846,9 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="2495" />
-            <source>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href="sbie://docs/breakoutfolder"&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href="sbie://docs/breakoutprocess"&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href="sbie://docs/breakoutdocument"&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
-            <oldsource>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href="sbie://docs/breakoutfolder"&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href="sbie://docs/breakoutprocess"&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href="sbie://docs/breakoutdocument"&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
-            <translation>&lt;b&gt;&lt;font color='red'&gt;सुरक्षा सलाहकार&lt;/font&gt;:&lt;/b&gt; ओपन[फ़ाइल/पाइप]पथ निर्देशों के संयोजन में &lt;a href="sbie://docs/breakoutfolder"&gt;BreakoutFolder&lt;/a&gt; और/या &lt;a href="sbie://docs/breakoutprocess"&gt;BreakoutProcess&lt;/a&gt; का उपयोग करने से समझौता हो सकता है सुरक्षा, जैसा कि &lt;a href="sbie://docs/breakoutdocument"&gt;BreakoutDocument&lt;/a&gt; का उपयोग किसी भी * या असुरक्षित (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) एक्सटेंशन की अनुमति दे सकता है। कृपया उपयोग से पहले दस्तावेज़ में प्रत्येक विकल्प के लिए सुरक्षा अनुभाग की समीक्षा करें।</translation>
+            <source>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
+            <oldsource>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
+            <translation>&lt;b&gt;&lt;font color='red'&gt;सुरक्षा सलाहकार&lt;/font&gt;:&lt;/b&gt; ओपन[फ़ाइल/पाइप]पथ निर्देशों के संयोजन में BreakoutFolder और/या BreakoutProcess का उपयोग करने से समझौता हो सकता है सुरक्षा, जैसा कि BreakoutDocument का उपयोग किसी भी * या असुरक्षित (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) एक्सटेंशन की अनुमति दे सकता है। कृपया उपयोग से पहले दस्तावेज़ में प्रत्येक विकल्प के लिए सुरक्षा अनुभाग की समीक्षा करें।</translation>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="2525" />
@@ -9308,7 +9308,7 @@ To specify a process use '$:program.exe' as path.</source>
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="2054" />
-            <source>sandybox token</source>
+            <source>Sandybox token</source>
             <translation>सैंडबॉक्सी टोकन</translation>
         </message>
         <message>
@@ -9569,8 +9569,8 @@ The process match level has a higher priority than the specificity and describes
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="1461" />
-            <source>Security Isolation through the usage of a heavily restricted process token is sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it's no longer providing reliable security, just simple application compartmentalization.</source>
-            <oldsource>Security Isolation through the usage of a heavily restricted process token is sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
+            <source>Security Isolation through the usage of a heavily restricted process token is Sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it's no longer providing reliable security, just simple application compartmentalization.</source>
+            <oldsource>Security Isolation through the usage of a heavily restricted process token is Sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
             <translation>अत्यधिक प्रतिबंधित प्रक्रिया टोकन के उपयोग के माध्यम से सुरक्षा अलगाव सैंडबॉक्स प्रतिबंधों को लागू करने का सैंडबॉक्सी का प्राथमिक साधन है, जब इसे अक्षम किया जाता है तो बॉक्स एप्लिकेशन कंपार्टमेंट मोड में संचालित होता है, यानी यह अब विश्वसनीय सुरक्षा प्रदान नहीं कर रहा है, केवल सरल एप्लिकेशन कंपार्टमेंटलाइज़ेशन प्रदान कर रहा है।</translation>
         </message>
         <message>
@@ -9610,7 +9610,7 @@ The process match level has a higher priority than the specificity and describes
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="1485" />
-            <source>Security Filtering used by sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
+            <source>Security Filtering used by Sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
             <translation>फ़ाइल सिस्टम और रजिस्ट्री पहुंच प्रतिबंधों को लागू करने के साथ-साथ प्रक्रिया पहुंच को प्रतिबंधित करने के लिए सैंडबॉक्सी द्वारा सुरक्षा फ़िल्टरिंग का उपयोग किया जाता है।</translation>
         </message>
         <message>
@@ -10183,7 +10183,7 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/OptionsWindow.ui" line="6046" />
-            <source>The following settings enable the use of sandybox in combination with accessibility software.  Please note that some measure of sandybox protection is necessarily lost when these settings are in effect.</source>
+            <source>The following settings enable the use of Sandybox in combination with accessibility software.  Please note that some measure of Sandybox protection is necessarily lost when these settings are in effect.</source>
             <translation>निम्नलिखित सेटिंग्स एक्सेसिबिलिटी सॉफ़्टवेयर के संयोजन में सैंडबॉक्सी के उपयोग को सक्षम बनाती हैं।  कृपया ध्यान दें कि जब ये सेटिंग्स प्रभावी होती हैं तो सैंडबॉक्सी सुरक्षा का कुछ उपाय आवश्यक रूप से नष्ट हो जाता है।</translation>
         </message>
         <message>
@@ -10211,7 +10211,7 @@ Please note that this values are currently user specific and saved globally for 
         <name>PopUpWindow</name>
         <message>
             <location filename="Forms/PopUpWindow.ui" line="32" />
-            <source>sandybox Notifications</source>
+            <source>Sandybox Notifications</source>
             <translation>सैंडबॉक्सीप्लस सूचनाएं</translation>
         </message>
     </context>
@@ -10284,7 +10284,7 @@ Please note that this values are currently user specific and saved globally for 
         <name>RecoveryWindow</name>
         <message>
             <location filename="Forms/RecoveryWindow.ui" line="32" />
-            <source>sandybox - Recovery</source>
+            <source>Sandybox - Recovery</source>
             <translation>सैंडबॉक्सीप्लस - रिकवरी</translation>
         </message>
         <message>
@@ -10365,7 +10365,7 @@ Please note that this values are currently user specific and saved globally for 
         <name>SelectBoxWindow</name>
         <message>
             <location filename="Forms/SelectBoxWindow.ui" line="32" />
-            <source>sandybox select box</source>
+            <source>Sandybox select box</source>
             <translation>सैंडबॉक्सीप्लस चयन बॉक्स</translation>
         </message>
         <message>
@@ -10413,7 +10413,7 @@ Please note that this values are currently user specific and saved globally for 
         <name>SettingsWindow</name>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="32" />
-            <source>sandybox Settings</source>
+            <source>Sandybox Settings</source>
             <translation>सैंडबॉक्सीप्लस सेटिंग्स</translation>
         </message>
         <message>
@@ -10519,8 +10519,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2512" />
-            <source>Sandbox &lt;a href="sbie://docs/filerootpath"&gt;file system root&lt;/a&gt;: </source>
-            <translation>सैंडबॉक्स &lt;a href="sbie://docs/filerootpath"&gt;फ़ाइल सिस्टम रूट&lt;/a&gt;: </translation>
+            <source>Sandbox file system root: </source>
+            <translation>सैंडबॉक्स फ़ाइल सिस्टम रूट: </translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2775" />
@@ -10529,8 +10529,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2589" />
-            <source>Sandbox &lt;a href="sbie://docs/ipcrootpath"&gt;ipc root&lt;/a&gt;: </source>
-            <translation>सैंडबॉक्स &lt;a href="sbie://docs/ipcrootpath"&gt;ipc रूट&lt;/a&gt;: </translation>
+            <source>Sandbox ipc root: </source>
+            <translation>सैंडबॉक्स ipc रूट: </translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2445" />
@@ -10614,8 +10614,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1147" />
-            <source>Hide sandybox's own processes from the task list</source>
-            <oldsource>Hide sandybox's own processes from the task list</oldsource>
+            <source>Hide Sandybox's own processes from the task list</source>
+            <oldsource>Hide Sandybox's own processes from the task list</oldsource>
             <translation>सैंडबॉक्सी की अपनी प्रक्रियाओं को कार्य सूची से छिपाएँ</translation>
         </message>
         <message>
@@ -10668,7 +10668,7 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1687" />
-            <source>sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
+            <source>Sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
             <translation>सैंडबॉक्सी-प्लस कई विकल्प प्रदान करता है और एक्सटेंशन की एक विस्तृत श्रृंखला का समर्थन करता है। इस पृष्ठ पर, आप ऐड-ऑन, प्लगइन्स और अन्य तृतीय-पक्ष घटकों के एकीकरण को कॉन्फ़िगर कर सकते हैं। वैकल्पिक घटकों को वेब से डाउनलोड किया जा सकता है, और कुछ इंस्टॉलेशन के लिए प्रशासनिक विशेषाधिकारों की आवश्यकता हो सकती है।</translation>
         </message>
         <message>
@@ -10688,8 +10688,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1741" />
-            <source>&lt;a href="sbie://addons"&gt;update add-on list now&lt;/a&gt;</source>
-            <translation>&lt;a href="sbie://addons"&gt;ऐड-ऑन सूची को अभी अपडेट करें&lt;/a&gt;</translation>
+            <source>update add-on list now</source>
+            <translation>ऐड-ऑन सूची को अभी अपडेट करें</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1751" />
@@ -10723,23 +10723,23 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1813" />
-            <source>&lt;a href="addon://ImDisk"&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-            <translation>&lt;a href="addon://ImDisk"&gt; रैम डिस्क और डिस्क छवि समर्थन को सक्षम करने के लिए ImDisk&lt;/a&gt; ड्राइवर स्थापित करें।</translation>
+            <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+            <translation> रैम डिस्क और डिस्क छवि समर्थन को सक्षम करने के लिए ImDisk ड्राइवर स्थापित करें।</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1899" />
-            <source>sandybox Support</source>
+            <source>Sandybox Support</source>
             <translation>सैंडबॉक्सी समर्थन</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1988" />
-            <source>This supporter certificate has expired, please &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt;get an updated certificate&lt;/a&gt;.</source>
-            <translation>यह समर्थक प्रमाणपत्र समाप्त हो गया है, कृपया &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-renew-cert"&gt; एक अद्यतन प्रमाणपत्र प्राप्त करें&lt;/a&gt;।</translation>
+            <source>This supporter certificate has expired, please get an updated certificate.</source>
+            <translation>यह समर्थक प्रमाणपत्र समाप्त हो गया है, कृपया  एक अद्यतन प्रमाणपत्र प्राप्त करें।</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2055" />
-            <source>Supporters of the sandybox project can receive a &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;supporter certificate&lt;/a&gt;. It's like a license key but for awesome people using open source software. :-)</source>
-            <translation>सैंडबॉक्सी-प्लस प्रोजेक्ट के समर्थक &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-cert"&gt;समर्थक प्रमाणपत्र&lt;/a&gt; प्राप्त कर सकते हैं। यह एक लाइसेंस कुंजी की तरह है लेकिन ओपन सोर्स सॉफ़्टवेयर का उपयोग करने वाले अद्भुत लोगों के लिए है। :-)</translation>
+            <source>Supporters of the Sandybox project can receive a supporter certificate. It's like a license key but for awesome people using open source software. :-)</source>
+            <translation>सैंडबॉक्सी-प्लस प्रोजेक्ट के समर्थक समर्थक प्रमाणपत्र प्राप्त कर सकते हैं। यह एक लाइसेंस कुंजी की तरह है लेकिन ओपन सोर्स सॉफ़्टवेयर का उपयोग करने वाले अद्भुत लोगों के लिए है। :-)</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1936" />
@@ -10753,8 +10753,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2023" />
-            <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-contribute"&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt;purchasing a supporter certificate&lt;/a&gt;, becoming a patron by &lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href="https://sandboxie-plus.com/go.php?to=donate"&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of sandybox.</source>
-            <translation>सैंडबॉक्सी को विंडोज़ की आगामी रिलीज़ों के साथ अद्यतन रखना और सभी वेब ब्राउज़रों के साथ संगत रखना एक कभी न ख़त्म होने वाला प्रयास है। आप &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-contribute"&gt; द्वारा विकास का समर्थन कर सकते हैं, सीधे प्रोजेक्ट&lt;/a&gt; में योगदान कर सकते हैं, &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-obtain-cert"&gt; द्वारा अपना समर्थन दिखा सकते हैं, एक समर्थक प्रमाणपत्र &lt;/a&gt; खरीद सकते हैं, &lt;a href="https://sandboxie-plus.com/go.php?to=patreon"&gt; द्वारा संरक्षक बन सकते हैं, Patreon&lt;/a&gt; पर सदस्यता ले सकते हैं, या &lt;a href="https://sandboxie-plus.com/go.php?to=donate"&gt;PayPal के माध्यम से दान&lt;/a&gt;.&lt;br /&gt;आपका समर्थन सैंडबॉक्सी की उन्नति और रखरखाव में महत्वपूर्ण भूमिका निभाता है।</translation>
+            <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becoming a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</source>
+            <translation>सैंडबॉक्सी को विंडोज़ की आगामी रिलीज़ों के साथ अद्यतन रखना और सभी वेब ब्राउज़रों के साथ संगत रखना एक कभी न ख़त्म होने वाला प्रयास है। आप  द्वारा विकास का समर्थन कर सकते हैं, सीधे प्रोजेक्ट में योगदान कर सकते हैं,  द्वारा अपना समर्थन दिखा सकते हैं, एक समर्थक प्रमाणपत्र  खरीद सकते हैं,  द्वारा संरक्षक बन सकते हैं, Patreon पर सदस्यता ले सकते हैं, या PayPal के माध्यम से दान.&lt;br /&gt;आपका समर्थन सैंडबॉक्सी की उन्नति और रखरखाव में महत्वपूर्ण भूमिका निभाता है।</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1922" />
@@ -10778,8 +10778,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2390" />
-            <source>Sandbox &lt;a href="sbie://docs/keyrootpath"&gt;registry root&lt;/a&gt;: </source>
-            <translation>सैंडबॉक्स &lt;a href="sbie://docs/keyrootpath"&gt;रजिस्ट्री रूट&lt;/a&gt;: </translation>
+            <source>Sandbox registry root: </source>
+            <translation>सैंडबॉक्स रजिस्ट्री रूट: </translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2582" />
@@ -10803,8 +10803,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2799" />
-            <source>Watch Sandboxie.ini for changes</source>
-            <translation>परिवर्तनों के लिए Sandboxie.ini देखें</translation>
+            <source>Watch base configuration file for changes</source>
+            <translation>परिवर्तनों के लिए base configuration file देखें</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="3070" />
@@ -10961,7 +10961,7 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2862" />
-            <source>When any of the following programs is launched outside any sandbox, sandybox will issue message SBIE1301.</source>
+            <source>When any of the following programs is launched outside any sandbox, Sandybox will issue message SBIE1301.</source>
             <translation>जब निम्नलिखित में से कोई भी प्रोग्राम किसी सैंडबॉक्स के बाहर लॉन्च किया जाता है, तो सैंडबॉक्सी SBIE1301 संदेश जारी करेगा।</translation>
         </message>
         <message>
@@ -10986,8 +10986,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="399" />
-            <source>sandybox may be issue &lt;a href="sbie://docs/sbiemessages"&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-            <translation>सैंडबॉक्सी संदेश लॉग में &lt;a href="sbie://docs/sbiemessages"&gt;SBIE संदेश&lt;/a&gt; जारी कर सकता है और उन्हें पॉपअप के रूप में दिखा सकता है। कुछ संदेश सूचनात्मक होते हैं और किसी सामान्य, या कुछ मामलों में विशेष, घटित घटना के बारे में सूचित करते हैं, अन्य संदेश त्रुटि स्थिति का संकेत देते हैं।&lt;br /&gt;आप नीचे दी गई सूची का उपयोग करके चयनित SBIE संदेशों को पॉप अप होने से छिपा सकते हैं:</translation>
+            <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+            <translation>सैंडबॉक्सी संदेश लॉग में SBIE संदेश जारी कर सकता है और उन्हें पॉपअप के रूप में दिखा सकता है। कुछ संदेश सूचनात्मक होते हैं और किसी सामान्य, या कुछ मामलों में विशेष, घटित घटना के बारे में सूचित करते हैं, अन्य संदेश त्रुटि स्थिति का संकेत देते हैं।&lt;br /&gt;आप नीचे दी गई सूची का उपयोग करके चयनित SBIE संदेशों को पॉप अप होने से छिपा सकते हैं:</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="412" />
@@ -11031,7 +11031,7 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2382" />
-            <source>sandybox Config</source>
+            <source>Sandybox Config</source>
             <oldsource>Config Protection</oldsource>
             <translation>सैंडबॉक्सी कॉन्फिग</translation>
         </message>
@@ -11166,8 +11166,8 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2004" />
-            <source>&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-use-cert"&gt;Certificate usage guide&lt;/a&gt;</source>
-            <translation>&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-use-cert"&gt;प्रमाणपत्र उपयोग मार्गदर्शिका&lt;/a&gt;</translation>
+            <source>Certificate usage guide</source>
+            <translation>प्रमाणपत्र उपयोग मार्गदर्शिका</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="1949" />
@@ -11206,12 +11206,12 @@ Please note that this values are currently user specific and saved globally for 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2130" />
-            <source>sandybox Version: 0.0.0</source>
+            <source>Sandybox Version: 0.0.0</source>
             <translation>सैंडबॉक्सी-प्लस संस्करण: 0.0.0</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2140" />
-            <source>sandybox Updater</source>
+            <source>Sandybox Updater</source>
             <translation>सैंडबॉक्सी अपडेटर</translation>
         </message>
         <message>
@@ -11243,13 +11243,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2275" />
-            <source>Check periodically for new sandybox versions</source>
+            <source>Check periodically for new Sandybox versions</source>
             <translation>नए सैंडबॉक्सी-प्लस संस्करणों के लिए समय-समय पर जाँच करें</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2285" />
-            <source>More about the &lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;Insider Channel&lt;/a&gt;</source>
-            <translation>&lt;a href="https://sandboxie-plus.com/go.php?to=sbie-insider"&gt;Insider चैनल&lt;/a&gt; के बारे में अधिक जानकारी</translation>
+            <source>More about the Insider Channel</source>
+            <translation>Insider चैनल के बारे में अधिक जानकारी</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2305" />
@@ -11263,13 +11263,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2569" />
-            <source>Use a sandybox login instead of an anonymous token</source>
+            <source>Use a Sandybox login instead of an anonymous token</source>
             <translation>अनाम टोकन के बजाय सैंडबॉक्सी लॉगिन का उपयोग करें</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2406" />
-            <source>Add "CODE(0x55c9eac1d8c8)->(sandybox\All Sandboxes)" group to the sandboxed token</source>
-            <oldsource>Add "CODE(0x55c9eac1d8c8)->(sandybox\All Sandboxes)" group to the sandboxed token (experimental)</oldsource>
+            <source>Add "CODE(0x55c9eac1d8c8)->(Sandybox\All Sandboxes)" group to the sandboxed token</source>
+            <oldsource>Add "CODE(0x55c9eac1d8c8)->(Sandybox\All Sandboxes)" group to the sandboxed token (experimental)</oldsource>
             <translation>सैंडबॉक्स वाले टोकन में "सैंडबॉक्सी\ऑल सैंडबॉक्स" समूह जोड़ें</translation>
         </message>
         <message>
@@ -11394,14 +11394,14 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2631" />
-            <source>Use sandybox's own enhanced UAC prompt (recommended)</source>
-            <oldsource>Use sandybox's own enhanced UAC prompt (experimental)</oldsource>
+            <source>Use Sandybox's own enhanced UAC prompt (recommended)</source>
+            <oldsource>Use Sandybox's own enhanced UAC prompt (experimental)</oldsource>
             <translation>सैंडबॉक्सी के स्वयं के उन्नत यूएसी प्रॉम्प्ट का उपयोग करें (अनुशंसित)</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2641" />
-            <source>Sandboxie.ini</source>
-            <translation>Sandboxie.ini</translation>
+            <source>base configuration file</source>
+            <translation>base configuration file</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2653" />
@@ -11430,8 +11430,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2782" />
-            <source>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
-            <translation>&lt;b&gt;Config सुरक्षा केवल Sandboxie.ini पोर्टेबल बॉक्स कॉन्फ़िगरेशन पर लागू होती है जो नीचे दिए गए तंत्र द्वारा संरक्षित नहीं है&lt;/b&gt;</translation>
+            <source>&lt;b&gt;Config protection applyess only to base configuration file portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
+            <translation>&lt;b&gt;Config सुरक्षा केवल base configuration file पोर्टेबल बॉक्स कॉन्फ़िगरेशन पर लागू होती है जो नीचे दिए गए तंत्र द्वारा संरक्षित नहीं है&lt;/b&gt;</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2792" />
@@ -11491,9 +11491,9 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="3100" />
-            <source>&lt;a href="sbie://templates"&gt;update compatibility templates now&lt;/a&gt;</source>
-            <oldsource>&lt;a href="sbie://templates"&gt;update compatybility templates now&lt;/a&gt;</oldsource>
-            <translation>&lt;a href="sbie://templates"&gt;संगतता टेम्प्लेट अभी अपडेट करें&lt;/a&gt;</translation>
+            <source>update compatibility templates now</source>
+            <oldsource>update compatybility templates now</oldsource>
+            <translation>संगतता टेम्प्लेट अभी अपडेट करें</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="3156" />
@@ -11638,7 +11638,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="3126" />
-            <source>sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
+            <source>Sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
             <translation>सैंडबॉक्सी ने आपके सिस्टम में निम्नलिखित सॉफ़्टवेयर एप्लिकेशन का पता लगाया है। कॉन्फ़िगरेशन सेटिंग्स लागू करने के लिए ओके पर क्लिक करें, जिससे इन अनुप्रयोगों के साथ संगतता में सुधार होगा। ये कॉन्फ़िगरेशन सेटिंग्स सभी मौजूदा सैंडबॉक्स और किसी भी नए सैंडबॉक्स में प्रभावी होंगी।</translation>
         </message>
         <message>
@@ -11740,8 +11740,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2205" />
-            <source>Hotpatches for the installed version, updates to the Templates.ini and translations.</source>
-            <translation>स्थापित संस्करण के लिए हॉटपैच, Templates.ini के अपडेट और अनुवाद।</translation>
+            <source>Hotpatches for the installed version, updates to the template configuration file and translations.</source>
+            <translation>स्थापित संस्करण के लिए हॉटपैच, template configuration file के अपडेट और अनुवाद।</translation>
         </message>
         <message>
             <location filename="Forms/SettingsWindow.ui" line="2218" />
@@ -11778,7 +11778,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
         <name>SnapshotsWindow</name>
         <message>
             <location filename="Forms/SnapshotsWindow.ui" line="32" />
-            <source>sandybox - Snapshots</source>
+            <source>Sandybox - Snapshots</source>
             <translation>सैंडबॉक्सीप्लस - स्नैपशॉट्स</translation>
         </message>
         <message>

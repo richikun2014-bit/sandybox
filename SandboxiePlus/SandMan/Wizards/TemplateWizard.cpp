@@ -326,7 +326,7 @@ CBrowserTypePage::CBrowserTypePage(QWidget *parent)
     : QWizardPage(parent)
 {
     setTitle(tr("Create Web Browser Template"));
-    setSubTitle(tr("Select your Web Browsers main executable, this will allow sandybox to identify the browser."));
+    setSubTitle(tr("Select your Web Browsers main executable, this will allow Sandybox to identify the browser."));
 
     m_BrowserType = Browser_Other;
 
@@ -504,7 +504,7 @@ bool CBrowserTypePage::validatePage()
     QString Section = field("templateName").toString().replace(" ", "_");
     QSharedPointer<CSbieIni> pTemplate = QSharedPointer<CSbieIni>(new CSbieIni("Template_Local_" + Section + "_Force", theAPI));
     if (!pTemplate->GetText("ForceProcess").isEmpty()) {
-        QMessageBox::critical(this, "sandybox", tr("This browser name is already in use, please choose an other one."));
+        QMessageBox::critical(this, "Sandybox", tr("This browser name is already in use, please choose an other one."));
         return false;
     }
     return true;

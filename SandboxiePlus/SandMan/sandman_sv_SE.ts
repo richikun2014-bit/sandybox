@@ -243,8 +243,8 @@
         <translation type="vanished">Tillåt MSIServer att köra med ett sandlådat systemtecken</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation type="vanished">Använd en sandybox-inloggning istället för ett anonymt tecken</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation type="vanished">Använd en Sandybox-inloggning istället för ett anonymt tecken</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="891"/>
@@ -354,12 +354,12 @@ För att inaktivera denna mall för en sandlåda, avbocka den helt enkelt i mall
         <translation>Bifoga till konfigurationen</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Använd en sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Använd en Sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
     </message>
     <message>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation type="vanished">Använda ett anpassat sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation type="vanished">Använda ett anpassat Sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
     </message>
 </context>
 <context>
@@ -371,14 +371,14 @@ För att inaktivera denna mall för en sandlåda, avbocka den helt enkelt i mall
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="237"/>
-        <source>Welcome to the Troubleshooting Wizard for sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
-        <translation>Välkommen till felsökningsguiden för sandybox. Denna interaktiva assistent är designad för att hjälpa dig att lösa sandlådningsproblem.</translation>
+        <source>Welcome to the Troubleshooting Wizard for Sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
+        <translation>Välkommen till felsökningsguiden för Sandybox. Denna interaktiva assistent är designad för att hjälpa dig att lösa sandlådningsproblem.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="280"/>
-        <source>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerful. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retrieve the latest troubleshooting instructions.</source>
-        <oldsource>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerfull. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retriev the latest troubleshooting instructions.</oldsource>
-        <translation>Med ett giltigt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt; skulle guiden vara än mer hjälpfull. Guiden kunde inte tillgå den &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;nätbaserade lösningsdatabasen&lt;/a&gt; för att hämta de senaste felsökningsinstruktionerna.</translation>
+        <source>With a valid supporter certificate the wizard would be even more powerful. It could access the online solution database to retrieve the latest troubleshooting instructions.</source>
+        <oldsource>With a valid supporter certificate the wizard would be even more powerfull. It could access the online solution database to retriev the latest troubleshooting instructions.</oldsource>
+        <translation>Med ett giltigt supportercertifikat skulle guiden vara än mer hjälpfull. Guiden kunde inte tillgå den nätbaserade lösningsdatabasen för att hämta de senaste felsökningsinstruktionerna.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="318"/>
@@ -451,8 +451,8 @@ För att inaktivera denna mall för en sandlåda, avbocka den helt enkelt i mall
     <name>CBoxImageWindow</name>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="23"/>
-        <source>sandybox - Password Entry</source>
-        <translation>sandybox - Lösenordsinmatning</translation>
+        <source>Sandybox - Password Entry</source>
+        <translation>Sandybox - Lösenordsinmatning</translation>
     </message>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="37"/>
@@ -744,8 +744,8 @@ utökas till 512-bitar med tillämpandet av Leet (L337) talmodifikationer, och �
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="335"/>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation>En sandlåda isolerar ditt värdsystem från processer körandes i lådan, den förhindrar dem från att göra permanenta ändringar i andra program och i data i din dator. Nivån av isolering påverkar din säkerhet såväl som kompatibiliteten med applikationer, därav kommer det vara olika nivåer av isolering beroende på den valda lådtypen. sandybox kan också skydda dina personliga data från tillgång av processer körandes under dess övervakning.</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation>En sandlåda isolerar ditt värdsystem från processer körandes i lådan, den förhindrar dem från att göra permanenta ändringar i andra program och i data i din dator. Nivån av isolering påverkar din säkerhet såväl som kompatibiliteten med applikationer, därav kommer det vara olika nivåer av isolering beroende på den valda lådtypen. Sandybox kan också skydda dina personliga data från tillgång av processer körandes under dess övervakning.</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="346"/>
@@ -764,8 +764,8 @@ utökas till 512-bitar med tillämpandet av Leet (L337) talmodifikationer, och �
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="401"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Säkerhetshärdad&lt;/a&gt; sandlåda med &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;dataskydd&lt;/a&gt;</translation>
+        <source>Security Hardened Sandbox with Data Protection</source>
+        <translation>Säkerhetshärdad sandlåda med dataskydd</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="402"/>
@@ -778,8 +778,8 @@ Hela användarprofilen förblir dold, säkerställande maximal säkerhet.</trans
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="405"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox</source>
-        <translation>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Säkerhetshärdad&lt;/a&gt; sandlåda</translation>
+        <source>Security Hardened Sandbox</source>
+        <translation>Säkerhetshärdad sandlåda</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="406"/>
@@ -788,8 +788,8 @@ Hela användarprofilen förblir dold, säkerställande maximal säkerhet.</trans
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="407"/>
-        <source>Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>Sandlåda med &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;dataskydd&lt;/a&gt;</translation>
+        <source>Sandbox with Data Protection</source>
+        <translation>Sandlåda med dataskydd</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="408"/>
@@ -805,15 +805,15 @@ endast C:\Windows och C:\Program Files kataloger tillgängliga till processer k�
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="411"/>
-        <source>This box type offers the default behavior of sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
+        <source>This box type offers the default behavior of Sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
 Applications can be run within this sandbox, ensuring they operate within a controlled and isolated space.</source>
-        <translation>Denna lådtyp erbjuder standardbeteendet hos sandybox classic. Det tillhandahåller användare med ett familjärt och pålitligt sandboxningsarrangemang.
+        <translation>Denna lådtyp erbjuder standardbeteendet hos Sandybox classic. Det tillhandahåller användare med ett familjärt och pålitligt sandboxningsarrangemang.
 Applikationer kan köras i denna sandlåda, säkerställandes att de opererar inom ett kontrollerat och isolerat utrymme.</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="413"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Applikationutrymmeslåda&lt;/a&gt; med &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;dataskydd&lt;/a&gt;</translation>
+        <source>Application Compartment Box with Data Protection</source>
+        <translation>Applikationutrymmeslåda med dataskydd</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="414"/>
@@ -825,25 +825,25 @@ Emedan nivån av isolering är reducerad jämfört med andra lådtyper, erbjuder
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="416"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Applikationutrymmeslåda&lt;/a&gt;</translation>
+        <source>Application Compartment Box</source>
+        <translation>Applikationutrymmeslåda</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="425"/>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypt&lt;/a&gt; Box content and set &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Kryptera&lt;/a&gt; lådinnehåll och ange &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Konfidentiellt&lt;/a&gt;</translation>
+        <source>Encrypt Box content and set Confidential</source>
+        <translation>Kryptera lådinnehåll och ange Konfidentiellt</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypted&lt;/a&gt; &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt; Box</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Krypterad&lt;/a&gt; &lt;a href=&quot;sbie://docs/black-box&quot;&gt;konfidentiell&lt;/a&gt; låda</translation>
+        <source>Encrypted Confidential Box</source>
+        <translation type="vanished">Krypterad konfidentiell låda</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="426"/>
         <source>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. 
-Access to the virtual disk when mounted is restricted to programs running within the sandbox. sandybox prevents other processes on the host system from accessing the sandboxed processes. 
+Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandybox prevents other processes on the host system from accessing the sandboxed processes. 
 This ensures the utmost level of privacy and data protection within the confidential sandbox environment.</source>
         <translation>I denna lådtyp använder sandlådan en krypterad diskavbild som dess rotmapp. Detta tillhandahåller ett extra lager av integritet och säkerhet 
-Tillgång till den virtuella disken vid montering är begränsad till program körandes inom sandlådan. sandybox förhindrar andra processer på värdsystemet från att tillgå de sandlådade processerna. 
+Tillgång till den virtuella disken vid montering är begränsad till program körandes inom sandlådan. Sandybox förhindrar andra processer på värdsystemet från att tillgå de sandlådade processerna. 
 Detta säkerställer den yttersta nivån av integritets- och dataskydd inom den konfidentiella sandlådemiljön.</translation>
     </message>
     <message>
@@ -1055,9 +1055,9 @@ Vänligen gå till korrekt användarprofilskatalog.</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="329"/>
-        <source>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</source>
-        <oldsource>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</oldsource>
-        <translation>Välj din webbläsares huvudsakliga verkställare, detta tillåter sandybox att identifiera webbläsaren.</translation>
+        <source>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</source>
+        <oldsource>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</oldsource>
+        <translation>Välj din webbläsares huvudsakliga verkställare, detta tillåter Sandybox att identifiera webbläsaren.</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="339"/>
@@ -1102,8 +1102,8 @@ Vänligen gå till korrekt användarprofilskatalog.</translation>
     <name>CCertificatePage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="248"/>
-        <source>Install your &lt;b&gt;sandybox&lt;/b&gt; support certificate</source>
-        <translation>Installera ditt &lt;b&gt;sandybox&lt;/b&gt; supportcertifikat</translation>
+        <source>Install your &lt;b&gt;Sandybox&lt;/b&gt; support certificate</source>
+        <translation>Installera ditt &lt;b&gt;Sandybox&lt;/b&gt; supportcertifikat</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="249"/>
@@ -1122,8 +1122,8 @@ Vänligen gå till korrekt användarprofilskatalog.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="291"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt;&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;Få ett gratis evalueringscertificat&lt;/font&gt;&lt;/a&gt; och njut av alla premiumegenskaper i %1 dagar.&lt;/b&gt;</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;Få ett gratis evalueringscertificat&lt;/font&gt; och njut av alla premiumegenskaper i %1 dagar.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="292"/>
@@ -1133,13 +1133,13 @@ Vänligen gå till korrekt användarprofilskatalog.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="317"/>
-        <source>To use &lt;b&gt;sandybox&lt;/b&gt; in a business setting, an appropriate &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt; for business use is required. If you do not yet have the required certificate(s), you can get those from the &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com web shop&lt;/a&gt;.</source>
-        <translation>För att använda &lt;b&gt;sandybox&lt;/b&gt; i en företagsmiljö, krävs ett lämpligt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supportcertifikat&lt;/a&gt; för företagsanvändande. Om du ännu inte har det krävda certifikatet kan du skaffa det eller dessa från &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com webbshop&lt;/a&gt;.</translation>
+        <source>To use &lt;b&gt;Sandybox&lt;/b&gt; in a business setting, an appropriate support certificate for business use is required. If you do not yet have the required certificate(s), you can get those from the the project store.</source>
+        <translation>För att använda &lt;b&gt;Sandybox&lt;/b&gt; i en företagsmiljö, krävs ett lämpligt supportcertifikat för företagsanvändande. Om du ännu inte har det krävda certifikatet kan du skaffa det eller dessa från the project store webbshop.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="331"/>
-        <source>&lt;b&gt;sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; to ensure further development of sandybox and to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;sandybox&lt;/b&gt; ger ytterligare funktioner och lådtyper exklusivt till &lt;u&gt;projektsupportrar&lt;/u&gt;. Lådor likt de integritetsutökade lådorna &lt;b&gt;&lt;font color=&apos;red&apos;&gt;skyddar användardata från olaglig tillgång&lt;/font&gt;&lt;/b&gt; av de sandlådade programmen. Om du ännu inte är en supporter, vänligen överväg då att &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporta projektet&lt;/a&gt; för att säkerställa fortsatt utveckling av sandybox och för att få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;.</translation>
+        <source>&lt;b&gt;Sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider supporting the project to ensure further development of Sandybox and to receive a supporter certificate.</source>
+        <translation>&lt;b&gt;Sandybox&lt;/b&gt; ger ytterligare funktioner och lådtyper exklusivt till &lt;u&gt;projektsupportrar&lt;/u&gt;. Lådor likt de integritetsutökade lådorna &lt;b&gt;&lt;font color=&apos;red&apos;&gt;skyddar användardata från olaglig tillgång&lt;/font&gt;&lt;/b&gt; av de sandlådade programmen. Om du ännu inte är en supporter, vänligen överväg då att supporta projektet för att säkerställa fortsatt utveckling av Sandybox och för att få ett supportercertifikat.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="368"/>
@@ -1238,18 +1238,18 @@ Hitta sträng:</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="1086"/>
-        <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
+        <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
-        <translation>Tack för att du använder felsökningsguiden för sandybox. Vi ber om ursäkt för de besvär du upplevde under processen. Om du har några ytterligare frågor eller behöver fortsatt assistans,vänligen tveka inte att ta kontakt. Vi är här för att hjälpa. Tack för din förståelse och ditt samarbete.
+        <translation>Tack för att du använder felsökningsguiden för Sandybox. Vi ber om ursäkt för de besvär du upplevde under processen. Om du har några ytterligare frågor eller behöver fortsatt assistans,vänligen tveka inte att ta kontakt. Vi är här för att hjälpa. Tack för din förståelse och ditt samarbete.
 
 Du kan klicka på Avsluta för att stänga guiden.</translation>
     </message>
     <message>
-        <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process.If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
+        <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process.If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
-        <translation type="vanished">Tack för att du använde felsökningsguiden för sandybox. Ursäkta för eventuellt besvär du erfor under processen. Om du har fler frågor eller behöver ytterligare assistans, tveka inte att ta kontakt, vi finns här för att hjälpa. Tack för din förståelse och ditt samarbete.
+        <translation type="vanished">Tack för att du använde felsökningsguiden för Sandybox. Ursäkta för eventuellt besvär du erfor under processen. Om du har fler frågor eller behöver ytterligare assistans, tveka inte att ta kontakt, vi finns här för att hjälpa. Tack för din förståelse och ditt samarbete.
 
 Du kan klicka på Avsluta för att stänga denna guide.</translation>
     </message>
@@ -1258,8 +1258,8 @@ Du kan klicka på Avsluta för att stänga denna guide.</translation>
     <name>CCompressDialog</name>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Export</source>
-        <translation>sandybox - Sandlådeexport</translation>
+        <source>Sandybox - Sandbox Export</source>
+        <translation>Sandybox - Sandlådeexport</translation>
     </message>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="27"/>
@@ -1449,8 +1449,8 @@ Du kan klicka på Avsluta för att stänga denna guide.</translation>
     <name>CExtractDialog</name>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Import</source>
-        <translation>sandybox - Sandlådeimport</translation>
+        <source>Sandybox - Sandbox Import</source>
+        <translation>Sandybox - Sandlådeimport</translation>
     </message>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="39"/>
@@ -1646,8 +1646,8 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
         <translation>Nästan färdigt, klicka på Avsluta för att tillämpa alla valda alternativ och färdigställ guiden.</translation>
     </message>
     <message>
-        <source>Keep sandybox up to date.</source>
-        <translation type="vanished">Håll sandybox uppdaterat.</translation>
+        <source>Keep Sandybox up to date.</source>
+        <translation type="vanished">Håll Sandybox uppdaterat.</translation>
     </message>
 </context>
 <context>
@@ -1841,13 +1841,13 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="174"/>
-        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
-        <translation>Välkommen till installationsguiden. Denna guide hjälper dig att konfigurera din kopia av &lt;b&gt;sandybox&lt;/b&gt;. Du kan starta denna guide närsomhelst från menyn Sandlåda-&gt;Underhåll, om du inte vill fullfölja den nu.</translation>
+        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;Sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
+        <translation>Välkommen till installationsguiden. Denna guide hjälper dig att konfigurera din kopia av &lt;b&gt;Sandybox&lt;/b&gt;. Du kan starta denna guide närsomhelst från menyn Sandlåda-&gt;Underhåll, om du inte vill fullfölja den nu.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="183"/>
-        <source>Select how you would like to use sandybox</source>
-        <translation>Välj hur du skulle vilja använda sandybox</translation>
+        <source>Select how you would like to use Sandybox</source>
+        <translation>Välj hur du skulle vilja använda Sandybox</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="186"/>
@@ -1944,13 +1944,13 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="802"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Använd en sandybox-inloggning istället för ett anonymt tecken</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Använd en Sandybox-inloggning istället för ett anonymt tecken</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="803"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>Använda ett anpassat sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>Använda ett anpassat Sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
     </message>
 </context>
 <context>
@@ -2030,8 +2030,8 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
 <context>
     <name>CMultiErrorDialog</name>
     <message>
-        <source>sandybox - Error</source>
-        <translation type="vanished">sandybox - Fel</translation>
+        <source>Sandybox - Error</source>
+        <translation type="vanished">Sandybox - Fel</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2041,8 +2041,8 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
 <context>
     <name>CNewBoxWindow</name>
     <message>
-        <source>sandybox - Create New Box</source>
-        <translation type="vanished">sandybox - Skapa ny låda</translation>
+        <source>Sandybox - Create New Box</source>
+        <translation type="vanished">Sandybox - Skapa ny låda</translation>
     </message>
     <message>
         <source>New Box</source>
@@ -2099,9 +2099,9 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="289"/>
-        <source>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
-        <oldsource>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
-        <translation>Den nya sandlådan har skapats användandes det nya &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;virtualiseringsschemat Version 2&lt;/a&gt;, om du erfar några oväntade problem med denna låda, vänligen byt till virtualiseringsschemat Version 1 och rapportera problemet. Alternativet att ändra denna förinställning kan hittas i Filalternativ &gt; Lådstruktur.</translation>
+        <source>The new sandbox has been created using the new Virtualization Scheme Version 2, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
+        <oldsource>The new sandbox has been created using the new Virtualization Scheme Version 2, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
+        <translation>Den nya sandlådan har skapats användandes det nya virtualiseringsschemat Version 2, om du erfar några oväntade problem med denna låda, vänligen byt till virtualiseringsschemat Version 1 och rapportera problemet. Alternativet att ändra denna förinställning kan hittas i Filalternativ &gt; Lådstruktur.</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="83"/>
@@ -2148,17 +2148,17 @@ Du kan använda %ANVÄNDARE% för att spara varje användares sandlåda till en 
     <name>COnlineUpdater</name>
     <message>
         <location filename="OnlineUpdater.cpp" line="445"/>
-        <source>Your sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
+        <source>Your Sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
 
 Do you still want to update?</source>
-        <translation>Ditt sandybox supportercertifikat är utgånget, hursom så är det fortfarande giltigt för nuvarande bygge som du använder, när du uppdaterar till ett nyare bygge kommer exklusiva supporteregenskaper att inaktiveras.
+        <translation>Ditt Sandybox supportercertifikat är utgånget, hursom så är det fortfarande giltigt för nuvarande bygge som du använder, när du uppdaterar till ett nyare bygge kommer exklusiva supporteregenskaper att inaktiveras.
 
 Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="476"/>
-        <source>Do you want to check if there is a new version of sandybox?</source>
-        <translation>Vill du kontrollera om det finns en ny version av sandybox?</translation>
+        <source>Do you want to check if there is a new version of Sandybox?</source>
+        <translation>Vill du kontrollera om det finns en ny version av Sandybox?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="477"/>
@@ -2167,8 +2167,8 @@ Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="504"/>
-        <source>To ensure optimal compatibility with your software, sandybox needs to update its compatibility templates. Do you want to proceed?</source>
-        <translation>För att säkerställa optimal kompatibilitet med dina program, behöver sandybox uppdatera sina kompatibilitetsmallar. Vill du fortsätta?</translation>
+        <source>To ensure optimal compatibility with your software, Sandybox needs to update its compatibility templates. Do you want to proceed?</source>
+        <translation>För att säkerställa optimal kompatibilitet med dina program, behöver Sandybox uppdatera sina kompatibilitetsmallar. Vill du fortsätta?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="505"/>
@@ -2207,8 +2207,8 @@ Vill du fortfarande uppdatera?</translation>
         <translation>&lt;p&gt;Vill du nerladda uppdateringarna?&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;update page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Vill du gå till&lt;a href=&quot;%1&quot;&gt;uppdateringssidan&lt;/a&gt;?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the update page?&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Vill du gå tilluppdateringssidan?&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="750"/>
@@ -2275,8 +2275,8 @@ Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="961"/>
-        <source>&lt;p&gt;Updates for sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Uppdateringar för sandybox har nerladdats.&lt;/p&gt;&lt;p&gt;Vill du tillämpa dessa uppdateringar? Om några program körs sandlådade, kommer de att avslutas.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Updates for Sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Uppdateringar för Sandybox har nerladdats.&lt;/p&gt;&lt;p&gt;Vill du tillämpa dessa uppdateringar? Om några program körs sandlådade, kommer de att avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to download file from: %1</source>
@@ -2293,18 +2293,18 @@ Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1109"/>
-        <source>&lt;p&gt;A new sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;En ny sandybox installerare har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de att avslutas.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;A new Sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;En ny Sandybox installerare har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de att avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1170"/>
-        <source>There is a new Templates.ini available, do you want to download it?</source>
+        <source>There is a new template configuration file available, do you want to download it?</source>
         <translation>Det finns en ny Mallar.ini tillgänglig, vill du nedladda den?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1220"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Vill du gå till &lt;a href=&quot;%1&quot;&gt;infosidan&lt;/a&gt;?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the info page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Vill du gå till infosidan?&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1240"/>
@@ -2312,13 +2312,13 @@ Vill du fortfarande uppdatera?</translation>
         <translation>Visa inte detta besked i framtiden.</translation>
     </message>
     <message>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Det finns en ny version av sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Ny version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Det finns en ny version av Sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Ny version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="719"/>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Det finns en ny version av sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;Ny version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Det finns en ny version av Sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;Ny version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to download the latest version?&lt;/p&gt;</source>
@@ -2326,8 +2326,8 @@ Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="741"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Vill du gå till &lt;a href=&quot;%1&quot;&gt;nerladdningssidan&lt;/a&gt;?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the download page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Vill du gå till nerladdningssidan?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Don&apos;t show this message anymore.</source>
@@ -2335,10 +2335,10 @@ Vill du fortfarande uppdatera?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="592"/>
-        <source>No new updates found, your sandybox is up-to-date.
+        <source>No new updates found, your Sandybox is up-to-date.
 
 Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
-        <translation>Inga nya uppdateringar funna, din sandybox är den senaste
+        <translation>Inga nya uppdateringar funna, din Sandybox är den senaste
 
 Notera: Uppdateringskontrollen är ofta bakom senaste GitHub-utgivningen för att säkerställa att endast testade uppdateringar erbjuds.</translation>
     </message>
@@ -2351,8 +2351,8 @@ Notera: Uppdateringskontrollen är ofta bakom senaste GitHub-utgivningen för at
         <translation type="vanished">Misslyckades nerladda uppdatering från: %1</translation>
     </message>
     <message>
-        <source>&lt;p&gt;A sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;En sandybox uppdatering har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de avslutas.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;A Sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;En Sandybox uppdatering har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Checking for certificate...</source>
@@ -2371,9 +2371,9 @@ Notera: Uppdateringskontrollen är ofta bakom senaste GitHub-utgivningen för at
     <name>COptionsWindow</name>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="191"/>
-        <source>sandybox Plus - &apos;%1&apos; Options</source>
-        <oldsource>sandybox - &apos;%1&apos; Options</oldsource>
-        <translation>sandybox - &apos;%1&apos; Alternativ</translation>
+        <source>Sandybox Plus - &apos;%1&apos; Options</source>
+        <oldsource>Sandybox - &apos;%1&apos; Options</oldsource>
+        <translation>Sandybox - &apos;%1&apos; Alternativ</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="301"/>
@@ -2572,8 +2572,8 @@ Vill du aktivera autoavsluta?</translation>
     </message>
     <message>
         <location filename="Windows/OptionsAccess.cpp" line="341"/>
-        <source>Regular sandybox behavior - allow read and also copy on write.</source>
-        <translation>Vanligt sandybox beteende - tillåt läs och även kopiera vid skrivande.</translation>
+        <source>Regular Sandybox behavior - allow read and also copy on write.</source>
+        <translation>Vanligt Sandybox beteende - tillåt läs och även kopiera vid skrivande.</translation>
     </message>
     <message>
         <location filename="Windows/OptionsAccess.cpp" line="342"/>
@@ -3646,8 +3646,8 @@ Vänligen välj en mapp som innehåller denna fil.</translation>
     <name>CPopUpWindow</name>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="24"/>
-        <source>sandybox Notifications</source>
-        <translation>sandybox - Meddelanden</translation>
+        <source>Sandybox Notifications</source>
+        <translation>Sandybox - Meddelanden</translation>
     </message>
     <message>
         <source>PID %1</source>
@@ -3707,8 +3707,8 @@ Full sökväg: %4</translation>
     <name>CRecoveryLogWnd</name>
     <message>
         <location filename="SandManRecovery.cpp" line="325"/>
-        <source>sandybox - Recovery Log</source>
-        <translation>sandybox - Återställandelogg</translation>
+        <source>Sandybox - Recovery Log</source>
+        <translation>Sandybox - Återställandelogg</translation>
     </message>
     <message>
         <location filename="SandManRecovery.cpp" line="336"/>
@@ -3821,8 +3821,8 @@ Full sökväg: %4</translation>
     <name>CRenameSandboxDialog</name>
     <message>
         <location filename="Windows/RenameSandboxDialog.cpp" line="17"/>
-        <source>sandybox - Rename Sandbox</source>
-        <translation>sandybox - Namnändra sandlåda</translation>
+        <source>Sandybox - Rename Sandbox</source>
+        <translation>Sandybox - Namnändra sandlåda</translation>
     </message>
     <message>
         <location filename="Windows/RenameSandboxDialog.cpp" line="23"/>
@@ -3867,42 +3867,42 @@ Fel: </translation>
     <name>CSBUpdate</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="622"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; updater</source>
-        <translation>Konfigurera &lt;b&gt;sandybox&lt;/b&gt; uppdaterare</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; updater</source>
+        <translation>Konfigurera &lt;b&gt;Sandybox&lt;/b&gt; uppdaterare</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="623"/>
-        <source>Like with any other security product, it&apos;s important to keep your sandybox up to date.</source>
-        <oldsource>Like with any other security product it&apos;s important to keep your sandybox up to date.</oldsource>
-        <translation>Likt med andra säkerhetsprodukter, så är det viktigt att hålla ditt sandybox uppdaterat.</translation>
+        <source>Like with any other security product, it&apos;s important to keep your Sandybox up to date.</source>
+        <oldsource>Like with any other security product it&apos;s important to keep your Sandybox up to date.</oldsource>
+        <translation>Likt med andra säkerhetsprodukter, så är det viktigt att hålla ditt Sandybox uppdaterat.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="631"/>
-        <source>Regularly check for all updates to sandybox and optional components</source>
-        <oldsource>Regularly Check for all updates to sandybox and optional components</oldsource>
-        <translation>Sök regelbundet efter alla uppdateringar till sandybox och valfria komponenter</translation>
+        <source>Regularly check for all updates to Sandybox and optional components</source>
+        <oldsource>Regularly Check for all updates to Sandybox and optional components</oldsource>
+        <translation>Sök regelbundet efter alla uppdateringar till Sandybox och valfria komponenter</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="632"/>
-        <source>Let sandybox regularly check for latest updates.</source>
-        <oldsource>Let sandybox regularly check for latest updates.</oldsource>
-        <translation>Låt sandybox regelbundet söka efter senaste uppdateringarna.</translation>
+        <source>Let Sandybox regularly check for latest updates.</source>
+        <oldsource>Let Sandybox regularly check for latest updates.</oldsource>
+        <translation>Låt Sandybox regelbundet söka efter senaste uppdateringarna.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="642"/>
-        <source>Check for new sandybox versions:</source>
-        <translation>Sök efter nya sandybox versioner:</translation>
+        <source>Check for new Sandybox versions:</source>
+        <translation>Sök efter nya Sandybox versioner:</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="643"/>
-        <source>Check for new sandybox builds.</source>
-        <translation>Sök efter nya sandybox byggen.</translation>
+        <source>Check for new Sandybox builds.</source>
+        <translation>Sök efter nya Sandybox byggen.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="649"/>
-        <source>Select in which update channel to look for new sandybox builds:</source>
-        <oldsource>Sellect in which update channel to look for new sandybox builds:</oldsource>
-        <translation>Välj vilken uppdateringskanal att titta i efter nya sandybox byggen:</translation>
+        <source>Select in which update channel to look for new Sandybox builds:</source>
+        <oldsource>Sellect in which update channel to look for new Sandybox builds:</oldsource>
+        <translation>Välj vilken uppdateringskanal att titta i efter nya Sandybox byggen:</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="658"/>
@@ -3938,8 +3938,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="674"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>Mer om &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider-kanalen&lt;/a&gt;</translation>
+        <source>More about the Insider Channel</source>
+        <translation>Mer om Insider-kanalen</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="683"/>
@@ -3977,13 +3977,13 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="703"/>
-        <source>sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
-        <translation>sandybox tillämpar strikta applikationsbegränsningar, vilket kan leda till kompatibilitetsproblem. Var uppdaterad med sandybox, inklusive kompatibilitetsmallar och felsökning, för att säkerställa smidig funktion mitt ibland Windows uppdateringar och applikationers ändringar.</translation>
+        <source>Sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with Sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
+        <translation>Sandybox tillämpar strikta applikationsbegränsningar, vilket kan leda till kompatibilitetsproblem. Var uppdaterad med Sandybox, inklusive kompatibilitetsmallar och felsökning, för att säkerställa smidig funktion mitt ibland Windows uppdateringar och applikationers ändringar.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="709"/>
-        <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>Tillgång till de senaste kompatibilitetsmallarna och den nätbaserade felsökningsdatabasen kräver ett giltigt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;.</translation>
+        <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid supporter certificate.</source>
+        <translation>Tillgång till de senaste kompatibilitetsmallarna och den nätbaserade felsökningsdatabasen kräver ett giltigt supportercertifikat.</translation>
     </message>
 </context>
 <context>
@@ -4100,19 +4100,19 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     <name>CSandMan</name>
     <message>
         <location filename="main.cpp" line="210"/>
-        <source>sandybox Manager can not be run sandboxed!</source>
+        <source>Sandybox Manager can not be run sandboxed!</source>
         <translation>sandyboxs hanterare kan inte köras sandlådad!</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="491"/>
-        <source>WARNING: Sandboxie-Plus.ini in %1 cannot be written to, settings will not be saved.</source>
-        <translation>VARNING: Sandboxie-Plus.ini i %1 kan inte skrivas till, inställningarna kommer inte sparas.</translation>
+        <source>WARNING: Sandybox configuration file in %1 cannot be written to, settings will not be saved.</source>
+        <translation>VARNING: Sandybox configuration file i %1 kan inte skrivas till, inställningarna kommer inte sparas.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="514"/>
         <location filename="SandMan.cpp" line="2815"/>
-        <source>sandybox v%1</source>
-        <translation>sandybox v%1</translation>
+        <source>Sandybox v%1</source>
+        <translation>Sandybox v%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1421"/>
@@ -4459,18 +4459,18 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation>&amp;Hjälp</translation>
     </message>
     <message>
-        <source>Support sandybox with Donations</source>
-        <oldsource>Support sandybox with a Donation</oldsource>
-        <translation type="vanished">Stöd sandybox med en donation</translation>
+        <source>Support Sandybox with Donations</source>
+        <oldsource>Support Sandybox with a Donation</oldsource>
+        <translation type="vanished">Stöd Sandybox med en donation</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="825"/>
-        <source>Visit Support Forum</source>
+        <source>Support Resources</source>
         <translation>Besök supportforumet</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="824"/>
-        <source>Online Documentation</source>
+        <source>Local Documentation</source>
         <translation>Dokumentation på nätet</translation>
     </message>
     <message>
@@ -4486,8 +4486,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     <message>
         <location filename="SandMan.cpp" line="830"/>
         <location filename="SandMan.cpp" line="4888"/>
-        <source>About sandybox</source>
-        <translation>Om sandybox</translation>
+        <source>About Sandybox</source>
+        <translation>Om Sandybox</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="845"/>
@@ -4587,8 +4587,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
         <translation>Rensa</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;There is a new build of sandybox available&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;Det finns en ny konstruktion av sandybox tillgänglig&lt;/a&gt;</translation>
+        <source>There is a new build of Sandybox available</source>
+        <translation type="vanished">Det finns en ny konstruktion av Sandybox tillgänglig</translation>
     </message>
     <message>
         <source>Click to install update</source>
@@ -4596,12 +4596,12 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     </message>
     <message>
         <location filename="SandMan.cpp" line="1431"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Support sandybox on Patreon&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Stöd sandybox på Patreon&lt;/a&gt;</translation>
+        <source>Sandybox Support</source>
+        <translation>Stöd Sandybox på Patreon</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1432"/>
-        <source>Click to open web browser</source>
+        <source></source>
         <translation>Klicka för att öppna webbläsaren</translation>
     </message>
     <message>
@@ -4638,15 +4638,15 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade eller experime
     </message>
     <message>
         <location filename="SandMan.cpp" line="1701"/>
-        <source>Do you want to close sandybox Manager?</source>
+        <source>Do you want to close Sandybox Manager?</source>
         <translation>Vill du stänga sandyboxs hanterare?</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1718"/>
-        <source>sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
+        <source>Sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
 
 Do you want to do the clean up?</source>
-        <translation>sandybox kördes i portabelt läge, nu behöver det rensa de skapade tjänsterna. Detta kommer begära administrativa rättigheter.
+        <translation>Sandybox kördes i portabelt läge, nu behöver det rensa de skapade tjänsterna. Detta kommer begära administrativa rättigheter.
 
 Vill du göra rensningen?</translation>
     </message>
@@ -4759,8 +4759,8 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
     </translation>
     </message>
     <message>
-        <source>Do you want to check if there is a new version of sandybox?</source>
-        <translation type="vanished">Vill du kontrollera om det finns en ny version av sandybox?</translation>
+        <source>Do you want to check if there is a new version of Sandybox?</source>
+        <translation type="vanished">Vill du kontrollera om det finns en ny version av Sandybox?</translation>
     </message>
     <message>
         <source>Some compatibility templates (%1) are missing, probably deleted, do you want to remove them from all boxes?</source>
@@ -4802,8 +4802,8 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
     </message>
     <message>
         <location filename="SandMan.cpp" line="2828"/>
-        <source>sandybox Version: %1 (%2)</source>
-        <translation>sandybox version: %1 (%2)</translation>
+        <source>Sandybox Version: %1 (%2)</source>
+        <translation>Sandybox version: %1 (%2)</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2829"/>
@@ -4821,10 +4821,10 @@ Denna låda förhindrar tillgång till alla användardataplatser, förutom de ut
     </message>
     <message>
         <location filename="SandMan.cpp" line="2851"/>
-        <source>sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
+        <source>Sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
 Yes will choose: %1
 No will choose: %2</source>
-        <translation>sandybox startades i portabelt läge, vill du lägga sandlådemappen i dess föräldrakatalog?
+        <translation>Sandybox startades i portabelt läge, vill du lägga sandlådemappen i dess föräldrakatalog?
 Ja väljer: %1
 Nej väljer: %2</translation>
     </message>
@@ -4868,8 +4868,8 @@ Nej väljer: %2</translation>
         <location filename="SandMan.cpp" line="3386"/>
         <location filename="SandMan.cpp" line="3398"/>
         <location filename="SandMan.cpp" line="3485"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Bli en projektsupporter&lt;/a&gt;, och få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
+        <source>&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>&lt;br /&gt;Bli en projektsupporter, och få ett supportercertifikat</translation>
     </message>
     <message>
         <source>PID %1: </source>
@@ -4881,8 +4881,8 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3496"/>
-        <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>Den valda funktionsuppsättningen är endast tillgänglig för projektsupportrar. Processer startade i en låda med denna funktionsuppsättning aktiverad utan ett supportercertifikat kommer att avslutas efter 5 minuter.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Bli en projektsupporter&lt;/a&gt;, och få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
+        <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>Den valda funktionsuppsättningen är endast tillgänglig för projektsupportrar. Processer startade i en låda med denna funktionsuppsättning aktiverad utan ett supportercertifikat kommer att avslutas efter 5 minuter.&lt;br /&gt;Bli en projektsupporter, och få ett supportercertifikat</translation>
     </message>
     <message>
         <source>The evaluation periode has expired!!!</source>
@@ -5002,30 +5002,30 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3822"/>
-        <source>sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
-        <translation>sandybox startades i portabelt läge och det behöver skapa nödvändiga tjänster. Detta ger förfrågan om administrativa rättigheter.</translation>
+        <source>Sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
+        <translation>Sandybox startades i portabelt läge och det behöver skapa nödvändiga tjänster. Detta ger förfrågan om administrativa rättigheter.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3856"/>
-        <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this sandybox session, please close it first and reconnect to take over.</source>
-        <translation>FÖRSIKTIG: En annan agent (troligen SbieCtrl.exe) hanterar redan denna sandybox-session, vänligen stäng den först och återanslut för att ta över.</translation>
+        <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this Sandybox session, please close it first and reconnect to take over.</source>
+        <translation>FÖRSIKTIG: En annan agent (troligen SbieCtrl.exe) hanterar redan denna Sandybox-session, vänligen stäng den först och återanslut för att ta över.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3959"/>
         <location filename="SandMan.cpp" line="3961"/>
         <location filename="SandMan.cpp" line="4554"/>
-        <source>sandybox - Error</source>
-        <translation>sandybox - Fel</translation>
+        <source>Sandybox - Error</source>
+        <translation>Sandybox - Fel</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3959"/>
-        <source>Failed to stop all sandybox components</source>
-        <translation>Lyckades inte stoppa alla sandybox-komponenter</translation>
+        <source>Failed to stop all Sandybox components</source>
+        <translation>Lyckades inte stoppa alla Sandybox-komponenter</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3961"/>
-        <source>Failed to start required sandybox components</source>
-        <translation>Lyckades inte starta krävda sandybox-komponenter</translation>
+        <source>Failed to start required Sandybox components</source>
+        <translation>Lyckades inte starta krävda Sandybox-komponenter</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3963"/>
@@ -5043,14 +5043,14 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1412"/>
-        <source>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox release %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;Det finns en ny sandybox utgivning %1 redo&lt;/a&gt;</translation>
+        <source>There is a new Sandybox release %1 ready</source>
+        <translation>Det finns en ny Sandybox utgivning %1 redo</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="512"/>
         <location filename="SandMan.cpp" line="2813"/>
-        <source>sandybox Insider [%1]</source>
-        <translation>sandybox Insider [%1]</translation>
+        <source>Sandybox Insider [%1]</source>
+        <translation>Sandybox Insider [%1]</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="517"/>
@@ -5064,8 +5064,8 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="822"/>
-        <source>Contribute to sandybox</source>
-        <translation>Bidra till sandybox</translation>
+        <source>Sandybox Development</source>
+        <translation>Bidra till Sandybox</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="823"/>
@@ -5110,18 +5110,18 @@ Nej väljer: %2</translation>
         <location filename="SandMan.cpp" line="1111"/>
         <location filename="SandMan.cpp" line="1356"/>
         <location filename="SandMan.cpp" line="1357"/>
-        <source>Edit Sandboxie.ini</source>
-        <translation>Redigera Sandboxie.ini</translation>
+        <source>Edit Base Configuration</source>
+        <translation>Redigera base configuration file</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="969"/>
-        <source>Edit Templates.ini</source>
+        <source>Edit Templates</source>
         <translation>Redigera mallar.ini</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="971"/>
-        <source>Edit Sandboxie-Plus.ini</source>
-        <translation>Redigera Sandboxie-Plus.ini</translation>
+        <source>Edit Sandybox Configuration</source>
+        <translation>Redigera Sandybox configuration file</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="975"/>
@@ -5161,8 +5161,8 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1416"/>
-        <source>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;Det finns en ny sandybox uppdatering %1 redo&lt;/a&gt;</translation>
+        <source>There is a new Sandybox update %1 ready</source>
+        <translation>Det finns en ny Sandybox uppdatering %1 redo</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1417"/>
@@ -5171,8 +5171,8 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1420"/>
-        <source>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update v%1 available&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;Det finns en ny sandybox uppdatering v%1 tillgänglig&lt;/a&gt;</translation>
+        <source>There is a new Sandybox update v%1 available</source>
+        <translation>Det finns en ny Sandybox uppdatering v%1 tillgänglig</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1510"/>
@@ -5181,23 +5181,23 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1911"/>
-        <source>This box provides &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
-        <translation>Denna låda tillhandahåller &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;utökad säkerhetsisolering&lt;/a&gt;, den är lämplig för att prova obetrodda program.</translation>
+        <source>This box provides enhanced security isolation, it is suitable to test untrusted software.</source>
+        <translation>Denna låda tillhandahåller utökad säkerhetsisolering, den är lämplig för att prova obetrodda program.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1919"/>
-        <source>This box does not enforce isolation, it is intended to be used as an &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
-        <translation>Denna låda påtvingar inte isolering, den är menad att användas som en &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;applikationsbehållare&lt;/a&gt; endast för programvirtualisering.</translation>
+        <source>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</source>
+        <translation>Denna låda påtvingar inte isolering, den är menad att användas som en applikationsbehållare endast för programvirtualisering.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1922"/>
-        <source>This box will be &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;encrypted&lt;/a&gt; and &lt;a href=&quot;sbie://docs/black-box&quot;&gt;access to sandboxed processes will be guarded&lt;/a&gt;.</source>
-        <translation>Denna låda kommer bli &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;krypterad&lt;/a&gt; och &lt;a href=&quot;sbie://docs/black-box&quot;&gt;tillgång till sandlådade processer kommer bevakas&lt;/a&gt;.</translation>
+        <source>This box will be encrypted and access to sandboxed processes will be guarded.</source>
+        <translation>Denna låda kommer bli krypterad och tillgång till sandlådade processer kommer bevakas.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1927"/>
-        <source>&lt;br /&gt;&lt;br /&gt;This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</source>
-        <translation>&lt;br /&gt;&lt;br /&gt;Denna låda &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;förhindrar tillgång till alla användardataplatser&lt;/a&gt; , förutom de uttryckligen tillåtna alternativen i Resurstillgång.</translation>
+        <source>&lt;br /&gt;&lt;br /&gt;This box prevents access to all user data locations, except explicitly granted in the Resource Access options.</source>
+        <translation>&lt;br /&gt;&lt;br /&gt;Denna låda förhindrar tillgång till alla användardataplatser , förutom de uttryckligen tillåtna alternativen i Resurstillgång.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1999"/>
@@ -5217,8 +5217,8 @@ Nej väljer: %2</translation>
         <location filename="SandMan.cpp" line="2025"/>
         <location filename="SandMan.cpp" line="2037"/>
         <location filename="SandMan.cpp" line="2041"/>
-        <source>sandybox Warning</source>
-        <translation>sandybox varning</translation>
+        <source>Sandybox Warning</source>
+        <translation>Sandybox varning</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2016"/>
@@ -5264,12 +5264,12 @@ Nej väljer: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2960"/>
-        <source>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
-Please check if there is an update for sandybox.</source>
-        <oldsource>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
-Please check if there is an update for sandybox.</oldsource>
-        <translation>Ditt Windows-bygge %1 överstiger de nuvarande supportförmågorna av din sandybox-version, vilket resulterar i inaktivering av token-based säkerhetsisolering. Följdaktligen, alla applikationer kommer att operera i applikationsutrymmesläge utan säker isolering.
-Vänligen kontrollera om det finns en uppdatering för sandybox.</translation>
+        <source>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
+Please check if there is an update for Sandybox.</source>
+        <oldsource>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
+Please check if there is an update for Sandybox.</oldsource>
+        <translation>Ditt Windows-bygge %1 överstiger de nuvarande supportförmågorna av din Sandybox-version, vilket resulterar i inaktivering av token-based säkerhetsisolering. Följdaktligen, alla applikationer kommer att operera i applikationsutrymmesläge utan säker isolering.
+Vänligen kontrollera om det finns en uppdatering för Sandybox.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2969"/>
@@ -5278,8 +5278,8 @@ Vänligen kontrollera om det finns en uppdatering för sandybox.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2976"/>
-        <source>Your Windows build %1 exceeds the current known support capabilities of your sandybox version, sandybox will attempt to use the last-known offsets which may cause system instability.</source>
-        <translation>Ditt windows-bygge %1 överstiger de nuvarande kända supportförmågorna av din sandybox-version, sandybox kommer försöka använda de senast-kända kompensationerna vilket kan orsaka systeminstabilitet.</translation>
+        <source>Your Windows build %1 exceeds the current known support capabilities of your Sandybox version, Sandybox will attempt to use the last-known offsets which may cause system instability.</source>
+        <translation>Ditt windows-bygge %1 överstiger de nuvarande kända supportförmågorna av din Sandybox-version, Sandybox kommer försöka använda de senast-kända kompensationerna vilket kan orsaka systeminstabilitet.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2994"/>
@@ -5315,8 +5315,8 @@ Vill du inaktivera Windows updates-skanning hos Software compatibility detection
     <message>
         <location filename="SandMan.cpp" line="3384"/>
         <location filename="SandMan.cpp" line="3483"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Upgrade your Certificate&lt;/a&gt; to unlock advanced features.</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Uppgradera ditt certifikat&lt;/a&gt; för att låsa upp avancerade egenskaper.</translation>
+        <source>&lt;br /&gt;Upgrade your Certificate to unlock advanced features.</source>
+        <translation>&lt;br /&gt;Uppgradera ditt certifikat för att låsa upp avancerade egenskaper.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3479"/>
@@ -5330,8 +5330,8 @@ Vill du inaktivera Windows updates-skanning hos Software compatibility detection
     </message>
     <message>
         <location filename="SandMan.cpp" line="3493"/>
-        <source>The selected feature set is only available to project supporters.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>De valda egenskaperna är endast tillgängliga för projektsupportrar.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;bli en projektsupporter&lt;/a&gt;, och mottag ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;</translation>
+        <source>The selected feature set is only available to project supporters.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>De valda egenskaperna är endast tillgängliga för projektsupportrar.&lt;br /&gt;bli en projektsupporter, och mottag ett supportercertifikat</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3539"/>
@@ -5373,8 +5373,8 @@ Fel: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3860"/>
-        <source>&lt;b&gt;ERROR:&lt;/b&gt; The sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;official Download page&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;FEL:&lt;/b&gt; sandybox hanterare (SandMan.exe) har inte en giltig signatur (SandMan.exe.sig). Vänligen nedladda en betrodd utgåva från den &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;officiella nedladdningssidan&lt;/a&gt;.</translation>
+        <source>&lt;b&gt;ERROR:&lt;/b&gt; The Sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the official Download page.</source>
+        <translation>&lt;b&gt;FEL:&lt;/b&gt; Sandybox hanterare (SandMan.exe) har inte en giltig signatur (SandMan.exe.sig). Vänligen nedladda en betrodd utgåva från den officiella nedladdningssidan.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3988"/>
@@ -5398,12 +5398,12 @@ Fel: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4276"/>
-        <source>You are about to edit the Templates.ini, this is generally not recommended.
-This file is part of sandybox and all change done to it will be reverted next time sandybox is updated.</source>
-        <oldsource>You are about to edit the Templates.ini, thsi is generally not recommeded.
-This file is part of sandybox and all changed done to it will be reverted next time sandybox is updated.</oldsource>
+        <source>You are about to edit the template configuration file, this is generally not recommended.
+This file is part of Sandybox and all change done to it will be reverted next time Sandybox is updated.</source>
+        <oldsource>You are about to edit the template configuration file, thsi is generally not recommeded.
+This file is part of Sandybox and all changed done to it will be reverted next time Sandybox is updated.</oldsource>
         <translation>Du är på väg att redigera Mallar.ini, detta rekommenderas generellt inte.
-Denna fil är en del av sandybox och alla ändringar gjorda i den återställs nästa gång sandybox uppdateras.</translation>
+Denna fil är en del av Sandybox och alla ändringar gjorda i den återställs nästa gång Sandybox uppdateras.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4292"/>
@@ -5417,8 +5417,8 @@ Denna fil är en del av sandybox och alla ändringar gjorda i den återställs n
     </message>
     <message>
         <location filename="SandMan.cpp" line="4356"/>
-        <source>sandybox config has been reloaded</source>
-        <translation>sandybox-konfigurationen har laddats om</translation>
+        <source>Sandybox config has been reloaded</source>
+        <translation>Sandybox-konfigurationen har laddats om</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4483"/>
@@ -5447,17 +5447,17 @@ Denna fil är en del av sandybox och alla ändringar gjorda i den återställs n
     </message>
     <message>
         <location filename="SandMan.cpp" line="4489"/>
-        <source>Failed to communicate with sandybox Service: %1</source>
+        <source>Failed to communicate with Sandybox Service: %1</source>
         <translation>Lyckades inte kommunicera med sandyboxs tjänst: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4490"/>
-        <source>An incompatible sandybox %1 was found. Compatible versions: %2</source>
-        <translation>En inkompatibel sandybox %1 hittades. Kompatibla versioner: %2</translation>
+        <source>An incompatible Sandybox %1 was found. Compatible versions: %2</source>
+        <translation>En inkompatibel Sandybox %1 hittades. Kompatibla versioner: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4491"/>
-        <source>Can&apos;t find sandybox installation path.</source>
+        <source>Can&apos;t find Sandybox installation path.</source>
         <translation>Kan inte finna sandyboxs installationssökväg.</translation>
     </message>
     <message>
@@ -5669,23 +5669,23 @@ Denna fil är en del av sandybox och alla ändringar gjorda i den återställs n
     </message>
     <message>
         <location filename="SandMan.cpp" line="4857"/>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
-        <translation>&lt;h3&gt;Om sandybox Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</translation>
+        <source>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
+        <translation>&lt;h3&gt;Om Sandybox Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4865"/>
-        <source>This copy of sandybox is certified for: %1</source>
-        <translation>Denna kopia av sandybox Plus är certifierad för: %1</translation>
+        <source>This copy of Sandybox is certified for: %1</source>
+        <translation>Denna kopia av Sandybox Plus är certifierad för: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4867"/>
-        <source>sandybox is free for personal and non-commercial use.</source>
-        <translation>sandybox Plus är gratis för personlig och icke-kommersiell användnng.</translation>
+        <source>Sandybox is free for personal and non-commercial use.</source>
+        <translation>Sandybox Plus är gratis för personlig och icke-kommersiell användnng.</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4871"/>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation>sandybox är en fortsättning av sandybox som öppen källa.&lt;br /&gt;Besök &lt;a href=&quot;https;//sandybox.com&quot;&gt;sandybox.com&lt;/a&gt; för mer information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Egenskaper:%3&lt;br /&gt;&lt;br /&gt;Installation:%1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt;SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Ikoner från&lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
+        <source>Sandybox is an open source continuation of Sandybox.&lt;br /&gt;Visit the project website for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from the bundled icon resources</source>
+        <translation>Sandybox är en fortsättning av Sandybox som öppen källa.&lt;br /&gt;Besök Sandybox.com för mer information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Egenskaper:%3&lt;br /&gt;&lt;br /&gt;Installation:%1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt;SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Ikoner frånthe bundled icon resources</translation>
     </message>
     <message>
         <source>Failed to Create Box Archive</source>
@@ -5736,34 +5736,34 @@ Denna fil är en del av sandybox och alla ändringar gjorda i den återställs n
         <translation type="vanished">Misslyckades att söka uppdateringar, fel: %1</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Vill du gå till &lt;a href=&quot;%1&quot;&gt;infosidan&lt;/a&gt;?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the info page?&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Vill du gå till infosidan?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Don&apos;t show this announcement in the future.</source>
         <translation type="vanished">Visa inte detta besked i framtiden.</translation>
     </message>
     <message>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Det finns en ny version av sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Ny version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Det finns en ny version av Sandybox tillgänglig.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Ny version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to download the latest version?&lt;/p&gt;</source>
         <translation type="vanished">&lt;p&gt;Vill du ladda ner den senaste versionen?&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Vill du gå till &lt;a href=&quot;%1&quot;&gt;nerladdningssidan&lt;/a&gt;?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the download page?&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Vill du gå till nerladdningssidan?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Don&apos;t show this message anymore.</source>
         <translation type="vanished">Visa inte detta meddelande något mer.</translation>
     </message>
     <message>
-        <source>No new updates found, your sandybox is up-to-date.
+        <source>No new updates found, your Sandybox is up-to-date.
 
 Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
-        <translation type="vanished">Inga nya uppdateringar funna, din sandybox är den senaste.
+        <translation type="vanished">Inga nya uppdateringar funna, din Sandybox är den senaste.
 		
 Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att säkerställa att endast testade uppdateringar erbjuds.</translation>
     </message>
@@ -5776,25 +5776,25 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Misslyckades nerladda uppdatering från: %1</translation>
     </message>
     <message>
-        <source>&lt;p&gt;A sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;En sandybox uppdatering har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de avslutas.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;A Sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;En Sandybox uppdatering har nerladdats till följande plats:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Vill du påbörja installationen? Om några program körs sandlådade, kommer de avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
-        <oldsource>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
-        <translation type="vanished">&lt;h3&gt;Om sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Upphovsrättigheter (c) 2020-2024 av DavidXanatos&lt;/p&gt;</translation>
+        <source>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
+        <oldsource>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
+        <translation type="vanished">&lt;h3&gt;Om Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Upphovsrättigheter (c) 2020-2024 av DavidXanatos&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>This copy of sandybox+ is certified for: %1</source>
-        <translation type="vanished">Denna kopia av sandybox är certifierad för: %1</translation>
+        <source>This copy of Sandybox+ is certified for: %1</source>
+        <translation type="vanished">Denna kopia av Sandybox är certifierad för: %1</translation>
     </message>
     <message>
-        <source>sandybox+ is free for personal and non-commercial use.</source>
-        <translation type="vanished">sandybox är gratis för personlig och icke-kommersiell användning.</translation>
+        <source>Sandybox+ is free for personal and non-commercial use.</source>
+        <translation type="vanished">Sandybox är gratis för personlig och icke-kommersiell användning.</translation>
     </message>
     <message>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation type="vanished">sandybox är en öppen källa fortsättning av sandybox.&lt;br /&gt;Besök &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; för mer information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Drivrutinsversion: %1&lt;br /&gt;Funktioner: %2&lt;br /&gt;&lt;br /&gt;Ikoner från &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
+        <source>Sandybox is an open source continuation of Sandybox.&lt;br /&gt;Visit the project website for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from the bundled icon resources</source>
+        <translation type="vanished">Sandybox är en öppen källa fortsättning av Sandybox.&lt;br /&gt;Besök the project website för mer information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Drivrutinsversion: %1&lt;br /&gt;Funktioner: %2&lt;br /&gt;&lt;br /&gt;Ikoner från the bundled icon resources</translation>
     </message>
     <message>
         <source>Checking for certificate...</source>
@@ -5825,8 +5825,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     </message>
     <message>
         <location filename="SbieFindWnd.cpp" line="204"/>
-        <source>sandybox - Window Finder</source>
-        <translation>sandybox - Fönsterfinnare</translation>
+        <source>Sandybox - Window Finder</source>
+        <translation>Sandybox - Fönsterfinnare</translation>
     </message>
 </context>
 <context>
@@ -6826,9 +6826,9 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1913"/>
-        <source>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</source>
-        <oldsource>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</oldsource>
-        <translation>sandyboxs startmeny kommer nu visas. Välj en applikation från menyn och sandybox kommer att skapa en ny genvägsikon på ditt verkliga skrivbord, med vilken du kan starta vald applikation under sandyboxs övervakning.</translation>
+        <source>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</source>
+        <oldsource>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</oldsource>
+        <translation>sandyboxs startmeny kommer nu visas. Välj en applikation från menyn och Sandybox kommer att skapa en ny genvägsikon på ditt verkliga skrivbord, med vilken du kan starta vald applikation under sandyboxs övervakning.</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1968"/>
@@ -6887,8 +6887,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     <name>CSelectBoxWindow</name>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="200"/>
-        <source>sandybox - Run Sandboxed</source>
-        <translation>sandybox - Kör sandlådad</translation>
+        <source>Sandybox - Run Sandboxed</source>
+        <translation>Sandybox - Kör sandlådad</translation>
     </message>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="253"/>
@@ -6905,9 +6905,9 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     <name>CSettingsWindow</name>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="197"/>
-        <source>sandybox Plus - Global Settings</source>
-        <oldsource>sandybox Plus - Settings</oldsource>
-        <translation>sandybox - Globala inställningar</translation>
+        <source>Sandybox Plus - Global Settings</source>
+        <oldsource>Sandybox Plus - Settings</oldsource>
+        <translation>Sandybox - Globala inställningar</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="299"/>
@@ -7014,18 +7014,18 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3138"/>
         <location filename="Windows/SettingsWindow.cpp" line="3147"/>
-        <source>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</source>
-        <translation>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</translation>
+        <source>HwId: [%1]</source>
+        <translation>HwId: [%1]</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3143"/>
-        <source>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</source>
-        <translation>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</translation>
+        <source>HwId: %1 (copy)</source>
+        <translation>HwId: %1 (copy)</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3156"/>
-        <source>sandybox Version: %1</source>
-        <translation>sandybox version: %1</translation>
+        <source>Sandybox Version: %1</source>
+        <translation>Sandybox version: %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="927"/>
@@ -7152,8 +7152,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>Vänligen för in ett kommando</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Detta supportercertifikat har utgått, vänligen &lt;a href=&quot;sbie://update/cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation type="vanished">Detta supportercertifikat har utgått, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3226"/>
@@ -7161,8 +7161,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Plus-egenskaper kommer inaktiveras om %1 dagar.&lt;/font&gt;</translation>
     </message>
     <message>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
-        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;För nuvarande bygge förblir Plus-egenskaperna aktiverade&lt;/font&gt;, men du har inte längre tillgång till sandybox-Live tjänsterna, inklusive kompatibilitetsuppdateringar och felsökningsdatabasen.</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
+        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;För nuvarande bygge förblir Plus-egenskaperna aktiverade&lt;/font&gt;, men du har inte längre tillgång till Sandybox-Live tjänsterna, inklusive kompatibilitetsuppdateringar och felsökningsdatabasen.</translation>
     </message>
     <message>
         <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For this build Plus features remain enabled.&lt;/font&gt;</source>
@@ -7174,8 +7174,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation>&lt;br /&gt;Plus-egenskaperna är inte längre aktiverade.</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Detta supportercertifikat kommer &lt;font color=&apos;red&apos;&gt;utgå om %1 dagar&lt;/font&gt;, vänligen &lt;a href=&quot;sbie://update/cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">Detta supportercertifikat kommer &lt;font color=&apos;red&apos;&gt;utgå om %1 dagar&lt;/font&gt;, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <source>Supporter certificate required</source>
@@ -7209,8 +7209,8 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3551"/>
-        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>Även fast detta certifikat har utgått, för nuvarande installerad version förblir Plus-egenskaperna aktiverade. Däremot, kommer du inte längre ha tillgång till sandybox-Live tjänsterna, inklusive kompatibilitetsuppdateringar och felsökningsdatabasen på nätet.</translation>
+        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>Även fast detta certifikat har utgått, för nuvarande installerad version förblir Plus-egenskaperna aktiverade. Däremot, kommer du inte längre ha tillgång till Sandybox-Live tjänsterna, inklusive kompatibilitetsuppdateringar och felsökningsdatabasen på nätet.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3553"/>
@@ -7243,18 +7243,18 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3305"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Få ett gratis evalueringscertifikat&lt;/a&gt; och njut av alla premiumegenskaper i %1 dagar.&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Get a free evaluation certificate and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Få ett gratis evalueringscertifikat och njut av alla premiumegenskaper i %1 dagar.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3236"/>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <oldsource>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</oldsource>
-        <translation>Detta supportercertifikat kommer att&lt;font color=&apos;red&apos;&gt;utgå om %1 dag(ar)&lt;/font&gt;, vänligen &lt;a href=&quot;%2&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <oldsource>This supporter certificate has expired, please get an updated certificate.</oldsource>
+        <translation>Detta supportercertifikat kommer att&lt;font color=&apos;red&apos;&gt;utgå om %1 dag(ar)&lt;/font&gt;, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Detta supportercertifikat kommer &lt;font color=&apos;red&apos;&gt;upphöra om %1 dagar&lt;/font&gt;, vänligen &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">Detta supportercertifikat kommer &lt;font color=&apos;red&apos;&gt;upphöra om %1 dagar&lt;/font&gt;, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <source>Retreiving certificate...</source>
@@ -7351,13 +7351,13 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3223"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>Detta suppotercertifikat har utgått, vänligen &lt;a href=&quot;%1&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation>Detta suppotercertifikat har utgått, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3228"/>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;För det nuvarande bygget, förblir Plus-egenskaperna faktiverade&lt;/font&gt;, men du har inte längre tillgång till sandybox Live services, inkluderandes kompatibilitetsuppdateringar och problemlösardatabasen på nätet.</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;För det nuvarande bygget, förblir Plus-egenskaperna faktiverade&lt;/font&gt;, men du har inte längre tillgång till Sandybox Live services, inkluderandes kompatibilitetsuppdateringar och problemlösardatabasen på nätet.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3273"/>
@@ -7366,8 +7366,8 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3275"/>
-        <source>; eligible Patreons can always &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
-        <translation>; berättigade Patreons kan alltid &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;erhålla ett uppdaterat certifikat&lt;/a&gt; från xanasoft.com</translation>
+        <source>; eligible Patreons can always obtain an updated certificate from the project store</source>
+        <translation>; berättigade Patreons kan alltid erhålla ett uppdaterat certifikat från the project store</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3287"/>
@@ -7459,13 +7459,13 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3293"/>
-        <source>sandybox Desktop (Desk): %1</source>
-        <translation>sandybox-skrivbord (Bord): %1</translation>
+        <source>Sandybox Desktop (Desk): %1</source>
+        <translation>Sandybox-skrivbord (Bord): %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3324"/>
-        <source>This does not look like a sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
-        <translation>Detta ser inte ut som ett sandybox serienummer.&lt;br /&gt;Om du har försökt föra in Uppdateringsnyckeln eller Signaturen från ett certifikat som inte är korrekt, vänligen för in hela certifikatet in i textområdet ovan istället.</translation>
+        <source>This does not look like a Sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
+        <translation>Detta ser inte ut som ett Sandybox serienummer.&lt;br /&gt;Om du har försökt föra in Uppdateringsnyckeln eller Signaturen från ett certifikat som inte är korrekt, vänligen för in hela certifikatet in i textområdet ovan istället.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3331"/>
@@ -7494,8 +7494,8 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
-        <source>sandybox - Get EVALUATION Certificate</source>
-        <translation>sandybox - Få EVALUERINGScertifikat</translation>
+        <source>Sandybox - Get EVALUATION Certificate</source>
+        <translation>Sandybox - Få EVALUERINGScertifikat</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
@@ -7610,8 +7610,8 @@ Välj autoavslutningsläge:
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3560"/>
-        <source>Thank you for supporting the development of sandybox.</source>
-        <translation>Tack för att du stöder utvecklingen av sandybox.</translation>
+        <source>Thank you for supporting the development of Sandybox.</source>
+        <translation>Tack för att du stöder utvecklingen av Sandybox.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3562"/>
@@ -7622,8 +7622,8 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3600"/>
-        <source>A mandatory security update for your sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
-        <translation>En obligatoriskt säkerhetsuppdatering för ditt sandybox certifikat krävs. Vill du nedladda det uppdaterade certifikatet nu?</translation>
+        <source>A mandatory security update for your Sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
+        <translation>En obligatoriskt säkerhetsuppdatering för ditt Sandybox certifikat krävs. Vill du nedladda det uppdaterade certifikatet nu?</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3601"/>
@@ -7663,7 +7663,7 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2398"/>
-        <source>(info website)</source>
+        <source>(information)</source>
         <translation>(infowebbsida)</translation>
     </message>
     <message>
@@ -7679,8 +7679,8 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2466"/>
-        <source>&lt;a href=&quot;check&quot;&gt;Check Now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;check&quot;&gt;Kontrollera nu&lt;/a&gt;</translation>
+        <source>Check Now</source>
+        <translation>Kontrollera nu</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2535"/>
@@ -7796,13 +7796,13 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     <name>CShellPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="533"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; shell integration</source>
-        <translation>Konfigurera &lt;b&gt;sandybox&lt;/b&gt; skalintegration</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; shell integration</source>
+        <translation>Konfigurera &lt;b&gt;Sandybox&lt;/b&gt; skalintegration</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="534"/>
-        <source>Configure how sandybox should integrate with your system.</source>
-        <translation>Konfigurera hur sandybox ska integrera med ditt system.</translation>
+        <source>Configure how Sandybox should integrate with your system.</source>
+        <translation>Konfigurera hur Sandybox ska integrera med ditt system.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="538"/>
@@ -7816,8 +7816,8 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="548"/>
-        <source>Add desktop shortcut for starting Web browser under sandybox</source>
-        <translation>Addera skrivbordsgenväg för start av webbläsare under sandybox</translation>
+        <source>Add desktop shortcut for starting Web browser under Sandybox</source>
+        <translation>Addera skrivbordsgenväg för start av webbläsare under Sandybox</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="553"/>
@@ -7832,8 +7832,8 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="565"/>
-        <source>Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
-        <translation>Aktivering av detta alternativ förhindrar ändringar till Sandboxie.ini-konfigurationen från användargränssnittet utan admin-rättigheter. Var försiktig, då användning av sandybox Hanterare med normala användarrättigheter kan resultera i en utelåsning. För att göra ändringar till konfigurationen, behöver du starta om sandybox Hanterare som admin genom att klicka på &quot;Starta om som admin&quot; i sandlådemenyn i huvudfönstret.</translation>
+        <source>Enabling this option prevents changes to the base configuration file configuration from the user interface without admin rights. Be careful, as using Sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart Sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
+        <translation>Aktivering av detta alternativ förhindrar ändringar till base configuration file-konfigurationen från användargränssnittet utan admin-rättigheter. Var försiktig, då användning av Sandybox Hanterare med normala användarrättigheter kan resultera i en utelåsning. För att göra ändringar till konfigurationen, behöver du starta om Sandybox Hanterare som admin genom att klicka på &quot;Starta om som admin&quot; i sandlådemenyn i huvudfönstret.</translation>
     </message>
 </context>
 <context>
@@ -7911,18 +7911,18 @@ Detta är ett tillfälligt Patreon certifikat, giltigt för 3 månader. När det
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="831"/>
-        <source>Attach Sandboxie.ini</source>
-        <translation>Bifoga Sandboxie.ini</translation>
+        <source>Attach base configuration file</source>
+        <translation>Bifoga base configuration file</translation>
     </message>
     <message>
-        <source>Sandboxing compatibility is reliant on the configuration hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
+        <source>Sandboxing compatibility is reliant on the configuration hence attaching the base configuration file file helps a lot with finding the issue.</source>
         <oldsource>Sandboxing compatybility is relyent on the configuration hence attaching the sandboxie.ini helps a lot with finding the issue.</oldsource>
-        <translation type="vanished">Sandlådningskompatibilitet är beroende av konfigurationen, därav hjälper bifogning av Sandboxie.ini mycket för att finna problemet.</translation>
+        <translation type="vanished">Sandlådningskompatibilitet är beroende av konfigurationen, därav hjälper bifogning av base configuration file mycket för att finna problemet.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="832"/>
-        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
-        <translation>Sandlådningskompatibilitet är beroende av konfigurationen, därav hjälper det mycket att bifoga Sandboxie.ini-filen för att hitta problemet.</translation>
+        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the base configuration file file helps a lot with finding the issue.</source>
+        <translation>Sandlådningskompatibilitet är beroende av konfigurationen, därav hjälper det mycket att bifoga base configuration file-filen för att hitta problemet.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="835"/>
@@ -7961,8 +7961,8 @@ Före skickandet kan du granska loggarna i huvudfönstret.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="854"/>
-        <source>We apologize for the inconvenience you are currently facing with sandybox. </source>
-        <translation>Ursäkta oss för besväret som du för närvarande upplever med sandybox. </translation>
+        <source>We apologize for the inconvenience you are currently facing with Sandybox. </source>
+        <translation>Ursäkta oss för besväret som du för närvarande upplever med Sandybox. </translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="861"/>
@@ -8099,11 +8099,11 @@ Processer i denna låda kommer att köra med ett anpassat processtecken indikera
     <message>
         <location filename="Windows/SupportDialog.cpp" line="43"/>
         <source>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a Great Supporter on Patreon already, sandybox can check online for an update of your certificate.</source>
+If you are a Great Supporter on Patreon already, Sandybox can check online for an update of your certificate.</source>
         <oldsource>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a great patreaon supporter already, sandybox can check online for an update of your certificate.</oldsource>
+If you are a great patreaon supporter already, Sandybox can check online for an update of your certificate.</oldsource>
         <translation>Detta Insider-bygge kräver ett speciellt certifikat av typen GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet för en uppdatering av ditt certifikat.</translation>
+Om du redan är en Great Supporter on Patreon, kan Sandybox söka på nätet för en uppdatering av ditt certifikat.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="51"/>
@@ -8118,8 +8118,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="163"/>
-        <source>This is a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;exclusive Insider build&lt;/a&gt; of sandybox it is only available to &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon Supporters&lt;/a&gt; on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
-        <translation>Detta är ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;exklusivt Insider-bygge&lt;/a&gt; av sandybox, det är endast tillgängligt för &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon supportrar&lt;/a&gt; på högre nivåer samt projektbidragare och ägare av supportercertifikatet HUGE.</translation>
+        <source>This is a exclusive Insider build of Sandybox it is only available to Patreon Supporters on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
+        <translation>Detta är ett exklusivt Insider-bygge av Sandybox, det är endast tillgängligt för Patreon supportrar på högre nivåer samt projektbidragare och ägare av supportercertifikatet HUGE.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="169"/>
@@ -8128,31 +8128,31 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="171"/>
-        <source>&lt;b&gt;There seems to be however %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>&lt;b&gt;There seams to be howeever %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>&lt;b&gt;Det verkar ändå vara %1 sandybox instanser på ditt nätverk, &lt;font color=&apos;red&apos;&gt;du behöver skaffa ytterligare &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;supportercertifikat&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;There seems to be however %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>&lt;b&gt;There seams to be howeever %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>&lt;b&gt;Det verkar ändå vara %1 Sandybox instanser på ditt nätverk, &lt;font color=&apos;red&apos;&gt;du behöver skaffa ytterligare supportercertifikat&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="178"/>
-        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>Det installerade supportercertifikatet &lt;b&gt;har utgått %1 dagar sedan&lt;/b&gt; och &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;måste förnyas&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>Det installerade supportercertifikatet &lt;b&gt;har utgått %1 dagar sedan&lt;/b&gt; och måste förnyas.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="180"/>
-        <source>&lt;b&gt;You have installed sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;Du installerade sandybox mer än %1 dagar sedan.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have installed Sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;Du installerade Sandybox mer än %1 dagar sedan.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="182"/>
-        <source>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;support certificate&lt;/a&gt;.</source>
-        <oldsource>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt;.</oldsource>
-        <translation>&lt;u&gt;Kommersiell användning av sandybox utöver evalueringsperioden&lt;/u&gt;, kräver ett giltigt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supportercertifikat&lt;/a&gt;.</translation>
+        <source>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</source>
+        <oldsource>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</oldsource>
+        <translation>&lt;u&gt;Kommersiell användning av Sandybox utöver evalueringsperioden&lt;/u&gt;, kräver ett giltigt supportercertifikat.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="189"/>
-        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of sandybox.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Det installerade supportercertifikatet är &lt;b&gt;utgånget&lt;/b&gt; och det är &lt;u&gt;inte giltigt för&lt;b&gt; denna version&lt;/b&gt;&lt;/u&gt; av sandybox.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of Sandybox.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Det installerade supportercertifikatet är &lt;b&gt;utgånget&lt;/b&gt; och det är &lt;u&gt;inte giltigt för&lt;b&gt; denna version&lt;/b&gt;&lt;/u&gt; av Sandybox.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="191"/>
@@ -8162,35 +8162,35 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="193"/>
-        <source>&lt;b&gt;You have been using sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;Du har använt sandybox i mer än %1 dagar nu.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have been using Sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;Du har använt Sandybox i mer än %1 dagar nu.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="196"/>
-        <source>sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>sandybox för ARM64 kräver ett giltigt supportercertifikat för fortsatt användning.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Sandybox för ARM64 kräver ett giltigt supportercertifikat för fortsatt användning.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="198"/>
-        <source>Personal use of sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Personlig användning av sandybox är gratis för x86/x64, men vissa funktioner är endast tillgängliga för projektsupportrar.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Personal use of Sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Personlig användning av Sandybox är gratis för x86/x64, men vissa funktioner är endast tillgängliga för projektsupportrar.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="201"/>
-        <source>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
-        <oldsource>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
-        <translation>Vänligen fortsätt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporta projektet&lt;/a&gt; genom att förnya ditt &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt; och fortsätta använda den &lt;b&gt;utökade funktionaliteten&lt;/b&gt; i nya byggen.</translation>
+        <source>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
+        <oldsource>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
+        <translation>Vänligen fortsätt supporta projektet genom att förnya ditt supportercertifikat och fortsätta använda den &lt;b&gt;utökade funktionaliteten&lt;/b&gt; i nya byggen.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="204"/>
-        <source>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt; or &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;earning one by contributing&lt;/a&gt; to the project. &lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
-        <oldsource>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
-        <translation>sandybox &lt;u&gt;utan&lt;/u&gt; ett giltigt supportercertifikat kommer ibland &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pausa i några sekunder&lt;/font&gt;&lt;/b&gt;. Denna paus tillåter dig att överväga &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;ett köp av ett supportercertifikat&lt;/a&gt; eller &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;tjäna ett genom att bidraga&lt;/a&gt; till projektet. &lt;br /&gt;&lt;br /&gt;Ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt; tar inte bara bort påminnaren, utan aktiverar även &lt;b&gt;exklusiv utökad funktionalitet&lt;/b&gt; tillhandahållandes bättre säkerhet och kompatibilitet.</translation>
+        <source>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider purchasing a supporter certificate or earning one by contributing to the project. &lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
+        <oldsource>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of supporting the project.&lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
+        <translation>Sandybox &lt;u&gt;utan&lt;/u&gt; ett giltigt supportercertifikat kommer ibland &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pausa i några sekunder&lt;/font&gt;&lt;/b&gt;. Denna paus tillåter dig att överväga ett köp av ett supportercertifikat eller tjäna ett genom att bidraga till projektet. &lt;br /&gt;&lt;br /&gt;Ett supportercertifikat tar inte bara bort påminnaren, utan aktiverar även &lt;b&gt;exklusiv utökad funktionalitet&lt;/b&gt; tillhandahållandes bättre säkerhet och kompatibilitet.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="235"/>
-        <source>sandybox - Support Reminder</source>
-        <translation>sandybox - Supportpåminnare</translation>
+        <source>Sandybox - Support Reminder</source>
+        <translation>Sandybox - Supportpåminnare</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="310"/>
@@ -8318,8 +8318,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
         <location filename="Windows/TestProxyDialog.cpp" line="375"/>
         <location filename="Windows/TestProxyDialog.cpp" line="381"/>
         <location filename="Windows/TestProxyDialog.cpp" line="387"/>
-        <source>sandybox - Test Proxy</source>
-        <translation>sandybox - Testa proxy</translation>
+        <source>Sandybox - Test Proxy</source>
+        <translation>Sandybox - Testa proxy</translation>
     </message>
     <message>
         <location filename="Windows/TestProxyDialog.cpp" line="37"/>
@@ -8676,16 +8676,16 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     <name>CTraceWindow</name>
     <message>
         <location filename="Views/TraceView.cpp" line="830"/>
-        <source>sandybox - Trace Monitor</source>
-        <translation>sandybox - Spårövervakare</translation>
+        <source>Sandybox - Trace Monitor</source>
+        <translation>Sandybox - Spårövervakare</translation>
     </message>
 </context>
 <context>
     <name>CUIPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="418"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; UI</source>
-        <translation>Konfigurera &lt;b&gt;sandybox&lt;/b&gt; programpanel</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; UI</source>
+        <translation>Konfigurera &lt;b&gt;Sandybox&lt;/b&gt; programpanel</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="419"/>
@@ -8708,8 +8708,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
         <translation>&amp;Äldre SbieCtrl.exe programpanel</translation>
     </message>
     <message>
-        <source>&amp;Classic sandybox UI</source>
-        <translation type="vanished">&amp;sandybox Classic:s programpanel</translation>
+        <source>&amp;Classic Sandybox UI</source>
+        <translation type="vanished">&amp;Sandybox Classic:s programpanel</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="458"/>
@@ -8725,16 +8725,16 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
 <context>
     <name>CWFPPage</name>
     <message>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; network filtering</source>
-        <translation type="vanished">Konfigurera &lt;b&gt;sandybox&lt;/b&gt; nätverksfiltrering</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; network filtering</source>
+        <translation type="vanished">Konfigurera &lt;b&gt;Sandybox&lt;/b&gt; nätverksfiltrering</translation>
     </message>
     <message>
-        <source>sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
-        <translation type="vanished">sandybox kan använda Windows Filtering Platform (WFP) för att begränsa nätverkstillgång.</translation>
+        <source>Sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
+        <translation type="vanished">Sandybox kan använda Windows Filtering Platform (WFP) för att begränsa nätverkstillgång.</translation>
     </message>
     <message>
-        <source>Using WFP allows sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
-        <translation type="vanished">Att använda WFP tillåter sandybox att tillförlitligt tvinga IP/Port-baserade regler för nätverkstillgång. Till skillnad från systemnivåbrandväggar, kan sandybox använda olika regler i varje låda för samma applikation. Om du redan har en bra och pålitlig brandvägg och inte behöver regler per låda, kan du lämna detta alternativ omarkerat. Utan WFP aktiverat, kan sandybox fortfarande tillförlitligt och fullständigt blockera processer från att tillgå nätverket. Hursom, detta kan orsaka att processen kraschar, då drivrutinen blockerar de krävda nätverkenhetsslutpunkterna. Även med WFP inaktiverad, erbjuder sandybox att ange IP/Port-baserade regler, fast de tillämpas endast i användarläge och påtvingas inte av drivrutinen. Därav, utan WFP aktiverad, kan en avsiktligt skadlig process passera dessa regler, men inte hela nätverksblockeringen.</translation>
+        <source>Using WFP allows Sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, Sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, Sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, Sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
+        <translation type="vanished">Att använda WFP tillåter Sandybox att tillförlitligt tvinga IP/Port-baserade regler för nätverkstillgång. Till skillnad från systemnivåbrandväggar, kan Sandybox använda olika regler i varje låda för samma applikation. Om du redan har en bra och pålitlig brandvägg och inte behöver regler per låda, kan du lämna detta alternativ omarkerat. Utan WFP aktiverat, kan Sandybox fortfarande tillförlitligt och fullständigt blockera processer från att tillgå nätverket. Hursom, detta kan orsaka att processen kraschar, då drivrutinen blockerar de krävda nätverkenhetsslutpunkterna. Även med WFP inaktiverad, erbjuder Sandybox att ange IP/Port-baserade regler, fast de tillämpas endast i användarläge och påtvingas inte av drivrutinen. Därav, utan WFP aktiverad, kan en avsiktligt skadlig process passera dessa regler, men inte hela nätverksblockeringen.</translation>
     </message>
     <message>
         <source>Enable Windows Filtering Platform (WFP) support</source>
@@ -8842,15 +8842,15 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
 <context>
     <name>FileBrowserWindow</name>
     <message>
-        <source>sandybox - Snapshots</source>
-        <translation type="vanished">sandybox - Ögonblicksbilder</translation>
+        <source>Sandybox - Snapshots</source>
+        <translation type="vanished">Sandybox - Ögonblicksbilder</translation>
     </message>
 </context>
 <context>
     <name>NewBoxWindow</name>
     <message>
-        <source>sandybox new box</source>
-        <translation type="vanished">sandybox - Ny låda</translation>
+        <source>Sandybox new box</source>
+        <translation type="vanished">Sandybox - Ny låda</translation>
     </message>
     <message>
         <source>Sandbox Name:</source>
@@ -8861,8 +8861,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
         <translation type="vanished">Förval av lådtyp:</translation>
     </message>
     <message>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation type="vanished">En sandlåda isolerar ditt värdsystem från processer körandes inuti lådan, den förhindrar dem från att göra permanenta ändringar i andra program och data i din dator. Nivån av isolering påverkar din säkerhet såväl som kompatibiliteten med applikationer, därav kommer det vara olika nivåer av isolering beroende på den valda lådtypen. sandybox kan också skydda dina personliga data från tillgång av processer körandes under dess övervakning.</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation type="vanished">En sandlåda isolerar ditt värdsystem från processer körandes inuti lådan, den förhindrar dem från att göra permanenta ändringar i andra program och data i din dator. Nivån av isolering påverkar din säkerhet såväl som kompatibiliteten med applikationer, därav kommer det vara olika nivåer av isolering beroende på den valda lådtypen. Sandybox kan också skydda dina personliga data från tillgång av processer körandes under dess övervakning.</translation>
     </message>
     <message>
         <source>Box info</source>
@@ -8873,8 +8873,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     <name>OptionsWindow</name>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="32"/>
-        <source>sandybox Options</source>
-        <translation>sandybox Alternativ</translation>
+        <source>Sandybox Options</source>
+        <translation>Sandybox Alternativ</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="52"/>
@@ -8903,8 +8903,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="90"/>
-        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
-        <translation>&lt;b&gt;Flera lådtyper&lt;/b&gt; är exklusivt tillgängliga för &lt;u&gt;projektsupportrar&lt;/u&gt;, de integritetsutökade lådorna &lt;b&gt;&lt;font color=&apos;red&apos;&gt;skyddar användardata från olaglig tillgång&lt;/font&gt;&lt;/b&gt; av de sandlådade programmen.&lt;br /&gt;Om du ännu inte är en supporter, överväg då vänligen att &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporta projektet&lt;/a&gt;, för att få ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;.&lt;br /&gt;Du kan testa de andra lådtyperna genom att skapa nya sandlådor av dessa typer, men processer i dessa kommer autoavslutas efter 5 minuter.</translation>
+        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider supporting the project, to receive a supporter certificate.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
+        <translation>&lt;b&gt;Flera lådtyper&lt;/b&gt; är exklusivt tillgängliga för &lt;u&gt;projektsupportrar&lt;/u&gt;, de integritetsutökade lådorna &lt;b&gt;&lt;font color=&apos;red&apos;&gt;skyddar användardata från olaglig tillgång&lt;/font&gt;&lt;/b&gt; av de sandlådade programmen.&lt;br /&gt;Om du ännu inte är en supporter, överväg då vänligen att supporta projektet, för att få ett supportercertifikat.&lt;br /&gt;Du kan testa de andra lådtyperna genom att skapa nya sandlådor av dessa typer, men processer i dessa kommer autoavslutas efter 5 minuter.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="161"/>
@@ -8960,14 +8960,14 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="521"/>
-        <source>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</source>
-        <oldsource>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</oldsource>
-        <translation>När &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;lådkryptering&lt;/a&gt; är aktiverat är lådans rotmapp, inklusive dess registerdatafil, lagrad i en krypterad diskavbild, användandes &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementering.</translation>
+        <source>When Box Encryption is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</source>
+        <oldsource>When Box Encryption is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</oldsource>
+        <translation>När lådkryptering är aktiverat är lådans rotmapp, inklusive dess registerdatafil, lagrad i en krypterad diskavbild, användandes Disk Cryptor&apos;s AES-XTS implementering.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="469"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;Installera ImDisk:s&lt;/a&gt; drivrutin för att aktivera RAM-disk och diskavbildsstöd.</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>Installera ImDisk:s drivrutin för att aktivera RAM-disk och diskavbildsstöd.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="423"/>
@@ -9067,8 +9067,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1308"/>
-        <source>Security note: Elevated applications running under the supervision of sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
-        <translation>Säkerhetsnotering: Förhöjda applikationer körandes under övervakning av sandybox, med admin eller SYSTEM-tecken, har fler möjligheter att passera isoleringen och modifiera systemet utanför sandlådan.</translation>
+        <source>Security note: Elevated applications running under the supervision of Sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
+        <translation>Säkerhetsnotering: Förhöjda applikationer körandes under övervakning av Sandybox, med admin eller SYSTEM-tecken, har fler möjligheter att passera isoleringen och modifiera systemet utanför sandlådan.</translation>
     </message>
     <message>
         <source>Security Enhancements</source>
@@ -9380,8 +9380,8 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
         <translation>Avancerad säkerhet</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Använd en sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Använd en Sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1891"/>
@@ -9395,13 +9395,13 @@ Om du redan är en Great Supporter on Patreon, kan sandybox söka på nätet fö
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2087"/>
-        <source>sandybox token</source>
-        <translation>sandybox-tecken</translation>
+        <source>Sandybox token</source>
+        <translation>Sandybox-tecken</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2012"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>Använda ett anpassat sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>Använda ett anpassat Sandybox-tecken tillåter att bättre isolera individuella sandlådor från varandra, och det visar i användarkolumnen hos aktivitetshanterare namnet på lådan en process tillhör. Vissa 3:dje parts säkerhetslösningar kan dock ha problem med anpassade tecken.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2160"/>
@@ -9724,8 +9724,8 @@ Om ledarprocesser är definierade, behandlas alla andra som kvardröjande progra
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="742"/>
-        <source>sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. sandybox offers options for handling these cases, which can be configured on this page.</source>
-        <translation>sandybox tillåter inte skrivande till värdfiler, annat än tillåtet av användaren. När en sandlådad applikation försöker modifiera en fil, behöver hela filen kopieras in i sandlådan, för stora filer kan detta ta ett bra tag. sandybox erbjuder alternativ för hantering av dessa fall, vilket kan konfigureras på denna sida.</translation>
+        <source>Sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. Sandybox offers options for handling these cases, which can be configured on this page.</source>
+        <translation>Sandybox tillåter inte skrivande till värdfiler, annat än tillåtet av användaren. När en sandlådad applikation försöker modifiera en fil, behöver hela filen kopieras in i sandlådan, för stora filer kan detta ta ett bra tag. Sandybox erbjuder alternativ för hantering av dessa fall, vilket kan konfigureras på denna sida.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="752"/>
@@ -9797,16 +9797,16 @@ Om ledarprocesser är definierade, behandlas alla andra som kvardröjande progra
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4615"/>
-        <source>sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
+        <source>Sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</source>
-        <oldsource>sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
+        <oldsource>Sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</oldsource>
-        <translation>sandybox:s resurstillgångsregler särskiljer ofta emot programbinärer lokaliserade inuti sandlådan. OpenFilePath och OpenKeyPath fungerar bara för app-binärer lokaliserade på värden ursprungligen. För att kunna definiera en regel utan denna begränsning, måste OpenPipePath eller OpenConPath användas. Likaså, alla stängda(File|Key|Ipc)sökvägsdirektiv vilka är definierade via negation e.x. ClosedFilePath=!iexplore.exe,CUsers* kommer alltid vara stängda för binärer lokaliserade inuti en sandlåda. Båda begränsningspolicyerna kan inaktiveras på sidan Tillgångspolicy.
+        <translation>Sandybox:s resurstillgångsregler särskiljer ofta emot programbinärer lokaliserade inuti sandlådan. OpenFilePath och OpenKeyPath fungerar bara för app-binärer lokaliserade på värden ursprungligen. För att kunna definiera en regel utan denna begränsning, måste OpenPipePath eller OpenConPath användas. Likaså, alla stängda(File|Key|Ipc)sökvägsdirektiv vilka är definierade via negation e.x. ClosedFilePath=!iexplore.exe,CUsers* kommer alltid vara stängda för binärer lokaliserade inuti en sandlåda. Båda begränsningspolicyerna kan inaktiveras på sidan Tillgångspolicy.
 Detta görs för att  förhindra Rogue-processer inuti sandlådan från att skapa en namnändrad kopia av sig själva och tillgå skyddade resurser. En annan exploateringsvektor är injicerandet av ett bibliotek in i en auktoriserad process för att få tillgång till allting det ges tillgång till. Användande av Host Image Protection, kan detta förhindras genom att blockera applikationer (installerade på värden) körandes inuti en sandlåda från att ladda bibliotek från sandlådan självt.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4639"/>
-        <source>sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
+        <source>Sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
         <oldsource>sandyboxs functionality can be enhanced using optional dll’s which can be loaded into each sandboxed process on start by the SbieDll.dll, the add-on manager in the global settings offers a couple useful extensions, once installed they can be enabled here for the current box.</oldsource>
         <translation>sandyboxs funktionalitet kan utökas genom att använda valfria dll`s som kan laddas in i varje sandlådad process av SbieDll.dll vid starten, tilläggshanteraren i globala inställningar erbjuder ett antal användbara förlängningar, väl installerade kan de aktiveras här för nuvarande låda.</translation>
     </message>
@@ -9853,8 +9853,8 @@ Detta görs för att  förhindra Rogue-processer inuti sandlådan från att skap
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1641"/>
-        <source>sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
-        <translation>sandybox är kapabelt att skapa konfidentiella sandlådor som tillhandahåller robust skydd mot oauktoriserad övervakning eller manipulerande av värdprocesser. Genom användande av en krypterad sandlådeavbild, levererar denna egenskap den högsta nivån av operativ konfidentialitet, säkerställandes säkerheten och integriteten hos sandlådade processer.</translation>
+        <source>Sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
+        <translation>Sandybox är kapabelt att skapa konfidentiella sandlådor som tillhandahåller robust skydd mot oauktoriserad övervakning eller manipulerande av värdprocesser. Genom användande av en krypterad sandlådeavbild, levererar denna egenskap den högsta nivån av operativ konfidentialitet, säkerställandes säkerheten och integriteten hos sandlådade processer.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1606"/>
@@ -9933,14 +9933,14 @@ Detta görs för att  förhindra Rogue-processer inuti sandlådan från att skap
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2051"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Använd en sandybox-inloggning istället för ett anonymt tecken</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Använd en Sandybox-inloggning istället för ett anonymt tecken</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2142"/>
-        <source>By default, sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
+        <source>By default, Sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
 Enabling this option uses a LOW integrity token instead, which may improve compatibility but reduces sandbox isolation and security.</source>
-        <translation>Via standard, sandybox kör processer med integritetstecknet OBETRODD för maximal isolering.
+        <translation>Via standard, Sandybox kör processer med integritetstecknet OBETRODD för maximal isolering.
 Aktivering av detta alternativ använder ett LÅG-integritetstecken istället, vilket kan förbättra kompatibilitet men reducerar sandlådeisolering och säkerhet.</translation>
     </message>
     <message>
@@ -9955,9 +9955,9 @@ Aktivering av detta alternativ använder ett LÅG-integritetstecken istället, v
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2528"/>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
-        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
-        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SÄKERHETSRÅDGIVNING&lt;/font&gt;:&lt;/b&gt; Använda &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;Utbrytarmapp&lt;/a&gt; och/eller &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;Utbrytarprocess&lt;/a&gt; i kombination med Open[File/Pipe]Path-direktiv kan kompromettera säkerhet, likt användandet av &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;Utbrytardokument&lt;/a&gt; tillåta varje * eller osäkra (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) förlängningar. Vänligen granska säkerhetssektionen för varje alternativ i dokumentationen före användande.</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
+        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SÄKERHETSRÅDGIVNING&lt;/font&gt;:&lt;/b&gt; Använda Utbrytarmapp och/eller Utbrytarprocess i kombination med Open[File/Pipe]Path-direktiv kan kompromettera säkerhet, likt användandet av Utbrytardokument tillåta varje * eller osäkra (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) förlängningar. Vänligen granska säkerhetssektionen för varje alternativ i dokumentationen före användande.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2558"/>
@@ -10560,8 +10560,8 @@ Processmatchningsnivån har en högre prioritet än säregenheten och beskriver 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1461"/>
-        <source>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
-        <oldsource>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
+        <source>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
+        <oldsource>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
         <translation>Säkerhetsisolering genom användande av tungt begränsade processtecken är sandyboxs primära medel för att tvinga sandlådebegränsningar, när det är inaktiverat opereras lådan i applikationavdelningsläget, d.v.s den tillhandahåller inte längre tillförlitlig säkerhet, bara enkelt applikationsavdelande.</translation>
     </message>
     <message>
@@ -10599,8 +10599,8 @@ Processmatchningsnivån har en högre prioritet än säregenheten och beskriver 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1485"/>
-        <source>Security Filtering used by sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
-        <translation>Säkerhetsfiltrering används av sandybox för att påtvinga filsystem- och registertillgångsbegränsningar, även såsom att begränsa processtillgång.</translation>
+        <source>Security Filtering used by Sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
+        <translation>Säkerhetsfiltrering används av Sandybox för att påtvinga filsystem- och registertillgångsbegränsningar, även såsom att begränsa processtillgång.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="964"/>
@@ -11246,8 +11246,8 @@ istället för &quot;*&quot;.</translation>
         <translation>Tvinga avkomling</translation>
     </message>
     <message>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
-        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SÄKERHETSRÅDGIVANDE&lt;/font&gt;:&lt;/b&gt; Använda &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;Utbrytarmapp&lt;/a&gt; och/eller &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;Utbrytarprocess&lt;/a&gt; i kombination med Öppen[fil-/pipe-]sökvägsdirektiv kan kompromettera säkerhet. Vänligen granska säkerhetssektionen för varje alternativ i dokumentationen före användning.</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
+        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SÄKERHETSRÅDGIVANDE&lt;/font&gt;:&lt;/b&gt; Använda Utbrytarmapp och/eller Utbrytarprocess i kombination med Öppen[fil-/pipe-]sökvägsdirektiv kan kompromettera säkerhet. Vänligen granska säkerhetssektionen för varje alternativ i dokumentationen före användning.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4003"/>
@@ -11352,8 +11352,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6086"/>
-        <source>The following settings enable the use of sandybox in combination with accessibility software.  Please note that some measure of sandybox protection is necessarily lost when these settings are in effect.</source>
-        <translation>Följande inställningar aktiverar användandet av sandybox i kombination med tillgänglighetsprogram. Vänligen notera att ett visst mått av sandyboxs skydd av nödvändighet förloras när dessa inställningar aktiveras.</translation>
+        <source>The following settings enable the use of Sandybox in combination with accessibility software.  Please note that some measure of Sandybox protection is necessarily lost when these settings are in effect.</source>
+        <translation>Följande inställningar aktiverar användandet av Sandybox i kombination med tillgänglighetsprogram. Vänligen notera att ett visst mått av sandyboxs skydd av nödvändighet förloras när dessa inställningar aktiveras.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6139"/>
@@ -11380,9 +11380,9 @@ istället för &quot;*&quot;.</translation>
     <name>PopUpWindow</name>
     <message>
         <location filename="Forms/PopUpWindow.ui" line="32"/>
-        <source>sandybox Notifications</source>
-        <oldsource>sandybox Notifications</oldsource>
-        <translation>sandybox - Meddelanden</translation>
+        <source>Sandybox Notifications</source>
+        <oldsource>Sandybox Notifications</oldsource>
+        <translation>Sandybox - Meddelanden</translation>
     </message>
 </context>
 <context>
@@ -11458,8 +11458,8 @@ istället för &quot;*&quot;.</translation>
     <name>RecoveryWindow</name>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="32"/>
-        <source>sandybox - Recovery</source>
-        <translation>sandybox - Återställande</translation>
+        <source>Sandybox - Recovery</source>
+        <translation>Sandybox - Återställande</translation>
     </message>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="145"/>
@@ -11539,8 +11539,8 @@ istället för &quot;*&quot;.</translation>
     <name>SelectBoxWindow</name>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="32"/>
-        <source>sandybox select box</source>
-        <translation>sandybox - Välj låda</translation>
+        <source>Sandybox select box</source>
+        <translation>Sandybox - Välj låda</translation>
     </message>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="45"/>
@@ -11587,8 +11587,8 @@ istället för &quot;*&quot;.</translation>
     <name>SettingsWindow</name>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="32"/>
-        <source>sandybox Settings</source>
-        <translation>sandybox Inställningar</translation>
+        <source>Sandybox Settings</source>
+        <translation>Sandybox Inställningar</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="55"/>
@@ -11636,8 +11636,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2786"/>
-        <source>Watch Sandboxie.ini for changes</source>
-        <translation>Ändringsbevaka Sandboxie.ini</translation>
+        <source>Watch base configuration file for changes</source>
+        <translation>Ändringsbevaka base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="439"/>
@@ -11751,8 +11751,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="399"/>
-        <source>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <translation>sandybox kanske utfärdar &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Meddelanden&lt;/a&gt; till meddelandeloggen och visa dem som popups. Vissa meddelanden är informella och meddelar om ett vanligt, eller i vissa fall speciellt, event har skett, andra meddelanden indikerar ett feltillstånd.&lt;br /&gt;Du kan dölja valda SBIE-meddelanden från att poppa upp via nedan lista:</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <translation>Sandybox kanske utfärdar SBIE Meddelanden till meddelandeloggen och visa dem som popups. Vissa meddelanden är informella och meddelar om ett vanligt, eller i vissa fall speciellt, event har skett, andra meddelanden indikerar ett feltillstånd.&lt;br /&gt;Du kan dölja valda SBIE-meddelanden från att poppa upp via nedan lista:</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="412"/>
@@ -11856,8 +11856,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2390"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registry root&lt;/a&gt;: </source>
-        <translation>Sandlåda &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registerroten&lt;/a&gt;: </translation>
+        <source>Sandbox registry root: </source>
+        <translation>Sandlåda registerroten: </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2582"/>
@@ -11876,8 +11876,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2512"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;file system root&lt;/a&gt;: </source>
-        <translation>Sandlåda &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;filsystemsroten&lt;/a&gt;: </translation>
+        <source>Sandbox file system root: </source>
+        <translation>Sandlåda filsystemsroten: </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2492"/>
@@ -11934,8 +11934,8 @@ istället för &quot;*&quot;.</translation>
         <translation>Meddelandealternativ</translation>
     </message>
     <message>
-        <source>sandybox may be issue &lt;a href= &quot;sbie://docs/ sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <translation type="vanished">sandybox kan utfärda&lt;a href= &quot;sbie://docs/ sbiemessages&quot;&gt;SBIE Meddelanden&lt;/a&gt;till Meddelandeloggen och visa dem som popupper. Vissa meddelande är informativa och meddelar om en vanlig, eller i vissa fall speciell, händelse som har skett, andra meddelanden indikerar ett feltillstånd.&lt;br/&gt;Du kan dölja valda SBIE-meddelanden från att poppa upp via användning av nedan lista:</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <translation type="vanished">Sandybox kan utfärdaSBIE Meddelandentill Meddelandeloggen och visa dem som popupper. Vissa meddelande är informativa och meddelar om en vanlig, eller i vissa fall speciell, händelse som har skett, andra meddelanden indikerar ett feltillstånd.&lt;br/&gt;Du kan dölja valda SBIE-meddelanden från att poppa upp via användning av nedan lista:</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="476"/>
@@ -11963,9 +11963,9 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1147"/>
-        <source>Hide sandybox&apos;s own processes from the task list</source>
-        <oldsource>Hide sandybox&apos;s own processes from the task list</oldsource>
-        <translation>Dölj sandybox:s egna processer från aktivitetslistan</translation>
+        <source>Hide Sandybox&apos;s own processes from the task list</source>
+        <oldsource>Hide Sandybox&apos;s own processes from the task list</oldsource>
+        <translation>Dölj Sandybox:s egna processer från aktivitetslistan</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1264"/>
@@ -12080,8 +12080,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1687"/>
-        <source>sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
-        <translation>sandybox erbjuder flertalet alternativ och stöder en hel rad av förlängningar. På denna sida kan du konfigurera integreringen av tillägg, plugins, och andra 3:dje-parts komponenter. Valfria komponenter kan nedladdas från nätet, och vissa installationer kan kräva adminrättigheter.</translation>
+        <source>Sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
+        <translation>Sandybox erbjuder flertalet alternativ och stöder en hel rad av förlängningar. På denna sida kan du konfigurera integreringen av tillägg, plugins, och andra 3:dje-parts komponenter. Valfria komponenter kan nedladdas från nätet, och vissa installationer kan kräva adminrättigheter.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1723"/>
@@ -12100,8 +12100,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1741"/>
-        <source>&lt;a href=&quot;sbie://addons&quot;&gt;update add-on list now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://addons&quot;&gt;uppdatera tilläggslista nu&lt;/a&gt;</translation>
+        <source>update add-on list now</source>
+        <translation>uppdatera tilläggslista nu</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1751"/>
@@ -12140,23 +12140,23 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1813"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;Installera ImDisk:s&lt;/a&gt; drivrutin för att aktivera RAM-disk och diskavbildsstöd..</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>Installera ImDisk:s drivrutin för att aktivera RAM-disk och diskavbildsstöd..</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1899"/>
-        <source>sandybox Support</source>
-        <translation>sandybox support</translation>
+        <source>Sandybox Support</source>
+        <translation>Sandybox support</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1988"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>Detta supportercertifikat har utgått, vänligen &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation>Detta supportercertifikat har utgått, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2055"/>
-        <source>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation>Supportrar av sandybox projektet kan erhålla ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;. Det är som en licens men för fantastiska personer som använder öppen källa program. :-)</translation>
+        <source>Supporters of the Sandybox project can receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation>Supportrar av Sandybox projektet kan erhålla ett supportercertifikat. Det är som en licens men för fantastiska personer som använder öppen källa program. :-)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1936"/>
@@ -12170,8 +12170,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2023"/>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt;, becoming a patron by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandboxie.</source>
-        <translation>Hålla sandybox uppdaterat med de rullande utgivningarna av Windows och kompatibelt med alla webbläsare är en aldrig upphörande ansträngning. Du kan stöda utvecklingen genom att &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;direkt bidra till projektet&lt;/a&gt;, visa ditt stöd genom att &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;köpa ett supportercertifikat&lt;/a&gt;, bli en patron genom att &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;prenumerera på Patreon&lt;/a&gt;, eller genom en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Ditt stöd spelar en vital roll i förbättrandet och underhållet av Sandboxie.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becoming a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</source>
+        <translation>Hålla Sandybox uppdaterat med de rullande utgivningarna av Windows och kompatibelt med alla webbläsare är en aldrig upphörande ansträngning. Du kan stöda utvecklingen genom att direkt bidra till projektet, visa ditt stöd genom att köpa ett supportercertifikat, bli en patron genom att prenumerera på Patreon, eller genom en PayPal donation.&lt;br /&gt;Ditt stöd spelar en vital roll i förbättrandet och underhållet av Sandybox.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1922"/>
@@ -12195,16 +12195,16 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2589"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;ipc root&lt;/a&gt;: </source>
-        <translation>Sandlåda &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;IPC-roten&lt;/a&gt;: </translation>
+        <source>Sandbox ipc root: </source>
+        <translation>Sandlåda IPC-roten: </translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Använd en sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Använd en Sandybox-inloggning istället för ett anonymt tecken (experimentellt)</translation>
     </message>
     <message>
-        <source>Sandboxie.ini Presets</source>
-        <translation type="vanished">Sandboxie.ini förinställningar</translation>
+        <source>base configuration file Presets</source>
+        <translation type="vanished">base configuration file förinställningar</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2824"/>
@@ -12278,8 +12278,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2862"/>
-        <source>When any of the following programs is launched outside any sandbox, sandybox will issue message SBIE1301.</source>
-        <translation>När något av de följande programm startas utanför någon sandlåda, kommer sandybox utfärda meddelande SBIE1301.</translation>
+        <source>When any of the following programs is launched outside any sandbox, Sandybox will issue message SBIE1301.</source>
+        <translation>När något av de följande programm startas utanför någon sandlåda, kommer Sandybox utfärda meddelande SBIE1301.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2886"/>
@@ -12339,8 +12339,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2004"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;Certificate usage guide&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie plus.com/go.php?to=sbie use cert&quot;&gt;Certifikatsanvändarguide&lt;/a&gt;</translation>
+        <source>Certificate usage guide</source>
+        <translation>Certifikatsanvändarguide</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1949"/>
@@ -12358,8 +12358,8 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2140"/>
-        <source>sandybox Updater</source>
-        <translation>sandybox uppdaterare</translation>
+        <source>Sandybox Updater</source>
+        <translation>Sandybox uppdaterare</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2171"/>
@@ -12390,13 +12390,13 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2275"/>
-        <source>Check periodically for new sandybox versions</source>
-        <translation>Sök periodvis efter nya sandybox versioner</translation>
+        <source>Check periodically for new Sandybox versions</source>
+        <translation>Sök periodvis efter nya Sandybox versioner</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2285"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>Mer om &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;insider-kanalen&lt;/a&gt;</translation>
+        <source>More about the Insider Channel</source>
+        <translation>Mer om insider-kanalen</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2305"/>
@@ -12405,14 +12405,14 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2569"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Använd en sandybox-inloggning istället för ett anonymt tecken</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Använd en Sandybox-inloggning istället för ett anonymt tecken</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2406"/>
-        <source>Add &quot;CODE(0x55c9eac97080)->(sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
-        <oldsource>Add &quot;CODE(0x55c9eac97080)->(sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
-        <translation>Addera gruppen &quot;sandybox\Alla sandlådor&quot; till det sandlådade tecknet</translation>
+        <source>Add &quot;CODE(0x55c9eac97080)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
+        <oldsource>Add &quot;CODE(0x55c9eac97080)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
+        <translation>Addera gruppen &quot;Sandybox\Alla sandlådor&quot; till det sandlådade tecknet</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2535"/>
@@ -12441,9 +12441,9 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2382"/>
-        <source>sandybox Config</source>
+        <source>Sandybox Config</source>
         <oldsource>Config Protection</oldsource>
-        <translation>sandybox-konfigurering</translation>
+        <translation>Sandybox-konfigurering</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1062"/>
@@ -12552,8 +12552,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3126"/>
-        <source>sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
-        <translation>sandybox har upptäckt följande mjukvaruapplikationer i ditt system. Klicka på OK för att tillämpa konfigurationsinställningarna, vilket kommer förbättra kompatibiliteten med dessa applikationer. Dessa konfigurationsinställningar kommer ha påverkan på alla existerande sandlådor samt även de nya.</translation>
+        <source>Sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
+        <translation>Sandybox har upptäckt följande mjukvaruapplikationer i ditt system. Klicka på OK för att tillämpa konfigurationsinställningarna, vilket kommer förbättra kompatibiliteten med dessa applikationer. Dessa konfigurationsinställningar kommer ha påverkan på alla existerande sandlådor samt även de nya.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3179"/>
@@ -12687,19 +12687,19 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2130"/>
-        <source>sandybox Version: 0.0.0</source>
-        <translation>sandybox version: 0.0.0</translation>
+        <source>Sandybox Version: 0.0.0</source>
+        <translation>Sandybox version: 0.0.0</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2631"/>
-        <source>Use sandybox&apos;s own enhanced UAC prompt (recommended)</source>
-        <oldsource>Use sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
-        <translation>Använd sandybox`s egna utökade UAC-meddelare (rekommenderad)</translation>
+        <source>Use Sandybox&apos;s own enhanced UAC prompt (recommended)</source>
+        <oldsource>Use Sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
+        <translation>Använd Sandybox`s egna utökade UAC-meddelare (rekommenderad)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2641"/>
-        <source>Sandboxie.ini</source>
-        <translation>Sandboxie.ini</translation>
+        <source>base configuration file</source>
+        <translation>base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2674"/>
@@ -12732,8 +12732,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2688"/>
-        <source>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Konfigurera skydd gäller endast för Sandboxie.ini, portabel lådkonfiguration skyddas inte av nedanstående mekanism&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Config protection applyess only to base configuration file portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Konfigurera skydd gäller endast för base configuration file, portabel lådkonfiguration skyddas inte av nedanstående mekanism&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2647"/>
@@ -12762,9 +12762,9 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3100"/>
-        <source>&lt;a href=&quot;sbie://templates&quot;&gt;update compatibility templates now&lt;/a&gt;</source>
-        <oldsource>&lt;a href=&quot;sbie://templates&quot;&gt;update compatybility templates now&lt;/a&gt;</oldsource>
-        <translation>&lt;a href=&quot;sbie://templates&quot;&gt;uppdatera kompatibilitetsmallar nu&lt;/a&gt;</translation>
+        <source>update compatibility templates now</source>
+        <oldsource>update compatybility templates now</oldsource>
+        <translation>uppdatera kompatibilitetsmallar nu</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3225"/>
@@ -12984,7 +12984,7 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2205"/>
-        <source>Hotpatches for the installed version, updates to the Templates.ini and translations.</source>
+        <source>Hotpatches for the installed version, updates to the template configuration file and translations.</source>
         <translation>Snabbfixar för den installerade versionen, uppdateringar till mallar.ini och översättningar.</translation>
     </message>
     <message>
@@ -13012,8 +13012,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         <translation>Sök i Stable-kanalen</translation>
     </message>
     <message>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;PayPal donation&lt;/a&gt;, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon subscription&lt;/a&gt;.</source>
-        <translation type="vanished">Hålla sandybox uppdaterat med de rullande utgivningarna av Windows och kompatibelt med alla webbläsare är en aldrig upphörande strävan. Vänligen överväg att supporta detta jobb med en donation.&lt;br /&gt;Du kan supporta utvecklingen med en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;PayPal donation&lt;/a&gt;, fungerar också med kreditkort.&lt;br /&gt;Eller förse kontinuerlig support med en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon prenumeration&lt;/a&gt;.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a PayPal donation, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a Patreon subscription.</source>
+        <translation type="vanished">Hålla Sandybox uppdaterat med de rullande utgivningarna av Windows och kompatibelt med alla webbläsare är en aldrig upphörande strävan. Vänligen överväg att supporta detta jobb med en donation.&lt;br /&gt;Du kan supporta utvecklingen med en PayPal donation, fungerar också med kreditkort.&lt;br /&gt;Eller förse kontinuerlig support med en Patreon prenumeration.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2221"/>
@@ -13021,8 +13021,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         <translation>Sök i Preview-kanalen</translation>
     </message>
     <message>
-        <source>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation type="vanished">Supportrar av sandybox projektet kan motta ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporter certifikat&lt;/a&gt;. Det är som en licens fast för fantastiska människor som använder öppen källa program. :-)</translation>
+        <source>Supporters of the Sandybox project can receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation type="vanished">Supportrar av Sandybox projektet kan motta ett supporter certifikat. Det är som en licens fast för fantastiska människor som använder öppen källa program. :-)</translation>
     </message>
     <message>
         <source>Search in the Release channel</source>
@@ -13033,16 +13033,16 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         <translation type="vanished">Installera uppdateringar automatiskt</translation>
     </message>
     <message>
-        <source>Supporters of the sandybox project receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation type="vanished">Supportrar av sandybox projektet får ett &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supportercertifikat&lt;/a&gt;. Det är som en licensnyckel men för fantastiska människor som använder öppen källa program. :-)</translation>
+        <source>Supporters of the Sandybox project receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation type="vanished">Supportrar av Sandybox projektet får ett supportercertifikat. Det är som en licensnyckel men för fantastiska människor som använder öppen källa program. :-)</translation>
     </message>
     <message>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon subscription&lt;/a&gt;.</source>
-        <translation type="vanished">Hålla sandybox uppdaterat med det rullande utgivandet av Windows och kompatibelt med alla webbläsare är en aldrig upphörande strävan. Vänligen överväg att supporta detta arbete med en donation.&lt;br /&gt;Du kan supporta utvecklingen med en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;gt;PayPal donation&lt;/a&gt;, fungerar också med kreditkort.&lt;br /&gt;Eller så kan du ge kontinuerlig support med en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon prenumeration&lt;/a&gt;.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a PayPal donation, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a Patreon subscription.</source>
+        <translation type="vanished">Hålla Sandybox uppdaterat med det rullande utgivandet av Windows och kompatibelt med alla webbläsare är en aldrig upphörande strävan. Vänligen överväg att supporta detta arbete med en donation.&lt;br /&gt;Du kan supporta utvecklingen med en , fungerar också med kreditkort.&lt;br /&gt;Eller så kan du ge kontinuerlig support med en Patreon prenumeration.</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Detta supportercertifikat har utgått, vänligen &lt;a href=&quot;sbie://update/cert&quot;&gt;skaffa ett uppdaterat certifikat&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate.</source>
+        <translation type="vanished">Detta supportercertifikat har utgått, vänligen skaffa ett uppdaterat certifikat.</translation>
     </message>
     <message>
         <source>Support Settings</source>
@@ -13054,8 +13054,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
         <translation>Meddela inte om certifikatsutgång i framtiden</translation>
     </message>
     <message>
-        <source>Check periodically for updates of sandybox</source>
-        <translation type="vanished">Sök periodvis efter uppdateringar av sandybox</translation>
+        <source>Check periodically for updates of Sandybox</source>
+        <translation type="vanished">Sök periodvis efter uppdateringar av Sandybox</translation>
     </message>
     <message>
         <source>Download Updates automatically</source>
@@ -13066,8 +13066,8 @@ Till skillnad från preview-kanalen, inkluderar den inte otestade, möjligen fö
     <name>SnapshotsWindow</name>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="32"/>
-        <source>sandybox - Snapshots</source>
-        <translation>sandybox - Ögonblicksbilder</translation>
+        <source>Sandybox - Snapshots</source>
+        <translation>Sandybox - Ögonblicksbilder</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="60"/>

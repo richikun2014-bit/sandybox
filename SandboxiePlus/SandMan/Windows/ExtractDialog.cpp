@@ -20,7 +20,7 @@ CExtractDialog::CExtractDialog(const QString& Name, QWidget *parent)
 	setWindowFlags(flags);
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox - Sandbox Import"));
+	this->setWindowTitle(tr("Sandybox - Sandbox Import"));
 
 	ui.txtName->setText(Name);
 
@@ -58,7 +58,7 @@ void CExtractDialog::OnAccept()
 {
 	CSandBoxPtr pBox = theAPI->GetBoxByName(ui.txtName->text());
 	if (!pBox.isNull()) {
-		QMessageBox::warning(this, "sandybox", tr("This name is already in use, please select an alternative box name"));
+		QMessageBox::warning(this, "Sandybox", tr("This name is already in use, please select an alternative box name"));
 		return;
 	}
 

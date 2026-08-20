@@ -171,7 +171,7 @@ CIntroPage::CIntroPage(QWidget *parent)
     setPixmap(QWizard::WatermarkPixmap, Logo);
 
     QVBoxLayout *layout = new QVBoxLayout;
-    QLabel* pTopLabel = new QLabel(tr("Welcome to the Setup Wizard. This wizard will help you to configure your copy of <b>sandybox</b>. "
+    QLabel* pTopLabel = new QLabel(tr("Welcome to the Setup Wizard. This wizard will help you to configure your copy of <b>Sandybox</b>. "
         "You can start this wizard at any time from the Sandbox->Maintenance menu if you do not wish to complete it now."));
     pTopLabel->setWordWrap(true);
     layout->addWidget(pTopLabel);
@@ -180,7 +180,7 @@ CIntroPage::CIntroPage(QWidget *parent)
     pSpace->setMinimumHeight(16);
     layout->addWidget(pSpace);
 
-    m_pLabel = new QLabel(tr("Select how you would like to use sandybox"));
+    m_pLabel = new QLabel(tr("Select how you would like to use Sandybox"));
     layout->addWidget(m_pLabel);
 
     m_pPersonal = new QRadioButton(tr("&Personally, for private non-commercial use"));
@@ -245,7 +245,7 @@ bool CIntroPage::isComplete() const
 CCertificatePage::CCertificatePage(int iOldLevel, QWidget *parent)
     : QWizardPage(parent)
 {
-    setTitle(tr("Install your <b>sandybox</b> support certificate"));
+    setTitle(tr("Install your <b>Sandybox</b> support certificate"));
     setSubTitle(tr("If you have a supporter certificate, please fill it into the field below."));
     
     if (iOldLevel < SETUP_LVL_1)
@@ -288,7 +288,7 @@ CCertificatePage::CCertificatePage(int iOldLevel, QWidget *parent)
     connect(m_pEvaluate, SIGNAL(toggled(bool)), this, SIGNAL(completeChanged()));
     registerField("isEvaluate", m_pEvaluate);
 
-    QLabel* pGetEvalCert = new QLabel(tr("<b><a href=\"_\"><font color='red'>Get a free evaluation certificate</font></a> and enjoy all premium features for %1 days.</b>").arg(EVAL_DAYS));
+    QLabel* pGetEvalCert = new QLabel(tr("<b><font color='red'>A free evaluation certificate is available for %1 days.</font></b>").arg(EVAL_DAYS));
     pGetEvalCert->setToolTip(tr("You can request a free %1-day evaluation certificate up to %2 times per hardware ID.").arg(EVAL_DAYS).arg(EVAL_MAX));
     layout->addWidget(pGetEvalCert);
     connect(pGetEvalCert, &QLabel::linkActivated, this, [=]() {
@@ -314,8 +314,8 @@ void CCertificatePage::initializePage()
         theAPI->SetSecureParam("UsageFlags", &UsageFlags, sizeof(UsageFlags));
 
         m_pTopLabel->setText(
-            tr("To use <b>sandybox</b> in a business setting, an appropriate <a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">support certificate</a> for business use is required. "
-            "If you do not yet have the required certificate(s), you can get those from the <a href=\"https://xanasoft.com/shop/\">xanasoft.com web shop</a>.")
+            tr("To use <b>Sandybox</b> in a business setting, an appropriate support certificate for business use is required. "
+            "If you do not yet have the required certificate(s), you can get those from the xanasoft.com web shop.")
         );
 
         m_pEvaluate->setVisible(true);
@@ -328,10 +328,10 @@ void CCertificatePage::initializePage()
         theAPI->SetSecureParam("UsageFlags", &UsageFlags, sizeof(UsageFlags));
 
         m_pTopLabel->setText(
-            tr("<b>sandybox</b> provides additional features and box types exclusively to <u>project supporters</u>. "
+            tr("<b>Sandybox</b> provides additional features and box types exclusively to <u>project supporters</u>. "
                 "Boxes like the Privacy Enhanced boxes <b><font color='red'>protect user data from illicit access</font></b> by the sandboxed programs. "
-                "If you are not yet a supporter, then please consider <a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">supporting the project</a> "
-                "to ensure further development of sandybox and to receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>.")
+                "If you are not yet a supporter, then please consider supporting the project "
+                "to ensure further development of Sandybox and to receive a supporter certificate.")
         );
 
         m_pEvaluate->setVisible(false);
@@ -367,7 +367,7 @@ void CCertificatePage::OnCertData(const QByteArray& Certificate, const QVariantM
     else {
         QString Message = tr("Failed to retrieve the certificate.");
         Message += tr("\nError: %1").arg(Params["error"].toString());
-        QMessageBox::critical(this, "sandybox", Message);
+        QMessageBox::critical(this, "Sandybox", Message);
     }
 }
 
@@ -415,7 +415,7 @@ bool CCertificatePage::validatePage()
 CUIPage::CUIPage(QWidget* parent)
     : QWizardPage(parent)
 {
-    setTitle(tr("Configure <b>sandybox</b> UI"));
+    setTitle(tr("Configure <b>Sandybox</b> UI"));
     setSubTitle(tr("Select the user interface style you prefer."));
 
     QGridLayout* layout = new QGridLayout;
@@ -530,8 +530,8 @@ int CUIPage::nextId() const
 CShellPage::CShellPage(QWidget *parent)
     : QWizardPage(parent)
 {
-    setTitle(tr("Configure <b>sandybox</b> shell integration"));
-    setSubTitle(tr("Configure how sandybox should integrate with your system."));
+    setTitle(tr("Configure <b>Sandybox</b> shell integration"));
+    setSubTitle(tr("Configure how Sandybox should integrate with your system."));
 
     QVBoxLayout *layout = new QVBoxLayout;
 
@@ -545,7 +545,7 @@ CShellPage::CShellPage(QWidget *parent)
     layout->addWidget(m_pContecxtMenu);
     registerField("useContecxtMenu", m_pContecxtMenu);
 
-    m_pBrowserIcon = new QCheckBox(tr("Add desktop shortcut for starting Web browser under sandybox"));
+    m_pBrowserIcon = new QCheckBox(tr("Add desktop shortcut for starting Web browser under Sandybox"));
     m_pBrowserIcon->setChecked(true);
     layout->addWidget(m_pBrowserIcon);
     registerField("useBrowserIcon", m_pBrowserIcon);
@@ -562,8 +562,8 @@ CShellPage::CShellPage(QWidget *parent)
 void CShellPage::OnEditOnlyAdmin() 
 {
     if (m_pEditOnlyAdmin->isChecked()) {
-        if (QMessageBox::warning(this, tr("Warning"), tr("Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using sandybox Manager with normal user rights may result in a lockout. "
-          "To make changes to the configuration, you must restart sandybox Manager as an admin by clicking 'Restart as Admin' in the 'Sandbox' menu in the main window."),
+        if (QMessageBox::warning(this, tr("Warning"), tr("Enabling this option prevents changes to the base configuration from the user interface without admin rights. Be careful, as using Sandybox Manager with normal user rights may result in a lockout. "
+          "To make changes to the configuration, you must restart Sandybox Manager as an admin by clicking 'Restart as Admin' in the 'Sandbox' menu in the main window."),
           QMessageBox::Ok, QMessageBox::Cancel) == QMessageBox::Cancel)
             m_pEditOnlyAdmin->setChecked(false);
     }
@@ -583,19 +583,19 @@ int CShellPage::nextId() const
 /*CWFPPage::CWFPPage(QWidget *parent)
     : QWizardPage(parent)
 {
-    setTitle(tr("Configure <b>sandybox</b> network filtering"));
-    setSubTitle(tr("sandybox can use the Windows Filtering Platform (WFP) to restrict network access."));
+    setTitle(tr("Configure <b>Sandybox</b> network filtering"));
+    setSubTitle(tr("Sandybox can use the Windows Filtering Platform (WFP) to restrict network access."));
 
     QVBoxLayout *layout = new QVBoxLayout;
 
     QLabel* pLabel = new QLabel;
     pLabel->setWordWrap(true);
-    pLabel->setText(tr("Using WFP allows sandybox to reliably enforce IP/Port based rules for network access. "
-        "Unlike system level application firewalls, sandybox can use different rules in each box for the same application. "
+    pLabel->setText(tr("Using WFP allows Sandybox to reliably enforce IP/Port based rules for network access. "
+        "Unlike system level application firewalls, Sandybox can use different rules in each box for the same application. "
         "If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. "
-        "Without WFP enabled, sandybox will still be able to reliably and entirely block processes from accessing the network. "
+        "Without WFP enabled, Sandybox will still be able to reliably and entirely block processes from accessing the network. "
         "However, this can cause the process to crash, as the driver blocks the required network device endpoints. "
-        "Even with WFP disabled, sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. "
+        "Even with WFP disabled, Sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. "
         "Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block."));
     layout->addWidget(pLabel);
 
@@ -619,8 +619,8 @@ int CWFPPage::nextId() const
 CSBUpdate::CSBUpdate(QWidget *parent)
     : QWizardPage(parent)
 {
-    setTitle(tr("Configure <b>sandybox</b> updater"));
-    setSubTitle(tr("Like with any other security product, it's important to keep your sandybox up to date."));
+    setTitle(tr("Configure <b>Sandybox</b> updater"));
+    setSubTitle(tr("Like with any other security product, it's important to keep your Sandybox up to date."));
 
     QGridLayout *layout = new QGridLayout;
     layout->setSpacing(3);
@@ -628,8 +628,8 @@ CSBUpdate::CSBUpdate(QWidget *parent)
     int row = 0;
     int rows = 4;
 
-    m_pUpdate = new QCheckBox(tr("Regularly check for all updates to sandybox and optional components"));
-    m_pUpdate->setToolTip(tr("Let sandybox regularly check for latest updates."));
+    m_pUpdate = new QCheckBox(tr("Regularly check for all updates to Sandybox and optional components"));
+    m_pUpdate->setToolTip(tr("Let Sandybox regularly check for latest updates."));
     layout->addWidget(m_pUpdate, row++, 0, 1, rows);
     connect(m_pUpdate, &QCheckBox::toggled, this, &CSBUpdate::UpdateOptions);
     registerField("updateAll", m_pUpdate);
@@ -639,14 +639,14 @@ CSBUpdate::CSBUpdate(QWidget *parent)
     pSpacer->setMaximumWidth(16);
     layout->addWidget(pSpacer, row+5, 0, 1, 1);
 
-    m_pVersion = new QCheckBox(tr("Check for new sandybox versions:"));
-    m_pVersion->setToolTip(tr("Check for new sandybox builds."));
+    m_pVersion = new QCheckBox(tr("Check for new Sandybox versions:"));
+    m_pVersion->setToolTip(tr("Check for new Sandybox builds."));
     layout->addWidget(m_pVersion, row++, 1, 1, rows-2);
     //layout->addWidget(new QComboBox(), row-1, 3, 1, 1);
     connect(m_pVersion, &QCheckBox::toggled, this, &CSBUpdate::UpdateOptions);
     registerField("updateApp", m_pVersion);
 
-    m_pChanelInfo = new QLabel(tr("Select in which update channel to look for new sandybox builds:"));
+    m_pChanelInfo = new QLabel(tr("Select in which update channel to look for new Sandybox builds:"));
     m_pChanelInfo->setMinimumHeight(20);
     layout->addWidget(m_pChanelInfo, row++, 1, 1, rows-1);
 
@@ -671,7 +671,7 @@ CSBUpdate::CSBUpdate(QWidget *parent)
         "or experimental changes that may not be ready for wider use."));
     layout->addWidget(m_pInsider, row, 2, 1, 1);
     registerField("channelInsider", m_pInsider);
-    QLabel* pInsiderInfo = new QLabel(tr("More about the <a href=\"https://sandboxie-plus.com/go.php?to=sbie-insider\">Insider Channel</a>"));
+    QLabel* pInsiderInfo = new QLabel(tr("More about the Insider Channel"));
     connect(pInsiderInfo, SIGNAL(linkActivated(const QString&)), theGUI, SLOT(OpenUrl(const QString&)));
     layout->addWidget(pInsiderInfo, row++, 3, 1, 1);
 
@@ -697,16 +697,16 @@ CSBUpdate::CSBUpdate(QWidget *parent)
 
     m_pUpdateInfo = new QLabel();
     m_pUpdateInfo->setWordWrap(true);
-    //m_pUpdateInfo->setText(tr("sandybox applies many application restrictions which may occasionally lead to compatibility issues, necessitating mitigation efforts. "
+    //m_pUpdateInfo->setText(tr("Sandybox applies many application restrictions which may occasionally lead to compatibility issues, necessitating mitigation efforts. "
     //    "Compatibility may be broken by new Windows updates and changes within sandboxed applications themselves. "
-    //    "To ensure smooth operation, it is highly recommended to regularly check for sandybox updates, apply the latest compatibility templates, and keep troubleshooting scripts up-to-date."));
-    m_pUpdateInfo->setText(tr("sandybox applies strict application restrictions, which can lead to compatibility issues. "
-        "Stay updated with sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes."));
+    //    "To ensure smooth operation, it is highly recommended to regularly check for Sandybox updates, apply the latest compatibility templates, and keep troubleshooting scripts up-to-date."));
+    m_pUpdateInfo->setText(tr("Sandybox applies strict application restrictions, which can lead to compatibility issues. "
+        "Stay updated with Sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes."));
     layout->addWidget(m_pUpdateInfo, row++, 0, 1, rows);
 
     layout->addItem(new QSpacerItem(10, 10, QSizePolicy::Fixed, QSizePolicy::Expanding), row++, 0);
 
-    m_pBottomLabel = new QLabel(tr("Access to the latest compatibility templates and the online troubleshooting database requires a valid <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>."));
+    m_pBottomLabel = new QLabel(tr("Access to the latest compatibility templates and the online troubleshooting database requires a valid supporter certificate."));
     connect(m_pBottomLabel, SIGNAL(linkActivated(const QString&)), theGUI, SLOT(OpenUrl(const QString&)));
     m_pBottomLabel->setWordWrap(true);
     layout->addWidget(m_pBottomLabel, row++, 0, 1, rows);
@@ -779,10 +779,10 @@ CFinishPage::CFinishPage(QWidget *parent)
     
     //QLabel* pLabel = new QLabel;
     //pLabel->setWordWrap(true);
-    //pLabel->setText(tr("Like with any other security product it's important to keep your sandybox up to date."));
+    //pLabel->setText(tr("Like with any other security product it's important to keep your Sandybox up to date."));
     //layout->addWidget(pLabel);
 
-    //m_pUpdate = new QCheckBox(tr("Keep sandybox up to date."));
+    //m_pUpdate = new QCheckBox(tr("Keep Sandybox up to date."));
     //m_pUpdate->setChecked(true);
     //layout->addWidget(m_pUpdate);
     //registerField("isUpdate", m_pUpdate);

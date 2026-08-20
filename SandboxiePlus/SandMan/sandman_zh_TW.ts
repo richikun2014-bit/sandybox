@@ -243,8 +243,8 @@
         <translation type="vanished">允許 MSIServer 使用沙箱化系統權杖執行</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation type="vanished">使用 sandybox 登入程序替代匿名權杖</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation type="vanished">使用 Sandybox 登入程序替代匿名權杖</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="891"/>
@@ -361,12 +361,12 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
     要為沙箱禁用此範本，只需在範本清單中將其取消選中即可。</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">使用 sandybox 限權用戶，而不是匿名令牌 (實驗性)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">使用 Sandybox 限權用戶，而不是匿名令牌 (實驗性)</translation>
     </message>
     <message>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation type="vanished">使用自訂 sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation type="vanished">使用自訂 Sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
     </message>
 </context>
 <context>
@@ -378,14 +378,14 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="237"/>
-        <source>Welcome to the Troubleshooting Wizard for sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
-        <translation>歡迎來到 sandybox 疑難排解精靈。此互動式助理是為了幫助您解決沙箱問題而設計的。</translation>
+        <source>Welcome to the Troubleshooting Wizard for Sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
+        <translation>歡迎來到 Sandybox 疑難排解精靈。此互動式助理是為了幫助您解決沙箱問題而設計的。</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="280"/>
-        <source>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerful. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retrieve the latest troubleshooting instructions.</source>
-        <oldsource>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerfull. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retriev the latest troubleshooting instructions.</oldsource>
-        <translation>當存在有效 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt; 時此精靈可以變得更為強大。此精靈將可以存取 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;線上解決方案資料庫&lt;/a&gt; 以取得最新的疑難排解指示。</translation>
+        <source>With a valid supporter certificate the wizard would be even more powerful. It could access the online solution database to retrieve the latest troubleshooting instructions.</source>
+        <oldsource>With a valid supporter certificate the wizard would be even more powerfull. It could access the online solution database to retriev the latest troubleshooting instructions.</oldsource>
+        <translation>當存在有效 贊助者憑證 時此精靈可以變得更為強大。此精靈將可以存取 線上解決方案資料庫 以取得最新的疑難排解指示。</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="318"/>
@@ -458,8 +458,8 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
     <name>CBoxImageWindow</name>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="23"/>
-        <source>sandybox - Password Entry</source>
-        <translation>sandybox - 密碼輸入</translation>
+        <source>Sandybox - Password Entry</source>
+        <translation>Sandybox - 密碼輸入</translation>
     </message>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="37"/>
@@ -751,8 +751,8 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="335"/>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation>沙箱會將您的主機系統與沙箱內執行的處理程序隔離開來，以防止它們對電腦中的其它程式和資料進行永久性變更。隔離的級別會影響您的安全性以及與應用程式的相容性，因此根據所選的沙箱類型，將有不同的隔離級別。sandybox 還可以保護您的個人資料在其監督下不會被執行的處理程序存取。</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation>沙箱會將您的主機系統與沙箱內執行的處理程序隔離開來，以防止它們對電腦中的其它程式和資料進行永久性變更。隔離的級別會影響您的安全性以及與應用程式的相容性，因此根據所選的沙箱類型，將有不同的隔離級別。Sandybox 還可以保護您的個人資料在其監督下不會被執行的處理程序存取。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="346"/>
@@ -767,8 +767,8 @@ increases to 512 bits with the application of Leet (L337) speak modifications, a
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="401"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;安全性強化型&lt;/a&gt;沙箱並包含&lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;資料防護&lt;/a&gt;</translation>
+        <source>Security Hardened Sandbox with Data Protection</source>
+        <translation>安全性強化型沙箱並包含資料防護</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="402"/>
@@ -781,8 +781,8 @@ The entire user profile remains hidden, ensuring maximum security.</source>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="405"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox</source>
-        <translation>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;安全性強化&lt;/a&gt;沙箱</translation>
+        <source>Security Hardened Sandbox</source>
+        <translation>安全性強化沙箱</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="406"/>
@@ -791,8 +791,8 @@ The entire user profile remains hidden, ensuring maximum security.</source>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="407"/>
-        <source>Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;資料防護型&lt;/a&gt;沙箱</translation>
+        <source>Sandbox with Data Protection</source>
+        <translation>資料防護型沙箱</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="408"/>
@@ -808,15 +808,15 @@ only C:\Windows and C:\Program Files directories are accessible to processes run
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="411"/>
-        <source>This box type offers the default behavior of sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
+        <source>This box type offers the default behavior of Sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
 Applications can be run within this sandbox, ensuring they operate within a controlled and isolated space.</source>
-        <translation>此沙箱類型提供 sandybox 經典版本的預設行為。它為使用者提供了熟悉且可靠的沙箱化方案。
+        <translation>此沙箱類型提供 Sandybox 經典版本的預設行為。它為使用者提供了熟悉且可靠的沙箱化方案。
 應用程式可以在該沙箱內運作，確保它們在受控且隔離的空間內進行作業。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="413"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;應用程式區間型&lt;/a&gt;沙箱並包含&lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;資料防護&lt;/a&gt;</translation>
+        <source>Application Compartment Box with Data Protection</source>
+        <translation>應用程式區間型沙箱並包含資料防護</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="414"/>
@@ -828,25 +828,25 @@ While the level of isolation is reduced compared to other box types, it offers i
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="416"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;應用程式區間型&lt;/a&gt;沙箱</translation>
+        <source>Application Compartment Box</source>
+        <translation>應用程式區間型沙箱</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="425"/>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypt&lt;/a&gt; Box content and set &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;加密&lt;/a&gt;沙箱內容並設定為&lt;a href=&quot;sbie://docs/black-box&quot;&gt;機密&lt;/a&gt;</translation>
+        <source>Encrypt Box content and set Confidential</source>
+        <translation>加密沙箱內容並設定為機密</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypted&lt;/a&gt; &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt; Box</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;加密&lt;/a&gt;&lt;a href=&quot;sbie://docs/black-box&quot;&gt;機密型&lt;/a&gt;沙箱</translation>
+        <source>Encrypted Confidential Box</source>
+        <translation type="vanished">加密機密型沙箱</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="426"/>
         <source>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. 
-Access to the virtual disk when mounted is restricted to programs running within the sandbox. sandybox prevents other processes on the host system from accessing the sandboxed processes. 
+Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandybox prevents other processes on the host system from accessing the sandboxed processes. 
 This ensures the utmost level of privacy and data protection within the confidential sandbox environment.</source>
         <translation>在此沙箱類型中沙箱使用加密的磁碟映像作為其根資料夾。這提供了額外的隱私和安全層級。
-安裝後對虛擬磁碟的存取僅限於沙箱中執行的程式。 sandybox 可防止主機系統上的其它處理程序存取沙箱化處理程序。
+安裝後對虛擬磁碟的存取僅限於沙箱中執行的程式。 Sandybox 可防止主機系統上的其它處理程序存取沙箱化處理程序。
 這確保了機密型沙箱環境中最高水準的隱私和資料保護。</translation>
     </message>
     <message>
@@ -1059,9 +1059,9 @@ Please browse to the correct user profile directory.</oldsource>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="329"/>
-        <source>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</source>
-        <oldsource>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</oldsource>
-        <translation>選擇網頁瀏覽器的主程式，這將允許 sandybox 辨識瀏覽器。</translation>
+        <source>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</source>
+        <oldsource>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</oldsource>
+        <translation>選擇網頁瀏覽器的主程式，這將允許 Sandybox 辨識瀏覽器。</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="339"/>
@@ -1106,8 +1106,8 @@ Please browse to the correct user profile directory.</oldsource>
     <name>CCertificatePage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="248"/>
-        <source>Install your &lt;b&gt;sandybox&lt;/b&gt; support certificate</source>
-        <translation>安裝您的 &lt;b&gt;sandybox&lt;/b&gt; 贊助者憑證</translation>
+        <source>Install your &lt;b&gt;Sandybox&lt;/b&gt; support certificate</source>
+        <translation>安裝您的 &lt;b&gt;Sandybox&lt;/b&gt; 贊助者憑證</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="249"/>
@@ -1126,8 +1126,8 @@ Please browse to the correct user profile directory.</oldsource>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="291"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt;&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;取得一個免費試用憑證&lt;/font&gt;&lt;/a&gt;以體驗高級功能 %1 天。&lt;/b&gt;</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;取得一個免費試用憑證&lt;/font&gt;以體驗高級功能 %1 天。&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="292"/>
@@ -1137,13 +1137,13 @@ Please browse to the correct user profile directory.</oldsource>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="317"/>
-        <source>To use &lt;b&gt;sandybox&lt;/b&gt; in a business setting, an appropriate &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt; for business use is required. If you do not yet have the required certificate(s), you can get those from the &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com web shop&lt;/a&gt;.</source>
-        <translation>要在商業設定環境使用 &lt;b&gt;sandybox&lt;/b&gt;，需要適用於商業用途的&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;贊助者憑證&lt;/a&gt;。如果您還沒有所需的憑證，可以透過&lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com 網路商店&lt;/a&gt;取得憑證。</translation>
+        <source>To use &lt;b&gt;Sandybox&lt;/b&gt; in a business setting, an appropriate support certificate for business use is required. If you do not yet have the required certificate(s), you can get those from the the project store.</source>
+        <translation>要在商業設定環境使用 &lt;b&gt;Sandybox&lt;/b&gt;，需要適用於商業用途的贊助者憑證。如果您還沒有所需的憑證，可以透過the project store 網路商店取得憑證。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="331"/>
-        <source>&lt;b&gt;sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; to ensure further development of sandybox and to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;sandybox&lt;/b&gt; 僅為&lt;u&gt;專案贊助者&lt;/u&gt;提供額外的功能和沙箱類型。例如隱私增強型沙箱，可對來自沙箱化程式非法存取使用者資料的行為&lt;b&gt;&lt;font color=&apos;red&apos;&gt;提供額外的使用者資料保護&lt;/font&gt;&lt;/b&gt;。如果您還不是贊助者，請考慮 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;贊助支援此專案&lt;/a&gt;來確保 sandybox 的開發工作，並以此取得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;。</translation>
+        <source>&lt;b&gt;Sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider supporting the project to ensure further development of Sandybox and to receive a supporter certificate.</source>
+        <translation>&lt;b&gt;Sandybox&lt;/b&gt; 僅為&lt;u&gt;專案贊助者&lt;/u&gt;提供額外的功能和沙箱類型。例如隱私增強型沙箱，可對來自沙箱化程式非法存取使用者資料的行為&lt;b&gt;&lt;font color=&apos;red&apos;&gt;提供額外的使用者資料保護&lt;/font&gt;&lt;/b&gt;。如果您還不是贊助者，請考慮 贊助支援此專案來確保 Sandybox 的開發工作，並以此取得贊助者憑證。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="368"/>
@@ -1242,18 +1242,18 @@ Find String:</source>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="1086"/>
-        <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
+        <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
-        <translation>感謝您使用 sandybox 疑難排解精靈。我們對您在使用過程中出現的任何不便深表歉意。如果你有任何追加的疑問或需要更深入協助，請不要吝惜於和我們取得聯絡。我們將永遠竭誠為您服務。感謝您的理解與合作。
+        <translation>感謝您使用 Sandybox 疑難排解精靈。我們對您在使用過程中出現的任何不便深表歉意。如果你有任何追加的疑問或需要更深入協助，請不要吝惜於和我們取得聯絡。我們將永遠竭誠為您服務。感謝您的理解與合作。
 
 您可以按「完成」以關閉此精靈。</translation>
     </message>
     <message>
-        <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process.If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
+        <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process.If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
-        <translation type="vanished">感謝您使用 sandybox 疑難排解精靈。我們對您在使用過程中出現的任何不便深表歉意。如果你有任何追加的疑問或需要更深入協助，請不要吝惜於和我們取得聯絡。我們將永遠竭誠為您服務。感謝您的理解與合作。
+        <translation type="vanished">感謝您使用 Sandybox 疑難排解精靈。我們對您在使用過程中出現的任何不便深表歉意。如果你有任何追加的疑問或需要更深入協助，請不要吝惜於和我們取得聯絡。我們將永遠竭誠為您服務。感謝您的理解與合作。
 
 您可以按「完成」以關閉此精靈。</translation>
     </message>
@@ -1262,8 +1262,8 @@ You can click Finish to close this wizard.</source>
     <name>CCompressDialog</name>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Export</source>
-        <translation>sandybox - 匯出沙箱</translation>
+        <source>Sandybox - Sandbox Export</source>
+        <translation>Sandybox - 匯出沙箱</translation>
     </message>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="27"/>
@@ -1453,8 +1453,8 @@ You can click Finish to close this wizard.</source>
     <name>CExtractDialog</name>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Import</source>
-        <translation>sandybox - 沙箱匯入</translation>
+        <source>Sandybox - Sandbox Import</source>
+        <translation>Sandybox - 沙箱匯入</translation>
     </message>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="39"/>
@@ -1630,8 +1630,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <translation>即將就緒，按下「完成」按鈕以套用所有選取的選項，並結束此精靈。</translation>
     </message>
     <message>
-        <source>Keep sandybox up to date.</source>
-        <translation type="vanished">保持 sandybox 是最新版本。</translation>
+        <source>Keep Sandybox up to date.</source>
+        <translation type="vanished">保持 Sandybox 是最新版本。</translation>
     </message>
 </context>
 <context>
@@ -1881,13 +1881,13 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="174"/>
-        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
-        <translation>歡迎來到設定精靈，本精靈將幫助您設定此 &lt;b&gt;sandybox&lt;/b&gt; 安裝之組態。如果您不希望現在完成，您可以從「沙箱 -&gt; 維護」選單中隨時重新啟動此精靈。</translation>
+        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;Sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
+        <translation>歡迎來到設定精靈，本精靈將幫助您設定此 &lt;b&gt;Sandybox&lt;/b&gt; 安裝之組態。如果您不希望現在完成，您可以從「沙箱 -&gt; 維護」選單中隨時重新啟動此精靈。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="183"/>
-        <source>Select how you would like to use sandybox</source>
-        <translation>選擇 sandybox 的使用方式</translation>
+        <source>Select how you would like to use Sandybox</source>
+        <translation>選擇 Sandybox 的使用方式</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="186"/>
@@ -1980,13 +1980,13 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="802"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>使用 sandybox 登入程序替代匿名權杖</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>使用 Sandybox 登入程序替代匿名權杖</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="803"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>使用自訂 sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>使用自訂 Sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
     </message>
 </context>
 <context>
@@ -2066,8 +2066,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
 <context>
     <name>CMultiErrorDialog</name>
     <message>
-        <source>sandybox - Error</source>
-        <translation type="vanished">sandybox - 錯誤</translation>
+        <source>Sandybox - Error</source>
+        <translation type="vanished">Sandybox - 錯誤</translation>
     </message>
     <message>
         <source>Message</source>
@@ -2077,8 +2077,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
 <context>
     <name>CNewBoxWindow</name>
     <message>
-        <source>sandybox - Create New Box</source>
-        <translation type="vanished">sandybox - 建立新沙箱</translation>
+        <source>Sandybox - Create New Box</source>
+        <translation type="vanished">Sandybox - 建立新沙箱</translation>
     </message>
     <message>
         <source>Hardened Sandbox with Data Protection</source>
@@ -2131,9 +2131,9 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="289"/>
-        <source>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
-        <oldsource>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
-        <translation>新沙箱按照新的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;虛擬化方案 V2&lt;/a&gt; 建立，如果您在使用該沙箱的時候遇到任何問題，請嘗試切換至虛擬化方案 V1 並向我們反應問題，變更此預設的選項可以在「沙箱選項」中「檔案選項」的「沙箱結構」選項組內找到。</translation>
+        <source>The new sandbox has been created using the new Virtualization Scheme Version 2, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
+        <oldsource>The new sandbox has been created using the new Virtualization Scheme Version 2, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
+        <translation>新沙箱按照新的 虛擬化方案 V2 建立，如果您在使用該沙箱的時候遇到任何問題，請嘗試切換至虛擬化方案 V1 並向我們反應問題，變更此預設的選項可以在「沙箱選項」中「檔案選項」的「沙箱結構」選項組內找到。</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="83"/>
@@ -2180,8 +2180,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     <name>COnlineUpdater</name>
     <message>
         <location filename="OnlineUpdater.cpp" line="476"/>
-        <source>Do you want to check if there is a new version of sandybox?</source>
-        <translation>您想要檢查 sandybox 是否存在新版本嗎？</translation>
+        <source>Do you want to check if there is a new version of Sandybox?</source>
+        <translation>您想要檢查 Sandybox 是否存在新版本嗎？</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="477"/>
@@ -2190,8 +2190,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="504"/>
-        <source>To ensure optimal compatibility with your software, sandybox needs to update its compatibility templates. Do you want to proceed?</source>
-        <translation>為了確保與軟體的最佳相容性，sandybox 需要更新其相容性範本。是否繼續？</translation>
+        <source>To ensure optimal compatibility with your software, Sandybox needs to update its compatibility templates. Do you want to proceed?</source>
+        <translation>為了確保與軟體的最佳相容性，Sandybox 需要更新其相容性範本。是否繼續？</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="505"/>
@@ -2230,13 +2230,13 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
         <translation>&lt;p&gt;是否下載此更新？&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;update page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;是否前往&lt;a href=&quot;%1&quot;&gt;更新頁面&lt;/a&gt;？&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the update page?&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;是否前往更新頁面？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="741"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;是否前往&lt;a href=&quot;%1&quot;&gt;下載頁面&lt;/a&gt;？&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the download page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;是否前往下載頁面？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="750"/>
@@ -2303,8 +2303,8 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="961"/>
-        <source>&lt;p&gt;Updates for sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;sandybox 的更新已下載。&lt;/p&gt;&lt;p&gt;是否要套用這些更新？如果任何程式正在沙箱化執行，都將被終止。&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Updates for Sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Sandybox 的更新已下載。&lt;/p&gt;&lt;p&gt;是否要套用這些更新？如果任何程式正在沙箱化執行，都將被終止。&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to download file from: %1</source>
@@ -2321,18 +2321,18 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1109"/>
-        <source>&lt;p&gt;A new sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;一個新的 sandybox 安裝程式已被下載到以下位置:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;是否要開始安裝？如果任何程式正在沙箱化執行，都將被終止。&lt;/p&gt;</translation>
+        <source>&lt;p&gt;A new Sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;一個新的 Sandybox 安裝程式已被下載到以下位置:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;是否要開始安裝？如果任何程式正在沙箱化執行，都將被終止。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1170"/>
-        <source>There is a new Templates.ini available, do you want to download it?</source>
-        <translation>有一個新的 Templates.ini 可用，是否下載？</translation>
+        <source>There is a new template configuration file available, do you want to download it?</source>
+        <translation>有一個新的 template configuration file 可用，是否下載？</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1220"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;您是否想要前往 &lt;a href=&quot;%1&quot;&gt;資訊頁面&lt;/a&gt;？&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the info page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;您是否想要前往 資訊頁面？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1240"/>
@@ -2341,24 +2341,24 @@ You can use %USER% to save each users sandbox to an own fodler.</oldsource>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="719"/>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;有新版本 sandybox 可用，&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;新版本:&lt;/font&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;有新版本 Sandybox 可用，&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;新版本:&lt;/font&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="445"/>
-        <source>Your sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
+        <source>Your Sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
 
 Do you still want to update?</source>
-        <translation>您的 sandybox 贊助者憑證已逾期，但是對於您正在使用的目前版本仍然有效，當您更新到較新的版本時，贊助者獨有功能將被停用。
+        <translation>您的 Sandybox 贊助者憑證已逾期，但是對於您正在使用的目前版本仍然有效，當您更新到較新的版本時，贊助者獨有功能將被停用。
 
 仍要繼續更新嗎？</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="592"/>
-        <source>No new updates found, your sandybox is up-to-date.
+        <source>No new updates found, your Sandybox is up-to-date.
 
 Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
-        <translation>沒有發現更新，您的 sandybox 已為最新版本。
+        <translation>沒有發現更新，您的 Sandybox 已為最新版本。
 
 注意: 更新檢查通常落後於最新的 GitHub 版本，以確保僅提供經過測試的更新。</translation>
     </message>
@@ -2444,8 +2444,8 @@ Note: The update check is often behind the latest GitHub release to ensure that 
     </message>
     <message>
         <location filename="Windows/OptionsAccess.cpp" line="341"/>
-        <source>Regular sandybox behavior - allow read and also copy on write.</source>
-        <translation>常規 sandybox 行為 - 允許讀取及寫入時複製。</translation>
+        <source>Regular Sandybox behavior - allow read and also copy on write.</source>
+        <translation>常規 Sandybox 行為 - 允許讀取及寫入時複製。</translation>
     </message>
     <message>
         <location filename="Windows/OptionsAccess.cpp" line="342"/>
@@ -3324,8 +3324,8 @@ Please select a folder which contains this file.</source>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="191"/>
-        <source>sandybox Plus - &apos;%1&apos; Options</source>
-        <translation>sandybox Plus - &apos;%1&apos; 選項</translation>
+        <source>Sandybox Plus - &apos;%1&apos; Options</source>
+        <translation>Sandybox Plus - &apos;%1&apos; 選項</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="301"/>
@@ -3633,8 +3633,8 @@ Do you wish to enable autocomplete?</source>
     <name>CPopUpWindow</name>
     <message>
         <location filename="Windows/PopUpWindow.cpp" line="24"/>
-        <source>sandybox Notifications</source>
-        <translation>sandybox 通知</translation>
+        <source>Sandybox Notifications</source>
+        <translation>Sandybox 通知</translation>
     </message>
     <message>
         <source>PID %1</source>
@@ -3694,8 +3694,8 @@ Full path: %4</source>
     <name>CRecoveryLogWnd</name>
     <message>
         <location filename="SandManRecovery.cpp" line="325"/>
-        <source>sandybox - Recovery Log</source>
-        <translation>sandybox - 復原日誌</translation>
+        <source>Sandybox - Recovery Log</source>
+        <translation>Sandybox - 復原日誌</translation>
     </message>
     <message>
         <location filename="SandManRecovery.cpp" line="336"/>
@@ -3808,8 +3808,8 @@ Full path: %4</source>
     <name>CRenameSandboxDialog</name>
     <message>
         <location filename="Windows/RenameSandboxDialog.cpp" line="17"/>
-        <source>sandybox - Rename Sandbox</source>
-        <translation>sandybox - 重新命名沙箱</translation>
+        <source>Sandybox - Rename Sandbox</source>
+        <translation>Sandybox - 重新命名沙箱</translation>
     </message>
     <message>
         <location filename="Windows/RenameSandboxDialog.cpp" line="23"/>
@@ -3854,42 +3854,42 @@ Error: </source>
     <name>CSBUpdate</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="622"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; updater</source>
-        <translation>設定 &lt;b&gt;sandybox&lt;/b&gt; 更新程式組態</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; updater</source>
+        <translation>設定 &lt;b&gt;Sandybox&lt;/b&gt; 更新程式組態</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="623"/>
-        <source>Like with any other security product, it&apos;s important to keep your sandybox up to date.</source>
-        <oldsource>Like with any other security product it&apos;s important to keep your sandybox up to date.</oldsource>
-        <translation>如同其它任何安全性產品，保持 sandybox 為最新非常重要。</translation>
+        <source>Like with any other security product, it&apos;s important to keep your Sandybox up to date.</source>
+        <oldsource>Like with any other security product it&apos;s important to keep your Sandybox up to date.</oldsource>
+        <translation>如同其它任何安全性產品，保持 Sandybox 為最新非常重要。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="631"/>
-        <source>Regularly check for all updates to sandybox and optional components</source>
-        <oldsource>Regularly Check for all updates to sandybox and optional components</oldsource>
-        <translation>經常檢查全部 sandybox 和可選組件的更新</translation>
+        <source>Regularly check for all updates to Sandybox and optional components</source>
+        <oldsource>Regularly Check for all updates to Sandybox and optional components</oldsource>
+        <translation>經常檢查全部 Sandybox 和可選組件的更新</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="632"/>
-        <source>Let sandybox regularly check for latest updates.</source>
-        <oldsource>Let sandybox regularly check for latest updates.</oldsource>
-        <translation>讓 sandybox 經常檢查最新更新。</translation>
+        <source>Let Sandybox regularly check for latest updates.</source>
+        <oldsource>Let Sandybox regularly check for latest updates.</oldsource>
+        <translation>讓 Sandybox 經常檢查最新更新。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="642"/>
-        <source>Check for new sandybox versions:</source>
-        <translation>檢查新的 sandybox 版本:</translation>
+        <source>Check for new Sandybox versions:</source>
+        <translation>檢查新的 Sandybox 版本:</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="643"/>
-        <source>Check for new sandybox builds.</source>
-        <translation>檢查新的 sandybox 版本。</translation>
+        <source>Check for new Sandybox builds.</source>
+        <translation>檢查新的 Sandybox 版本。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="649"/>
-        <source>Select in which update channel to look for new sandybox builds:</source>
-        <oldsource>Sellect in which update channel to look for new sandybox builds:</oldsource>
-        <translation>選擇將在哪個更新通道中尋找新的 sandybox 組建:</translation>
+        <source>Select in which update channel to look for new Sandybox builds:</source>
+        <oldsource>Sellect in which update channel to look for new Sandybox builds:</oldsource>
+        <translation>選擇將在哪個更新通道中尋找新的 Sandybox 組建:</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="658"/>
@@ -3925,8 +3925,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="674"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>了解更多關於 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;測試人員通道&lt;/a&gt;</translation>
+        <source>More about the Insider Channel</source>
+        <translation>了解更多關於 測試人員通道</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="683"/>
@@ -3964,13 +3964,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="703"/>
-        <source>sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
-        <translation>sandybox 套用了嚴格的應用程式限制，而這可能造成相容性問題。保持 sandybox 為最新版本 (包含相容性範本和疑難排解)，將保證 Wibdows 更新和應用程式變更時能有順暢的作業。</translation>
+        <source>Sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with Sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
+        <translation>Sandybox 套用了嚴格的應用程式限制，而這可能造成相容性問題。保持 Sandybox 為最新版本 (包含相容性範本和疑難排解)，將保證 Wibdows 更新和應用程式變更時能有順暢的作業。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="709"/>
-        <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>存取最新相容性範本和線上疑難排解資料庫需要有效的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;。</translation>
+        <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid supporter certificate.</source>
+        <translation>存取最新相容性範本和線上疑難排解資料庫需要有效的 贊助者憑證。</translation>
     </message>
 </context>
 <context>
@@ -4088,8 +4088,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="SandMan.cpp" line="514"/>
         <location filename="SandMan.cpp" line="2815"/>
-        <source>sandybox v%1</source>
-        <translation>sandybox v%1</translation>
+        <source>Sandybox v%1</source>
+        <translation>Sandybox v%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4795"/>
@@ -4355,12 +4355,12 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="SandMan.cpp" line="825"/>
-        <source>Visit Support Forum</source>
+        <source>Support Resources</source>
         <translation>造訪支援論壇</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="824"/>
-        <source>Online Documentation</source>
+        <source>Local Documentation</source>
         <translation>線上文件</translation>
     </message>
     <message>
@@ -4376,8 +4376,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     <message>
         <location filename="SandMan.cpp" line="830"/>
         <location filename="SandMan.cpp" line="4888"/>
-        <source>About sandybox</source>
-        <translation>關於 sandybox</translation>
+        <source>About Sandybox</source>
+        <translation>關於 Sandybox</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1074"/>
@@ -4398,27 +4398,27 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="SandMan.cpp" line="1412"/>
-        <source>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox release %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;有一個新的 sandybox 版本 %1 準備就緒&lt;/a&gt;</translation>
+        <source>There is a new Sandybox release %1 ready</source>
+        <translation>有一個新的 Sandybox 版本 %1 準備就緒</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1416"/>
-        <source>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;有一個 sandybox 更新 v%1 準備就緒&lt;/a&gt;</translation>
+        <source>There is a new Sandybox update %1 ready</source>
+        <translation>有一個 Sandybox 更新 v%1 準備就緒</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1420"/>
-        <source>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update v%1 available&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;有一個 sandybox 更新 v%1 可用&lt;/a&gt;</translation>
+        <source>There is a new Sandybox update v%1 available</source>
+        <translation>有一個 Sandybox 更新 v%1 可用</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1431"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Support sandybox on Patreon&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;在 Patreon 上支援 sandybox&lt;/a&gt;</translation>
+        <source>Sandybox Support</source>
+        <translation>在 Patreon 上支援 Sandybox</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1432"/>
-        <source>Click to open web browser</source>
+        <source></source>
         <translation>按一下以開啟網頁瀏覽器</translation>
     </message>
     <message>
@@ -4445,15 +4445,15 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="SandMan.cpp" line="1701"/>
-        <source>Do you want to close sandybox Manager?</source>
-        <translation>您確定要關閉 sandybox 管理員？</translation>
+        <source>Do you want to close Sandybox Manager?</source>
+        <translation>您確定要關閉 Sandybox 管理員？</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1718"/>
-        <source>sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
+        <source>Sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
 
 Do you want to do the clean up?</source>
-        <translation>sandybox 正執行於便攜模式，現在將清理所建立的服務。這將需要管理員權限。
+        <translation>Sandybox 正執行於便攜模式，現在將清理所建立的服務。這將需要管理員權限。
 
 是否確認清理？</translation>
     </message>
@@ -4469,9 +4469,9 @@ Do you want to do the clean up?</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1911"/>
-        <source>This box provides &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
+        <source>This box provides enhanced security isolation, it is suitable to test untrusted software.</source>
         <oldsource>This box provides enhanced security isolation, it is suitable to test untrusted software.</oldsource>
-        <translation>此類沙箱提供了&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;強化安全性隔離&lt;/a&gt;，它適用於測試不受信任的軟體。</translation>
+        <translation>此類沙箱提供了強化安全性隔離，它適用於測試不受信任的軟體。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1915"/>
@@ -4480,17 +4480,17 @@ Do you want to do the clean up?</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1919"/>
-        <source>This box does not enforce isolation, it is intended to be used as an &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
+        <source>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</source>
         <oldsource>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</oldsource>
-        <translation>此類沙箱不執行隔離，它只是用來作為軟體虛擬化的&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;應用程式區間&lt;/a&gt;。</translation>
+        <translation>此類沙箱不執行隔離，它只是用來作為軟體虛擬化的應用程式區間。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1927"/>
-        <source>&lt;br /&gt;&lt;br /&gt;This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</source>
+        <source>&lt;br /&gt;&lt;br /&gt;This box prevents access to all user data locations, except explicitly granted in the Resource Access options.</source>
         <oldsource>
 
-This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;此類沙箱會&lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;阻止存取所有使用者資料&lt;/a&gt;的位置，除非在資源存取選項中明確授權。</translation>
+This box prevents access to all user data locations, except explicitly granted in the Resource Access options.</oldsource>
+        <translation>&lt;br /&gt;&lt;br /&gt;此類沙箱會阻止存取所有使用者資料的位置，除非在資源存取選項中明確授權。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2097"/>
@@ -4605,12 +4605,12 @@ This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to a
     </message>
     <message>
         <location filename="SandMan.cpp" line="2960"/>
-        <source>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
-Please check if there is an update for sandybox.</source>
-        <oldsource>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd"/>
-Please check if there is an update for sandybox.</oldsource>
-        <translation>您的 Windows 組建版本 %1 超出了您目前使用的 sandybox 版本的支援能力，這導致基於權杖的安全性隔離被停用。因此，所有應用程式都將在應用程式區間模式下運作而沒有安全性隔離。
-請檢查 sandybox 是否有更新。</translation>
+        <source>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
+Please check if there is an update for Sandybox.</source>
+        <oldsource>Your Windows build %1 exceeds the current support capabilities of your Sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd"/>
+Please check if there is an update for Sandybox.</oldsource>
+        <translation>您的 Windows 組建版本 %1 超出了您目前使用的 Sandybox 版本的支援能力，這導致基於權杖的安全性隔離被停用。因此，所有應用程式都將在應用程式區間模式下運作而沒有安全性隔離。
+請檢查 Sandybox 是否有更新。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2969"/>
@@ -4619,8 +4619,8 @@ Please check if there is an update for sandybox.</oldsource>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2976"/>
-        <source>Your Windows build %1 exceeds the current known support capabilities of your sandybox version, sandybox will attempt to use the last-known offsets which may cause system instability.</source>
-        <translation>您的 Windows 組建版本 %1 超出了 sandybox 版本目前已知的支援能力，sandybox 將嘗試使用最後已知的偏移值，這可能會導致系統不穩定。</translation>
+        <source>Your Windows build %1 exceeds the current known support capabilities of your Sandybox version, Sandybox will attempt to use the last-known offsets which may cause system instability.</source>
+        <translation>您的 Windows 組建版本 %1 超出了 Sandybox 版本目前已知的支援能力，Sandybox 將嘗試使用最後已知的偏移值，這可能會導致系統不穩定。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2987"/>
@@ -4631,23 +4631,23 @@ Please check if there is an update for sandybox.</oldsource>
         <location filename="SandMan.cpp" line="3959"/>
         <location filename="SandMan.cpp" line="3961"/>
         <location filename="SandMan.cpp" line="4554"/>
-        <source>sandybox - Error</source>
-        <translation>sandybox - 錯誤</translation>
+        <source>Sandybox - Error</source>
+        <translation>Sandybox - 錯誤</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3959"/>
-        <source>Failed to stop all sandybox components</source>
-        <translation>停止所有 sandybox 元件失敗</translation>
+        <source>Failed to stop all Sandybox components</source>
+        <translation>停止所有 Sandybox 元件失敗</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3961"/>
-        <source>Failed to start required sandybox components</source>
-        <translation>啟動所需 sandybox 元件失敗</translation>
+        <source>Failed to start required Sandybox components</source>
+        <translation>啟動所需 Sandybox 元件失敗</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="491"/>
-        <source>WARNING: Sandboxie-Plus.ini in %1 cannot be written to, settings will not be saved.</source>
-        <translation>警告: 無法寫入 %1 中的 Sandboxie-Plus.ini，設定將不會被儲存。</translation>
+        <source>WARNING: Sandybox configuration file in %1 cannot be written to, settings will not be saved.</source>
+        <translation>警告: 無法寫入 %1 中的 Sandybox configuration file，設定將不會被儲存。</translation>
     </message>
     <message>
         <source>Some compatibility templates (%1) are missing, probably deleted, do you want to remove them from all boxes?</source>
@@ -4660,10 +4660,10 @@ Please check if there is an update for sandybox.</oldsource>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2851"/>
-        <source>sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
+        <source>Sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
 Yes will choose: %1
 No will choose: %2</source>
-        <translation>sandybox 已於便攜模式中啟動，是否將沙箱資料夾放入其上級目錄？
+        <translation>Sandybox 已於便攜模式中啟動，是否將沙箱資料夾放入其上級目錄？
 「是」將選擇: %1
 「否」將選擇: %2</translation>
     </message>
@@ -4687,8 +4687,8 @@ No will choose: %2</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3496"/>
-        <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>選取的功能只對專案贊助者可用。如果沒有贊助者憑證，在啟用此功能的沙箱內啟動的處理程序，將在 5 分鐘後自動終止。&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成為專案贊助者&lt;/a&gt;，以取得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;</translation>
+        <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>選取的功能只對專案贊助者可用。如果沒有贊助者憑證，在啟用此功能的沙箱內啟動的處理程序，將在 5 分鐘後自動終止。&lt;br /&gt;成為專案贊助者，以取得贊助者憑證</translation>
     </message>
     <message>
         <location filename="SandManRecovery.cpp" line="221"/>
@@ -4771,13 +4771,13 @@ No will choose: %2</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3822"/>
-        <source>sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
-        <translation>sandybox 已於便攜模式中啟動，需建立必要的服務。這將需要管理員權限。</translation>
+        <source>Sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
+        <translation>Sandybox 已於便攜模式中啟動，需建立必要的服務。這將需要管理員權限。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3856"/>
-        <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this sandybox session, please close it first and reconnect to take over.</source>
-        <translation>注意: 另一個代理 (可能是 SbieCtrl.exe) 已經在管理這個 sandybox 工作階段，請先關閉其它代理並重新連線進行接管控制。</translation>
+        <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this Sandybox session, please close it first and reconnect to take over.</source>
+        <translation>注意: 另一個代理 (可能是 SbieCtrl.exe) 已經在管理這個 Sandybox 工作階段，請先關閉其它代理並重新連線進行接管控制。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3988"/>
@@ -4875,21 +4875,21 @@ No will choose: %2</source>
         <translation>所有欄</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
-        <oldsource>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
-        <translation type="vanished">&lt;h3&gt;關於 sandybox&lt;/h3&gt;&lt;p&gt;版本 %1&lt;/p&gt;&lt;p&gt;版權所有 (c) 2020-2024 作者 DavidXanatos&lt;/p&gt;</translation>
+        <source>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
+        <oldsource>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
+        <translation type="vanished">&lt;h3&gt;關於 Sandybox&lt;/h3&gt;&lt;p&gt;版本 %1&lt;/p&gt;&lt;p&gt;版權所有 (c) 2020-2024 作者 DavidXanatos&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>This copy of sandybox+ is certified for: %1</source>
-        <translation type="vanished">這一份 sandybox+ 已授權給: %1</translation>
+        <source>This copy of Sandybox+ is certified for: %1</source>
+        <translation type="vanished">這一份 Sandybox+ 已授權給: %1</translation>
     </message>
     <message>
-        <source>sandybox+ is free for personal and non-commercial use.</source>
-        <translation type="vanished">sandybox+ 可免費用於個人和非商業用途。</translation>
+        <source>Sandybox+ is free for personal and non-commercial use.</source>
+        <translation type="vanished">Sandybox+ 可免費用於個人和非商業用途。</translation>
     </message>
     <message>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation type="vanished">sandybox 是著名程式 sandybox 自開源以來的一個延續。&lt;br /&gt;造訪 &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; 來了解更多資訊。&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;驅動版本: %1&lt;br /&gt;功能: %2&lt;br /&gt;&lt;br /&gt;圖示來源 &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
+        <source>Sandybox is an open source continuation of Sandybox.&lt;br /&gt;Visit the project website for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from the bundled icon resources</source>
+        <translation type="vanished">Sandybox 是著名程式 Sandybox 自開源以來的一個延續。&lt;br /&gt;造訪 the project website 來了解更多資訊。&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;驅動版本: %1&lt;br /&gt;功能: %2&lt;br /&gt;&lt;br /&gt;圖示來源 the bundled icon resources</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4486"/>
@@ -4903,8 +4903,8 @@ No will choose: %2</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="822"/>
-        <source>Contribute to sandybox</source>
-        <translation>為 sandybox 做出貢獻</translation>
+        <source>Sandybox Development</source>
+        <translation>為 Sandybox 做出貢獻</translation>
     </message>
     <message>
         <source>Import Box</source>
@@ -4931,8 +4931,8 @@ No will choose: %2</source>
     <message>
         <location filename="SandMan.cpp" line="512"/>
         <location filename="SandMan.cpp" line="2813"/>
-        <source>sandybox Insider [%1]</source>
-        <translation>sandybox 測試人員 [%1]</translation>
+        <source>Sandybox Insider [%1]</source>
+        <translation>Sandybox 測試人員 [%1]</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="823"/>
@@ -4949,18 +4949,18 @@ No will choose: %2</source>
         <location filename="SandMan.cpp" line="1111"/>
         <location filename="SandMan.cpp" line="1356"/>
         <location filename="SandMan.cpp" line="1357"/>
-        <source>Edit Sandboxie.ini</source>
-        <translation>編輯 Sandboxie.ini</translation>
+        <source>Edit Base Configuration</source>
+        <translation>編輯 base configuration file</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="969"/>
-        <source>Edit Templates.ini</source>
-        <translation>編輯 Templates.ini</translation>
+        <source>Edit Templates</source>
+        <translation>編輯 template configuration file</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="971"/>
-        <source>Edit Sandboxie-Plus.ini</source>
-        <translation>編輯 Sandboxie-Plus.ini</translation>
+        <source>Edit Sandybox Configuration</source>
+        <translation>編輯 Sandybox configuration file</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="975"/>
@@ -5089,8 +5089,8 @@ No will choose: %2</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2828"/>
-        <source>sandybox Version: %1 (%2)</source>
-        <translation>sandybox 版本: %1 (%2)</translation>
+        <source>Sandybox Version: %1 (%2)</source>
+        <translation>Sandybox 版本: %1 (%2)</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2830"/>
@@ -5133,8 +5133,8 @@ No will choose: %2</source>
         <location filename="SandMan.cpp" line="3386"/>
         <location filename="SandMan.cpp" line="3398"/>
         <location filename="SandMan.cpp" line="3485"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成為專案贊助者&lt;/a&gt;，以取得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;</translation>
+        <source>&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>&lt;br /&gt;成為專案贊助者，以取得贊助者憑證</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="517"/>
@@ -5191,8 +5191,8 @@ No will choose: %2</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1922"/>
-        <source>This box will be &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;encrypted&lt;/a&gt; and &lt;a href=&quot;sbie://docs/black-box&quot;&gt;access to sandboxed processes will be guarded&lt;/a&gt;.</source>
-        <translation>此沙箱將被&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;加密&lt;/a&gt;，並且&lt;a href=&quot;sbie://docs/black-box&quot;&gt;對沙箱化處理程序的存取將被防衛&lt; /a &gt;。</translation>
+        <source>This box will be encrypted and access to sandboxed processes will be guarded.</source>
+        <translation>此沙箱將被加密，並且對沙箱化處理程序的存取將被防衛&lt; /a &gt;。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1999"/>
@@ -5212,8 +5212,8 @@ No will choose: %2</source>
         <location filename="SandMan.cpp" line="2025"/>
         <location filename="SandMan.cpp" line="2037"/>
         <location filename="SandMan.cpp" line="2041"/>
-        <source>sandybox Warning</source>
-        <translation>sandybox 警告</translation>
+        <source>Sandybox Warning</source>
+        <translation>Sandybox 警告</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2016"/>
@@ -5274,8 +5274,8 @@ Do you want to disable Windows Updates scanning from the the software compatibil
     <message>
         <location filename="SandMan.cpp" line="3384"/>
         <location filename="SandMan.cpp" line="3483"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Upgrade your Certificate&lt;/a&gt; to unlock advanced features.</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;升級憑證&lt;/a&gt;以解鎖進階功能。</translation>
+        <source>&lt;br /&gt;Upgrade your Certificate to unlock advanced features.</source>
+        <translation>&lt;br /&gt;升級憑證以解鎖進階功能。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3479"/>
@@ -5289,8 +5289,8 @@ Do you want to disable Windows Updates scanning from the the software compatibil
     </message>
     <message>
         <location filename="SandMan.cpp" line="3493"/>
-        <source>The selected feature set is only available to project supporters.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>所選功能集僅供專案贊助者使用。&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;成為專案贊助者&lt;/a &gt;，並取得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;</translation>
+        <source>The selected feature set is only available to project supporters.&lt;br /&gt;Become a project supporter, and receive a supporter certificate</source>
+        <translation>所選功能集僅供專案贊助者使用。&lt;br /&gt;成為專案贊助者，並取得贊助者憑證</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3539"/>
@@ -5353,8 +5353,8 @@ Error: %1</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3860"/>
-        <source>&lt;b&gt;ERROR:&lt;/b&gt; The sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;official Download page&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;錯誤:&lt;/b&gt; sandybox 管理員 (SandMan.exe) 沒有有效的數位簽章 (SandMan.exe.sig)。請從&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;官方下載頁面&lt;/a&gt;下載可信賴的版本。</translation>
+        <source>&lt;b&gt;ERROR:&lt;/b&gt; The Sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the official Download page.</source>
+        <translation>&lt;b&gt;錯誤:&lt;/b&gt; Sandybox 管理員 (SandMan.exe) 沒有有效的數位簽章 (SandMan.exe.sig)。請從官方下載頁面下載可信賴的版本。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="3963"/>
@@ -5378,17 +5378,17 @@ Error: %1</source>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4276"/>
-        <source>You are about to edit the Templates.ini, this is generally not recommended.
-This file is part of sandybox and all change done to it will be reverted next time sandybox is updated.</source>
-        <oldsource>You are about to edit the Templates.ini, thsi is generally not recommeded.
-This file is part of sandybox and all changed done to it will be reverted next time sandybox is updated.</oldsource>
-        <translation>您正準備編輯範本設定檔 Templates.ini，但通常不推薦這麼做。
-因為該檔案是 sandybox 的一部分並且所有的變更會在下次 sandybox 更新時被還原。</translation>
+        <source>You are about to edit the template configuration file, this is generally not recommended.
+This file is part of Sandybox and all change done to it will be reverted next time Sandybox is updated.</source>
+        <oldsource>You are about to edit the template configuration file, thsi is generally not recommeded.
+This file is part of Sandybox and all changed done to it will be reverted next time Sandybox is updated.</oldsource>
+        <translation>您正準備編輯範本設定檔 template configuration file，但通常不推薦這麼做。
+因為該檔案是 Sandybox 的一部分並且所有的變更會在下次 Sandybox 更新時被還原。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4356"/>
-        <source>sandybox config has been reloaded</source>
-        <translation>已重新載入 sandybox 組態</translation>
+        <source>Sandybox config has been reloaded</source>
+        <translation>已重新載入 Sandybox 組態</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4487"/>
@@ -5402,18 +5402,18 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="SandMan.cpp" line="4489"/>
-        <source>Failed to communicate with sandybox Service: %1</source>
-        <translation>無法與 sandybox 服務建立聯絡: %1</translation>
+        <source>Failed to communicate with Sandybox Service: %1</source>
+        <translation>無法與 Sandybox 服務建立聯絡: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4490"/>
-        <source>An incompatible sandybox %1 was found. Compatible versions: %2</source>
-        <translation>已發現不相容的 sandybox %1。相容版本為: %2</translation>
+        <source>An incompatible Sandybox %1 was found. Compatible versions: %2</source>
+        <translation>已發現不相容的 Sandybox %1。相容版本為: %2</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4491"/>
-        <source>Can&apos;t find sandybox installation path.</source>
-        <translation>無法找到 sandybox 安裝路徑。</translation>
+        <source>Can&apos;t find Sandybox installation path.</source>
+        <translation>無法找到 Sandybox 安裝路徑。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4492"/>
@@ -5589,23 +5589,23 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="SandMan.cpp" line="4857"/>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
-        <translation>&lt;h3&gt;關於 sandybox&lt;/h3&gt;&lt;p&gt;版本 %1&lt;/p&gt;&lt;p&gt;</translation>
+        <source>&lt;h3&gt;About Sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
+        <translation>&lt;h3&gt;關於 Sandybox&lt;/h3&gt;&lt;p&gt;版本 %1&lt;/p&gt;&lt;p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4865"/>
-        <source>This copy of sandybox is certified for: %1</source>
-        <translation>這一份 sandybox 已授權給: %1</translation>
+        <source>This copy of Sandybox is certified for: %1</source>
+        <translation>這一份 Sandybox 已授權給: %1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4867"/>
-        <source>sandybox is free for personal and non-commercial use.</source>
-        <translation>sandybox 可免費用於個人和其它非商業用途。</translation>
+        <source>Sandybox is free for personal and non-commercial use.</source>
+        <translation>Sandybox 可免費用於個人和其它非商業用途。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="4871"/>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation>sandybox 是 sandybox 的一個開源延續。&lt;br /&gt;造訪 &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; 了解更多資訊。&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;可用特性: %3&lt;br /&gt;&lt;br /&gt;安裝於: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;圖示來自於 &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
+        <source>Sandybox is an open source continuation of Sandybox.&lt;br /&gt;Visit the project website for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from the bundled icon resources</source>
+        <translation>Sandybox 是 Sandybox 的一個開源延續。&lt;br /&gt;造訪 the project website 了解更多資訊。&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;可用特性: %3&lt;br /&gt;&lt;br /&gt;安裝於: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;圖示來自於 the bundled icon resources</translation>
     </message>
     <message>
         <source>Do you want to open %1 in a sandboxed (yes) or unsandboxed (no) Web browser?</source>
@@ -5654,13 +5654,13 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="SbieFindWnd.cpp" line="204"/>
-        <source>sandybox - Window Finder</source>
-        <translation>sandybox - 視窗尋找工具</translation>
+        <source>Sandybox - Window Finder</source>
+        <translation>Sandybox - 視窗尋找工具</translation>
     </message>
     <message>
         <location filename="main.cpp" line="210"/>
-        <source>sandybox Manager can not be run sandboxed!</source>
-        <translation>sandybox 管理員不能被沙箱化執行！</translation>
+        <source>Sandybox Manager can not be run sandboxed!</source>
+        <translation>Sandybox 管理員不能被沙箱化執行！</translation>
     </message>
 </context>
 <context>
@@ -6649,9 +6649,9 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1913"/>
-        <source>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</source>
-        <oldsource>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</oldsource>
-        <translation>現在將顯示 sandybox 開始選單。從選單中選擇一個應用程式，sandybox 將在真實桌面上建立一個新的捷徑圖示，您可以用它來呼叫所選受 sandybox 監督的應用程式。</translation>
+        <source>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</source>
+        <oldsource>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</oldsource>
+        <translation>現在將顯示 Sandybox 開始選單。從選單中選擇一個應用程式，Sandybox 將在真實桌面上建立一個新的捷徑圖示，您可以用它來呼叫所選受 Sandybox 監督的應用程式。</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1968"/>
@@ -6704,8 +6704,8 @@ This file is part of sandybox and all changed done to it will be reverted next t
     <name>CSelectBoxWindow</name>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="200"/>
-        <source>sandybox - Run Sandboxed</source>
-        <translation>sandybox - 在沙箱內執行</translation>
+        <source>Sandybox - Run Sandboxed</source>
+        <translation>Sandybox - 在沙箱內執行</translation>
     </message>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="253"/>
@@ -6722,9 +6722,9 @@ This file is part of sandybox and all changed done to it will be reverted next t
     <name>CSettingsWindow</name>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="197"/>
-        <source>sandybox Plus - Global Settings</source>
-        <oldsource>sandybox Plus - Settings</oldsource>
-        <translation>sandybox Plus - 全域設定</translation>
+        <source>Sandybox Plus - Global Settings</source>
+        <oldsource>Sandybox Plus - Settings</oldsource>
+        <translation>Sandybox Plus - 全域設定</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="299"/>
@@ -6940,18 +6940,18 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3223"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>此贊助者憑證已逾期，請&lt;a href=&quot;%1&quot;&gt;取得新憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate.</source>
+        <translation>此贊助者憑證已逾期，請取得新憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3228"/>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;對於目前版本，Plus 功能仍然啟用&lt;/font&gt;，但您無法再存取 sandybox-Live 服務，包括相容性更新和疑難排解資料庫。</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;對於目前版本，Plus 功能仍然啟用&lt;/font&gt;，但您無法再存取 Sandybox-Live 服務，包括相容性更新和疑難排解資料庫。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3275"/>
-        <source>; eligible Patreons can always &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
-        <translation>; 符合資格的 Patreon 贊助者總是可以從 xanasoft.com &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;取得一個更新的憑證&lt;/a&gt;</translation>
+        <source>; eligible Patreons can always obtain an updated certificate from the project store</source>
+        <translation>; 符合資格的 Patreon 贊助者總是可以從 the project store 取得一個更新的憑證</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3303"/>
@@ -6960,8 +6960,8 @@ This file is part of sandybox and all changed done to it will be reverted next t
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3305"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;取得一個免費評估憑證&lt;/a&gt;並享受所有高級功能 %1 天。&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Get a free evaluation certificate and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;取得一個免費評估憑證並享受所有高級功能 %1 天。&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3306"/>
@@ -6977,8 +6977,8 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3600"/>
-        <source>A mandatory security update for your sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
-        <translation>您的 sandybox 贊助者憑證需要進行一次強制安全性更新。是否現在下載已更新的憑證？</translation>
+        <source>A mandatory security update for your Sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
+        <translation>您的 Sandybox 贊助者憑證需要進行一次強制安全性更新。是否現在下載已更新的憑證？</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3601"/>
@@ -6987,33 +6987,33 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3236"/>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <oldsource>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</oldsource>
-        <translation>此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請&lt;a href=&quot;%2&quot;&gt;取得新憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <oldsource>This supporter certificate has expired, please get an updated certificate.</oldsource>
+        <translation>此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請取得新憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3138"/>
         <location filename="Windows/SettingsWindow.cpp" line="3147"/>
-        <source>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</source>
-        <translation>硬體ID: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</translation>
+        <source>HwId: [%1]</source>
+        <translation>硬體ID: [%1]</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3143"/>
-        <source>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</source>
-        <translation>硬體ID: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(複製)&lt;/a&gt;</translation>
+        <source>HwId: %1 (copy)</source>
+        <translation>硬體ID: %1 (複製)</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3156"/>
-        <source>sandybox Version: %1</source>
-        <translation>sandybox 版本: %1</translation>
+        <source>Sandybox Version: %1</source>
+        <translation>Sandybox 版本: %1</translation>
     </message>
     <message>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
-        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;對於目前版本，Plus 功能仍然啟用&lt;/font&gt;，但您無法再存取 sandybox-Live 服務，包括相容性更新和疑難排解資料庫。</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
+        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;對於目前版本，Plus 功能仍然啟用&lt;/font&gt;，但您無法再存取 Sandybox-Live 服務，包括相容性更新和疑難排解資料庫。</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert &quot; &gt;取得更新的憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請取得更新的憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3271"/>
@@ -7070,13 +7070,13 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3293"/>
-        <source>sandybox Desktop (Desk): %1</source>
-        <translation>sandybox 桌面 (Desk): %1</translation>
+        <source>Sandybox Desktop (Desk): %1</source>
+        <translation>Sandybox 桌面 (Desk): %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3324"/>
-        <source>This does not look like a sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
-        <translation>這看起來不像是一個 sandybox 序號。&lt;br /&gt;如果您嘗試的是輸入憑證的更新金鑰或簽章，這不是正確的操作，請在上方文字區域中輸入完整憑證。</translation>
+        <source>This does not look like a Sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
+        <translation>這看起來不像是一個 Sandybox 序號。&lt;br /&gt;如果您嘗試的是輸入憑證的更新金鑰或簽章，這不是正確的操作，請在上方文字區域中輸入完整憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3331"/>
@@ -7105,8 +7105,8 @@ This is a temporary Patreon certificate, valid for 3 months. Once it nears expir
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
-        <source>sandybox - Get EVALUATION Certificate</source>
-        <translation>sandybox - 取得評估憑證</translation>
+        <source>Sandybox - Get EVALUATION Certificate</source>
+        <translation>Sandybox - 取得評估憑證</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
@@ -7227,8 +7227,8 @@ You can request up to %3 evaluation certificates for each unique hardware ID.</s
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3551"/>
-        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>儘管此憑證已逾期，但對於目前安裝的版本 Plus 功能仍保持啟用狀態。但是，您將無法再存取 sandybox-Live 服務，包括相容性更新和線上疑難排解資料庫。</translation>
+        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>儘管此憑證已逾期，但對於目前安裝的版本 Plus 功能仍保持啟用狀態。但是，您將無法再存取 Sandybox-Live 服務，包括相容性更新和線上疑難排解資料庫。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3553"/>
@@ -7282,12 +7282,12 @@ Right-click to copy</oldsource>
         <translation>點選以隱藏</translation>
     </message>
     <message>
-        <source>HwId: &lt;a href=&quot;%1&quot;&gt;[%2]&lt;/a&gt;</source>
-        <translation type="vanished">硬體ID: &lt;a href=&quot;%1&quot;&gt;[%2]&lt;/a&gt;</translation>
+        <source>HwId: [%2]</source>
+        <translation type="vanished">硬體ID: [%2]</translation>
     </message>
     <message>
-        <source>HwId: &lt;a href=&quot;%1&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="vanished">硬體ID: &lt;a href=&quot;%1&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt;</translation>
+        <source>HwId: %1</source>
+        <translation type="vanished">硬體ID: %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="613"/>
@@ -7333,8 +7333,8 @@ Right-click to copy</oldsource>
         <translation>請輸入一則命令</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">此贊助者憑證已逾期，請&lt;a href=&quot;sbie://update/cert&quot;&gt;取得新憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation type="vanished">此贊助者憑證已逾期，請取得新憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3226"/>
@@ -7351,8 +7351,8 @@ Right-click to copy</oldsource>
         <translation>&lt;br /&gt;Plus 功能已不再啟用。</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請&lt;a href=&quot;sbie://update/cert&quot;&gt;取得新憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">此贊助者憑證將&lt;font color=&apos;red&apos;&gt;在 %1 天後逾期&lt;/font&gt;，請取得新憑證。</translation>
     </message>
     <message>
         <source>Supporter certificate required</source>
@@ -7389,8 +7389,8 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3560"/>
-        <source>Thank you for supporting the development of sandybox.</source>
-        <translation>感謝您對 sandybox 開發工作的支持。</translation>
+        <source>Thank you for supporting the development of Sandybox.</source>
+        <translation>感謝您對 Sandybox 開發工作的支持。</translation>
     </message>
     <message>
         <source>This support certificate is not valid.</source>
@@ -7413,7 +7413,7 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2398"/>
-        <source>(info website)</source>
+        <source>(information)</source>
         <translation>(資訊網站)</translation>
     </message>
     <message>
@@ -7429,8 +7429,8 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2466"/>
-        <source>&lt;a href=&quot;check&quot;&gt;Check Now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;check&quot;&gt;立即檢查&lt;/a&gt;</translation>
+        <source>Check Now</source>
+        <translation>立即檢查</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2535"/>
@@ -7606,13 +7606,13 @@ Do you wish to enable autocomplete?</source>
     <name>CShellPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="533"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; shell integration</source>
-        <translation>設定 &lt;b&gt;sandybox&lt;/b&gt; 命令整合組態</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; shell integration</source>
+        <translation>設定 &lt;b&gt;Sandybox&lt;/b&gt; 命令整合組態</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="534"/>
-        <source>Configure how sandybox should integrate with your system.</source>
-        <translation>設定 sandybox 應如何與您的系統整合。</translation>
+        <source>Configure how Sandybox should integrate with your system.</source>
+        <translation>設定 Sandybox 應如何與您的系統整合。</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="538"/>
@@ -7626,8 +7626,8 @@ Do you wish to enable autocomplete?</source>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="548"/>
-        <source>Add desktop shortcut for starting Web browser under sandybox</source>
-        <translation>加入在 sandybox 中開啟網頁瀏覽器的桌面捷徑</translation>
+        <source>Add desktop shortcut for starting Web browser under Sandybox</source>
+        <translation>加入在 Sandybox 中開啟網頁瀏覽器的桌面捷徑</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="553"/>
@@ -7642,8 +7642,8 @@ Do you wish to enable autocomplete?</source>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="565"/>
-        <source>Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
-        <translation>啟用此選項會阻止從無管理員權限的使用者介面對 Sandboxie.ini 進行組態變更。請慎重，因為使用普通使用者權限的沙箱管理員將可能進入鎖定狀態。為變更組態，你必須透過點選主視窗中「沙箱」選單內的「以管理員權限重新啟動」，以作為系統管理員重新啟動沙箱管理員。</translation>
+        <source>Enabling this option prevents changes to the base configuration file configuration from the user interface without admin rights. Be careful, as using Sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart Sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
+        <translation>啟用此選項會阻止從無管理員權限的使用者介面對 base configuration file 進行組態變更。請慎重，因為使用普通使用者權限的沙箱管理員將可能進入鎖定狀態。為變更組態，你必須透過點選主視窗中「沙箱」選單內的「以管理員權限重新啟動」，以作為系統管理員重新啟動沙箱管理員。</translation>
     </message>
     <message>
         <source>When this option is set, Sandbox Manager with normal user permissions will not be able to modify the configuration, which may result in a lock. You need to open the Sandbox Manager main window, click &quot;Sandbox (s)&quot; in the system menu, and then click &quot;Restart as Admin&quot; in the pop - up context menu to gain control of the configuration.</source>
@@ -7725,18 +7725,18 @@ Do you wish to enable autocomplete?</source>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="831"/>
-        <source>Attach Sandboxie.ini</source>
-        <translation>附加 Sandboxie.ini</translation>
+        <source>Attach base configuration file</source>
+        <translation>附加 base configuration file</translation>
     </message>
     <message>
-        <source>Sandboxing compatibility is reliant on the configuration hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
+        <source>Sandboxing compatibility is reliant on the configuration hence attaching the base configuration file file helps a lot with finding the issue.</source>
         <oldsource>Sandboxing compatybility is relyent on the configuration hence attaching the sandboxie.ini helps a lot with finding the issue.</oldsource>
-        <translation type="vanished">沙箱相容性依賴於組態，因此附加 Sandboxie.ini 將非常有助於找出問題。</translation>
+        <translation type="vanished">沙箱相容性依賴於組態，因此附加 base configuration file 將非常有助於找出問題。</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="832"/>
-        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
-        <translation>沙箱相容性依賴於組態，因此附加 Sandboxie.ini 將非常有助於找出問題。</translation>
+        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the base configuration file file helps a lot with finding the issue.</source>
+        <translation>沙箱相容性依賴於組態，因此附加 base configuration file 將非常有助於找出問題。</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="835"/>
@@ -7775,8 +7775,8 @@ Before sending you can review the logs in the main window.</oldsource>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="854"/>
-        <source>We apologize for the inconvenience you are currently facing with sandybox. </source>
-        <translation>我們對您正在 sandybox 中面臨的不便深表歉意。</translation>
+        <source>We apologize for the inconvenience you are currently facing with Sandybox. </source>
+        <translation>我們對您正在 Sandybox 中面臨的不便深表歉意。</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="861"/>
@@ -7913,11 +7913,11 @@ Processes in this box will be running with a custom process token indicating the
     <message>
         <location filename="Windows/SupportDialog.cpp" line="43"/>
         <source>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a Great Supporter on Patreon already, sandybox can check online for an update of your certificate.</source>
+If you are a Great Supporter on Patreon already, Sandybox can check online for an update of your certificate.</source>
         <oldsource>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a great patreaon supporter already, sandybox can check online for an update of your certificate.</oldsource>
+If you are a great patreaon supporter already, Sandybox can check online for an update of your certificate.</oldsource>
         <translation>此測試人員組建需要類型為 GREAT_PATREON, PERSONAL-HUGE 或 CONTRIBUTOR 的特殊憑證。
-如果您已成為高階的 Patreaon 贊助者，sandybox 可以線上檢查你的憑證之更新。</translation>
+如果您已成為高階的 Patreaon 贊助者，Sandybox 可以線上檢查你的憑證之更新。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="51"/>
@@ -7932,8 +7932,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="163"/>
-        <source>This is a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;exclusive Insider build&lt;/a&gt; of sandybox it is only available to &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon Supporters&lt;/a&gt; on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
-        <translation>此為 sandybox &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;測試人員專屬組建&lt;/a&gt;，僅對更高階層的 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon 贊助者&lt;/a&gt;、專案貢獻者和大量贊助憑證的所有者提供。</translation>
+        <source>This is a exclusive Insider build of Sandybox it is only available to Patreon Supporters on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
+        <translation>此為 Sandybox 測試人員專屬組建，僅對更高階層的 Patreon 贊助者、專案貢獻者和大量贊助憑證的所有者提供。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="169"/>
@@ -7942,31 +7942,31 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="171"/>
-        <source>&lt;b&gt;There seems to be however %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>&lt;b&gt;There seams to be howeever %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>&lt;b&gt;但是您的網路上似乎已存在 %1 sandybox 實例，&lt;font color=&apos;red&apos;&gt;您需要取得額外的&lt;a href=&quot;https://sandboxie-plus.com/go.php? to =sbie-obtain-cert&amp;tip=more&quot;&gt;贊助憑證&lt;/a&gt;&lt;/font&gt;。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;There seems to be however %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>&lt;b&gt;There seams to be howeever %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>&lt;b&gt;但是您的網路上似乎已存在 %1 Sandybox 實例，&lt;font color=&apos;red&apos;&gt;您需要取得額外的贊助憑證&lt;/font&gt;。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="178"/>
-        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>安裝的贊助者憑證&lt;b&gt;已於 %1 天前逾期&lt;/b&gt;，並且&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;必須續期&lt;/a&gt;。&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>安裝的贊助者憑證&lt;b&gt;已於 %1 天前逾期&lt;/b&gt;，並且必須續期。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="180"/>
-        <source>&lt;b&gt;You have installed sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;您已安裝 sandybox 超過 %1 天了。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have installed Sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;您已安裝 Sandybox 超過 %1 天了。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="182"/>
-        <source>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;support certificate&lt;/a&gt;.</source>
-        <oldsource>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt;.</oldsource>
-        <translation>&lt;u&gt;評估期過後使用 sandybox 進行商業用途&lt;/u&gt;，需要一個有效的&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;贊助者憑證&lt;/a&gt;。</translation>
+        <source>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</source>
+        <oldsource>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</oldsource>
+        <translation>&lt;u&gt;評估期過後使用 Sandybox 進行商業用途&lt;/u&gt;，需要一個有效的贊助者憑證。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="189"/>
-        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of sandybox.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>安裝的贊助者憑證&lt;b&gt;已逾期&lt;/b&gt;，並且&lt;u&gt;不再適用於&lt;b&gt;此版本&lt;/b&gt;&lt;/u&gt;的 sandybox。&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of Sandybox.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>安裝的贊助者憑證&lt;b&gt;已逾期&lt;/b&gt;，並且&lt;u&gt;不再適用於&lt;b&gt;此版本&lt;/b&gt;&lt;/u&gt;的 Sandybox。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="191"/>
@@ -7976,35 +7976,35 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="193"/>
-        <source>&lt;b&gt;You have been using sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;您已經使用 sandybox 超過 %1 天了。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have been using Sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;您已經使用 Sandybox 超過 %1 天了。&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="196"/>
-        <source>sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>sandybox 的 ARM64 支援需要一份有效的贊助者憑證。&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Sandybox 的 ARM64 支援需要一份有效的贊助者憑證。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="198"/>
-        <source>Personal use of sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>個人用途的 sandybox 在 x86/x64 平台上是免費的，儘管有些功能只對專案贊助者開放。&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Personal use of Sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>個人用途的 Sandybox 在 x86/x64 平台上是免費的，儘管有些功能只對專案贊助者開放。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="201"/>
-        <source>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
-        <oldsource>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
-        <translation>請繼續透過更新您的&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;來&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;支援專案&lt;/a&gt;，並繼續使用新版本中的&lt;b&gt;增強功能&lt;/b&gt;。</translation>
+        <source>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
+        <oldsource>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
+        <translation>請繼續透過更新您的贊助者憑證來支援專案，並繼續使用新版本中的&lt;b&gt;增強功能&lt;/b&gt;。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="204"/>
-        <source>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt; or &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;earning one by contributing&lt;/a&gt; to the project. &lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
-        <oldsource>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
-        <translation>sandybox &lt;u&gt;在沒有&lt;/u&gt;有效的贊助者憑證時有時會&lt;b&gt;&lt;font color=&apos;red&apos;&gt;快顯視窗提醒&lt;/font&gt;&lt;/b&gt;，讓您考慮是否&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;贊助支援此專案&lt;/a&gt;或&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;透過參與專案來取得一個&lt;/a&gt; (但不會中斷不需要贊助者憑證的沙箱內的程式)，。&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;不僅移除了這個提醒，還可以&lt;b&gt;提供特殊的增強功能&lt;b&gt;，提供更好的安全性和相容性。</translation>
+        <source>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider purchasing a supporter certificate or earning one by contributing to the project. &lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
+        <oldsource>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of supporting the project.&lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
+        <translation>Sandybox &lt;u&gt;在沒有&lt;/u&gt;有效的贊助者憑證時有時會&lt;b&gt;&lt;font color=&apos;red&apos;&gt;快顯視窗提醒&lt;/font&gt;&lt;/b&gt;，讓您考慮是否贊助支援此專案或透過參與專案來取得一個 (但不會中斷不需要贊助者憑證的沙箱內的程式)，。&lt;br /&gt;&lt;br /&gt;贊助者憑證不僅移除了這個提醒，還可以&lt;b&gt;提供特殊的增強功能&lt;b&gt;，提供更好的安全性和相容性。</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="235"/>
-        <source>sandybox - Support Reminder</source>
-        <translation>sandybox - 贊助提醒</translation>
+        <source>Sandybox - Support Reminder</source>
+        <translation>Sandybox - 贊助提醒</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="310"/>
@@ -8132,8 +8132,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
         <location filename="Windows/TestProxyDialog.cpp" line="375"/>
         <location filename="Windows/TestProxyDialog.cpp" line="381"/>
         <location filename="Windows/TestProxyDialog.cpp" line="387"/>
-        <source>sandybox - Test Proxy</source>
-        <translation>sandybox - 測試 Proxy</translation>
+        <source>Sandybox - Test Proxy</source>
+        <translation>Sandybox - 測試 Proxy</translation>
     </message>
     <message>
         <location filename="Windows/TestProxyDialog.cpp" line="37"/>
@@ -8490,16 +8490,16 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     <name>CTraceWindow</name>
     <message>
         <location filename="Views/TraceView.cpp" line="830"/>
-        <source>sandybox - Trace Monitor</source>
-        <translation>sandybox - 追蹤監測</translation>
+        <source>Sandybox - Trace Monitor</source>
+        <translation>Sandybox - 追蹤監測</translation>
     </message>
 </context>
 <context>
     <name>CUIPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="418"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; UI</source>
-        <translation>設定 &lt;b&gt;sandybox&lt;/b&gt; 使用者介面組態</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; UI</source>
+        <translation>設定 &lt;b&gt;Sandybox&lt;/b&gt; 使用者介面組態</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="419"/>
@@ -8535,16 +8535,16 @@ If you are a great patreaon supporter already, sandybox can check online for an 
 <context>
     <name>CWFPPage</name>
     <message>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; network filtering</source>
-        <translation type="vanished">設定 &lt;b&gt;sandybox&lt;/b&gt; 的區域網路過濾組態</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; network filtering</source>
+        <translation type="vanished">設定 &lt;b&gt;Sandybox&lt;/b&gt; 的區域網路過濾組態</translation>
     </message>
     <message>
-        <source>sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
-        <translation type="vanished">sandybox 可以使用 Windows 篩選平台 (WFP) 來限制區域網路存取。</translation>
+        <source>Sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
+        <translation type="vanished">Sandybox 可以使用 Windows 篩選平台 (WFP) 來限制區域網路存取。</translation>
     </message>
     <message>
-        <source>Using WFP allows sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
-        <translation type="vanished">啟用 WFP 使 sandybox 能夠可靠地執行基於 IP/連接埠 的區域網路存取規則。與系統層級的應用程式防火牆不同，sandybox 可以針對同一個應用程式在不同的沙箱內設定不同的規則。如果您已有一個更友好、更可靠的應用程式防火牆，並且不需要針對同一應用程式在不同沙箱設定不同的規則，則可以不勾選此選項。如果不啟用 WFP，sandybox 仍然能夠有效完全阻止處理程序存取網路。然而，這可能會導致處理程序當機，因為驅動程式會阻止程式存取請求的區域網路裝置端點。即使停用 WFP，sandybox 也將提供基於 IP/連接埠 的規則過濾功能，但此時規則只能套用於使用者模式，而無法被驅動程式強制執行。因此，如果不啟用 WFP，某些惡意程式可能可以繞過這些規則，但不能繞過整個區域網路區塊。</translation>
+        <source>Using WFP allows Sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, Sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, Sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, Sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
+        <translation type="vanished">啟用 WFP 使 Sandybox 能夠可靠地執行基於 IP/連接埠 的區域網路存取規則。與系統層級的應用程式防火牆不同，Sandybox 可以針對同一個應用程式在不同的沙箱內設定不同的規則。如果您已有一個更友好、更可靠的應用程式防火牆，並且不需要針對同一應用程式在不同沙箱設定不同的規則，則可以不勾選此選項。如果不啟用 WFP，Sandybox 仍然能夠有效完全阻止處理程序存取網路。然而，這可能會導致處理程序當機，因為驅動程式會阻止程式存取請求的區域網路裝置端點。即使停用 WFP，Sandybox 也將提供基於 IP/連接埠 的規則過濾功能，但此時規則只能套用於使用者模式，而無法被驅動程式強制執行。因此，如果不啟用 WFP，某些惡意程式可能可以繞過這些規則，但不能繞過整個區域網路區塊。</translation>
     </message>
     <message>
         <source>Enable Windows Filtering Platform (WFP) support</source>
@@ -8652,16 +8652,16 @@ If you are a great patreaon supporter already, sandybox can check online for an 
 <context>
     <name>NewBoxWindow</name>
     <message>
-        <source>sandybox new box</source>
-        <translation type="vanished">sandybox 新沙箱</translation>
+        <source>Sandybox new box</source>
+        <translation type="vanished">Sandybox 新沙箱</translation>
     </message>
     <message>
         <source>Box Type Preset:</source>
         <translation type="vanished">沙箱類型預設設定:</translation>
     </message>
     <message>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation type="vanished">沙箱會將您的主機系統與沙箱內執行的處理程序隔離開來，防止它們對電腦中的其它程式和資料進行永久變更。隔離的級別會影響您的安全性以及與應用程式的相容性，因此根據所選的沙箱類型，將有不同的隔離級別。sandybox 還可以保護您的個人資料，在其監督下不會被執行的處理程序所存取。</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation type="vanished">沙箱會將您的主機系統與沙箱內執行的處理程序隔離開來，防止它們對電腦中的其它程式和資料進行永久變更。隔離的級別會影響您的安全性以及與應用程式的相容性，因此根據所選的沙箱類型，將有不同的隔離級別。Sandybox 還可以保護您的個人資料，在其監督下不會被執行的處理程序所存取。</translation>
     </message>
     <message>
         <source>Box info</source>
@@ -8676,8 +8676,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     <name>OptionsWindow</name>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="32"/>
-        <source>sandybox Options</source>
-        <translation>sandybox 選項</translation>
+        <source>Sandybox Options</source>
+        <translation>Sandybox 選項</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="52"/>
@@ -9018,8 +9018,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1308"/>
-        <source>Security note: Elevated applications running under the supervision of sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
-        <translation>安全性提示: 在 sandybox 監管下執行的程式，若具有提升的管理員或系統權限權杖，將有更多機會繞過隔離，並修改沙箱外部的系統。</translation>
+        <source>Security note: Elevated applications running under the supervision of Sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
+        <translation>安全性提示: 在 Sandybox 監管下執行的程式，若具有提升的管理員或系統權限權杖，將有更多機會繞過隔離，並修改沙箱外部的系統。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1279"/>
@@ -9048,8 +9048,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="90"/>
-        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
-        <translation>&lt;b&gt;更多沙箱類型&lt;/b&gt;僅&lt;u&gt;專案贊助者&lt;/u&gt;可用，隱私增強型沙箱&lt;b&gt;&lt;font color=&apos;red&apos;&gt;保護使用者資料免受沙箱化的程式非法存取&lt;/font&gt;&lt;/b&gt;。&lt;br /&gt;如果您還不是贊助者，請考慮&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;贊助此專案&lt;/a&gt;，來取得&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;。&lt;br /&gt;當然您也可以新增一個這些類型的沙箱進行測試，不過沙箱中執行的程式將在 5 分鐘之後自動終止。</translation>
+        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider supporting the project, to receive a supporter certificate.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
+        <translation>&lt;b&gt;更多沙箱類型&lt;/b&gt;僅&lt;u&gt;專案贊助者&lt;/u&gt;可用，隱私增強型沙箱&lt;b&gt;&lt;font color=&apos;red&apos;&gt;保護使用者資料免受沙箱化的程式非法存取&lt;/font&gt;&lt;/b&gt;。&lt;br /&gt;如果您還不是贊助者，請考慮贊助此專案，來取得贊助者憑證。&lt;br /&gt;當然您也可以新增一個這些類型的沙箱進行測試，不過沙箱中執行的程式將在 5 分鐘之後自動終止。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="208"/>
@@ -9063,14 +9063,14 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="521"/>
-        <source>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</source>
-        <oldsource>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</oldsource>
-        <translation>啟用 &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;沙箱加密&lt;/a&gt; 後，沙箱的根資料夾 (包括其登錄檔) 將儲存在一個加密磁碟映像中，使用 &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor 的&lt;/a&gt; AES-XTS 實作方案。</translation>
+        <source>When Box Encryption is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</source>
+        <oldsource>When Box Encryption is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</oldsource>
+        <translation>啟用 沙箱加密 後，沙箱的根資料夾 (包括其登錄檔) 將儲存在一個加密磁碟映像中，使用 Disk Cryptor 的 AES-XTS 實作方案。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="469"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;安裝 ImDisk&lt;/a&gt; 驅動程式以啟用 Ram 磁碟和磁碟映像支援。</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>安裝 ImDisk 驅動程式以啟用 Ram 磁碟和磁碟映像支援。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="567"/>
@@ -9120,8 +9120,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1641"/>
-        <source>sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
-        <translation>sandybox 能夠建立機密型沙箱，提供強大的保護，防止未經授權的監視或主機處理程序的篡改。透過利用加密沙箱映像，此功能可提供最高等級的作業機密性，確保沙箱化處理程序的安全性和完整性。</translation>
+        <source>Sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
+        <translation>Sandybox 能夠建立機密型沙箱，提供強大的保護，防止未經授權的監視或主機處理程序的篡改。透過利用加密沙箱映像，此功能可提供最高等級的作業機密性，確保沙箱化處理程序的安全性和完整性。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1606"/>
@@ -9178,8 +9178,8 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2051"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>使用 sandybox 登入程序替代匿名權杖</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>使用 Sandybox 登入程序替代匿名權杖</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2202"/>
@@ -9193,9 +9193,9 @@ If you are a great patreaon supporter already, sandybox can check online for an 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2528"/>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
-        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
-        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;安全性建議&lt;/font&gt;: &lt;/b&gt;使用 &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; 和/或 &lt;a href=&quot; sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; 與 Open[File/Pipe]Path 指令結合使用可能會損害安全性，使用 &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt; /a &gt; 將允許任何 * 或不安全的 (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) 副檔名。使用前請查看文件中每個選項的「安全性」區段。</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
+        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;安全性建議&lt;/font&gt;: &lt;/b&gt;使用 BreakoutFolder 和/或 BreakoutProcess 與 Open[File/Pipe]Path 指令結合使用可能會損害安全性，使用 BreakoutDocument&lt; /a &gt; 將允許任何 * 或不安全的 (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) 副檔名。使用前請查看文件中每個選項的「安全性」區段。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2548"/>
@@ -9334,8 +9334,8 @@ SBIE2115: 檔案沒有被遷移，檔案將以唯讀方式開啟</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="742"/>
-        <source>sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. sandybox offers options for handling these cases, which can be configured on this page.</source>
-        <translation>sandybox 不被允許對主機檔案進行寫入，除非得到使用者的允許。當沙箱化應用程式試圖修改一個檔案時，整個檔案必須被複製到沙箱中。對於大型檔案來說，這可能需要相當長的時間。sandybox 提供了針對這些情況的處理選項，可以在此頁面進行設定。</translation>
+        <source>Sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. Sandybox offers options for handling these cases, which can be configured on this page.</source>
+        <translation>Sandybox 不被允許對主機檔案進行寫入，除非得到使用者的允許。當沙箱化應用程式試圖修改一個檔案時，整個檔案必須被複製到沙箱中。對於大型檔案來說，這可能需要相當長的時間。Sandybox 提供了針對這些情況的處理選項，可以在此頁面進行設定。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="752"/>
@@ -9406,18 +9406,18 @@ SBIE2115: 檔案沒有被遷移，檔案將以唯讀方式開啟</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4615"/>
-        <source>sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
+        <source>Sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</source>
-        <oldsource>sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
+        <oldsource>Sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</oldsource>
-        <translation>sandybox 的資源存取規則通常對位於沙箱內的二進位程式具有歧視性。「開啟檔案路徑」和「開啟機碼路徑」只對主機上的原生程式 (安裝在主機上的) 有效。為了定義沒有此類限制的規則，則必須使用「開啟管道路徑」和「開啟組態路徑」。同樣的，透過否定來定義所有的「封閉(檔案|機碼|IPC)路徑」指令例如：&apos;ClosedFilePath=! iexplore.exe,C:Users*&apos; 將限制沙箱內的程式存取相應資源。這兩種限制原則都可以透過「存取原則」頁面來停用。
+        <translation>Sandybox 的資源存取規則通常對位於沙箱內的二進位程式具有歧視性。「開啟檔案路徑」和「開啟機碼路徑」只對主機上的原生程式 (安裝在主機上的) 有效。為了定義沒有此類限制的規則，則必須使用「開啟管道路徑」和「開啟組態路徑」。同樣的，透過否定來定義所有的「封閉(檔案|機碼|IPC)路徑」指令例如：&apos;ClosedFilePath=! iexplore.exe,C:Users*&apos; 將限制沙箱內的程式存取相應資源。這兩種限制原則都可以透過「存取原則」頁面來停用。
 這樣做是為了防止沙箱內的流氓處理程序建立自己的重新命名複本並存取受保護的資源。另一個漏洞載體是將一個程式館注入到一個被授權處理程序中，以取得對被授權處理程序所允許存取的一切資源的存取權。使用主機映像保護，可以透過阻止在沙箱內執行的應用程式 (安裝在主機上的) 載入來自沙箱的動態連結程式庫來防止此類現象。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4639"/>
-        <source>sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
+        <source>Sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
         <oldsource>sandyboxs functionality can be enhanced using optional dll’s which can be loaded into each sandboxed process on start by the SbieDll.dll, the add-on manager in the global settings offers a couple useful extensions, once installed they can be enabled here for the current box.</oldsource>
-        <translation>sandybox 的功能可以透過使用可選 DLL 加以增強，這些 DLL 可在啟動時透過 SbieDll.dll 檔案載入到每個沙箱化處理程序中，全域設定中的附加元件管理員提供了一些實用擴充套件，安裝後可以在此處對目前沙箱啟用。</translation>
+        <translation>Sandybox 的功能可以透過使用可選 DLL 加以增強，這些 DLL 可在啟動時透過 SbieDll.dll 檔案載入到每個沙箱化處理程序中，全域設定中的附加元件管理員提供了一些實用擴充套件，安裝後可以在此處對目前沙箱啟用。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1977"/>
@@ -9426,8 +9426,8 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
         <translation>進階安全性</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">使用 sandybox 限權使用者，而不是匿名權杖 (實驗性)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">使用 Sandybox 限權使用者，而不是匿名權杖 (實驗性)</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1891"/>
@@ -9441,8 +9441,8 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2012"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>使用自訂 sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>使用自訂 Sandybox 權杖可以更好地將各個沙箱相互隔離，同時可以實現在工作管理員的使用者欄位中顯示處理程序所屬的沙箱。但是，某些第三方安全性解決方案可能會與自訂權杖產生相容性問題。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2234"/>
@@ -9540,8 +9540,8 @@ Partially checked: No groups will be added to the newly created sandboxed token.
         <translation>廢棄 ConHost.exe 處理程序整合層級</translation>
     </message>
     <message>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
-        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;安全性建議&lt;/font&gt;:&lt;/b&gt; 使用 &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;分離資料夾&lt;/a&gt; 和/或 &lt;a href=&quot; sbie://docs/breakoutprocess&quot;&gt;分離處理程序&lt;/a&gt; 與「開啟[檔案/管道]路徑」指令結合使用可能會損害安全性。使用前請檢查說明文件中每個選項的「安全性」區段。</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
+        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;安全性建議&lt;/font&gt;:&lt;/b&gt; 使用 分離資料夾 和/或 分離處理程序 與「開啟[檔案/管道]路徑」指令結合使用可能會損害安全性。使用前請檢查說明文件中每個選項的「安全性」區段。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2558"/>
@@ -9817,8 +9817,8 @@ To specify a process use &apos;$:program.exe&apos; as path.</source>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2087"/>
-        <source>sandybox token</source>
-        <translation>sandybox 權杖</translation>
+        <source>Sandybox token</source>
+        <translation>Sandybox 權杖</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2112"/>
@@ -10098,9 +10098,9 @@ The process match level has a higher priority than the specificity and describes
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1461"/>
-        <source>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
-        <oldsource>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
-        <translation>「安全性隔離」透過嚴格限制處理程序權杖的使用來實現，是 sandybox 強制執行沙箱限制的首要意義，當其被停用時，沙箱將在應用程式區間模式下執行，此時將不再提供可靠的安全性，只是簡單進行應用程式隔離。</translation>
+        <source>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
+        <oldsource>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
+        <translation>「安全性隔離」透過嚴格限制處理程序權杖的使用來實現，是 Sandybox 強制執行沙箱限制的首要意義，當其被停用時，沙箱將在應用程式區間模式下執行，此時將不再提供可靠的安全性，只是簡單進行應用程式隔離。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1030"/>
@@ -10143,8 +10143,8 @@ The process match level has a higher priority than the specificity and describes
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1485"/>
-        <source>Security Filtering used by sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
-        <translation>安全性篩選被 sandybox 用來強制執行檔案系統和登錄存取限制，以及限制處理程序存取。</translation>
+        <source>Security Filtering used by Sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
+        <translation>安全性篩選被 Sandybox 用來強制執行檔案系統和登錄存取限制，以及限制處理程序存取。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="964"/>
@@ -10572,9 +10572,9 @@ instead of &quot;*&quot;.</source>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2142"/>
-        <source>By default, sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
+        <source>By default, Sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
 Enabling this option uses a LOW integrity token instead, which may improve compatibility but reduces sandbox isolation and security.</source>
-        <translation>預設 sandybox 以等級為未信任 (UNTRUSTED) 的完整性權杖執行處理程序，用於取得最大的隔離性。
+        <translation>預設 Sandybox 以等級為未信任 (UNTRUSTED) 的完整性權杖執行處理程序，用於取得最大的隔離性。
 啟用此選項將轉而使用等級為低 (LOW) 的完整性權杖，可能改善相容性但會降低沙箱隔離性和安全性。</translation>
     </message>
     <message>
@@ -11008,8 +11008,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6086"/>
-        <source>The following settings enable the use of sandybox in combination with accessibility software.  Please note that some measure of sandybox protection is necessarily lost when these settings are in effect.</source>
-        <translation>以下設定允許 sandybox 與協助工具軟體結合。請注意當這些設定生效時，必然會失去部分 sandybox 保護措施。</translation>
+        <source>The following settings enable the use of Sandybox in combination with accessibility software.  Please note that some measure of Sandybox protection is necessarily lost when these settings are in effect.</source>
+        <translation>以下設定允許 Sandybox 與協助工具軟體結合。請注意當這些設定生效時，必然會失去部分 Sandybox 保護措施。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6139"/>
@@ -11064,8 +11064,8 @@ Please note that this values are currently user specific and saved globally for 
     <name>PopUpWindow</name>
     <message>
         <location filename="Forms/PopUpWindow.ui" line="32"/>
-        <source>sandybox Notifications</source>
-        <translation>sandybox 通知</translation>
+        <source>Sandybox Notifications</source>
+        <translation>Sandybox 通知</translation>
     </message>
 </context>
 <context>
@@ -11137,8 +11137,8 @@ Please note that this values are currently user specific and saved globally for 
     <name>RecoveryWindow</name>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="32"/>
-        <source>sandybox - Recovery</source>
-        <translation>sandybox - 復原</translation>
+        <source>Sandybox - Recovery</source>
+        <translation>Sandybox - 復原</translation>
     </message>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="167"/>
@@ -11218,8 +11218,8 @@ Please note that this values are currently user specific and saved globally for 
     <name>SelectBoxWindow</name>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="32"/>
-        <source>sandybox select box</source>
-        <translation>sandybox 選取沙箱</translation>
+        <source>Sandybox select box</source>
+        <translation>Sandybox 選取沙箱</translation>
     </message>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="45"/>
@@ -11266,8 +11266,8 @@ Please note that this values are currently user specific and saved globally for 
     <name>SettingsWindow</name>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="32"/>
-        <source>sandybox Settings</source>
-        <translation>sandybox 設定</translation>
+        <source>Sandybox Settings</source>
+        <translation>Sandybox 設定</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="55"/>
@@ -11372,8 +11372,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2512"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;file system root&lt;/a&gt;: </source>
-        <translation>沙箱 &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;檔案系統根目錄&lt;/a&gt;: </translation>
+        <source>Sandbox file system root: </source>
+        <translation>沙箱 檔案系統根目錄: </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2779"/>
@@ -11382,8 +11382,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2589"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;ipc root&lt;/a&gt;: </source>
-        <translation>沙箱 &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;IPC 根目錄&lt;/a&gt;: </translation>
+        <source>Sandbox ipc root: </source>
+        <translation>沙箱 IPC 根目錄: </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2445"/>
@@ -11446,9 +11446,9 @@ Please note that this values are currently user specific and saved globally for 
         <translation>通知選項</translation>
     </message>
     <message>
-        <source>sandybox may be issue &lt;a href= &quot;sbie://docs/ sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases, special event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <oldsource>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</oldsource>
-        <translation type="vanished">sandybox 可能會將 &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE 訊息&lt;/a&gt;記錄到訊息日誌中，並以跳出視窗的形式通知。有些訊息僅僅是資訊性的，通知一個普通的或某些特殊的事件發生，其它訊息將標明錯誤狀況。&lt;br /&gt;您可以使用此清單來隱藏所設定的「SBIE 訊息」，使其不會跳出:</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases, special event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <oldsource>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</oldsource>
+        <translation type="vanished">Sandybox 可能會將 SBIE 訊息記錄到訊息日誌中，並以跳出視窗的形式通知。有些訊息僅僅是資訊性的，通知一個普通的或某些特殊的事件發生，其它訊息將標明錯誤狀況。&lt;br /&gt;您可以使用此清單來隱藏所設定的「SBIE 訊息」，使其不會跳出:</translation>
     </message>
     <message>
         <source>Disable SBIE messages popups (SBIE will still be logged to the log tab)</source>
@@ -11481,9 +11481,9 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1147"/>
-        <source>Hide sandybox&apos;s own processes from the task list</source>
-        <oldsource>Hide sandybox&apos;s own processes from the task list</oldsource>
-        <translation>對工作清單隱藏 sandybox 的處理程序</translation>
+        <source>Hide Sandybox&apos;s own processes from the task list</source>
+        <oldsource>Hide Sandybox&apos;s own processes from the task list</oldsource>
+        <translation>對工作清單隱藏 Sandybox 的處理程序</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1193"/>
@@ -11505,7 +11505,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="204"/>
         <source>Hotkey for bringing sandman to the top:</source>
-        <translation>用於將 sandybox 管理員視窗最上層顯示的快速鍵:</translation>
+        <translation>用於將 Sandybox 管理員視窗最上層顯示的快速鍵:</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="218"/>
@@ -11521,7 +11521,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="173"/>
         <source>Check sandboxes&apos; auto-delete status when Sandman starts</source>
-        <translation>當 sandybox 管理員啟動時檢查沙箱的自動刪除狀態</translation>
+        <translation>當 Sandybox 管理員啟動時檢查沙箱的自動刪除狀態</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="564"/>
@@ -11612,7 +11612,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1442"/>
         <source>Hide SandMan windows from screen capture (UI restart required)</source>
-        <translation>於螢幕擷取中隱藏 sandybox 管理員視窗 (需要重新啟動 UI)</translation>
+        <translation>於螢幕擷取中隱藏 Sandybox 管理員視窗 (需要重新啟動 UI)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1669"/>
@@ -11626,8 +11626,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1687"/>
-        <source>sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
-        <translation>sandybox 提供眾多選項並支援大量擴充套件。在此頁面上，您可以設定附加元件、擴充套件和其它第三方組件的整合。可選組件可以從網際網路下載，某些安裝可能需要管理人員權限。</translation>
+        <source>Sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
+        <translation>Sandybox 提供眾多選項並支援大量擴充套件。在此頁面上，您可以設定附加元件、擴充套件和其它第三方組件的整合。可選組件可以從網際網路下載，某些安裝可能需要管理人員權限。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1723"/>
@@ -11646,8 +11646,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1741"/>
-        <source>&lt;a href=&quot;sbie://addons&quot;&gt;update add-on list now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://addons&quot;&gt;立即更新附加元件清單&lt;/a&gt;</translation>
+        <source>update add-on list now</source>
+        <translation>立即更新附加元件清單</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1751"/>
@@ -11686,8 +11686,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1813"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;安裝 ImDisk&lt;/a&gt; 驅動程式以啟用 RAM 磁碟和磁碟映像支援。</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>安裝 ImDisk 驅動程式以啟用 RAM 磁碟和磁碟映像支援。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1872"/>
@@ -11701,18 +11701,18 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1899"/>
-        <source>sandybox Support</source>
-        <translation>sandybox 贊助</translation>
+        <source>Sandybox Support</source>
+        <translation>Sandybox 贊助</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1988"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>此贊助者憑證已逾期，請&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;取得更新的憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation>此贊助者憑證已逾期，請取得更新的憑證。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2055"/>
-        <source>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation>sandybox 專案的贊助者將收到&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;贊助者憑證&lt;/a&gt;。這類似於授權碼，但是是為擁抱開放原始碼軟體的優秀人士準備的。:-)</translation>
+        <source>Supporters of the Sandybox project can receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation>Sandybox 專案的贊助者將收到贊助者憑證。這類似於授權碼，但是是為擁抱開放原始碼軟體的優秀人士準備的。:-)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1936"/>
@@ -11726,8 +11726,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2023"/>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt;, becoming a patron by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandboxie.</source>
-        <translation>使 sandybox 與 Windows 的持續性更新相同步，並和主流網頁瀏覽器保持相容性，是一項永無止境的努力。您可以透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;直接參與專案&lt;/a&gt;來支援開發、透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;購買贊助者憑證&lt;/a&gt;來表達您的支持、透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;在 Patreon 上訂閱&lt;/a&gt;成為贊助者、或者透過 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal 捐款&lt;/a&gt;。&lt;br /&gt;您的支持對 sandybox 的進步和維護至關重要。</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becoming a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</source>
+        <translation>使 Sandybox 與 Windows 的持續性更新相同步，並和主流網頁瀏覽器保持相容性，是一項永無止境的努力。您可以透過直接參與專案來支援開發、透過購買贊助者憑證來表達您的支持、透過在 Patreon 上訂閱成為贊助者、或者透過 PayPal 捐款。&lt;br /&gt;您的支持對 Sandybox 的進步和維護至關重要。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1922"/>
@@ -11741,8 +11741,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2004"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;Certificate usage guide&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;憑證使用指南&lt;/a&gt;</translation>
+        <source>Certificate usage guide</source>
+        <translation>憑證使用指南</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2088"/>
@@ -11751,13 +11751,13 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2130"/>
-        <source>sandybox Version: 0.0.0</source>
-        <translation>sandybox 版本: 0.0.0</translation>
+        <source>Sandybox Version: 0.0.0</source>
+        <translation>Sandybox 版本: 0.0.0</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2390"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registry root&lt;/a&gt;: </source>
-        <translation>沙箱 &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;登錄根目錄&lt;/a&gt;: </translation>
+        <source>Sandbox registry root: </source>
+        <translation>沙箱 登錄根目錄: </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2582"/>
@@ -11765,8 +11765,8 @@ Please note that this values are currently user specific and saved globally for 
         <translation>沙箱功能</translation>
     </message>
     <message>
-        <source>Sandboxie.ini Presets</source>
-        <translation type="vanished">Sandboxie.ini 預設選項</translation>
+        <source>base configuration file Presets</source>
+        <translation type="vanished">base configuration file 預設選項</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2654"/>
@@ -11785,8 +11785,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2786"/>
-        <source>Watch Sandboxie.ini for changes</source>
-        <translation>追蹤 Sandboxie.ini 變更</translation>
+        <source>Watch base configuration file for changes</source>
+        <translation>追蹤 base configuration file 變更</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3070"/>
@@ -11918,8 +11918,8 @@ Please note that this values are currently user specific and saved globally for 
         <translation>使用 Fusion 風格主題</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">使用 sandybox 登入程序替代匿名權杖 (實驗性)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">使用 Sandybox 登入程序替代匿名權杖 (實驗性)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="922"/>
@@ -11947,8 +11947,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2862"/>
-        <source>When any of the following programs is launched outside any sandbox, sandybox will issue message SBIE1301.</source>
-        <translation>當下列程式在任意沙箱之外啟動時，sandybox 將發出錯誤代碼 SBIE1301。</translation>
+        <source>When any of the following programs is launched outside any sandbox, Sandybox will issue message SBIE1301.</source>
+        <translation>當下列程式在任意沙箱之外啟動時，Sandybox 將發出錯誤代碼 SBIE1301。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2886"/>
@@ -11972,8 +11972,8 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="399"/>
-        <source>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <translation>sandybox 也許會在訊息日誌中提示 &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE 訊息&lt;/a&gt;並將其展示為跳出視窗。某些訊息是資訊型的，提示普通的 (某些情況下是特殊的) 事件的發生，其它訊息則標示了錯誤狀況。&lt;br /&gt;你可以隱藏選定的 SBIE 訊息以阻止其跳出，要如此操作請使用下方清單:</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <translation>Sandybox 也許會在訊息日誌中提示 SBIE 訊息並將其展示為跳出視窗。某些訊息是資訊型的，提示普通的 (某些情況下是特殊的) 事件的發生，其它訊息則標示了錯誤狀況。&lt;br /&gt;你可以隱藏選定的 SBIE 訊息以阻止其跳出，要如此操作請使用下方清單:</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="412"/>
@@ -12027,9 +12027,9 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2382"/>
-        <source>sandybox Config</source>
+        <source>Sandybox Config</source>
         <oldsource>Config Protection</oldsource>
-        <translation>sandybox 組態</translation>
+        <translation>Sandybox 組態</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="422"/>
@@ -12079,13 +12079,13 @@ Please note that this values are currently user specific and saved globally for 
         <translation>支援 &amp;&amp; 更新</translation>
     </message>
     <message>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt;, becomeing a patron by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=dontate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandboxie.</source>
-        <translation type="vanished">使 sandybox 與 Windows 的持續性更新相同步，並和主流網頁瀏覽器保持相容性，是一項永無止境的努力。您可以透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;直接參與專案&lt;/a&gt;來支援開發、透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;購買贊助者憑證&lt;/a&gt;來表達您的支持、透過&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;在 Patreon 上訂閱&lt;/a&gt;成為贊助者、或者透過 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal 捐款&lt;/a&gt;。&lt;br /&gt;您的支持對 sandybox 的進步和維護至關重要。</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becomeing a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</source>
+        <translation type="vanished">使 Sandybox 與 Windows 的持續性更新相同步，並和主流網頁瀏覽器保持相容性，是一項永無止境的努力。您可以透過直接參與專案來支援開發、透過購買贊助者憑證來表達您的支持、透過在 Patreon 上訂閱成為贊助者、或者透過 PayPal 捐款。&lt;br /&gt;您的支持對 Sandybox 的進步和維護至關重要。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2140"/>
-        <source>sandybox Updater</source>
-        <translation>sandybox 更新程式</translation>
+        <source>Sandybox Updater</source>
+        <translation>Sandybox 更新程式</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2171"/>
@@ -12121,13 +12121,13 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2275"/>
-        <source>Check periodically for new sandybox versions</source>
-        <translation>定期檢查新的 sandybox 版本</translation>
+        <source>Check periodically for new Sandybox versions</source>
+        <translation>定期檢查新的 Sandybox 版本</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2285"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>了解更多關於 &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;測試人員通道&lt;/a&gt;</translation>
+        <source>More about the Insider Channel</source>
+        <translation>了解更多關於 測試人員通道</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2305"/>
@@ -12146,14 +12146,14 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2569"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>使用 sandybox 登入程序替代匿名權杖</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>使用 Sandybox 登入程序替代匿名權杖</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2406"/>
-        <source>Add &quot;CODE(0x55c9eac1d178)->(sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
-        <oldsource>Add &quot;CODE(0x55c9eac1d178)->(sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
-        <translation>將「CODE(0x55c9eac1d178)->(sandybox\All Sandboxes) (全部沙箱)」群組新增至沙箱化權杖</translation>
+        <source>Add &quot;CODE(0x55c9eac1d178)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
+        <oldsource>Add &quot;CODE(0x55c9eac1d178)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
+        <translation>將「CODE(0x55c9eac1d178)->(Sandybox\All Sandboxes) (全部沙箱)」群組新增至沙箱化權杖</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2535"/>
@@ -12277,14 +12277,14 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2631"/>
-        <source>Use sandybox&apos;s own enhanced UAC prompt (recommended)</source>
-        <oldsource>Use sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
-        <translation>使用 sandybox 自有增強型 UAC 提示視窗 (建議使用)</translation>
+        <source>Use Sandybox&apos;s own enhanced UAC prompt (recommended)</source>
+        <oldsource>Use Sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
+        <translation>使用 Sandybox 自有增強型 UAC 提示視窗 (建議使用)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2641"/>
-        <source>Sandboxie.ini</source>
-        <translation>Sandboxie.ini</translation>
+        <source>base configuration file</source>
+        <translation>base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2674"/>
@@ -12317,8 +12317,8 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2688"/>
-        <source>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
-        <translation>&lt;b&gt;僅套用至 Sandboxie.ini 可攜式沙箱之設定組態的組態保護，不受以下機制的保護&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Config protection applyess only to base configuration file portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
+        <translation>&lt;b&gt;僅套用至 base configuration file 可攜式沙箱之設定組態的組態保護，不受以下機制的保護&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2647"/>
@@ -12378,9 +12378,9 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3100"/>
-        <source>&lt;a href=&quot;sbie://templates&quot;&gt;update compatibility templates now&lt;/a&gt;</source>
-        <oldsource>&lt;a href=&quot;sbie://templates&quot;&gt;update compatybility templates now&lt;/a&gt;</oldsource>
-        <translation>&lt;a href=&quot;sbie://templates&quot;&gt;立即更新相容性範本&lt;/a&gt;</translation>
+        <source>update compatibility templates now</source>
+        <oldsource>update compatybility templates now</oldsource>
+        <translation>立即更新相容性範本</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3156"/>
@@ -12531,8 +12531,8 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3126"/>
-        <source>sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
-        <translation>sandybox 偵測到您的系統中安裝了以下軟體。按下「確定」套用設定，將改進與這些軟體的相容性。這些設定作用於所有沙箱，包括現存的和未來新增的沙箱。</translation>
+        <source>Sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
+        <translation>Sandybox 偵測到您的系統中安裝了以下軟體。按下「確定」套用設定，將改進與這些軟體的相容性。這些設定作用於所有沙箱，包括現存的和未來新增的沙箱。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3179"/>
@@ -12639,12 +12639,12 @@ Tooltips include version details, syntax requirements, and descriptions to help 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2205"/>
-        <source>Hotpatches for the installed version, updates to the Templates.ini and translations.</source>
-        <translation>更新已安裝版本的 Templates.ini 範本和翻譯的修補程式。</translation>
+        <source>Hotpatches for the installed version, updates to the template configuration file and translations.</source>
+        <translation>更新已安裝版本的 template configuration file 範本和翻譯的修補程式。</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">此贊助者憑證已逾期，請&lt;a href=&quot;sbie://update/cert&quot;&gt;取得新憑證&lt;/a&gt;。</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation type="vanished">此贊助者憑證已逾期，請取得新憑證。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2218"/>
@@ -12685,16 +12685,16 @@ Tooltips include version details, syntax requirements, and descriptions to help 
         <translation type="vanished">贊助設定</translation>
     </message>
     <message>
-        <source>Check periodically for updates of sandybox</source>
-        <translation type="vanished">定期檢查 sandybox 更新</translation>
+        <source>Check periodically for updates of Sandybox</source>
+        <translation type="vanished">定期檢查 Sandybox 更新</translation>
     </message>
 </context>
 <context>
     <name>SnapshotsWindow</name>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="32"/>
-        <source>sandybox - Snapshots</source>
-        <translation>sandybox - 快照</translation>
+        <source>Sandybox - Snapshots</source>
+        <translation>Sandybox - 快照</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="60"/>

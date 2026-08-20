@@ -1,0 +1,33 @@
+# Local tool installations and workspace links
+/Qt/
+/VS2022/
+/%SystemDrive%/
+/.build/
+
+# Build directories and generated output
+[Bb]in/
+[Bb]uild_*/
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+.vs/
+*.tlog
+*.lastbuildstate
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.res
+*.exp
+*.lib
+*.dll
+*.exe
+*.qm
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.log

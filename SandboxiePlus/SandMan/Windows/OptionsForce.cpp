@@ -328,7 +328,7 @@ void COptionsWindow::OnBreakoutDoc()
 	if (Value.isEmpty())
 		return;
 
-	QString Ext = QInputDialog::getText(this, "sandybox", tr("Please enter Document File Extension."));
+	QString Ext = QInputDialog::getText(this, "Sandybox", tr("Please enter Document File Extension."));
 	if (Ext.isEmpty())
 		return;
 	
@@ -338,7 +338,7 @@ void COptionsWindow::OnBreakoutDoc()
 		Ext.prepend("*.");
 
 	if (Ext.right(1) == "*") {
-		QMessageBox::warning(this, "sandybox", tr("For security reasons it is not permitted to create entirely wildcard BreakoutDocument presets."));
+		QMessageBox::warning(this, "Sandybox", tr("For security reasons it is not permitted to create entirely wildcard BreakoutDocument presets."));
 		return;
 	}
 	QStringList BannedExt = QString(// from: https://learn.microsoft.com/en-us/troubleshoot/developer/browsers/security-privacy/information-about-the-unsafe-file-list
@@ -405,7 +405,7 @@ bool COptionsWindow::CheckForcedItem(const QString& Value, int type)
 			bDangerous = true; // sub path of C:\Windows
 	}
 
-	if (bDangerous && QMessageBox::warning(this, "sandybox", tr("Forcing the specified entry will most likely break Windows, are you sure you want to proceed?")
+	if (bDangerous && QMessageBox::warning(this, "Sandybox", tr("Forcing the specified entry will most likely break Windows, are you sure you want to proceed?")
 		, QDialogButtonBox::Yes, QDialogButtonBox::No) != QDialogButtonBox::Yes)
 		return false;
 	return true;

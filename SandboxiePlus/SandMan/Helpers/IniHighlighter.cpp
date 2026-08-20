@@ -970,7 +970,7 @@ QString CIniHighlighter::processTextLineOptimized(const QString& text, const QSt
 	// Process other placeholders
 	if (processed.contains(QLatin1Char('['))) {
 		processed.replace(QStringLiteral("[br]"), TextReplacements::NEWLINE)
-			.replace(QStringLiteral("[sbie]"), QStringLiteral("sandybox"))
+			.replace(QStringLiteral("[sbie]"), QStringLiteral("Sandybox"))
 			.replace(QStringLiteral("[bY]"), QStringLiteral("([b]Y[/b]|n)"))
 			.replace(QStringLiteral("[bN]"), QStringLiteral("(y|[b]N[/b])"));
 

@@ -201,7 +201,7 @@ DWORD WINAPI FinderThreadFunc(LPVOID lpParam)
 	SFinderWndData WndData;
 	WndData.Scale = GetMonitorScaling(MainWndHandle);
 
-	HWND hwnd = CreateWindowW(mainWindowClass.lpszClassName, CSandMan::tr("sandybox - Window Finder").toStdWString().c_str()
+	HWND hwnd = CreateWindowW(mainWindowClass.lpszClassName, CSandMan::tr("Sandybox - Window Finder").toStdWString().c_str()
 		, WS_SYSMENU | WS_CAPTION | WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, DS(275), DS(135), NULL, 0, hInstance, &WndData);
 
 	while (GetMessage(&msg, NULL, 0, 0))

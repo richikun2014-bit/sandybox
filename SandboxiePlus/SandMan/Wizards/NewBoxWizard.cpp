@@ -73,7 +73,7 @@ SB_STATUS CNewBoxWizard::TryToCreateBox()
 
             if (theConf->GetBool("Options/WarnBoxCrypto", true)) {
                 bool State = false;
-                if(CCheckableMessageBox::question(this, "sandybox",
+                if(CCheckableMessageBox::question(this, "Sandybox",
                     tr("This sandbox content will be placed in an encrypted container file, "
                         "please note that any corruption of the container's header will render all its content permanently inaccessible. "
                         "Corruption can occur as a result of a BSOD, a storage hardware failure, or a malicious application overwriting random files. "
@@ -285,8 +285,8 @@ SB_STATUS CNewBoxWizard::TryToCreateBox()
             if (field("boxVersion").toInt() == 1) {
                 if (theConf->GetBool("Options/WarnDeleteV2", true)) {
                     bool State = false;
-                    CCheckableMessageBox::question(this, "sandybox",
-                        tr("The new sandbox has been created using the new <a href=\"https://sandboxie-plus.com/go.php?to=sbie-delete-v2\">Virtualization Scheme Version 2</a>, if you experience any unexpected issues with this box,"
+                    CCheckableMessageBox::question(this, "Sandybox",
+                        tr("The new sandbox has been created using the new Virtualization Scheme Version 2, if you experience any unexpected issues with this box,"
                             " please switch to the Virtualization Scheme to Version 1 and report the issue,"
                             " the option to change this preset can be found in the Box Options in the Box Structure group.")
                         , tr("Don't show this message again."), &State, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Information);
@@ -336,7 +336,7 @@ CBoxTypePage::CBoxTypePage(bool bAlowTemp, QWidget *parent)
         "it prevents them from making permanent changes to other programs and data in your computer. "
         "The level of isolation impacts your security as well as the compatibility with applications, "
         "hence there will be a different level of isolation depending on the selected Box Type. "
-        "sandybox can also protect your personal data from being accessed by processes running under its supervision."));
+        "Sandybox can also protect your personal data from being accessed by processes running under its supervision."));
 #endif
     pTopLabel->setWordWrap(true);
     layout->addWidget(pTopLabel, row++ , 0, 1, 3);
@@ -408,7 +408,7 @@ CBoxTypePage::CBoxTypePage(bool bAlowTemp, QWidget *parent)
         tr("In this box type, sandboxed processes are prevented from accessing any personal user files or data. The focus is on protecting user data, and as such, \n"
             "only C:\\Windows and C:\\Program Files directories are accessible to processes running within this sandbox. This ensures that personal files remain secure."));
     AddBoxType(tr("Standard Sandbox"), (int)CSandBoxPlus::eDefault, 
-        tr("This box type offers the default behavior of sandybox classic. It provides users with a familiar and reliable sandboxing scheme. \n"
+        tr("This box type offers the default behavior of Sandybox classic. It provides users with a familiar and reliable sandboxing scheme. \n"
             "Applications can be run within this sandbox, ensuring they operate within a controlled and isolated space."));
     AddBoxType(tr("<a href=\"sbie://docs/compartment-mode\">Application Compartment</a> Box with <a href=\"sbie://docs/privacy-mode\">Data Protection</a>"), (int)CSandBoxPlus::eAppBoxPlus, 
         tr("This box type prioritizes compatibility while still providing a good level of isolation. It is designed for running trusted applications within separate compartments. \n"
@@ -424,7 +424,7 @@ CBoxTypePage::CBoxTypePage(bool bAlowTemp, QWidget *parent)
     //AddBoxType(tr("<a href=\"sbie://docs/boxencryption\">Encrypted</a> <a href=\"sbie://docs/black-box\">Confidential</a> Box"), (int)CSandBoxPlus::ePrivate,
     QWidget* pBlackBox = AddBoxType(tr("<a href=\"sbie://docs/boxencryption\">Encrypt</a> Box content and set <a href=\"sbie://docs/black-box\">Confidential</a>"), (int)CSandBoxPlus::ePrivate,
         tr("In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. \n"
-            "Access to the virtual disk when mounted is restricted to programs running within the sandbox. sandybox prevents other processes on the host system from accessing the sandboxed processes. \n"
+            "Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandybox prevents other processes on the host system from accessing the sandboxed processes. \n"
             "This ensures the utmost level of privacy and data protection within the confidential sandbox environment."), true);
 
     connect(m_TypeGroup, SIGNAL(buttonClicked(QAbstractButton*)), this, SIGNAL(typeChanged()));
@@ -704,25 +704,25 @@ bool CFilesPage::validatePage()
     else {
         int offset = Location.left(4) == "\\??\\" ? 4 : 0;
         if (Location.length() < offset + 4) {
-            QMessageBox::critical(this, "sandybox", tr("A sandbox cannot be located at the root of a partition, please select a folder."));
+            QMessageBox::critical(this, "Sandybox", tr("A sandbox cannot be located at the root of a partition, please select a folder."));
             return false;
         }
         if (Location.left(2) == "\\\\") {
-            QMessageBox::critical(this, "sandybox", tr("A sandbox cannot be located on a network share, please select a local folder."));
+            QMessageBox::critical(this, "Sandybox", tr("A sandbox cannot be located on a network share, please select a local folder."));
             return false;
         }
         if (Location.mid(offset + 2).contains(QRegularExpression("[ <>:\"/\\|?*\\[\\]]"))){
-            QMessageBox::critical(this, "sandybox", tr("The selected box location is not a valid path."));
+            QMessageBox::critical(this, "Sandybox", tr("The selected box location is not a valid path."));
             return false;
         }
         QDir Dir(Location);
         if (Dir.exists() && !Dir.entryList(QDir::NoDotAndDotDot | QDir::AllEntries).isEmpty()) {
-            if(QMessageBox::warning(this, "sandybox", tr("The selected box location exists and is not empty, it is recommended to pick a new or empty folder. "
+            if(QMessageBox::warning(this, "Sandybox", tr("The selected box location exists and is not empty, it is recommended to pick a new or empty folder. "
                 "Are you sure you want to use an existing folder?"), QDialogButtonBox::Yes, QDialogButtonBox::No) != QDialogButtonBox::Yes)
                 return false;
         }
         if (Location.mid(offset, 13).compare("%SystemDrive%") != 0 && !QDir().exists(Location.mid(offset, 3))) {
-            QMessageBox::critical(this, "sandybox", tr("The selected box location is not placed on a currently available drive."));
+            QMessageBox::critical(this, "Sandybox", tr("The selected box location is not placed on a currently available drive."));
             return false;
         }
         wizard()->setField("boxLocation", Location);
@@ -799,8 +799,8 @@ CIsolationPage::CIsolationPage(QWidget *parent)
     pBoxLabel->setFont(fnt);
     layout->addWidget(pBoxLabel, row++, 0);
 
-    m_pBoxToken = new QCheckBox(tr("Use a sandybox login instead of an anonymous token"));
-    m_pBoxToken->setToolTip(tr("Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens."));
+    m_pBoxToken = new QCheckBox(tr("Use a Sandybox login instead of an anonymous token"));
+    m_pBoxToken->setToolTip(tr("Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens."));
     m_pBoxToken->setChecked(theConf->GetBool("BoxDefaults/BoxToken", false));
     layout->addWidget(m_pBoxToken, row++, 1, 1, 3);
     registerField("boxToken", m_pBoxToken);
@@ -1122,7 +1122,7 @@ bool CSummaryPage::validatePage()
     SB_STATUS Status = ((CNewBoxWizard*)wizard())->TryToCreateBox();
     if (Status.IsError()) {
         if(Status.GetMsgCode() != SB_Canceled)
-            QMessageBox::critical(this, "sandybox", tr("Failed to create new box: %1").arg(theGUI->FormatError(Status)));
+            QMessageBox::critical(this, "Sandybox", tr("Failed to create new box: %1").arg(theGUI->FormatError(Status)));
         return false;
     }
     return true;

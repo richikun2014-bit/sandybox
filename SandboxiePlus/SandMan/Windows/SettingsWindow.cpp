@@ -194,7 +194,7 @@ CSettingsWindow::CSettingsWindow(QWidget* parent)
 	this->setWindowFlag(Qt::WindowStaysOnTopHint, theGUI->IsAlwaysOnTop());
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox Plus - Global Settings"));
+	this->setWindowTitle(tr("Sandybox Plus - Global Settings"));
 
 	if (theConf->GetBool("Options/AltRowColors", false)) {
 		foreach(QTreeWidget* pTree, this->findChildren<QTreeWidget*>()) 
@@ -1179,7 +1179,7 @@ bool CSettingsWindow::eventFilter(QObject *source, QEvent *event)
 
 void CSettingsWindow::OnAddMessage()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter message"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter message"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1215,7 +1215,7 @@ void CSettingsWindow::OnBrowsePath()
 	if (Value.isEmpty())
 		return;
 
-	QString Name = QInputDialog::getText(this, "sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
+	QString Name = QInputDialog::getText(this, "Sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
 	if (Name.isEmpty())
 		return;
 
@@ -1227,11 +1227,11 @@ void CSettingsWindow::OnBrowsePath()
 
 void CSettingsWindow::OnAddCommand()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a command"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a command"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
-	QString Name = QInputDialog::getText(this, "sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
+	QString Name = QInputDialog::getText(this, "Sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
 	if (Name.isEmpty())
 		return;
 
@@ -2231,7 +2231,7 @@ void CSettingsWindow::SaveSettings()
 			QString MoTWSandbox = ui.cmbMoTWSandbox->currentData().toString();
 			SB_STATUS Status = theAPI->ValidateName(MoTWSandbox);
 			if (Status.IsError())
-				QMessageBox::warning(this, "sandybox", theGUI->FormatError(Status));
+				QMessageBox::warning(this, "Sandybox", theGUI->FormatError(Status));
 			else
 				WriteText("MarkOfTheWebBox", MoTWSandbox);
 
@@ -2244,7 +2244,7 @@ void CSettingsWindow::SaveSettings()
 				QString UsbSandbox = ui.cmbUsbSandbox->currentData().toString();
 				SB_STATUS Status = theAPI->ValidateName(UsbSandbox);
 				if (Status.IsError())
-					QMessageBox::warning(this, "sandybox", theGUI->FormatError(Status));
+					QMessageBox::warning(this, "Sandybox", theGUI->FormatError(Status));
 				else
 					WriteText("UsbSandbox", UsbSandbox);
 
@@ -2394,11 +2394,8 @@ void CSettingsWindow::OnLoadAddon()
 
 		QString Info = pAddon->GetLocalizedEntry("description");
 
-		QString infoUrl = pAddon->Data["infoUrl"].toString();
-		if (!infoUrl.isEmpty()) Info += " <a href=\"" + infoUrl + "\">" + tr("(info website)") + "</a>";
 		QLabel* pLabel = new QLabel(Info);
 		//pLabel->setToolTip(tr("by %1").arg(pAddon->Data["maintainer"].toString()));
-		connect(pLabel, SIGNAL(linkActivated(const QString&)), theGUI, SLOT(OpenUrl(const QString&)));
 		ui.treeAddons->setItemWidget(pItem, 3, pLabel);
 	}
 }
@@ -2422,7 +2419,7 @@ void CSettingsWindow::OnRemoveAddon()
 	
 	QString Id = pItem->data(0, Qt::UserRole).toString();
 	if (Id.isEmpty()) {
-		QMessageBox::warning(this, "sandybox", tr("This Add-on is mandatory and can not be removed."));
+		QMessageBox::warning(this, "Sandybox", tr("This Add-on is mandatory and can not be removed."));
 		return;
 	}
 	SB_PROGRESS Status = theGUI->GetAddonManager()->TryRemoveAddon(Id, this);
@@ -2547,13 +2544,13 @@ void CSettingsWindow::OnMakeBox()
 		return;
 
 	if (QFile::exists(Value)) {
-		QMessageBox::critical(this, "sandybox", tr("File already exists, please select a different file name."));
+		QMessageBox::critical(this, "Sandybox", tr("File already exists, please select a different file name."));
 		return;
 	}
 
 	QString Name = Split2(Split2(Value, "\\", true).second, ".").first.replace(" ", "_");
 	if (theAPI->ValidateName(Name).IsError()) {
-		QMessageBox::critical(this, "sandybox", tr("Invalid box name"));
+		QMessageBox::critical(this, "Sandybox", tr("Invalid box name"));
 		return;
 	}
 
@@ -2602,16 +2599,16 @@ void CSettingsWindow::OnProtectionChange()
 void CSettingsWindow::OnSetPassword()
 {
 retry:
-	QString Value1 = QInputDialog::getText(this, "sandybox", tr("Please enter the new configuration password."), QLineEdit::Password);
+	QString Value1 = QInputDialog::getText(this, "Sandybox", tr("Please enter the new configuration password."), QLineEdit::Password);
 	if (Value1.isEmpty())
 		return;
 
-	QString Value2 = QInputDialog::getText(this, "sandybox", tr("Please re-enter the new configuration password."), QLineEdit::Password);
+	QString Value2 = QInputDialog::getText(this, "Sandybox", tr("Please re-enter the new configuration password."), QLineEdit::Password);
 	if (Value2.isEmpty())
 		return;
 
 	if (Value1 != Value2) {
-		QMessageBox::warning(this, "sandybox", tr("Passwords did not match, please retry."));
+		QMessageBox::warning(this, "Sandybox", tr("Passwords did not match, please retry."));
 		goto retry;
 	}
 
@@ -2633,7 +2630,7 @@ void CSettingsWindow::AddWarnEntry(const QString& Name, int type)
 
 void CSettingsWindow::OnAddWarnProg()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a program file name"));
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a program file name"));
 	if (Value.isEmpty())
 		return;
 	AddWarnEntry(Value, 1);
@@ -2701,7 +2698,7 @@ void CSettingsWindow::OnTemplateDoubleClicked(QTreeWidgetItem* pItem, int Column
 
 void CSettingsWindow::OnAddTemplates()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the template identifier"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the template identifier"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -2709,7 +2706,7 @@ void CSettingsWindow::OnAddTemplates()
 
 	SB_STATUS Status = theAPI->ValidateName(Name);
 	if (Status.IsError()) {
-		QMessageBox::critical(this, "sandybox", tr("Error: %1").arg(CSandMan::FormatError(Status)));
+		QMessageBox::critical(this, "Sandybox", tr("Error: %1").arg(CSandMan::FormatError(Status)));
 		return;
 	}
 
@@ -2741,7 +2738,7 @@ void CSettingsWindow::OnOpenTemplate()
 
 void CSettingsWindow::OnDelTemplates()
 {
-	if (QMessageBox("sandybox", tr("Do you really want to delete the selected local template(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+	if (QMessageBox("Sandybox", tr("Do you really want to delete the selected local template(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 		return;
 
 	foreach(QTreeWidgetItem * pItem, ui.treeTemplates->selectedItems())
@@ -3051,7 +3048,7 @@ QString CSettingsWindow__MkVersion(const QString& Name, const QVariantMap& Relea
 	//if (Release["build"].type() != QVariant::Invalid) 
 	int iUpdate = Release["update"].toInt();
 	if(iUpdate) Version += QChar('a' + (iUpdate - 1));
-	return QString("<a href=\"%1\">%2</a>").arg(Name, Version);
+	return Version;
 }
 
 void CSettingsWindow::OnUpdateData(const QVariantMap& Data, const QVariantMap& Params)
@@ -3089,16 +3086,11 @@ void CSettingsWindow::OnUpdate(const QString& Channel)
 	//if (!DownloadUrl.isEmpty() /*&& !DownloadSig.isEmpty()*/)
 	//{
 	//	// todo: signature
-	//	if (QMessageBox("sandybox", tr("Do you want to download the installer for v%1?").arg(VersionStr), QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, this).exec() == QMessageBox::Yes)
+	//	if (QMessageBox("Sandybox", tr("Do you want to download the installer for v%1?").arg(VersionStr), QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, this).exec() == QMessageBox::Yes)
 	//		COnlineUpdater::Instance()->DownloadInstaller(DownloadUrl, true);
 	//}
 	//else
-	{
-		QString InfoUrl = Release["infoUrl"].toString();
-		if (InfoUrl.isEmpty())
-			InfoUrl = "https://sandboxie-plus.com/go.php?to=sbie-get";
-		QDesktopServices::openUrl(InfoUrl);
-	}
+	Q_UNUSED(DownloadUrl);
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -3153,7 +3145,7 @@ void CSettingsWindow::InitSupport()
 			});
 	}
 
-	ui.lblVersion->setText(tr("sandybox Version: %1").arg(theGUI->GetVersion()));
+	ui.lblVersion->setText(tr("Sandybox Version: %1").arg(theGUI->GetVersion()));
 
 	connect(ui.lblEvalCert, SIGNAL(linkActivated(const QString&)), this, SLOT(OnStartEval()));
 
@@ -3211,21 +3203,17 @@ void CSettingsWindow::UpdateCert()
 		ui.txtCertificate->setPlainText(truncatedCert);
 		//ui.lblSupport->setVisible(false);
 
-		QString ReNewUrl = "https://sandboxie-plus.com/go.php?to=sbie-renew-cert";
-		if (CERT_IS_TYPE(g_CertInfo, eCertPatreon))
-			ReNewUrl = "https://xanasoft.com/get-supporter-certificate/";
-
 		QPalette palette = QApplication::palette();
 		if (theGUI->m_DarkTheme)
 			palette.setColor(QPalette::Text, Qt::black);
 		if (g_CertInfo.expired) {
 			palette.setColor(QPalette::Base, QColor(255, 255, 192));
-			QString infoMsg = tr("This supporter certificate has expired, please <a href=\"%1\">get an updated certificate</a>.").arg(ReNewUrl);
+			QString infoMsg = tr("This supporter certificate has expired.");
 			if (g_CertInfo.active) {
 				if (g_CertInfo.grace_period)
 					infoMsg.append(tr("<br /><font color='red'>Plus features will be disabled in %1 days.</font>").arg(GET_DAYS_FROM_SEC(g_CertInfo.expirers_in_sec + 30*60*60*24)));
 				else if (!g_CertInfo.outdated) // must be an expiren medium or large cert on an old build
-					infoMsg.append(tr("<br /><font color='red'>For the current build Plus features remain enabled</font>, but you no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database."));
+					infoMsg.append(tr("<br /><font color='red'>For the current build Plus features remain enabled</font>, but you no longer have access to Sandybox online services, including compatibility updates and the online troubleshooting database."));
 			} else
 				infoMsg.append(tr("<br />Plus features are no longer enabled."));
 			ui.lblCertExp->setText(infoMsg);
@@ -3233,12 +3221,12 @@ void CSettingsWindow::UpdateCert()
 		}
 		else {
 			if (g_CertInfo.expirers_in_sec > 0 && g_CertInfo.expirers_in_sec < (60 * 60 * 24 * 30)) {
-				ui.lblCertExp->setText(tr("This supporter certificate will <font color='red'>expire in %1 days</font>, please <a href=\"%2\">get an updated certificate</a>.").arg(GET_DAYS_FROM_SEC(g_CertInfo.expirers_in_sec)).arg(ReNewUrl));
+				ui.lblCertExp->setText(tr("This supporter certificate will <font color='red'>expire in %1 days</font>.").arg(GET_DAYS_FROM_SEC(g_CertInfo.expirers_in_sec)));
 				ui.lblCertExp->setVisible(true);
 			}
 			/*#ifdef _DEBUG
 			else {
-			ui.lblCertExp->setText(tr("This supporter certificate is valid, <a href=\"%1\">check for an updated certificate</a>.").arg(ReNewUrl));
+			ui.lblCertExp->setText(tr("This supporter certificate is valid."));
 			ui.lblCertExp->setVisible(true);
 			}
 			#endif*/
@@ -3272,7 +3260,7 @@ void CSettingsWindow::UpdateCert()
 		else if(g_CertInfo.expirers_in_sec < 0)
 			ExpInfo = tr("Expired: %1 days ago").arg(GET_DAYS_FROM_SEC(-g_CertInfo.expirers_in_sec));
 		if (CERT_IS_TYPE(g_CertInfo, eCertPatreon))
-			ExpInfo += tr("; eligible Patreons can always <a href=\"https://xanasoft.com/get-supporter-certificate/\">obtain an updated certificate</a> from xanasoft.com");
+			ExpInfo += tr("; eligible Patreons can always obtain an updated certificate from xanasoft.com");
 		ui.lblCert->setText(ExpInfo);
 
 		QStringList Options;
@@ -3290,7 +3278,7 @@ void CSettingsWindow::UpdateCert()
 		OptionsEx.append(tr("Security/Privacy Enhanced & App Boxes (SBox): %1").arg(g_CertInfo.opt_sec ? tr("Enabled") : tr("Disabled")));
 		OptionsEx.append(tr("Encrypted Sandboxes (EBox): %1").arg(g_CertInfo.opt_enc ? tr("Enabled") : tr("Disabled")));
 		OptionsEx.append(tr("Network Interception (NetI): %1").arg(g_CertInfo.opt_net ? tr("Enabled") : tr("Disabled")));
-		OptionsEx.append(tr("sandybox Desktop (Desk): %1").arg(g_CertInfo.opt_desk ? tr("Enabled") : tr("Disabled")));
+		OptionsEx.append(tr("Sandybox Desktop (Desk): %1").arg(g_CertInfo.opt_desk ? tr("Enabled") : tr("Disabled")));
 		ui.lblCertOpt->setToolTip(OptionsEx.join("\n"));
 	}
 	else
@@ -3302,7 +3290,7 @@ void CSettingsWindow::UpdateCert()
 		if(EvalCount >= EVAL_MAX)
 			ui.lblEvalCert->setText(tr("<b>You have used %1/%2 evaluation certificates. No more free certificates can be generated.</b>").arg(EvalCount).arg(EVAL_MAX));
 		else
-			ui.lblEvalCert->setText(tr("<b><a href=\"_\">Get a free evaluation certificate</a> and enjoy all premium features for %1 days.</b>").arg(EVAL_DAYS));
+			ui.lblEvalCert->setText(tr("<b>A free evaluation certificate is available for %1 days.</b>").arg(EVAL_DAYS));
 		ui.lblEvalCert->setToolTip(tr("You can request a free %1-day evaluation certificate up to %2 times per hardware ID.").arg(EVAL_DAYS).arg(EVAL_MAX));
 	}
 
@@ -3321,7 +3309,7 @@ void CSettingsWindow::OnGetCert()
 	QString Message;
 
 	if (Serial.length() < 4 || Serial.left(4).compare("SBIE", Qt::CaseInsensitive) != 0) {
-		Message = tr("This does not look like a sandybox Serial Number.<br />"
+		Message = tr("This does not look like a Sandybox Serial Number.<br />"
 			"If you have attempted to enter the UpdateKey or the Signature from a certificate, "
 			"that is not correct, please enter the entire certificate into the text area above instead.");
 	}
@@ -3367,10 +3355,10 @@ void CSettingsWindow::StartEval(QWidget* parent, QObject* receiver, const char* 
 {
 	QString Name = theConf->GetString("User/Name", QString::fromLocal8Bit(qgetenv("USERNAME")));
 	//#ifdef _DEBUG
-	//	Name = QInputDialog::getText(parent, tr("sandybox - Get EVALUATION Certificate"), tr("Please enter your Name"), QLineEdit::Normal, Name);
+	//	Name = QInputDialog::getText(parent, tr("Sandybox - Get EVALUATION Certificate"), tr("Please enter your Name"), QLineEdit::Normal, Name);
 	//#endif
 
-	QString eMail = QInputDialog::getText(parent, tr("sandybox - Get EVALUATION Certificate"), tr("Please enter your email address to receive a free %1-day evaluation certificate, which will be issued to %2 and locked to the current hardware.\n"
+	QString eMail = QInputDialog::getText(parent, tr("Sandybox - Get EVALUATION Certificate"), tr("Please enter your email address to receive a free %1-day evaluation certificate, which will be issued to %2 and locked to the current hardware.\n"
 		"You can request up to %3 evaluation certificates for each unique hardware ID.").arg(EVAL_DAYS).arg(Name).arg(EVAL_MAX), QLineEdit::Normal, theConf->GetString("User/eMail"));
 	if (eMail.isEmpty()) return;
 	theConf->SetValue("User/eMail", eMail);
@@ -3529,7 +3517,7 @@ bool CSettingsWindow::ApplyCertificate(const QByteArray &Certificate, QWidget* w
 		if (bLooksOk)
 			theGUI->SetCertificate(Certificate);
 		else {
-			QMessageBox::critical(widget, "sandybox", tr("This does not look like a certificate. Please enter the entire certificate, not just a portion of it."));
+			QMessageBox::critical(widget, "Sandybox", tr("This does not look like a certificate. Please enter the entire certificate, not just a portion of it."));
 			return false;
 		}
 		g_Certificate = Certificate;
@@ -3546,22 +3534,22 @@ bool CSettingsWindow::ApplyCertificate(const QByteArray &Certificate, QWidget* w
 	{
 		if (g_CertInfo.expired || g_CertInfo.outdated) {
 			if(g_CertInfo.outdated)
-				QMessageBox::information(widget, "sandybox", tr("This certificate is unfortunately not valid for the current build, you need to get a new certificate or downgrade to an earlier build."));
+				QMessageBox::information(widget, "Sandybox", tr("This certificate is unfortunately not valid for the current build, you need to get a new certificate or downgrade to an earlier build."));
 			else if(g_CertInfo.active && !g_CertInfo.grace_period)
-				QMessageBox::information(widget, "sandybox", tr("Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database."));
+				QMessageBox::information(widget, "Sandybox", tr("Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandboxie-Live services, including compatibility updates and the online troubleshooting database."));
 			else
-				QMessageBox::information(widget, "sandybox", tr("This certificate has unfortunately expired, you need to get a new certificate."));
+				QMessageBox::information(widget, "Sandybox", tr("This certificate has unfortunately expired, you need to get a new certificate."));
 		}
 		else {
 			if(CERT_IS_TYPE(g_CertInfo, eCertEvaluation))
-				QMessageBox::information(widget, "sandybox", tr("The evaluation certificate has been successfully applied. Enjoy your free trial!"));
+				QMessageBox::information(widget, "Sandybox", tr("The evaluation certificate has been successfully applied. Enjoy your free trial!"));
 			else
 			{
-				QString Message = tr("Thank you for supporting the development of Sandboxie-Plus.");
+				QString Message = tr("Thank you for supporting the development of Sandybox.");
 				if (g_CertInfo.type == eCertEntryPatreon)
 					Message += tr("\nThis is a temporary Patreon certificate, valid for 3 months. "
 						"Once it nears expiration, you can obtain a new certificate online that will be valid for the full term.");
-				QMessageBox::information(widget, "sandybox", Message);
+				QMessageBox::information(widget, "Sandybox", Message);
 			}
 		}
 
@@ -3597,7 +3585,7 @@ bool CSettingsWindow::TryRefreshCert(QWidget* parent, QObject* receiver, const c
 	if (theConf->GetInt("Options/AskCertRefresh", -1) != 1)
 	{
 		bool State = false;
-		if(CCheckableMessageBox::question(parent, "sandybox", tr("A mandatory security update for your sandybox Supporter Certificate is required. Would you like to download the updated certificate now?")
+		if(CCheckableMessageBox::question(parent, "Sandybox", tr("A mandatory security update for your Sandybox Supporter Certificate is required. Would you like to download the updated certificate now?")
 			, tr("Auto update in future"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) != QDialogButtonBox::Yes)
 			return false;
 

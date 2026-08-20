@@ -20,7 +20,7 @@ CCompressDialog::CCompressDialog(QWidget *parent)
 	setWindowFlags(flags);
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox - Sandbox Export"));
+	this->setWindowTitle(tr("Sandybox - Sandbox Export"));
 
 	connect(ui.cmbFormat, SIGNAL(currentIndexChanged(int)), this, SLOT(OnFormatChanged(int)));
 

@@ -82,7 +82,7 @@ void CScriptManager::LoadIssues(const QString& IssueDir)
     QVariantList Entries = Issues.value("entries").toList();
 
     if (Entries.isEmpty()) {
-        QMessageBox::critical(theGUI, "sandybox", tr("Fatal error, failed to load troubleshooting instructions!"));
+        QMessageBox::critical(theGUI, "Sandybox", tr("Fatal error, failed to load troubleshooting instructions!"));
         return;
     }
 
@@ -156,7 +156,7 @@ void CScriptManager::LoadIssues(const QString& IssueDir)
             Group.append(Issue);
         else {
             if (I->contains("script")) {
-                QMessageBox::warning(theGUI, "sandybox", tr("Error, troubleshooting instructions duplicated %1 (%2 <-> %3)!")
+                QMessageBox::warning(theGUI, "Sandybox", tr("Error, troubleshooting instructions duplicated %1 (%2 <-> %3)!")
                     .arg(ID).arg(I->value("id").toString()).arg(Issue.value("id").toString()));
             }
             for(auto J = Issue.begin(); J != Issue.end(); ++J)
@@ -242,7 +242,7 @@ void CScriptManager::OnDownload(const QString& Path, const QVariantMap& Params)
 	QString IssueDir;
     C7zFileEngineHandler IssueFS("issue");
     if (!IssueFS.Open(FinalPath)) {
-        QMessageBox::critical(theGUI, "sandybox", tr("Downloaded troubleshooting instructions are corrupted!"));
+        QMessageBox::critical(theGUI, "Sandybox", tr("Downloaded troubleshooting instructions are corrupted!"));
         QFile::remove(Path);
         return;
     }

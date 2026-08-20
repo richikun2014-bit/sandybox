@@ -1,4 +1,4 @@
-﻿{
+{
 "Description Text...": "Leírás szövege...",
 "Fix current issues": "Jelenlegi problémák javítása",
 "Fix issues with sandboxing": "A homokozóval kapcsolatos problémák kijavítása",
@@ -80,14 +80,14 @@
 "File is too large to copy into sandbox, opening in read only": "A fájl túl nagy a homokozóba másoláshoz, csak olvasható módban nyílik meg",
 
 "SBIE2181: Failed to load SbieDll.dll": "SBIE2181: SbieDll.dll betöltése sikertelen",
-"Fix the DACLs of Sandboxie's home folder": "A Sandboxie mappák DACL-jeinek kijavítása",
-"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandboxie home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Ha a Chrome vagy más alkalmazástárolókat használó szoftver nem tudja betölteni az SbieDll.dll fájlt, azt gyakran a sandboxie könyvtár érvénytelen DACL-bejegyzései okozzák. Ez a művelet megoldja a DACL bejegyzéseket. Emiatt rendszergazdai jogokat kér a kmdutil.exe számára.",
+"Fix the DACLs of Sandybox's home folder": "A Sandybox mappák DACL-jeinek kijavítása",
+"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandybox home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Ha a Chrome vagy más alkalmazástárolókat használó szoftver nem tudja betölteni az SbieDll.dll fájlt, azt gyakran a Sandybox könyvtár érvénytelen DACL-bejegyzései okozzák. Ez a művelet megoldja a DACL bejegyzéseket. Emiatt rendszergazdai jogokat kér a kmdutil.exe számára.",
 "The DACLs have been adjusted, please try to run your application again and indicate if the issue has been resolved.": "A DACL-ek beállítása megtörtént. Kérjük, próbálja meg újra futtatni az alkalmazást, és jelezze, ha a probléma megoldódott.",
 "DACLs fix did not resolve the issue": "A DACL-javítás nem oldotta meg a problémát",
 
 "SBIE2204: Cannot start a specific sandboxed service": "SBIE2204: Nem lehet elindítani egy adott homokozó szolgáltatást",
-"Sandboxie failed to start a service in the sandbox": "A Sandboxie-nak nem sikerült elindítania a szolgáltatást a homokozóban",
-"The message indicates that Sandboxie was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Az üzenet azt jelzi, hogy a Sandboxie nem tudta elindítani a SandboxieRpcSs vagy SandboxieDcomLaunch segédprogramok egyikét. Az üzenetben szereplő név lehet rpcss vagy dcomlaunch.\n\nHibajelentést küldhet a következő oldalon, hogy segítsen nekünk a probléma elemzésében.",
+"Sandybox failed to start a service in the sandbox": "A Sandybox-nak nem sikerült elindítania a szolgáltatást a homokozóban",
+"The message indicates that Sandybox was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Az üzenet azt jelzi, hogy a Sandybox nem tudta elindítani a SandboxieRpcSs vagy SandboxieDcomLaunch segédprogramok egyikét. Az üzenetben szereplő név lehet rpcss vagy dcomlaunch.\n\nHibajelentést küldhet a következő oldalon, hogy segítsen nekünk a probléma elemzésében.",
 
 "SBIE2224: Sandboxed program has crashed":"SBIE2224: Sandboxed program has crashed",
 "A Sandboxed program has crashed":"A Sandboxed program has crashed",
@@ -96,8 +96,8 @@
 "There is no known workaround for this process. Do you want to report this issue?":"There is no known workaround for this process. Do you want to report this issue?",
 
 "SBIE2313: Could not execute specific process": "SBIE2313: adott folyamat nem hajtható végre",
-"Sandboxie failed to start a process in the sandbox": "A Sandboxie-nak nem sikerült elindítania egy folyamatot a homokozóban",
-"Sandboxie was not able to execute one of its own programs. Check access permissions to the Sandboxie installation folder and/or reinstall Sandboxie.\n\nPossible Causes:\n1. Sandboxie was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "A Sandboxie nem tudta végrehajtani egyik saját programját. Ellenőrizze a Sandboxie telepítési mappájához való hozzáférési jogosultságokat és/vagy telepítse újra a Sandboxie-t.\n\nLehetséges okok:\n1. A Sandboxie úgy lett beállítva, hogy blokkolja a hozzáférést a programfájljait tartalmazó mappához.\n2. Egy harmadik féltől származó (HIPS) biztonsági szoftvert úgy konfiguráltak, hogy blokkolja az üzenetben említett program végrehajtását.\n\nA következő oldalon küldhet be egy hibajelentést, hogy segítsen nekünk a probléma elemzésében.",
+"Sandybox failed to start a process in the sandbox": "A Sandybox-nak nem sikerült elindítania egy folyamatot a homokozóban",
+"Sandybox was not able to execute one of its own programs. Check access permissions to the Sandybox installation folder and/or reinstall Sandybox.\n\nPossible Causes:\n1. Sandybox was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "A Sandybox nem tudta végrehajtani egyik saját programját. Ellenőrizze a Sandybox telepítési mappájához való hozzáférési jogosultságokat és/vagy telepítse újra a Sandybox-t.\n\nLehetséges okok:\n1. A Sandybox úgy lett beállítva, hogy blokkolja a hozzáférést a programfájljait tartalmazó mappához.\n2. Egy harmadik féltől származó (HIPS) biztonsági szoftvert úgy konfiguráltak, hogy blokkolja az üzenetben említett program végrehajtását.\n\nA következő oldalon küldhet be egy hibajelentést, hogy segítsen nekünk a probléma elemzésében.",
 
 "open config": "config megnyitása",
 "opens box config on a given page": "megnyitja a homokozó konfigurációját egy adott oldalon",
@@ -109,9 +109,9 @@
 "handle migration error messages": "kezeli a migrációs hibaüzeneteket",
 "The message %1 is caused by the file migration limit being reached.": "%1 üzenetet a fájlmigrációs korlát elérése okozta.",
 
-"fix parental controls breaking sandboxie": "megavítjaa szülői felügyeletet, amely megszakítja a sandboxie-t",
+"fix parental controls breaking Sandybox": "megavítjaa szülői felügyeletet, amely megszakítja a Sandybox-t",
 "stops AppId driver and AppIdSvc service and disables the offending policy file": "leállítja az AppId illesztőprogramot és az AppIdSvc szolgáltatást, és letiltja a jogsértő házirendfájlt",
-"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.": "Úgy tűnik, nem adminisztrátori felhasználói fiókot használ egy olyan rendszeren, amelyen engedélyezett a szülői felügyelet, és ez köztudottan nem kompatibilis a Sandboxie-val.\nA következő lehetőségek közül választhat a probléma megoldására.",
+"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.": "Úgy tűnik, nem adminisztrátori felhasználói fiókot használ egy olyan rendszeren, amelyen engedélyezett a szülői felügyelet, és ez köztudottan nem kompatibilis a Sandybox-val.\nA következő lehetőségek közül választhat a probléma megoldására.",
 
 "SBIEMSG, I'm getting a cryptic SBIExxxx message": "SBIEMSG, rejtélyes SBIExxxx üzenetet kapok",
 "Handle all sbie messages...": "Minden sbie üzenet kezelése...",

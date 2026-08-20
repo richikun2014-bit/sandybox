@@ -105,7 +105,7 @@ public:
 		eNone = 0,	// No files updated
 		eTmpl,		// Only Templates.ini
 		eMeta,		// Only Templates.ini and/or translations changed
-		eCore,		// Core sandboxie Components Changed
+		eCore,		// Core Sandybox Components Changed
 		eFull		// Plus components changed
 	};
 	bool				DownloadUpdate(const QVariantMap& Update, EUpdateScope Scope, bool bAndApply = false);

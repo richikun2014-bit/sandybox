@@ -188,7 +188,7 @@ COptionsWindow::COptionsWindow(const QSharedPointer<CSbieIni>& pBox, const QStri
 	this->setWindowFlag(Qt::WindowStaysOnTopHint, theGUI->IsAlwaysOnTop());
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox Plus - '%1' Options").arg(QString(Name).replace("_", " ")));
+	this->setWindowTitle(tr("Sandybox Plus - '%1' Options").arg(QString(Name).replace("_", " ")));
 
 	ui.tabs->setTabPosition(QTabWidget::West);
 
@@ -1272,7 +1272,7 @@ void COptionsWindow::SaveConfig()
 bool COptionsWindow::apply()
 {
 	if (m_pBox->GetText("Enabled").isEmpty() && !(m_Template && m_pBox->GetName().mid(9, 6).compare("Local_", Qt::CaseInsensitive) == 0)) {
-		QMessageBox::critical(this, "sandybox", tr("This sandbox has been deleted hence configuration can not be saved."));
+		QMessageBox::critical(this, "Sandybox", tr("This sandbox has been deleted hence configuration can not be saved."));
 		return false;
 	}
 
@@ -1336,7 +1336,7 @@ void COptionsWindow::reject()
 	 || m_RecoveryChanged
 	 || m_AdvancedChanged)
 	{
-		if (QMessageBox("sandybox", tr("Some changes haven't been saved yet, do you really want to close this options window?")
+		if (QMessageBox("Sandybox", tr("Some changes haven't been saved yet, do you really want to close this options window?")
 		, QMessageBox::Warning, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 			return;
 	}

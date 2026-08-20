@@ -20,7 +20,7 @@ CBoxImageWindow::CBoxImageWindow(EAction Action, QWidget *parent)
 	setWindowFlags(flags);
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox - Password Entry"));
+	this->setWindowTitle(tr("Sandybox - Password Entry"));
 
 	m_Action = Action;
 
@@ -137,17 +137,17 @@ void CBoxImageWindow::CheckPassword()
 	else {
 
 		if (ui.txtNewPassword->text() != ui.txtRepeatPassword->text()) {
-			QMessageBox::critical(this, "sandybox", tr("Passwords don't match!!!"));
+			QMessageBox::critical(this, "Sandybox", tr("Passwords don't match!!!"));
 			return;
 		}
 		if (ui.txtNewPassword->text().length() < 20) {
-			if (QMessageBox::warning(this, "sandybox", tr("WARNING: Short passwords are easy to crack using brute force techniques!\n\n"
+			if (QMessageBox::warning(this, "Sandybox", tr("WARNING: Short passwords are easy to crack using brute force techniques!\n\n"
 				"It is recommended to choose a password consisting of 20 or more characters. Are you sure you want to use a short password?")
 				, QMessageBox::Yes, QMessageBox::No) != QMessageBox::Yes)
 				return;
 		}
 		if (ui.txtNewPassword->text().length() > 128) {
-			QMessageBox::warning(this, "sandybox", tr("The password is constrained to a maximum length of 128 characters. \n"
+			QMessageBox::warning(this, "Sandybox", tr("The password is constrained to a maximum length of 128 characters. \n"
 				"This length permits approximately 384 bits of entropy with a passphrase composed of actual English words, \n"
 				"increases to 512 bits with the application of Leet (L337) speak modifications, and exceeds 768 bits when composed of entirely random printable ASCII characters.")
 				, QMessageBox::Ok);
@@ -164,7 +164,7 @@ void CBoxImageWindow::CheckPassword()
 	
 	if (m_Action == eNew || m_Action == eImport) {
 		if (GetImageSize() < 128 * 1024 * 1024) { // ask for 256 mb but silently accept >= 128 mb
-			QMessageBox::critical(this, "sandybox", tr("The Box Disk Image must be at least 256 MB in size, 2GB are recommended."));
+			QMessageBox::critical(this, "Sandybox", tr("The Box Disk Image must be at least 256 MB in size, 2GB are recommended."));
 			SetImageSize(256 * 1024 * 1024);
 			return;
 		}

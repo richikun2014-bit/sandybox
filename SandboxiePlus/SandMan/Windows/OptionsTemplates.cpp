@@ -148,7 +148,7 @@ void COptionsWindow::OnTemplateClicked(QTreeWidgetItem* pItem, int Column)
 	QString Name = pItem->data(1, Qt::UserRole).toString().mid(9);
 	if (m_GlobalTemplates.contains(Name)) {
 		if (pItem->checkState(1) != Qt::PartiallyChecked) {
-			QMessageBox::warning(this, "SandboxiePlus", tr("This template is enabled globally. To configure it, use the global options."));
+			QMessageBox::warning(this, "Sandybox", tr("This template is enabled globally. To configure it, use the global options."));
 			pItem->setCheckState(1, Qt::PartiallyChecked);
 		}
 		return;
@@ -184,7 +184,7 @@ void COptionsWindow::OnTemplateDoubleClicked(QTreeWidgetItem* pItem, int Column)
 
 void COptionsWindow::OnAddTemplates()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the template identifier"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the template identifier"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -192,7 +192,7 @@ void COptionsWindow::OnAddTemplates()
 
 	SB_STATUS Status = m_pBox->GetAPI()->ValidateName(Name);
 	if (Status.IsError()) {
-		QMessageBox::critical(this, "sandybox", tr("Error: %1").arg(CSandMan::FormatError(Status)));
+		QMessageBox::critical(this, "Sandybox", tr("Error: %1").arg(CSandMan::FormatError(Status)));
 		return;
 	}
 
@@ -226,13 +226,13 @@ void COptionsWindow::OnOpenTemplate()
 
 void COptionsWindow::OnDelTemplates()
 {
-	if (QMessageBox("sandybox", tr("Do you really want to delete the selected local template(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+	if (QMessageBox("Sandybox", tr("Do you really want to delete the selected local template(s)?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 		return;
 
 	foreach(QTreeWidgetItem * pItem, ui.treeTemplates->selectedItems())
 	{
 		if (!pItem || pItem->data(0, Qt::UserRole).toString() != "Local") {
-			QMessageBox::critical(this, "sandybox", tr("Only local templates can be removed!"));
+			QMessageBox::critical(this, "Sandybox", tr("Only local templates can be removed!"));
 			break;
 		}
 
@@ -287,7 +287,7 @@ void COptionsWindow::OnFolderChanged()
 	if (!Test.isEmpty() && !Path.isEmpty())
 	{
 		if (!QFile::exists(Path + "\\" + Test))
-			QMessageBox::warning(this, "sandybox", tr("An alternate location for '%1'\nshould contain the following file:\n\n%2\n\nThe selected location does not contain this file.\nPlease select a folder which contains this file.").arg(Folder).arg(Test));
+			QMessageBox::warning(this, "Sandybox", tr("An alternate location for '%1'\nshould contain the following file:\n\n%2\n\nThe selected location does not contain this file.\nPlease select a folder which contains this file.").arg(Folder).arg(Test));
 	}
 
 	m_FoldersChanged = true;

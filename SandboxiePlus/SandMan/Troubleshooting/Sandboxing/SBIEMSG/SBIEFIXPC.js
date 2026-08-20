@@ -1,7 +1,7 @@
 /*
 *	group: library
 *	class: sandboxing
-* name: fix parental controls breaking sandboxie
+* name: fix parental controls breaking Sandybox
 * description: stops AppId driver and AppIdSvc service and disables the offending policy file
 *
 */
@@ -13,7 +13,7 @@ function try_fix_PC_SRP()
     {id: 'disable', name: 'Disable Parental Control Policy', type: 'radio'},
     {id: 'failed', name: 'The above mitigations did not work', type: 'radio'},
   ];
-  let obj = wizard.showForm(form, tr('It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.'));
+  let obj = wizard.showForm(form, tr('It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.'));
   
   //_debugger();
   

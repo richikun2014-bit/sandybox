@@ -14,7 +14,7 @@ CRenameSandboxDialog::CRenameSandboxDialog(const QString& boxName, const QString
 	setWindowFlags(flags);
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox - Rename Sandbox"));
+	this->setWindowTitle(tr("Sandybox - Rename Sandbox"));
 
 	ui.txtBoxName->setText(boxName);
 	ui.txtBoxAlias->setText(alias);

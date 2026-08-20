@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>SandboxiePlus Notifications</string>
+   <string>Sandybox Notifications</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>

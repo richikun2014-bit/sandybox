@@ -29,10 +29,7 @@ public:
 protected:
 	void mousePressEvent(QMouseEvent* event)
 	{
-		if(m_bAdvanced && g_CertInfo.active)
-			theGUI->OpenUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert"));
-		else
-			theGUI->OpenUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-get-cert"));
+		Q_UNUSED(event);
 	}
 	bool m_bAdvanced;
 };
@@ -747,7 +744,7 @@ void COptionsWindow::OnCopyItemDoubleClicked(QTreeWidgetItem* pItem, int Column)
 {
 	int Action = pItem->data(0, Qt::UserRole).toInt();
 	if (Action == -1) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 
@@ -1088,7 +1085,7 @@ void COptionsWindow::OnBrowsePath()
 	if (Value.isEmpty())
 		return;
 
-	QString Name = QInputDialog::getText(this, "sandybox", tr("Please enter a menu title"), QLineEdit::Normal, Split2(Value, "\\", true).second);
+	QString Name = QInputDialog::getText(this, "Sandybox", tr("Please enter a menu title"), QLineEdit::Normal, Split2(Value, "\\", true).second);
 	if (Name.isEmpty())
 		return;
 
@@ -1105,11 +1102,11 @@ void COptionsWindow::OnBrowsePath()
 
 void COptionsWindow::OnAddCommand()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a command"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a command"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
-	QString Name = QInputDialog::getText(this, "sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
+	QString Name = QInputDialog::getText(this, "Sandybox", tr("Please enter a menu title"), QLineEdit::Normal);
 	if (Name.isEmpty())
 		return;
 
@@ -1275,7 +1272,7 @@ bool COptionsWindow::RunImBox(const QStringList& Arguments)
 		case ERR_WRONG_PASSWORD:    Message = tr("The password is wrong"); break;
 		default:                    Message = tr("Unexpected error: %1").arg(ret); break;
 		}
-		QMessageBox::critical(this, "sandybox", Message);
+		QMessageBox::critical(this, "Sandybox", Message);
 		return false;
 	}
 	return true;
@@ -1301,9 +1298,9 @@ void COptionsWindow::OnSetPassword()
 			memcpy(Buffer.data(), NewPassword.utf16(), Buffer.size());
 			SB_STATUS Status = theAPI->ExecImDisk(pBoxEx->GetBoxImagePath(), m_Password, "new_key", true, &Buffer, SECTION_PARAM_ID_KEY);
 			if(Status)
-				QMessageBox::information(this, "sandybox", tr("Image Password Changed"));
+				QMessageBox::information(this, "Sandybox", tr("Image Password Changed"));
 			else
-				QMessageBox::critical(this, "sandybox", tr("Failed to Change Password"));
+				QMessageBox::critical(this, "Sandybox", tr("Failed to Change Password"));
 		}
 	}
 }
@@ -1320,7 +1317,7 @@ void COptionsWindow::OnBackupHeader()
 	Arguments.append("backup=" + FileName);
 
 	if (RunImBox(Arguments))
-		QMessageBox::information(this, "sandybox", tr("Image Header Backuped"));
+		QMessageBox::information(this, "Sandybox", tr("Image Header Backuped"));
 }
 
 void COptionsWindow::OnRestoreHeader()
@@ -1335,5 +1332,5 @@ void COptionsWindow::OnRestoreHeader()
 	Arguments.append("restore=" + FileName);
 
 	if (RunImBox(Arguments))
-		QMessageBox::information(this, "sandybox", tr("Image Header Restored"));
+		QMessageBox::information(this, "Sandybox", tr("Image Header Restored"));
 }

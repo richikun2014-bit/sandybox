@@ -286,7 +286,7 @@ QIcon CSandMan::GetTrayIcon(bool isConnected, bool bSun)
 
 QString CSandMan::GetTrayText(bool isConnected)
 {
-	QString Text = "sandybox";
+	QString Text = "Sandybox";
 
 	if(!isConnected)
 		Text +=  tr(" - Driver/Service NOT Running!");

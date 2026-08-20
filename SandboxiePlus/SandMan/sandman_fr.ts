@@ -187,8 +187,8 @@
         <translation type="vanished">Autoriser MSIServer à s&apos;exécuter dans le bac à sable avec un jeton système</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation type="vanished">Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation type="vanished">Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="898"/>
@@ -301,12 +301,12 @@ Pour changer les paramètres du modèle, il suffit de trouver et d&apos;éditer 
 Pour désactiver ce modèle pour un bac à sable, décochez-le simplement dans la liste des modèles.</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
     </message>
     <message>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation type="vanished">L&apos;utilisation d&apos;un jeton de sandybox personnalisé permet de mieux isoler les bacs à sable individuels entre eux, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation type="vanished">L&apos;utilisation d&apos;un jeton de Sandybox personnalisé permet de mieux isoler les bacs à sable individuels entre eux, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
     </message>
 </context>
 <context>
@@ -318,14 +318,14 @@ Pour désactiver ce modèle pour un bac à sable, décochez-le simplement dans l
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="237"/>
-        <source>Welcome to the Troubleshooting Wizard for sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
-        <translation>Bienvenue dans l&apos;assistant de dépannage de sandybox. Cet assistant interactif est conçu pour vous aider à résoudre les problèmes de bacs à sable.</translation>
+        <source>Welcome to the Troubleshooting Wizard for Sandybox. This interactive assistant is designed to help you in resolving sandboxing issues.</source>
+        <translation>Bienvenue dans l&apos;assistant de dépannage de Sandybox. Cet assistant interactif est conçu pour vous aider à résoudre les problèmes de bacs à sable.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="280"/>
-        <source>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerful. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retrieve the latest troubleshooting instructions.</source>
-        <oldsource>With a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; the wizard would be even more powerfull. It could access the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;online solution database&lt;/a&gt; to retriev the latest troubleshooting instructions.</oldsource>
-        <translation>Avec un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; valide, l&apos;assitant serait encore plus puissant. Il pourrait accéder à &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-issue-db&quot;&gt;la base de données de solutions en ligne&lt;/a&gt; pour récupérer les dernières instructions de dépannage.</translation>
+        <source>With a valid supporter certificate the wizard would be even more powerful. It could access the online solution database to retrieve the latest troubleshooting instructions.</source>
+        <oldsource>With a valid supporter certificate the wizard would be even more powerfull. It could access the online solution database to retriev the latest troubleshooting instructions.</oldsource>
+        <translation>Avec un certificat d&apos;adhérent valide, l&apos;assitant serait encore plus puissant. Il pourrait accéder à la base de données de solutions en ligne pour récupérer les dernières instructions de dépannage.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="318"/>
@@ -385,8 +385,8 @@ Pour désactiver ce modèle pour un bac à sable, décochez-le simplement dans l
     <name>CBoxImageWindow</name>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="23"/>
-        <source>sandybox - Password Entry</source>
-        <translation>sandybox - Saisie du mot de passe</translation>
+        <source>Sandybox - Password Entry</source>
+        <translation>Sandybox - Saisie du mot de passe</translation>
     </message>
     <message>
         <location filename="Windows/BoxImageWindow.cpp" line="37"/>
@@ -678,8 +678,8 @@ Cette longueur permet environ 384 bits d&apos;entropie avec une phrase secrète 
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="335"/>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation>Un bac à sable isole le système hôte des processus lancés dans le bac. Cela les empêche de faire des modifications permanentes aux autres programmes ou aux données de votre ordinateur. Le niveau d&apos;isolation affecte la sécurité mais aussi la compatibilité avec les applications, c&apos;est pourquoi il y a différents niveaux d&apos;isolation en fonction du type de bac choisi. sandybox peut aussi empêcher l&apos;accès à vos données personnelles aux processus tournant sous sa supervision.</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation>Un bac à sable isole le système hôte des processus lancés dans le bac. Cela les empêche de faire des modifications permanentes aux autres programmes ou aux données de votre ordinateur. Le niveau d&apos;isolation affecte la sécurité mais aussi la compatibilité avec les applications, c&apos;est pourquoi il y a différents niveaux d&apos;isolation en fonction du type de bac choisi. Sandybox peut aussi empêcher l&apos;accès à vos données personnelles aux processus tournant sous sa supervision.</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="346"/>
@@ -698,8 +698,8 @@ Cette longueur permet environ 384 bits d&apos;entropie avec une phrase secrète 
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="401"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>À &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;sécurité renforcée&lt;/a&gt; avec &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;protection des données&lt;/a&gt;</translation>
+        <source>Security Hardened Sandbox with Data Protection</source>
+        <translation>À sécurité renforcée avec protection des données</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="402"/>
@@ -712,8 +712,8 @@ Le profil complet de l&apos;utilisateur demeure masqué, assurant ainsi une séc
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="405"/>
-        <source>&lt;a href=&quot;sbie://docs/security-mode&quot;&gt;Security Hardened&lt;/a&gt; Sandbox</source>
-        <translation>À &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;sécurité renforcée&lt;/a&gt;</translation>
+        <source>Security Hardened Sandbox</source>
+        <translation>À sécurité renforcée</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="406"/>
@@ -722,8 +722,8 @@ Le profil complet de l&apos;utilisateur demeure masqué, assurant ainsi une séc
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="407"/>
-        <source>Sandbox with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>Avec &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;protection des données&lt;/a&gt;</translation>
+        <source>Sandbox with Data Protection</source>
+        <translation>Avec protection des données</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="408"/>
@@ -739,15 +739,15 @@ seuls les répertoires « C:\Windows » et « C:\Program Files » sont accessibl
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="411"/>
-        <source>This box type offers the default behavior of sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
+        <source>This box type offers the default behavior of Sandybox classic. It provides users with a familiar and reliable sandboxing scheme. 
 Applications can be run within this sandbox, ensuring they operate within a controlled and isolated space.</source>
-        <translation>Ce type de bac offre le comportement par défaut de la version classique de sandybox. Il fournit aux utilisateurs un schéma de mise en bac familier et fiable.
+        <translation>Ce type de bac offre le comportement par défaut de la version classique de Sandybox. Il fournit aux utilisateurs un schéma de mise en bac familier et fiable.
 Les applications peuvent être lancées dans ce bac, en s&apos;assurant qu&apos;elles opèrent dans un espace contrôlé et isolé.</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="413"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box with &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;Data Protection&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Conteneur d&apos;applications&lt;/a&gt; avec &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;protection des données&lt;/a&gt;</translation>
+        <source>Application Compartment Box with Data Protection</source>
+        <translation>Conteneur d&apos;applications avec protection des données</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="414"/>
@@ -759,25 +759,25 @@ Bien que le niveau d&apos;isolation soit réduit par rapport à d&apos;autres ty
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="416"/>
-        <source>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Application Compartment&lt;/a&gt; Box</source>
-        <translation>&lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;Conteneur d&apos;applications&lt;/a&gt;</translation>
+        <source>Application Compartment Box</source>
+        <translation>Conteneur d&apos;applications</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="425"/>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypt&lt;/a&gt; Box content and set &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Chiffrer&lt;/a&gt; le contenu du bac et le régler sur &lt;a href=&quot;sbie://docs/black-box&quot;&gt;« Confidentiel »&lt;/a&gt;</translation>
+        <source>Encrypt Box content and set Confidential</source>
+        <translation>Chiffrer le contenu du bac et le régler sur « Confidentiel »</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Encrypted&lt;/a&gt; &lt;a href=&quot;sbie://docs/black-box&quot;&gt;Confidential&lt;/a&gt; Box</source>
-        <translation type="vanished">Bac &lt;a href=&quot;sbie://docs/black-box&quot;&gt;confidentiel&lt;/a&gt; &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;chiffré&lt;/a&gt;</translation>
+        <source>Encrypted Confidential Box</source>
+        <translation type="vanished">Bac confidentiel chiffré</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="426"/>
         <source>In this box type the sandbox uses an encrypted disk image as its root folder. This provides an additional layer of privacy and security. 
-Access to the virtual disk when mounted is restricted to programs running within the sandbox. sandybox prevents other processes on the host system from accessing the sandboxed processes. 
+Access to the virtual disk when mounted is restricted to programs running within the sandbox. Sandybox prevents other processes on the host system from accessing the sandboxed processes. 
 This ensures the utmost level of privacy and data protection within the confidential sandbox environment.</source>
         <translation>Avec ce type de bac, celui-ci utilise une image de disque chiffrée en tant que répertoire racine. Ceci fournit une couche de confidentialité et de sécurité supplémentaire.
-Lorsqu&apos;il est monté, l&apos;accès au disque virtuel est restreint aux programmes lancés dans le bac. sandybox empêche les autres processus du système hôte d&apos;accéder aux processus du bac.
+Lorsqu&apos;il est monté, l&apos;accès au disque virtuel est restreint aux programmes lancés dans le bac. Sandybox empêche les autres processus du système hôte d&apos;accéder aux processus du bac.
 Cela offre le niveau ultime de confidentialité et de protection des données au sein d&apos;un environnement de bac confidentiel.</translation>
     </message>
     <message>
@@ -989,9 +989,9 @@ Veuillez naviguer vers le dossier de profil d&apos;utilisateur adéquat.</transl
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="329"/>
-        <source>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</source>
-        <oldsource>Select your Web Browsers main executable, this will allow sandybox to identify the browser.</oldsource>
-        <translation>Choix de l&apos;exécutable principal de votre navigateur web ; ceci permettra à sandybox d&apos;identifier le navigateur.</translation>
+        <source>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</source>
+        <oldsource>Select your Web Browsers main executable, this will allow Sandybox to identify the browser.</oldsource>
+        <translation>Choix de l&apos;exécutable principal de votre navigateur web ; ceci permettra à Sandybox d&apos;identifier le navigateur.</translation>
     </message>
     <message>
         <location filename="Wizards/TemplateWizard.cpp" line="339"/>
@@ -1036,8 +1036,8 @@ Veuillez naviguer vers le dossier de profil d&apos;utilisateur adéquat.</transl
     <name>CCertificatePage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="248"/>
-        <source>Install your &lt;b&gt;sandybox&lt;/b&gt; support certificate</source>
-        <translation>Installez votre certificat d&apos;adhérent &lt;b&gt;sandybox&lt;/b&gt;</translation>
+        <source>Install your &lt;b&gt;Sandybox&lt;/b&gt; support certificate</source>
+        <translation>Installez votre certificat d&apos;adhérent &lt;b&gt;Sandybox&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="249"/>
@@ -1056,8 +1056,8 @@ Veuillez naviguer vers le dossier de profil d&apos;utilisateur adéquat.</transl
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="291"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt;&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;&lt;font color=&apos;red&apos;&gt;Obtenez un certificat d&apos;évaluation gratuit&lt;/font&gt;&lt;/a&gt; et bénéficiez de toutes les fonctions bonus pendant %1 jours.&lt;/b&gt;</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;Get a free evaluation certificate&lt;/font&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;Obtenez un certificat d&apos;évaluation gratuit&lt;/font&gt; et bénéficiez de toutes les fonctions bonus pendant %1 jours.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="292"/>
@@ -1067,13 +1067,13 @@ Veuillez naviguer vers le dossier de profil d&apos;utilisateur adéquat.</transl
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="317"/>
-        <source>To use &lt;b&gt;sandybox&lt;/b&gt; in a business setting, an appropriate &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt; for business use is required. If you do not yet have the required certificate(s), you can get those from the &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;xanasoft.com web shop&lt;/a&gt;.</source>
-        <translation>Pour utiliser &lt;b&gt;sandybox&lt;/b&gt; dans un établissement commercial, un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; approprié pour une utilisation commerciale est requis. Si vous n&apos;avez pas encore le ou les certificats requis, vous pouvez les obtenir depuis la &lt;a href=&quot;https://xanasoft.com/shop/&quot;&gt;boutique web xanasoft.com&lt;/a&gt;.</translation>
+        <source>To use &lt;b&gt;Sandybox&lt;/b&gt; in a business setting, an appropriate support certificate for business use is required. If you do not yet have the required certificate(s), you can get those from the the project store.</source>
+        <translation>Pour utiliser &lt;b&gt;Sandybox&lt;/b&gt; dans un établissement commercial, un certificat d&apos;adhérent approprié pour une utilisation commerciale est requis. Si vous n&apos;avez pas encore le ou les certificats requis, vous pouvez les obtenir depuis la boutique web the project store.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="331"/>
-        <source>&lt;b&gt;sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; to ensure further development of sandybox and to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;sandybox&lt;/b&gt; fournit des fonctions supplémentaires et des types de bacs exclusifs aux &lt;u&gt;adhérents du projet&lt;/u&gt;. Les bacs tels que ceux à Confidentialité Améliorée &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protègent les données de l&apos;utilisateur contre les accès illicites&lt;/font&gt;&lt;/b&gt; par les programmes dans un bac. Si vous n&apos;êtes pas encore un adhérent, alors veuillez songer à &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;soutenir le projet&lt;/a&gt; pour assurer le développement futur de sandybox et recevoir un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;.</translation>
+        <source>&lt;b&gt;Sandybox&lt;/b&gt; provides additional features and box types exclusively to &lt;u&gt;project supporters&lt;/u&gt;. Boxes like the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs. If you are not yet a supporter, then please consider supporting the project to ensure further development of Sandybox and to receive a supporter certificate.</source>
+        <translation>&lt;b&gt;Sandybox&lt;/b&gt; fournit des fonctions supplémentaires et des types de bacs exclusifs aux &lt;u&gt;adhérents du projet&lt;/u&gt;. Les bacs tels que ceux à Confidentialité Améliorée &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protègent les données de l&apos;utilisateur contre les accès illicites&lt;/font&gt;&lt;/b&gt; par les programmes dans un bac. Si vous n&apos;êtes pas encore un adhérent, alors veuillez songer à soutenir le projet pour assurer le développement futur de Sandybox et recevoir un certificat d&apos;adhérent.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="368"/>
@@ -1172,10 +1172,10 @@ Chaine de recherche :</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="1086"/>
-        <source>Thank you for using the Troubleshooting Wizard for sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
+        <source>Thank you for using the Troubleshooting Wizard for Sandybox. We apologize for any inconvenience you experienced during the process. If you have any additional questions or need further assistance, please don&apos;t hesitate to reach out. We&apos;re here to help. Thank you for your understanding and cooperation. 
 
 You can click Finish to close this wizard.</source>
-        <translation>Merci d&apos;avoir utilisé l&apos;assistant de dépannage de sandybox. Nous nous excusons pour tout inconvénient occasionné pendant le processus. Si vous avez des questions supplémentaires ou avez besoin de plus d&apos;assistance, n&apos;hésitez pas à nous contacter. Nous sommes là pour aider. Merci pour votre compréhension et votre coopération. 
+        <translation>Merci d&apos;avoir utilisé l&apos;assistant de dépannage de Sandybox. Nous nous excusons pour tout inconvénient occasionné pendant le processus. Si vous avez des questions supplémentaires ou avez besoin de plus d&apos;assistance, n&apos;hésitez pas à nous contacter. Nous sommes là pour aider. Merci pour votre compréhension et votre coopération. 
 
 Vous pouvez appuyer sur « Terminer » pour fermer cet assistant.</translation>
     </message>
@@ -1184,8 +1184,8 @@ Vous pouvez appuyer sur « Terminer » pour fermer cet assistant.</translation>
     <name>CCompressDialog</name>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Export</source>
-        <translation>sandybox - Exportation du bac à sable</translation>
+        <source>Sandybox - Sandbox Export</source>
+        <translation>Sandybox - Exportation du bac à sable</translation>
     </message>
     <message>
         <location filename="Windows/CompressDialog.cpp" line="27"/>
@@ -1375,8 +1375,8 @@ Vous pouvez appuyer sur « Terminer » pour fermer cet assistant.</translation>
     <name>CExtractDialog</name>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="23"/>
-        <source>sandybox - Sandbox Import</source>
-        <translation>sandybox - Importation de bac</translation>
+        <source>Sandybox - Sandbox Import</source>
+        <translation>Sandybox - Importation de bac</translation>
     </message>
     <message>
         <location filename="Windows/ExtractDialog.cpp" line="39"/>
@@ -1572,8 +1572,8 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
         <translation>C&apos;est presque fini. Appuyez sur « Terminer » pour appliquer toutes les options choisies et mettre fin à l&apos;assistant.</translation>
     </message>
     <message>
-        <source>Keep sandybox up to date.</source>
-        <translation type="vanished">Maintenir sandybox à jour</translation>
+        <source>Keep Sandybox up to date.</source>
+        <translation type="vanished">Maintenir Sandybox à jour</translation>
     </message>
 </context>
 <context>
@@ -1767,13 +1767,13 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="174"/>
-        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
-        <translation>Bienvenue dans l&apos;assistant de configuration, qui vous aidera à configurer votre copie de &lt;b&gt;sandybox&lt;/b&gt;. Vous pouvez démarrer cet assistant à tout moment depuis le menu « Fichier -&gt; Maintenance » si vous ne voulez pas le faire maintenant.</translation>
+        <source>Welcome to the Setup Wizard. This wizard will help you to configure your copy of &lt;b&gt;Sandybox&lt;/b&gt;. You can start this wizard at any time from the Sandbox-&gt;Maintenance menu if you do not wish to complete it now.</source>
+        <translation>Bienvenue dans l&apos;assistant de configuration, qui vous aidera à configurer votre copie de &lt;b&gt;Sandybox&lt;/b&gt;. Vous pouvez démarrer cet assistant à tout moment depuis le menu « Fichier -&gt; Maintenance » si vous ne voulez pas le faire maintenant.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="183"/>
-        <source>Select how you would like to use sandybox</source>
-        <translation>Choisissez comment vous voulez utiliser sandybox</translation>
+        <source>Select how you would like to use Sandybox</source>
+        <translation>Choisissez comment vous voulez utiliser Sandybox</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="186"/>
@@ -1870,13 +1870,13 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="802"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="803"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>L&apos;utilisation d&apos;un jeton de sandybox personnalisé permet de mieux isoler les bacs à sable individuels entre eux, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>L&apos;utilisation d&apos;un jeton de Sandybox personnalisé permet de mieux isoler les bacs à sable individuels entre eux, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
     </message>
 </context>
 <context>
@@ -1956,9 +1956,9 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
 <context>
     <name>CMultiErrorDialog</name>
     <message>
-        <source>sandybox - Error</source>
+        <source>Sandybox - Error</source>
         <translatorcomment>Nom de la fenêtre.</translatorcomment>
-        <translation type="vanished">sandybox - Erreur</translation>
+        <translation type="vanished">Sandybox - Erreur</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1968,8 +1968,8 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
 <context>
     <name>CNewBoxWindow</name>
     <message>
-        <source>sandybox - Create New Box</source>
-        <translation type="vanished">sandybox - Créer un nouveau bac</translation>
+        <source>Sandybox - Create New Box</source>
+        <translation type="vanished">Sandybox - Créer un nouveau bac</translation>
     </message>
     <message>
         <source>New Box</source>
@@ -2009,7 +2009,7 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
         <translation type="vanished">Par défaut</translation>
     </message>
     <message>
-        <source>Legacy sandybox Behaviour</source>
+        <source>Legacy Sandybox Behaviour</source>
         <translation type="vanished">Ancien modèle de bac à sable</translation>
     </message>
 </context>
@@ -2039,9 +2039,9 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="289"/>
-        <source>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
-        <oldsource>The new sandbox has been created using the new &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;Virtualization Scheme Version 2&lt;/a&gt;, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
-        <translation>Le nouveau bac a été créé en utilisant le nouveau &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-delete-v2&quot;&gt;schéma de virtualisation version 2&lt;/a&gt;. Si vous rencontrez des problèmes inattendus avec ce bac, veuillez basculer le schéma de virtualisation sur la version 1 et signaler le problème. Cette option se trouve dans les paramètres du bac, dans « Options des fichiers » -&gt; « Structure de bac ».</translation>
+        <source>The new sandbox has been created using the new Virtualization Scheme Version 2, if you experience any unexpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure group.</source>
+        <oldsource>The new sandbox has been created using the new Virtualization Scheme Version 2, if you expirience any unecpected issues with this box, please switch to the Virtualization Scheme to Version 1 and report the issue, the option to change this preset can be found in the Box Options in the Box Structure groupe.</oldsource>
+        <translation>Le nouveau bac a été créé en utilisant le nouveau schéma de virtualisation version 2. Si vous rencontrez des problèmes inattendus avec ce bac, veuillez basculer le schéma de virtualisation sur la version 1 et signaler le problème. Cette option se trouve dans les paramètres du bac, dans « Options des fichiers » -&gt; « Structure de bac ».</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="83"/>
@@ -2088,20 +2088,20 @@ Utilisez « %USER% » pour enregistrer le bac de chaque utilisateur dans son pro
     <name>COnlineUpdater</name>
     <message>
         <location filename="OnlineUpdater.cpp" line="445"/>
-        <source>Your sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
+        <source>Your Sandybox supporter certificate is expired, however for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.
 
 Do you still want to update?</source>
-        <oldsource>Your sandybox supporter certificate is expired, howeever for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.<byte value="xd"/>
+        <oldsource>Your Sandybox supporter certificate is expired, howeever for the current build you are using it remains active, when you update to a newer build exclusive supporter features will be disabled.<byte value="xd"/>
 <byte value="xd"/>
 Do you still want to update?</oldsource>
-        <translation>Votre certificat d&apos;adhérent à sandybox a expiré, cependant il reste actif pour la version actuelle ; lorsque vous mettrez à jour vers une nouvelle version, les fonctions excusives aux adhérents seront désactivées.
+        <translation>Votre certificat d&apos;adhérent à Sandybox a expiré, cependant il reste actif pour la version actuelle ; lorsque vous mettrez à jour vers une nouvelle version, les fonctions excusives aux adhérents seront désactivées.
 
 Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="476"/>
-        <source>Do you want to check if there is a new version of sandybox?</source>
-        <translation>Voulez-vous vérifier s&apos;il existe une nouvelle version de sandybox ?</translation>
+        <source>Do you want to check if there is a new version of Sandybox?</source>
+        <translation>Voulez-vous vérifier s&apos;il existe une nouvelle version de Sandybox ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="477"/>
@@ -2110,8 +2110,8 @@ Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="504"/>
-        <source>To ensure optimal compatibility with your software, sandybox needs to update its compatibility templates. Do you want to proceed?</source>
-        <translation>Afin d&apos;assurer une compatibilité optimale avec vos logiciels, sandybox a besoin de mettre à jour ses modèles de compatibilité. Voulez-vous continuer ?</translation>
+        <source>To ensure optimal compatibility with your software, Sandybox needs to update its compatibility templates. Do you want to proceed?</source>
+        <translation>Afin d&apos;assurer une compatibilité optimale avec vos logiciels, Sandybox a besoin de mettre à jour ses modèles de compatibilité. Voulez-vous continuer ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="505"/>
@@ -2150,8 +2150,8 @@ Voulez-vous quand même mettre  à jour ?</translation>
         <translation>&lt;p&gt;Voulez-vous télécharger les mises à jour ?&lt;/p&gt;</translation>
     </message>
     <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;update page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Voulez-vous aller sur la &lt;a href=&quot;%1&quot;&gt;page de mise à jour&lt;/a&gt; ?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the update page?&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Voulez-vous aller sur la page de mise à jour ?&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="750"/>
@@ -2218,8 +2218,8 @@ Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="961"/>
-        <source>&lt;p&gt;Updates for sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Des mises à jour pour sandybox ont été téléchargées.&lt;/p&gt;&lt;p&gt;Voules-vous appliquer ces mises à jour ? Si des programmes sont lancés dans des bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Updates for Sandybox have been downloaded.&lt;/p&gt;&lt;p&gt;Do you want to apply these updates? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Des mises à jour pour Sandybox ont été téléchargées.&lt;/p&gt;&lt;p&gt;Voules-vous appliquer ces mises à jour ? Si des programmes sont lancés dans des bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to download file from: %1</source>
@@ -2236,18 +2236,18 @@ Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1109"/>
-        <source>&lt;p&gt;A new sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Un nouvel installeur pour sandybox a été téléchargé à l&apos;endroit suivant :&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Voulez-vous commencer l&apos;installation ? Si des programmes sont lancés dans des bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
+        <source>&lt;p&gt;A new Sandybox installer has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Un nouvel installeur pour Sandybox a été téléchargé à l&apos;endroit suivant :&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Voulez-vous commencer l&apos;installation ? Si des programmes sont lancés dans des bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1170"/>
-        <source>There is a new Templates.ini available, do you want to download it?</source>
-        <translation>Il y a un nouveau « Templates.ini » disponible. Voulez-vous le télécharger ?</translation>
+        <source>There is a new template configuration file available, do you want to download it?</source>
+        <translation>Il y a un nouveau « template configuration file » disponible. Voulez-vous le télécharger ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1220"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Voulez-vous aller à la &lt;a href=&quot;%1&quot;&gt;page d&apos;information&lt;/a&gt; ?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the info page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Voulez-vous aller à la page d&apos;information ?&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="1240"/>
@@ -2255,13 +2255,13 @@ Voulez-vous quand même mettre  à jour ?</translation>
         <translation>Ne plus afficher cette annonce</translation>
     </message>
     <message>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Une nouvelle version de sandybox est disponible.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Nouvelle version :&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation type="vanished">&lt;p&gt;Une nouvelle version de Sandybox est disponible.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Nouvelle version :&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="719"/>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Une nouvelle version de sandybox est disponible.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;Nouvelle version :&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <source>&lt;p&gt;There is a new version of Sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;New version:&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Une nouvelle version de Sandybox est disponible.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;&lt;b&gt;Nouvelle version :&lt;/b&gt;&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to download the latest version?&lt;/p&gt;</source>
@@ -2269,8 +2269,8 @@ Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="741"/>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Voulez-vous aller à la &lt;a href=&quot;%1&quot; page de téléchargement&lt;/a&gt; ?&lt;/p&gt;</translation>
+        <source>&lt;p&gt;Do you want to go to the download page?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Voulez-vous aller à la  ?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Don&apos;t show this message anymore.</source>
@@ -2278,10 +2278,10 @@ Voulez-vous quand même mettre  à jour ?</translation>
     </message>
     <message>
         <location filename="OnlineUpdater.cpp" line="592"/>
-        <source>No new updates found, your sandybox is up-to-date.
+        <source>No new updates found, your Sandybox is up-to-date.
 
 Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
-        <translation>Pas de mise à jour trouvée, votre version de sandybox est à jour.
+        <translation>Pas de mise à jour trouvée, votre version de Sandybox est à jour.
 
 Remarque : La recherche de mise à jour est souvent en retard par rapport à la dernière version Github pour s&apos;assurer que seules des versions testées soient offertes.</translation>
     </message>
@@ -2294,4328 +2294,7 @@ Remarque : La recherche de mise à jour est souvent en retard par rapport à la 
         <translation type="vanished">Échec du téléchargement de la mise à jour depuis : %1</translation>
     </message>
     <message>
-        <source>&lt;p&gt;A sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Une nouvelle version de sandybox a été téléchargée à l&apos;emplacement suivant : &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Procéder à l&apos;installation ? Si des programmes tournent dans les bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>Checking for certificate...</source>
-        <translation type="vanished">Recherche d&apos;un certificat...</translation>
-    </message>
-    <message>
-        <source>No certificate found on server!</source>
-        <translation type="vanished">Aucun certificat trouvé sur le serveur !</translation>
-    </message>
-    <message>
-        <source>There is no updated certificate available.</source>
-        <translation type="vanished">Aucun certificat mis à jour n&apos;est disponible.</translation>
-    </message>
-</context>
-<context>
-    <name>COptionsWindow</name>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="556"/>
-        <location filename="Windows/OptionsWindow.cpp" line="562"/>
-        <location filename="Windows/OptionsWindow.cpp" line="577"/>
-        <location filename="Windows/OptionsAccess.cpp" line="26"/>
-        <source>Browse for File</source>
-        <translation>Choisir un fichier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="27"/>
-        <source>Browse for Folder</source>
-        <translation>Choisir un dossier</translation>
-    </message>
-    <message>
-        <source>Direct</source>
-        <translatorcomment>Accès direct.</translatorcomment>
-        <translation type="vanished">Direct</translation>
-    </message>
-    <message>
-        <source>Direct All</source>
-        <translatorcomment>Accès direct pour tous.</translatorcomment>
-        <translation type="vanished">Toujours direct</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="328"/>
-        <source>Closed</source>
-        <translation>Refusé</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="329"/>
-        <source>Closed RT</source>
-        <translation>Refusé RT</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="330"/>
-        <source>Read Only</source>
-        <translation>Lecture seule</translation>
-    </message>
-    <message>
-        <source>Hidden</source>
-        <translation type="vanished">Caché</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="324"/>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="325"/>
-        <source>Open</source>
-        <translation>Autorisé</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="326"/>
-        <source>Open for All</source>
-        <translation>Autorisé pour tous</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="327"/>
-        <source>No Rename</source>
-        <translation>Pas de renommage</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="331"/>
-        <source>Box Only (Write Only)</source>
-        <translation>Limité au bac (Écriture seule)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="332"/>
-        <source>Ignore UIPI</source>
-        <translatorcomment>UIPI = User Interface Privilege Isolation</translatorcomment>
-        <translation>Ignorer l&apos;isolation des privilèges de l&apos;IHM</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="334"/>
-        <location filename="Windows/OptionsAccess.cpp" line="351"/>
-        <location filename="Windows/OptionsAccess.cpp" line="364"/>
-        <source>Unknown</source>
-        <translation>Inconnu</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="341"/>
-        <source>Regular sandybox behavior - allow read and also copy on write.</source>
-        <translation>Comportement normal de sandybox — autorise la lecture et aussi la copie à l&apos;écriture.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="342"/>
-        <source>Allow write-access outside the sandbox.</source>
-        <translation>Autorise l&apos;accès en écriture hors du bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="343"/>
-        <source>Allow write-access outside the sandbox, also for applications installed inside the sandbox.</source>
-        <translation>Autorise également l&apos;accès en écriture hors du bac aux applications installées dans le bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="344"/>
-        <source>Don&apos;t rename window classes.</source>
-        <translation>Ne renomme pas les classes de fenêtres.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="345"/>
-        <source>Deny access to host location and prevent creation of sandboxed copies.</source>
-        <translation>Refuse l&apos;accès à la localisation de l&apos;hôte et empêche la création de copies dans le bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="346"/>
-        <source>Block access to WinRT class.</source>
-        <translation>Bloque l&apos;accès à la classe WinRT.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="347"/>
-        <source>Allow read-only access only.</source>
-        <translation>Autorise uniquement l&apos;accès en lecture seule.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="348"/>
-        <source>Hide host files, folders or registry keys from sandboxed processes.</source>
-        <translation>Masque les fichiers de l&apos;hôte, les répertoires ou les clés de registre des processus dans les bacs à sable.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="349"/>
-        <source>Ignore UIPI restrictions for processes.</source>
-        <translation>Ignore les restrictions d&apos;isolation des privilèges de l&apos;IHM pour les processus.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="358"/>
-        <source>File/Folder</source>
-        <translation>Fichier/Dossier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="359"/>
-        <source>Registry</source>
-        <translation>Registre</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="360"/>
-        <source>IPC Path</source>
-        <translation>Chemin IPC</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="361"/>
-        <source>Wnd Class</source>
-        <translation>Classe Wnd</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="362"/>
-        <source>COM Object</source>
-        <translation>Objet COM</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="369"/>
-        <source>Select File</source>
-        <translation>Sélectionner le fichier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="369"/>
-        <source>All Files (*.*)</source>
-        <translation>Tous les fichiers (*.*)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="380"/>
-        <location filename="Windows/OptionsForce.cpp" line="307"/>
-        <location filename="Windows/OptionsForce.cpp" line="318"/>
-        <location filename="Windows/OptionsRecovery.cpp" line="128"/>
-        <location filename="Windows/OptionsRecovery.cpp" line="139"/>
-        <source>Select Directory</source>
-        <translation>Sélectionner le répertoire</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1379"/>
-        <location filename="Windows/OptionsAccess.cpp" line="417"/>
-        <location filename="Windows/OptionsAccess.cpp" line="649"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="984"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1058"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="683"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="779"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="639"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="733"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="846"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="1050"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="1289"/>
-        <source>All Programs</source>
-        <translation>Tous les programmes</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1377"/>
-        <location filename="Windows/OptionsWindow.cpp" line="1395"/>
-        <location filename="Windows/OptionsAccess.cpp" line="422"/>
-        <location filename="Windows/OptionsAccess.cpp" line="653"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="688"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="783"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="356"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="644"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="737"/>
-        <source>Group: %1</source>
-        <translation>Groupe : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="555"/>
-        <source>COM objects must be specified by their GUID, like: {00000000-0000-0000-0000-000000000000}</source>
-        <translation>Les objets COM doivent être spécifiés par leur GUID, exemple : {00000000-0000-0000-0000-000000000000}</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="561"/>
-        <source>RT interfaces must be specified by their name.</source>
-        <translation>Les interfaces RT doivent être spécifiées par leur nom.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="575"/>
-        <source>Opening all IPC access also opens COM access, do you still want to restrict COM to the sandbox?</source>
-        <translation>L&apos;ouverture de tous les accès IPC ouvre également les accès COM ; voulez-vous toujours restreindre COM à ce bac ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="576"/>
-        <source>Don&apos;t ask in future</source>
-        <translation>Ne plus demander</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="585"/>
-        <source>&apos;OpenWinClass=program.exe,#&apos; is not supported, use &apos;NoRenameWinClass=program.exe,*&apos; instead</source>
-        <translation>« OpenWinClass=programme.exe,# » n&apos;est pas pris en charge, utilisez « NoRenameWinClass=programme.exe,* » à la place</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="628"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1034"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="750"/>
-        <location filename="Windows/OptionsGrouping.cpp" line="234"/>
-        <location filename="Windows/OptionsGrouping.cpp" line="258"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="712"/>
-        <source>Template values can not be edited.</source>
-        <translation>Les valeurs des modèles ne peuvent pas être modifiées.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAccess.cpp" line="695"/>
-        <source>Template values can not be removed.</source>
-        <translation>Les valeurs des modèles ne peuvent pas être supprimées.</translation>
-    </message>
-    <message>
-        <source>Please enter an auto exec command</source>
-        <translation type="vanished">Veuillez entrer une commande d&apos;exécution automatique</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="67"/>
-        <source>Enable the use of win32 hooks for selected processes. Note: You need to enable win32k syscall hook support globally first.</source>
-        <translation>Active l&apos;utilisation des crochets win32 pour les processus sélectionnés. Remarque : vous devez d&apos;abord activer globalement la prise en charge des crochets d&apos;appel système win32k.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="68"/>
-        <source>Enable crash dump creation in the sandbox folder</source>
-        <translation>Active la création des copies brutes de plantage dans le dossier du bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="69"/>
-        <source>Always use ElevateCreateProcess fix, as sometimes applied by the Program Compatibility Assistant.</source>
-        <translation>Toujours utiliser le correctif ElevateCreateProcess, tel qu&apos;appliqué parfois par l&apos;Assistant de Compatibilité.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="71"/>
-        <source>Enable special inconsistent PreferExternalManifest behaviour, as needed for some Edge fixes</source>
-        <oldsource>Enable special inconsistent PreferExternalManifest behavioure, as neede for some edge fixes</oldsource>
-        <translation>Active le comportement particulier PreferExternalManifest, nécessaire pour certains correctifs pour Edge.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="72"/>
-        <source>Set RpcMgmtSetComTimeout usage for specific processes</source>
-        <translation>Définit l&apos;utilisation de RpcMgmtSetComTimeout pour des processus spécifiques.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="73"/>
-        <source>Makes a write open call to a file that won&apos;t be copied fail instead of turning it read-only.</source>
-        <translation>Fait échouer un appel d&apos;ouverture en écriture sur un fichier qui ne sera pas copié, au lieu de le passer en lecture seule.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="76"/>
-        <source>Make specified processes think they have admin permissions.</source>
-        <oldsource>Make specified processes think thay have admin permissions.</oldsource>
-        <translation>Fait en sorte que les processus définis pensent qu&apos;ils ont des privilèges d&apos;administrateur.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="77"/>
-        <source>Force specified processes to wait for a debugger to attach.</source>
-        <translation>Force les processus définis à attendre la jonction d&apos;un débogueur.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="79"/>
-        <source>Sandbox file system root</source>
-        <translation>Racine du système de fichiers du bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="80"/>
-        <source>Sandbox registry root</source>
-        <translation>Racine du registre du bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="81"/>
-        <source>Sandbox ipc root</source>
-        <translation>Racine IPC du bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="167"/>
-        <source>Name|Type|Value</source>
-        <translation>Nom|Genre|Valeur</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="803"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="812"/>
-        <source>bytes (unlimited)</source>
-        <translation>octets (illimité)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="806"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="815"/>
-        <source>bytes (%1)</source>
-        <translation>octets (%1)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="821"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="830"/>
-        <source>unlimited</source>
-        <translation>illimité</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="833"/>
-        <source>%</source>
-        <translatorcomment>%</translatorcomment>
-        <translation>%</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1005"/>
-        <source>Add special option:</source>
-        <translation>Ajouter une option particulière :</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1153"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1157"/>
-        <source>On Start</source>
-        <translation>Au démarrage</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1154"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1162"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1166"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1170"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1174"/>
-        <source>Run Command</source>
-        <translation>Lancer une commande</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1158"/>
-        <source>Start Service</source>
-        <translation>Démarrer un service</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1161"/>
-        <source>On Init</source>
-        <translation>Lors de l&apos;initialisation</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1165"/>
-        <source>On File Recovery</source>
-        <translation>Lors de la récupération de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1169"/>
-        <source>On Delete Content</source>
-        <translation>Lors de la suppression de contenu</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1173"/>
-        <source>On Terminate</source>
-        <translation>Lors de l&apos;arrêt</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1271"/>
-        <source>Please enter a program file name to allow access to this sandbox</source>
-        <translation>Veuillez saisir un nom de fichier de programme pour lequel autoriser l&apos;accès à ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1282"/>
-        <source>Please enter a program file name to deny access to this sandbox</source>
-        <translation>Veuillez saisir un nom de fichier de programme pour lequel empêcher l&apos;accès à ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1520"/>
-        <source>Global</source>
-        <translation>Global</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1521"/>
-        <source>Template</source>
-        <translation>Modèle</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1572"/>
-        <source>Failed to retrieve firmware table information.</source>
-        <translation>Échec de récupération des informations de la table du microgiciel.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1580"/>
-        <source>Firmware table saved successfully to host registry: HKEY_CURRENT_USER\System\SbieCustom&lt;br /&gt;you can copy it to the sandboxed registry to have a different value for each box.</source>
-        <translation>Table du microgiciel enregistrée avec succès dans le registre de l&apos;hôte : « HKEY_CURRENT_USER\System\SbieCustom »&lt;br /&gt;Vous pouvez la copier dans le registre d&apos;un bac afin d&apos;avoir des valeurs différentes pour chaque bac.</translation>
-    </message>
-    <message>
-        <source>On Delete</source>
-        <translation type="vanished">À la suppression</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1187"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1207"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1217"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1227"/>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1237"/>
-        <source>Please enter the command line to be executed</source>
-        <translation>Saisir la ligne de commande à exécuter</translation>
-    </message>
-    <message>
-        <source>Please enter a program file name</source>
-        <translation type="vanished">Veuillez saisir le nom de fichier d&apos;un programme</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1362"/>
-        <source>Deny</source>
-        <translation>Refuser</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1465"/>
-        <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="131"/>
-        <location filename="Windows/OptionsForce.cpp" line="149"/>
-        <source>Process</source>
-        <translation>Processus</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="132"/>
-        <location filename="Windows/OptionsForce.cpp" line="150"/>
-        <source>Folder</source>
-        <translation>Dossier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="133"/>
-        <source>Children</source>
-        <translation>Enfants</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="151"/>
-        <source>Document</source>
-        <translation>Document</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="265"/>
-        <location filename="Windows/OptionsForce.cpp" line="276"/>
-        <location filename="Windows/OptionsForce.cpp" line="296"/>
-        <source>Select Executable File</source>
-        <translation>Choisir le fichier exécutable</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="265"/>
-        <location filename="Windows/OptionsForce.cpp" line="276"/>
-        <location filename="Windows/OptionsForce.cpp" line="296"/>
-        <source>Executable Files (*.exe)</source>
-        <translation>Fichiers exécutables (*.exe)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="327"/>
-        <source>Select Document Directory</source>
-        <translation>Choisir le répertoire du document</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="331"/>
-        <source>Please enter Document File Extension.</source>
-        <translation>Veuillez saisir l&apos;extension de fichier du document.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="341"/>
-        <source>For security reasons it is not permitted to create entirely wildcard BreakoutDocument presets.</source>
-        <oldsource>For security reasons it it not permitted to create entirely wildcard BreakoutDocument presets.</oldsource>
-        <translation>Pour des raisons de sécurité, il n&apos;est pas autorisé de créer des préréglages BreakoutDocument composés uniquement de jokers.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="351"/>
-        <source>For security reasons the specified extension %1 should not be broken out.</source>
-        <translation>Pour des raisons de sécurité, l&apos;extension %1 indiquée ne devrait pas être éclatée.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsForce.cpp" line="408"/>
-        <source>Forcing the specified entry will most likely break Windows, are you sure you want to proceed?</source>
-        <oldsource>Forcing the specified folder will most likely break Windows, are you sure you want to proceed?</oldsource>
-        <translation>Le forçage de l&apos;entrée indiquée empêchera très probablement Windows de fonctionner. Êtes-vous sûr de vouloir continuer ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="25"/>
-        <source>This option requires an active supporter certificate</source>
-        <oldsource>This option requires a valid supporter certificate</oldsource>
-        <translation>Cette option nécessite un certificat actif d&apos;adhérent</translation>
-    </message>
-    <message>
-        <source>Supporter exclusive option</source>
-        <translation type="vanished">Option exclusive aux adhérents</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="54"/>
-        <source>Don&apos;t alter the window title</source>
-        <translation>Ne pas afficher</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="55"/>
-        <source>Display [#] indicator only</source>
-        <translation>Afficher [#] de part et d&apos;autre</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="56"/>
-        <source>Display box name in title</source>
-        <translation>Afficher le nom du bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="62"/>
-        <source>Border disabled</source>
-        <translation>Désactivée</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="63"/>
-        <source>Show only when title is in focus</source>
-        <translation>Afficher lors du survol de la barre de titre (quand la fenêtre a le focus)</translation>
-    </message>
-    <message>
-        <source>Always show</source>
-        <translation type="vanished">Toujours afficher</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="68"/>
-        <source>Hardened Sandbox with Data Protection</source>
-        <translation>Renforcé avec protection des données</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="69"/>
-        <source>Security Hardened Sandbox</source>
-        <translation>À sécurité renforcée</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="70"/>
-        <source>Sandbox with Data Protection</source>
-        <translation>Avec protection des données</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="71"/>
-        <source>Standard Isolation Sandbox (Default)</source>
-        <translation>À isolation standard (par défaut)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="73"/>
-        <source>Application Compartment with Data Protection</source>
-        <translation>Conteneur d&apos;app. + protection des données</translation>
-    </message>
-    <message>
-        <source>Application Compartment (NO Isolation)</source>
-        <translation type="vanished">Conteneur d&apos;applications (SANS isolation)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="23"/>
-        <source>This option requires an active &lt;b&gt;advanced&lt;/b&gt; supporter certificate</source>
-        <translation>Cette option nécessite un certificat d&apos;adhérent &lt;b&gt;avancé&lt;/b&gt; actif</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="58"/>
-        <source>Don&apos;t show in border</source>
-        <translation>Ne pas afficher</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="59"/>
-        <source>Show within the border</source>
-        <translation>Afficher le nom du bac sous le bord supérieur</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="60"/>
-        <source>Show above the border</source>
-        <translation>Afficher le nom du bac au-dessus du bord supérieur</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="64"/>
-        <source>Always show (focused window only)</source>
-        <translation>Toujours afficher (uniquement si la fenêtre a le focus)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="65"/>
-        <source>Show for all windows in this box</source>
-        <translation>Afficher pour toutes les fenêtres de ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="74"/>
-        <source>Application Compartment</source>
-        <translation>Conteneur d&apos;applications</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="127"/>
-        <source>Custom icon</source>
-        <translation>Icône personnalisée</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="197"/>
-        <source>Version 1</source>
-        <translation>Version 1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="198"/>
-        <source>Version 2</source>
-        <translation>Version 2</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="258"/>
-        <source>Browse for Program</source>
-        <translation>Explorer pour un programme</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="351"/>
-        <source>Open Box Options</source>
-        <translation>Ouvrir les options du bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="352"/>
-        <source>Browse Content</source>
-        <translation>Parcourir le contenu</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="353"/>
-        <source>Start File Recovery</source>
-        <translation>Lancer la récupération de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="354"/>
-        <source>Show Run Dialog</source>
-        <translation>Afficher la boite de dialogue « Exécuter »</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="382"/>
-        <source>Indeterminate</source>
-        <translation>Indéterminé</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="402"/>
-        <source>Backup Image Header</source>
-        <translation>Sauvegarder l&apos;en-tête de l&apos;image</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="403"/>
-        <source>Restore Image Header</source>
-        <translation>Restaurer l&apos;en-tête de l&apos;image</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="407"/>
-        <source>Change Password</source>
-        <translation>Modifier le mot de passe</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="655"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="755"/>
-        <source>Always copy</source>
-        <translation>Toujours copier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="656"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="756"/>
-        <source>Don&apos;t copy</source>
-        <translation>Ne pas copier</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="657"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="757"/>
-        <source>Copy empty</source>
-        <translation>Copier si vide</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="891"/>
-        <source>kilobytes (%1)</source>
-        <translation>kilo-octets (%1)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="999"/>
-        <source>Select color</source>
-        <translation>Sélectionner une couleur</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1274"/>
-        <source>The image file does not exist</source>
-        <translation>Le fichier d&apos;image n&apos;existe pas</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1275"/>
-        <source>The password is wrong</source>
-        <translation>Le mot de passe est erroné</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1276"/>
-        <source>Unexpected error: %1</source>
-        <translation>Erreur inattendue : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1304"/>
-        <source>Image Password Changed</source>
-        <translation>Le mot de passe de l&apos;image a été modifié</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1306"/>
-        <source>Failed to Change Password</source>
-        <translation>Échec du changement de mot de passe</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1315"/>
-        <source>Backup Image Header for %1</source>
-        <translation>Sauvegarder l&apos;en-tête de l&apos;image pour %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1323"/>
-        <source>Image Header Backuped</source>
-        <translation>En-tête de l&apos;image sauvegardé</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1330"/>
-        <source>Restore Image Header for %1</source>
-        <translation>Restaurer l&apos;en-tête de l&apos;image pour %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1338"/>
-        <source>Image Header Restored</source>
-        <translation>En-tête de l&apos;image restauré</translation>
-    </message>
-    <message>
-        <source>Please enter a program path</source>
-        <translation type="vanished">Veuillez entrer un chemin de programme</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1087"/>
-        <source>Select Program</source>
-        <translation>Sélectionner le programme</translation>
-    </message>
-    <message>
-        <source>Executables (*.exe *.cmd);;All files (*.*)</source>
-        <translation type="vanished">Exécutables (*.exe *.cmd);;Tous les fichiers (*.*)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1197"/>
-        <source>Please enter a service identifier</source>
-        <translation>Veuillez saisir un identifiant de service</translation>
-    </message>
-    <message>
-        <source>Service</source>
-        <translation type="vanished">Service</translation>
-    </message>
-    <message>
-        <source>Program</source>
-        <translation type="vanished">Programme</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1087"/>
-        <source>Executables (*.exe *.cmd)</source>
-        <translation>Exécutables (*.exe *.cmd)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1091"/>
-        <location filename="Windows/OptionsGeneral.cpp" line="1112"/>
-        <source>Please enter a menu title</source>
-        <translation>Veuillez saisir un titre de menu</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGeneral.cpp" line="1108"/>
-        <source>Please enter a command</source>
-        <translation>Veuillez saisir une commande</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGrouping.cpp" line="141"/>
-        <source>Please enter a name for the new group</source>
-        <translation>Veuillez saisir un nom pour le nouveau groupe</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsGrouping.cpp" line="229"/>
-        <source>Please select group first.</source>
-        <translation>Veuillez d&apos;abord sélectionner un groupe.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="55"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="767"/>
-        <source>Any</source>
-        <translation>Tous</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="56"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="768"/>
-        <source>TCP</source>
-        <translation>TCP</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="57"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="769"/>
-        <source>UDP</source>
-        <translation>UDP</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="58"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="770"/>
-        <source>ICMP</source>
-        <translation>ICMP</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="111"/>
-        <source>None (Don&apos;t bind to adapter)</source>
-        <translation>Aucun (ne pas lier à l&apos;adaptateur)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="206"/>
-        <source>Allow access</source>
-        <translation>Autoriser l&apos;accès</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="207"/>
-        <source>Block using Windows Filtering Platform</source>
-        <translation>Bloquer à l&apos;aide de la plateforme de filtrage Windows</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="208"/>
-        <source>Block by denying access to Network devices</source>
-        <translation>Bloquer en refusant l&apos;accès aux périphériques réseaux</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="939"/>
-        <source>Please enter a domain to be filtered</source>
-        <translation>Veuillez saisir un domaine à filtrer</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="969"/>
-        <source>Yes</source>
-        <translation>Oui</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="970"/>
-        <source>No</source>
-        <translation>Non</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="994"/>
-        <source>Please enter IP and Port.</source>
-        <translation>Veuillez saisir une IP et un port.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="1176"/>
-        <source>Entry %1 : IP or Port cannot be empty</source>
-        <oldsource> entry: IP or Port cannot be empty</oldsource>
-        <translation>Saisie %1 : l&apos;IP ou le port ne peut pas être vide</translation>
-    </message>
-    <message>
-        <source> entry: Address must be IP, not host name</source>
-        <translation type="vanished">Saisie : l&apos;adresse doit être une IP, pas un nom d&apos;hôte</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsAdvanced.cpp" line="1362"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="334"/>
-        <location filename="Windows/OptionsNetwork.cpp" line="753"/>
-        <source>Allow</source>
-        <translation>Autoriser</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="335"/>
-        <source>Block (WFP)</source>
-        <translation>Bloquer (WFP)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="336"/>
-        <source>Block (NDev)</source>
-        <translation>Bloquer (NDev)</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="444"/>
-        <source>A non empty program name is required.</source>
-        <translation>Un nom de programme non vide est nécessaire.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsNetwork.cpp" line="754"/>
-        <source>Block</source>
-        <translation>Bloquer</translation>
-    </message>
-    <message>
-        <source>Exclusion</source>
-        <translation type="vanished">Exclusion</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsRecovery.cpp" line="150"/>
-        <source>Please enter a file extension to be excluded</source>
-        <translation>Veuillez saisir une extension de fichier à exclure</translation>
-    </message>
-    <message>
-        <source>Lingerer</source>
-        <translation type="vanished">Persistant</translation>
-    </message>
-    <message>
-        <source>Leader</source>
-        <translation type="vanished">Directeur</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="56"/>
-        <source>All Categories</source>
-        <translation>Toutes les catégories</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="95"/>
-        <source>Custom Templates</source>
-        <translation>Modèles personnalisés</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="96"/>
-        <source>Email Reader</source>
-        <translation>Client de messagerie</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="97"/>
-        <source>PDF/Print</source>
-        <translation>PDF/Impression</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="98"/>
-        <source>Security/Privacy</source>
-        <translation>Sécurité/Confidentialité</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="99"/>
-        <source>Desktop Utilities</source>
-        <translation>Utilitaire de bureau</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="100"/>
-        <source>Download Managers</source>
-        <translation>Gestionnaire de téléchargement</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="101"/>
-        <source>Miscellaneous</source>
-        <translation>Divers</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="102"/>
-        <source>Web Browser</source>
-        <translation>Navigateur web</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="103"/>
-        <source>Media Player</source>
-        <translation>Lecteur multimédia</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="104"/>
-        <source>Torrent Client</source>
-        <translation>Client de Torrent</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="151"/>
-        <source>This template is enabled globally. To configure it, use the global options.</source>
-        <translation>Ce modèle est activé de manière globale. Pour le configurer, utilisez les options globales.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="187"/>
-        <source>Please enter the template identifier</source>
-        <translation>Veuillez saisir l&apos;identifiant du modèle</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="195"/>
-        <source>Error: %1</source>
-        <translation>Erreur : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="229"/>
-        <source>Do you really want to delete the selected local template(s)?</source>
-        <translation>Voulez-vous vraiment supprimer le ou les modèles locaux sélectionnés ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="235"/>
-        <source>Only local templates can be removed!</source>
-        <translation>Seuls les modèles locaux peuvent être supprimés !</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsTemplates.cpp" line="290"/>
-        <source>An alternate location for &apos;%1&apos;
-should contain the following file:
-
-%2
-
-The selected location does not contain this file.
-Please select a folder which contains this file.</source>
-        <translation>Un emplacement alternatif pour « %1 »
-doit contenir le fichier suivant :
-
-%2
-
-Ce n&apos;est pas le cas pour l&apos;emplacement choisi.
-Veuillez choisir un dossier contenant ce fichier.</translation>
-    </message>
-    <message>
-        <source>Do you really want to delete the selected local template?</source>
-        <translation type="vanished">Voulez-vous vraiment supprimer le modèle local sélectionné ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="191"/>
-        <source>sandybox Plus - &apos;%1&apos; Options</source>
-        <translation>sandybox - Paramètres de « %1 »</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="301"/>
-        <source>File Options</source>
-        <translation>Options des fichiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="340"/>
-        <source>Grouping</source>
-        <translation>Groupement</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="647"/>
-        <source>Add %1 Template</source>
-        <translation>Ajouter un modèle pour : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="770"/>
-        <source>Search for options</source>
-        <oldsource>Search for Options</oldsource>
-        <translation>Rechercher dans les options</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1055"/>
-        <source>Box: %1</source>
-        <translation>Bac : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1056"/>
-        <source>Template: %1</source>
-        <translation>Modèle : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1057"/>
-        <source>Global: %1</source>
-        <translation>Global : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1058"/>
-        <source>Default: %1</source>
-        <translation>Par défaut : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1275"/>
-        <source>This sandbox has been deleted hence configuration can not be saved.</source>
-        <translation>Ce bac a été supprimé, par conséquent la configuration ne peut pas être enregistrée.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1339"/>
-        <source>Some changes haven&apos;t been saved yet, do you really want to close this options window?</source>
-        <translation>Certaines modifications n&apos;ont pas encore été enregistrées ; voulez-vous vraiment fermer cette fenêtre d&apos;options ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1388"/>
-        <source>Enter program:</source>
-        <translation>Saisir le programme :</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1831"/>
-        <source>Autocomplete Consent Required</source>
-        <translation>Consentement de saisie automatique nécessaire</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1833"/>
-        <source>Autocomplete feature requires your consent to proceed.</source>
-        <translation>La fonction de saisie automatique a besoin de votre autorisation pour continuer.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1835"/>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
-
-Choose autocomplete mode:
-%1 Manual: Autocomplete suggestions with %2.
-%1 While Typing: Autocomplete suggestions while typing.</source>
-        <translation>Si vous n&apos;êtes pas sûr des paramètres affichés dans la fenêtre surgissante de saisie automatique, nous recommandons vivement de consulter la documentation du logiciel ou le code source avant de continuer. Activer cette fonction sans une bonne compréhension pourrait entrainer des conséquences imprévues, dont vous serez seul responsable.
-
-Choisir le mode de saisie automatique :
-%1 Manuel : Suggestions de saisie automatique avec %2.
-%1 Lors de la frappe : Suggestions de saisie automatique lors de la saisie.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1843"/>
-        <source>Manual</source>
-        <translation>Manuel</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1844"/>
-        <source>Triggers autocomplete suggestions with %1.</source>
-        <translation>Déclenche les suggestions de saisie automatique avec %1.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1846"/>
-        <source>While Typing</source>
-        <translation>Lors de la frappe</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1847"/>
-        <source>Triggers autocomplete suggestions while typing.</source>
-        <translation>Déclenche les suggestions de saisie automatique lors de la frappe.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1850"/>
-        <source>Keeps autocomplete suggestions disabled.</source>
-        <translation>Conserve les suggestions de saisie automatique désactivées.</translation>
-    </message>
-    <message>
-        <location filename="Windows/OptionsWindow.cpp" line="1849"/>
-        <source>Cancel</source>
-        <translation>Annuler</translation>
-    </message>
-    <message>
-        <source>If you are unsure about the settings displayed in the autocomplete popup, we strongly recommend consulting the software&apos;s documentation or source code before proceeding. Enabling this feature without proper understanding may lead to unintended consequences, for which you will be solely responsible.
-
-Do you wish to enable autocomplete?</source>
-        <translation type="vanished">Si vous n&apos;êtes pas sûr des paramètres affichés dans la fenêtre surgissante de la saisie semi-automatique, nous recommandons vivement de consulter la documentation du logiciel ou le code source avant de procéder. Activer cette fonction sans une bonne compréhension peut entrainer des conséquences imprévues, dont vous serez seul responsable.
-
-Voulez-vous activer la saisie semi-automatique ?</translation>
-    </message>
-</context>
-<context>
-    <name>CPathEdit</name>
-    <message>
-        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="31"/>
-        <source>Any File (*.*)</source>
-        <translation>Tous les fichiers (*.*)</translation>
-    </message>
-    <message>
-        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="37"/>
-        <source>Select Directory</source>
-        <translation>Choisir un répertoire</translation>
-    </message>
-    <message>
-        <location filename="../MiscHelpers/Common/SettingsWidgets.cpp" line="38"/>
-        <source>Browse</source>
-        <translation>Parcourir</translation>
-    </message>
-</context>
-<context>
-    <name>CPopUpMessage</name>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="53"/>
-        <source>?</source>
-        <translatorcomment>⸮</translatorcomment>
-        <translation>?</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="54"/>
-        <source>Visit %1 for a detailed explanation.</source>
-        <translation>Visitez %1 pour une explication détaillée.</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="65"/>
-        <source>Troubleshooting</source>
-        <translation>Dépannage</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="66"/>
-        <source>Start troubleshooting wizard</source>
-        <translation>Démarrer l&apos;assistant de dépannage</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="71"/>
-        <source>Dismiss</source>
-        <translation>Fermer</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="72"/>
-        <source>Remove this message from the list</source>
-        <translation>Retirer ce message de la liste</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="75"/>
-        <source>Hide all such messages</source>
-        <translation>Masquer tous les messages similaires</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="89"/>
-        <source> (%1)</source>
-        <translation> (%1)</translation>
-    </message>
-</context>
-<context>
-    <name>CPopUpProgress</name>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="387"/>
-        <source>Dismiss</source>
-        <translation>Fermer</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="388"/>
-        <source>Remove this progress indicator from the list</source>
-        <translation>Supprimer cet indicateur de progression de la liste</translation>
-    </message>
-</context>
-<context>
-    <name>CPopUpPrompt</name>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="129"/>
-        <source>Remember for this process</source>
-        <translation>Mémoriser pour ce processus</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="139"/>
-        <source>Yes</source>
-        <translation>Oui</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="144"/>
-        <source>No</source>
-        <translation>Non</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="149"/>
-        <source>Terminate</source>
-        <translation>Arrêter</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="170"/>
-        <source>Yes and add to allowed programs</source>
-        <translation>Oui et ajouter aux programmes autorisés</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="205"/>
-        <source>Requesting process terminated</source>
-        <translation>Processus de demande arrêté</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="210"/>
-        <source>Request will time out in %1 sec</source>
-        <translation>La demande expirera dans %1 seconde(s)</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="212"/>
-        <source>Request timed out</source>
-        <translation>Demande expirée</translation>
-    </message>
-</context>
-<context>
-    <name>CPopUpRecovery</name>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="266"/>
-        <source>Recover to:</source>
-        <translation>Récupérer vers :</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="271"/>
-        <source>Browse</source>
-        <translation>Parcourir</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="272"/>
-        <source>Clear folder list</source>
-        <translation>Effacer la liste des dossiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="280"/>
-        <source>Recover</source>
-        <translation>Récupérer</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="281"/>
-        <source>Recover the file to original location</source>
-        <translation>Récupérer le fichier vers son emplacement d&apos;origine</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="284"/>
-        <source>Recover &amp;&amp; Explore</source>
-        <translation>Récupérer et parcourir</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="285"/>
-        <source>Recover &amp;&amp; Open/Run</source>
-        <translation>Récupérer et ouvrir/exécuter</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="287"/>
-        <source>Open file recovery for this box</source>
-        <translation>Ouvrir la récupération de fichiers pour ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="295"/>
-        <source>Dismiss</source>
-        <translation>Rejeter</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="296"/>
-        <source>Don&apos;t recover this file right now</source>
-        <translation>Ne pas récupérer ce fichier maintenant</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="299"/>
-        <source>Dismiss all from this box</source>
-        <translation>Rejeter tout de ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="300"/>
-        <source>Disable quick recovery until the box restarts</source>
-        <translation>Désactiver la récupération rapide jusqu&apos;à ce que le bac redémarre</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.h" line="324"/>
-        <source>Select Directory</source>
-        <translation>Sélectionner le répertoire</translation>
-    </message>
-</context>
-<context>
-    <name>CPopUpWindow</name>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="24"/>
-        <source>sandybox Notifications</source>
-        <translation>sandybox - Notifications</translation>
-    </message>
-    <message>
-        <source>PID %1</source>
-        <translation type="vanished">PID %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="208"/>
-        <source>Do you want to allow the print spooler to write outside the sandbox for %1 (%2)?</source>
-        <translation>Voulez-vous autoriser le spouleur d&apos;impression à écrire hors du bac pour %1 (%2) ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="323"/>
-        <source>Do you want to allow %4 (%5) to copy a %1 large file into sandbox: %2?
-File name: %3</source>
-        <translation>Voulez-vous autoriser %4 (%5) à copier un fichier volumineux (%1) dans le bac %2 ?
-Nom du fichier : %3</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="329"/>
-        <source>Do you want to allow %1 (%2) access to the internet?
-Full path: %3</source>
-        <translation>Voulez-vous autoriser %1 (%2) à accéder à Internet ?
-Chemin complet : %3</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="388"/>
-        <source>%1 is eligible for quick recovery from %2.
-The file was written by: %3</source>
-        <translation>%1 est éligible pour une récupération rapide à partir de %2.
-Le fichier a été écrit par : %3</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="390"/>
-        <source>an UNKNOWN process.</source>
-        <translation>un processus INCONNU.</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="390"/>
-        <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="474"/>
-        <location filename="Windows/PopUpWindow.cpp" line="475"/>
-        <source>UNKNOWN</source>
-        <translation>INCONNU</translation>
-    </message>
-    <message>
-        <location filename="Windows/PopUpWindow.cpp" line="481"/>
-        <source>Migrating a large file %1 into the sandbox %2, %3 left.
-Full path: %4</source>
-        <translation>Migration du fichier volumineux %1 dans le bac %2 ; encore %3.
-Chemin complet : %4</translation>
-    </message>
-</context>
-<context>
-    <name>CRecoveryLogWnd</name>
-    <message>
-        <location filename="SandManRecovery.cpp" line="325"/>
-        <source>sandybox - Recovery Log</source>
-        <translation>sandybox - Journal de récupération</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="336"/>
-        <source>Time|Box Name|File Path</source>
-        <translation>Heure|Nom du bac|Chemin du fichier</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="338"/>
-        <source>Cleanup Recovery Log</source>
-        <translation>Purger le journal de récupération</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="348"/>
-        <source>The following files were recently recovered and moved out of a sandbox.</source>
-        <oldsource>the following files were recently recovered and moved out of a sandbox.</oldsource>
-        <translation>Les fichiers suivants ont récemment été récupérés et sortis d&apos;un bac.</translation>
-    </message>
-</context>
-<context>
-    <name>CRecoveryWindow</name>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="46"/>
-        <source>%1 - File Recovery</source>
-        <translation>%1 - Récupération de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="70"/>
-        <source>File Name</source>
-        <translation>Nom du fichier</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="71"/>
-        <source>File Size</source>
-        <translation>Taille du fichier</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="72"/>
-        <source>Full Path</source>
-        <translation>Chemin complet</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="106"/>
-        <source>Remember target selection</source>
-        <translation>Se souvenir de l&apos;emplacement</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="112"/>
-        <source>Delete everything, including all snapshots</source>
-        <translation>Tout supprimer, y compris les sauvegardes (snapshots)</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="138"/>
-        <source>Original location</source>
-        <translation>Emplacement d&apos;origine</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="139"/>
-        <source>Browse for location</source>
-        <translation>Naviguer vers un emplacement</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="140"/>
-        <source>Clear folder list</source>
-        <translation>Effacer la liste des dossiers</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="180"/>
-        <location filename="Windows/RecoveryWindow.cpp" line="201"/>
-        <location filename="Windows/RecoveryWindow.cpp" line="554"/>
-        <source>Select Directory</source>
-        <translation>Sélectionner le répertoire</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="246"/>
-        <source>No Files selected!</source>
-        <translation>Aucun fichier sélectionné !</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="250"/>
-        <source>Do you really want to delete %1 selected files?</source>
-        <translation>Voulez-vous vraiment supprimer le ou les %1 fichiers sélectionnés ?</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="278"/>
-        <source>Close until all programs stop in this box</source>
-        <translation>Fermer jusqu&apos;à ce que tous les programmes de ce bac soient arrêtés</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="279"/>
-        <source>Close and Disable Immediate Recovery for this box</source>
-        <translation>Fermer et désactiver la récupération immédiate pour ce bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="299"/>
-        <source>There are %1 new files available to recover.</source>
-        <translation>Nouveaux fichiers disponibles pour une récupération : %1</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="584"/>
-        <source>Recovering File(s)...</source>
-        <translation>Récupération du ou des fichiers...</translation>
-    </message>
-    <message>
-        <location filename="Windows/RecoveryWindow.cpp" line="590"/>
-        <source>There are %1 files and %2 folders in the sandbox, occupying %3 of disk space.</source>
-        <translation>Il y a %1 fichier(s) et %2 dossier(s) dans le bac, occupant %3 d&apos;espace disque.</translation>
-    </message>
-</context>
-<context>
-    <name>CRenameSandboxDialog</name>
-    <message>
-        <location filename="Windows/RenameSandboxDialog.cpp" line="17"/>
-        <source>sandybox - Rename Sandbox</source>
-        <translation>sandybox - Renommer le bac</translation>
-    </message>
-    <message>
-        <location filename="Windows/RenameSandboxDialog.cpp" line="23"/>
-        <source>When enabled, alias display is disabled for this sandbox.</source>
-        <translation>Si activé, l&apos;affichage de l&apos;alias est désactivé pour ce bac.</translation>
-    </message>
-    <message>
-        <location filename="Windows/RenameSandboxDialog.cpp" line="24"/>
-        <source>Hide alias input in this dialog. This preference is remembered.</source>
-        <translation>Masque la saisie de l&apos;alias dans cette boite de dialogue. Ce paramètre est sauvegardé.</translation>
-    </message>
-</context>
-<context>
-    <name>CRunPage</name>
-    <message>
-        <location filename="Wizards/BoxAssistant.cpp" line="592"/>
-        <source>Troubleshooting ...</source>
-        <translation>Dépannage...</translation>
-    </message>
-    <message>
-        <location filename="Wizards/BoxAssistant.cpp" line="615"/>
-        <source>This troubleshooting procedure could not be initialized. You can click on next to submit an issue report.</source>
-        <translation>Cette procédure de dépannage n&apos;a pas pu être initialisée. Vous pouvez appuyer sur « Suivant » pour soumettre un rapport de problème.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/BoxAssistant.cpp" line="728"/>
-        <source>Something failed internally this troubleshooting procedure can not continue. You can click on next to submit an issue report.</source>
-        <oldsource>Somethign failed internally this troubleshooting procedure can not continue. You can click on next to submit an issue report.</oldsource>
-        <translation>Un problème interne est survenu ; cette procédure de dépannage ne peut pas continuer. Vous pouvez appuyer sur « Suivant » pour soumettre un rapport de problème.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/BoxAssistant.cpp" line="729"/>
-        <source>
-
-Error: </source>
-        <translation>
-
-Erreur : </translation>
-    </message>
-</context>
-<context>
-    <name>CSBUpdate</name>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="622"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; updater</source>
-        <translation>Configurer la mise à jour de &lt;b&gt;sandybox&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="623"/>
-        <source>Like with any other security product, it&apos;s important to keep your sandybox up to date.</source>
-        <oldsource>Like with any other security product it&apos;s important to keep your sandybox up to date.</oldsource>
-        <translation>Comme avec n&apos;importe quel produit de sécurité, il est important de garder votre installation de sandybox à jour.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="631"/>
-        <source>Regularly check for all updates to sandybox and optional components</source>
-        <oldsource>Regularly Check for all updates to sandybox and optional components</oldsource>
-        <translation>Vérifier régulièrement les mises à jour de sandybox et des composants optionnels</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="632"/>
-        <source>Let sandybox regularly check for latest updates.</source>
-        <oldsource>Let sandybox regularly check for latest updates.</oldsource>
-        <translation>Laisse sandybox vérifier régulièrement la présence de mises à jour.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="642"/>
-        <source>Check for new sandybox versions:</source>
-        <translation>Vérification de nouvelles versions de sandybox :</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="643"/>
-        <source>Check for new sandybox builds.</source>
-        <translation>Vérifie s&apos;il y a de nouvelles versions de sandybox.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="649"/>
-        <source>Select in which update channel to look for new sandybox builds:</source>
-        <oldsource>Sellect in which update channel to look for new sandybox builds:</oldsource>
-        <translation>Choisir dans quel canal de mises à jour rechercher les nouvelles versions de sandybox :</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="658"/>
-        <source>In the Stable Channel</source>
-        <translation>Dans le canal Stable</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="659"/>
-        <source>The stable channel contains the latest stable GitHub releases.</source>
-        <translation>Le canal Stable contient les dernières versions stables de GitHub.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="663"/>
-        <source>In the Preview Channel - with newest experimental changes</source>
-        <translation>Dans le canal des Aperçus — avec les dernières modifications expérimentales</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="664"/>
-        <source>The preview channel contains the latest GitHub pre-releases.</source>
-        <translation>Le canal des Aperçus contient les dernières pré-versions GitHub.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="668"/>
-        <source>In the Insider Channel - exclusive features</source>
-        <translation>Dans le canal des Initiés — avec des fonctions exclusives</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="669"/>
-        <source>The Insider channel offers early access to new features and bugfixes that will eventually be released to the public, as well as all relevant improvements from the stable channel. 
-Unlike the preview channel, it does not include untested, potentially breaking, or experimental changes that may not be ready for wider use.</source>
-        <translation>Le canal des Initiés offre un accès anticipé aux nouvelles fonctions et corrections de bogues qui finalement seront fournies au public, de même que toutes les améliorations pertinentes du canal Stable.
-Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications non testées, potentiellement dangereuses ou expérimentales qui peuvent ne pas être prêtes pour une utilisation à grande échelle.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="674"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>En savoir plus concernant le &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;canal des Initiés&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="683"/>
-        <source>Keep Compatibility Templates up to date and apply hotfixes</source>
-        <oldsource>Keep Compatybility Templates up to date and apply hotfixes</oldsource>
-        <translation>Conserver les modèles de compatibilité à jour et appliquer les patchs de dernière minute</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="684"/>
-        <source>Check for latest compatibility templates and hotfixes.</source>
-        <oldsource>Check for latest compatybility tempaltes and hotfixes.</oldsource>
-        <translation>Vérifie la présence de modèles de compatibilité et des patchs de dernière minute.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="688"/>
-        <source>Get the latest Scripts for the Troubleshooting Wizard</source>
-        <translation>Obtenir les derniers scripts pour l&apos;assistant de dépannage</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="689"/>
-        <source>Check for latest troubleshooting scripts for the troubleshooting wizard.</source>
-        <oldsource>Check for latest troubleshooting scripts for the troubleshooting wizars.</oldsource>
-        <translation>Vérifie la disponibilité de nouveaux scripts pour l&apos;assistant de dépannage.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="693"/>
-        <source>Keep the list of optional Add-on components up to date</source>
-        <translation>Garder la liste des composants de modules optionnels à jour</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="694"/>
-        <source>Check for latest available add-ons.</source>
-        <oldsource>Check for latest avaialble addons.</oldsource>
-        <translation>Vérifie s&apos;il y a de nouveaux modules disponibles.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="703"/>
-        <source>sandybox applies strict application restrictions, which can lead to compatibility issues. Stay updated with sandybox, including compatibility templates and troubleshooting, to ensure smooth operation amid Windows updates and application changes.</source>
-        <translation>sandybox applique des restrictions d&apos;applications strictes, ce qui peut entrainer des problèmes de compatibilité. Assurez-vous que sandybox est à jour, ainsi que les modèles de compatibilité et de dépannage, afin d&apos;assurer un fonctionnement fluide malgré les mises à jour Windows et les modifications des applications.</translation>
-    </message>
-    <message>
-        <location filename="Wizards/SetupWizard.cpp" line="709"/>
-        <source>Access to the latest compatibility templates and the online troubleshooting database requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.</source>
-        <translation>L&apos;accès aux derniers modèles de compatibilité et à la base de données de dépannage en ligne nécessitent un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; valide.</translation>
-    </message>
-</context>
-<context>
-    <name>CSandBox</name>
-    <message>
-        <location filename="SandMan.cpp" line="4950"/>
-        <source>Waiting for folder: %1</source>
-        <translation>Dossier en attente : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4951"/>
-        <source>Deleting folder: %1</source>
-        <translation>Suppression du dossier : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4952"/>
-        <source>Merging folders: %1 &amp;gt;&amp;gt; %2</source>
-        <translation>Fusion des dossiers : %1 &amp;gt;&amp;gt; %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4953"/>
-        <source>Finishing Snapshot Merge...</source>
-        <translation>Finalisation de la fusion des instantanés...</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="139"/>
-        <source>Copying folder: %1</source>
-        <translation>Copie du dossier : %1</translation>
-    </message>
-</context>
-<context>
-    <name>CSandBoxPlus</name>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="597"/>
-        <source>Disabled</source>
-        <translation>Désactivé</translation>
-    </message>
-    <message>
-        <source>Empty</source>
-        <translation type="vanished">Vide</translation>
-    </message>
-    <message>
-        <source>NOT SECURE (Debug Config)</source>
-        <translation type="vanished">NON SÉCURISÉ (Configuration de débogage)</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="608"/>
-        <source>OPEN Root Access</source>
-        <translation>OUVRIR l&apos;accès Racine</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="610"/>
-        <source>Application Compartment</source>
-        <translation>Conteneur d&apos;applications</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="612"/>
-        <source>NOT SECURE</source>
-        <translation>NON SÉCURISÉ</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="614"/>
-        <source>Reduced Isolation</source>
-        <translation>Isolation réduite</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="616"/>
-        <source>Enhanced Isolation</source>
-        <translation>Isolation renforcée</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="619"/>
-        <source>Privacy Enhanced</source>
-        <translation>Confidentialité renforcée</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="642"/>
-        <source> (Portable)</source>
-        <translation> (portable)</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="645"/>
-        <source> (Virtual)</source>
-        <translation> (virtuel)</translation>
-    </message>
-    <message>
-        <source>API Log</source>
-        <translation type="vanished">Journal API</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="623"/>
-        <source>No INet (with Exceptions)</source>
-        <translation>Sans Internet (avec des exceptions)</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="625"/>
-        <source>No INet</source>
-        <translation>Sans Internet</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="628"/>
-        <source>Net Share</source>
-        <translation>Partage réseau</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="630"/>
-        <source>No Admin</source>
-        <translation>Sans administrateur</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="633"/>
-        <source>Auto Delete</source>
-        <translation>Suppression automatique</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="638"/>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-</context>
-<context>
-    <name>CSandMan</name>
-    <message>
-        <location filename="SandMan.cpp" line="514"/>
-        <location filename="SandMan.cpp" line="2815"/>
-        <source>sandybox v%1</source>
-        <translation>sandybox v%1</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;There is a new build of sandybox ready&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;Une nouvelle version de sandybox est prête&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;There is a new build of sandybox available&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;Une nouvelle version de sandybox est disponible&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1421"/>
-        <source>Click to download update</source>
-        <translation>Appuyer pour télécharger la mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1510"/>
-        <source>Boxes: %1 (%2 active)  |  Processes: %3  |  Memory: %4</source>
-        <translation>Bacs : %1 (Actifs : %2)  |  Processus : %3  |  Mémoire : %4</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2025"/>
-        <location filename="SandMan.cpp" line="2041"/>
-        <source>User canceled this operation.</source>
-        <translation>L&apos;utilisateur a annulé cette opération.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2244"/>
-        <source>No Force Process</source>
-        <translation>Pas de processus forcé</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2317"/>
-        <source>Some compatibility templates are missing:&lt;br /&gt;&lt;br /&gt;%1&lt;br /&gt;Probably deleted, do you want to remove them from all boxes?</source>
-        <translation>Certains modèles de compatibilité sont manquants :&lt;br /&gt;&lt;br /&gt;%1&lt;br /&gt;Ils ont probablement été supprimés ; voulez-vous les supprimer de tous les bacs ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2635"/>
-        <source>Removed Shortcut: %1</source>
-        <translation>Raccourci supprimé : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2724"/>
-        <source>Updated Shortcut to: %1</source>
-        <translation>Raccourci vers %1 mis à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2726"/>
-        <source>Added Shortcut to: %1</source>
-        <translation>Raccourci vers %1 ajouté</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2758"/>
-        <source>Executing OnBoxTerminate: %1</source>
-        <translation>Exécution d&apos;OnBoxTerminate: %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2803"/>
-        <source>Auto removing sandbox %1</source>
-        <translation>Suppression automatique du bac %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2827"/>
-        <source>%1 Directory: %2</source>
-        <translation>Répertoire d&apos;%1 : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2827"/>
-        <source>Application</source>
-        <translation>application</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2827"/>
-        <source>Installation</source>
-        <translation>installation</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2893"/>
-        <source> for Personal use</source>
-        <translation> pour un usage personnel</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2895"/>
-        <source>   -   for Non-Commercial use ONLY</source>
-        <translation>   -   pour un usage non commercial UNIQUEMENT</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2960"/>
-        <source>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.
-Please check if there is an update for sandybox.</source>
-        <oldsource>Your Windows build %1 exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd"/>
-Please check if there is an update for sandybox.</oldsource>
-        <translation>Votre version de Windows %1 excède les capacités de prise en charge actuelles de votre version de sandybox, entrainant la désactivation de l&apos;isolation de sécurité basée sur les jetons. Par conséquent, toutes les applications s&apos;exécuteront en mode conteneur d&apos;applications sans isolation sécurisée.<byte value="xd"/>
-Veuillez vérifier s&apos;il y a une mise à jour pour sandybox.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2969"/>
-        <source>Don&apos;t show this message again for the current build.</source>
-        <translation>Ne plus afficher ce message pour la version actuelle.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2976"/>
-        <source>Your Windows build %1 exceeds the current known support capabilities of your sandybox version, sandybox will attempt to use the last-known offsets which may cause system instability.</source>
-        <translation>Votre version de Windows %1 excède les capacités de prise en charge actuellement connues de votre version de sandybox. Par conséquent, sandybox essaiera d&apos;utiliser les derniers offsets connus, ce qui peut entrainer une instabilité du système.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2987"/>
-        <source>Do you want the setup wizard to be omitted?</source>
-        <translation>Voulez-vous ignorer l&apos;assistant d&apos;installation ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2994"/>
-        <source>Sandman did not finish enumerating installed windows updates last time, it probably hangs.
-Do you want to disable Windows Updates scanning from the software compatibility detection?</source>
-        <oldsource>Sandman die not finish enumerating installed windows updates last time, it probably hang.
-Do you want to disable Windows Updates scanning from the the software compatibility detection?</oldsource>
-        <translation>Le gestionnaire de sandybox n&apos;a pas terminé d&apos;énumérer les mises à jour de Windows installées la dernière fois. Il a probablement planté.
-Voulez-vous désactiver l&apos;analyse des mises à jour Windows lors de la détection de compatibilité des logiciels ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3198"/>
-        <source>Failed to configure hotkey %1, error: %2</source>
-        <translation>Échec de configuration du raccourci %1 ; erreur : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3621"/>
-        <source>The evaluation period has expired!!!</source>
-        <oldsource>The evaluation periode has expired!!!</oldsource>
-        <translation>La période d&apos;évaluation a expiré !!!</translation>
-    </message>
-    <message>
-        <source>Select file name</source>
-        <translation type="vanished">Choisir un nom de fichier</translation>
-    </message>
-    <message>
-        <source>7-zip Archive (*.7z)</source>
-        <translation type="vanished">Archive 7-zip (*.7z)</translation>
-    </message>
-    <message>
-        <source>This name is already in use, please select an alternative box name</source>
-        <oldsource>This Name is already in use, please select an alternative box name</oldsource>
-        <translation type="vanished">Ce nom est déjà utilisé ; veuillez choisir un nom de bac alternatif</translation>
-    </message>
-    <message>
-        <source>Importing: %1</source>
-        <translation type="vanished">Importation : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3798"/>
-        <source>No Recovery</source>
-        <translation>Pas de récupération</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3804"/>
-        <source>No Messages</source>
-        <translation>Pas de message</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4276"/>
-        <source>You are about to edit the Templates.ini, this is generally not recommended.
-This file is part of sandybox and all change done to it will be reverted next time sandybox is updated.</source>
-        <oldsource>You are about to edit the Templates.ini, thsi is generally not recommeded.
-This file is part of sandybox and all changed done to it will be reverted next time sandybox is updated.</oldsource>
-        <translation>Vous êtes sur le point de modifier Templates.ini ; ce n&apos;est généralement pas recommandé.
-Ce fichier fait partie de sandybox et toute modification faite sur lui sera annulée la prochaine fois que sandybox sera mis à jour.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4525"/>
-        <source>Import/Export not available, 7z.dll could not be loaded</source>
-        <translation>Importation/Exportation non disponible ; 7z.dll n&apos;a pas pu être chargé</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4526"/>
-        <source>Failed to create the box archive</source>
-        <translation>Échec de création de l&apos;archive du bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4527"/>
-        <source>Failed to open the 7z archive</source>
-        <translation>Échec d&apos;ouverture de l&apos;archive 7z</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4528"/>
-        <source>Failed to unpack the box archive</source>
-        <translation>Échec de décompression de l&apos;archive du bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4529"/>
-        <source>The selected 7z file is NOT a box archive</source>
-        <translation>Le fichier 7z choisi n&apos;est PAS une archive de bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4795"/>
-        <source>Reset Columns</source>
-        <translation>Réinitialiser les colonnes</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4796"/>
-        <source>Copy Cell</source>
-        <translation>Copier la cellule</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4797"/>
-        <source>Copy Row</source>
-        <translation>Copier la rangée</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4798"/>
-        <source>Copy Panel</source>
-        <translation>Copier le tableau</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1591"/>
-        <source>Time|Message</source>
-        <translation>Heure|Message</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1600"/>
-        <source>Sbie Messages</source>
-        <translation>Messages de Sbie</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1612"/>
-        <source>Trace Log</source>
-        <translation>Journal de suivi</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="152"/>
-        <source>Show/Hide</source>
-        <translation>Afficher/Masquer</translation>
-    </message>
-    <message>
-        <source>Disable Forced Programs</source>
-        <translation type="vanished">Désactiver les programmes forcés</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="837"/>
-        <location filename="SandMan.cpp" line="1069"/>
-        <source>&amp;Sandbox</source>
-        <translation>&amp;Bacs à sable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="838"/>
-        <location filename="SandMan.cpp" line="1340"/>
-        <location filename="SandMan.cpp" line="1341"/>
-        <source>Create New Box</source>
-        <translation>Créer un nouveau bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="839"/>
-        <source>Create Box Group</source>
-        <translation>Créer un groupe de bacs</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="847"/>
-        <location filename="SandMan.cpp" line="997"/>
-        <source>Terminate All Processes</source>
-        <translation>Arrêter tous les processus</translation>
-    </message>
-    <message>
-        <source>Window Finder</source>
-        <translation type="vanished">Chercheur de fenêtre</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="953"/>
-        <source>Disable File Recovery</source>
-        <translation>Désactiver la récupération de fichiers</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="956"/>
-        <source>Disable Message Popup</source>
-        <oldsource>Disable Message PopUp</oldsource>
-        <translation>Désactiver la fenêtre surgissante des messages</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="763"/>
-        <source>&amp;Maintenance</source>
-        <translation>&amp;Maintenance</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="517"/>
-        <source> (Administrator)</source>
-        <translation> (Administrateur)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="764"/>
-        <source>Connect</source>
-        <translation>Connexion</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="765"/>
-        <source>Disconnect</source>
-        <translation>Déconnexion</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="767"/>
-        <source>Stop All</source>
-        <translation>Arrêter tous</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="768"/>
-        <source>&amp;Advanced</source>
-        <translation>&amp;Avancé</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="769"/>
-        <source>Install Driver</source>
-        <translation>Installer le pilote</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="770"/>
-        <source>Start Driver</source>
-        <translation>Démarrer le pilote</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="771"/>
-        <source>Stop Driver</source>
-        <translation>Arrêter le pilote</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="772"/>
-        <source>Uninstall Driver</source>
-        <translation>Désinstaller le pilote</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="774"/>
-        <source>Install Service</source>
-        <translation>Installer le service</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="775"/>
-        <source>Start Service</source>
-        <translation>Démarrer le service</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="776"/>
-        <source>Stop Service</source>
-        <translation>Arrêter le service</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="777"/>
-        <source>Uninstall Service</source>
-        <translation>Désinstaller le service</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="794"/>
-        <source>Setup Wizard</source>
-        <translation>Assistant d&apos;installation</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="797"/>
-        <source>Uninstall All</source>
-        <translation>Tout désinstaller</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="840"/>
-        <source>Import Boxes</source>
-        <translation>Importer des bacs</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="842"/>
-        <source>Export Boxes</source>
-        <translation>Exporter des bacs</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="876"/>
-        <location filename="SandMan.cpp" line="1038"/>
-        <source>Exit</source>
-        <translation>Quitter</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="879"/>
-        <location filename="SandMan.cpp" line="1040"/>
-        <source>&amp;View</source>
-        <translation>&amp;Affichage</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="803"/>
-        <source>Simple View</source>
-        <translation>Affichage simple</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="804"/>
-        <source>Advanced View</source>
-        <translation>Affichage avancé</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="809"/>
-        <source>Always on Top</source>
-        <translation>Toujours au-dessus</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="886"/>
-        <source>Show Hidden Boxes</source>
-        <translation>Afficher les bacs masqués</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="888"/>
-        <source>Show All Sessions</source>
-        <translation>Afficher toutes les sessions</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="905"/>
-        <source>Refresh View</source>
-        <translation>Actualiser l&apos;affichage</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="911"/>
-        <source>Clean Up</source>
-        <translation>Purge</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="912"/>
-        <source>Cleanup Processes</source>
-        <translation>Purger les processus</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="914"/>
-        <source>Cleanup Message Log</source>
-        <translation>Purger le journal des messages</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="915"/>
-        <source>Cleanup Trace Log</source>
-        <translation>Purger le journal de traçage</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="916"/>
-        <source>Cleanup Recovery Log</source>
-        <translation>Purger le journal de récupération</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="918"/>
-        <source>Keep terminated</source>
-        <translation>Geler les processus arrêtés</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="943"/>
-        <source>&amp;Options</source>
-        <translation>&amp;Options</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="944"/>
-        <location filename="SandMan.cpp" line="1093"/>
-        <source>Global Settings</source>
-        <translation>Paramètres généraux</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="978"/>
-        <location filename="SandMan.cpp" line="1103"/>
-        <source>Reset all hidden messages</source>
-        <translation>Réinitialiser tous les messages masqués</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="979"/>
-        <location filename="SandMan.cpp" line="1104"/>
-        <source>Reset all GUI options</source>
-        <translation>Réinitialiser toutes les options d&apos;interface</translation>
-    </message>
-    <message>
-        <source>Edit ini file</source>
-        <translation type="vanished">Éditer le fichier .ini</translation>
-    </message>
-    <message>
-        <source>Reload ini file</source>
-        <translation type="vanished">Recharger le fichier .ini</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="936"/>
-        <source>Trace Logging</source>
-        <translation>Journalisation du traçage</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="805"/>
-        <source>Vintage View (like SbieCtrl)</source>
-        <translation>Affichage rétro (comme SbieCtrl)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="815"/>
-        <source>&amp;Help</source>
-        <translation>&amp;Aide</translation>
-    </message>
-    <message>
-        <source>Support sandybox with Donations</source>
-        <oldsource>Support sandybox with a Donation</oldsource>
-        <translation type="vanished">Soutenir sandybox avec un don</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="825"/>
-        <source>Visit Support Forum</source>
-        <translation>Visiter le forum d&apos;assistance</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="824"/>
-        <source>Online Documentation</source>
-        <translation>Documentation en ligne</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="512"/>
-        <location filename="SandMan.cpp" line="2813"/>
-        <source>sandybox Insider [%1]</source>
-        <translation>Initié sandybox [%1]</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="782"/>
-        <source>Virtual Disks</source>
-        <translation>Disques virtuels</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="822"/>
-        <source>Contribute to sandybox</source>
-        <translation>Contribuer à sandybox</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="823"/>
-        <source>Troubleshooting Wizard</source>
-        <translation>Assistant de dépannage</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="827"/>
-        <source>Check for Updates</source>
-        <translation>Vérifier les mises à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="829"/>
-        <source>About the Qt Framework</source>
-        <translation>À propos de l&apos;environnement Qt</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="830"/>
-        <location filename="SandMan.cpp" line="4888"/>
-        <source>About sandybox</source>
-        <translation>À propos de sandybox</translation>
-    </message>
-    <message>
-        <source>Import Box</source>
-        <translation type="vanished">Importer un bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="845"/>
-        <location filename="SandMan.cpp" line="995"/>
-        <source>Run Sandboxed</source>
-        <translation>Exécuter dans un bac à sable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="846"/>
-        <location filename="SandMan.cpp" line="996"/>
-        <source>Suspend All Processes</source>
-        <translation>Suspendre tous les processus</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="848"/>
-        <location filename="SandMan.cpp" line="998"/>
-        <source>Lock All Encrypted Boxes</source>
-        <translation>Verrouiller tous les bacs chiffrés</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="850"/>
-        <location filename="SandMan.cpp" line="1011"/>
-        <source>Is Window Sandboxed?</source>
-        <oldsource>Is Window Sandboxed</oldsource>
-        <translation>La fenêtre est-elle dans un bac à sable ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="874"/>
-        <location filename="SandMan.cpp" line="1036"/>
-        <source>Restart As Admin</source>
-        <translation>Redémarrer en tant qu&apos;administrateur</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="897"/>
-        <source>Show File Panel</source>
-        <translation>Afficher le panneau des fichiers</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="921"/>
-        <source>Auto Expand Tree</source>
-        <translation>Développer automatiquement l&apos;arborescence</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="966"/>
-        <location filename="SandMan.cpp" line="1111"/>
-        <location filename="SandMan.cpp" line="1356"/>
-        <location filename="SandMan.cpp" line="1357"/>
-        <source>Edit Sandboxie.ini</source>
-        <translation>Éditer Sandboxie.ini</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="969"/>
-        <source>Edit Templates.ini</source>
-        <translation>Éditer Templates.ini</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="971"/>
-        <source>Edit Sandboxie-Plus.ini</source>
-        <translation>Éditer Sandboxie-Plus.ini</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="975"/>
-        <location filename="SandMan.cpp" line="1114"/>
-        <source>Reload configuration</source>
-        <translation>Recharger la configuration</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="994"/>
-        <source>&amp;File</source>
-        <translation>&amp;Fichier</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1012"/>
-        <source>Resource Access Monitor</source>
-        <translation>Moniteur d&apos;accès aux ressources</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1046"/>
-        <source>Programs</source>
-        <translation>Programmes</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1047"/>
-        <source>Files and Folders</source>
-        <translation>Fichiers et dossiers</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1074"/>
-        <source>Create New Sandbox</source>
-        <translation>Créer un nouveau bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1075"/>
-        <source>Create New Group</source>
-        <translation>Créer un nouveau groupe</translation>
-    </message>
-    <message>
-        <source>Import Sandbox</source>
-        <translation type="vanished">Importer un bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1081"/>
-        <source>Set Container Folder</source>
-        <translation>Définir le répertoire conteneur</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1084"/>
-        <source>Set Layout and Groups</source>
-        <translation>Définir la disposition et les groupes</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1086"/>
-        <source>Reveal Hidden Boxes</source>
-        <translation>Révéler les bacs masqués</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1092"/>
-        <source>&amp;Configure</source>
-        <translation>&amp;Configuration</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1096"/>
-        <source>Program Alerts</source>
-        <translation>Alertes concernant les programmes</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1098"/>
-        <source>Windows Shell Integration</source>
-        <translation>Intégration à l&apos;interface système de Windows</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1100"/>
-        <source>Software Compatibility</source>
-        <translation>Compatibilité logicielle</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1109"/>
-        <source>Lock Configuration</source>
-        <translation>Protection de la configuration</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1128"/>
-        <source>Sandbox %1</source>
-        <translation>Bac à sable %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1171"/>
-        <source>New-Box Menu</source>
-        <translation>Menu de nouveau bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1182"/>
-        <location filename="SandMan.cpp" line="1328"/>
-        <location filename="SandMan.cpp" line="1329"/>
-        <source>Cleanup</source>
-        <translation>Purge</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1191"/>
-        <source>Edit-ini Menu</source>
-        <translation>Menu d&apos;édition .ini</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1237"/>
-        <source>Toolbar Items</source>
-        <translation>Éléments de barre d&apos;outils</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1239"/>
-        <source>Reset Toolbar</source>
-        <translation>Réinitialiser la barre d&apos;outils</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1922"/>
-        <source>This box will be &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;encrypted&lt;/a&gt; and &lt;a href=&quot;sbie://docs/black-box&quot;&gt;access to sandboxed processes will be guarded&lt;/a&gt;.</source>
-        <translation>Ce bac sera &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;chiffré&lt;/a&gt; et &lt;a href=&quot;sbie://docs/black-box&quot;&gt;l&apos;accès aux processus du bac sera surveillé&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1999"/>
-        <location filename="SandMan.cpp" line="2030"/>
-        <source>Which box you want to add in?</source>
-        <translation>Quel bac voulez-vous ajouter ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1999"/>
-        <location filename="SandMan.cpp" line="2030"/>
-        <source>Type the box name which you are going to set:</source>
-        <translation>Saisir le nom de bac que vous allez définir :</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2016"/>
-        <location filename="SandMan.cpp" line="2021"/>
-        <location filename="SandMan.cpp" line="2025"/>
-        <location filename="SandMan.cpp" line="2037"/>
-        <location filename="SandMan.cpp" line="2041"/>
-        <source>sandybox Warning</source>
-        <translation>Avertissement de sandybox</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2016"/>
-        <source>The value is not an existing directory or executable.</source>
-        <translation>La valeur n&apos;est ni un répertoire existant ni un exécutable.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2021"/>
-        <location filename="SandMan.cpp" line="2037"/>
-        <source>You typed a wrong box name! Nothing was changed.</source>
-        <translation>Vous avez saisi un mauvais nom de bac ! Rien n&apos;a été modifié.</translation>
-    </message>
-    <message>
-        <source>You typed a wrong box name!Nothing was changed.</source>
-        <translation type="vanished">Vous avez saisi un mauvais nom de bac ! Rien n&apos;a été modifié.</translation>
-    </message>
-    <message>
-        <source>Users canceled this operation.</source>
-        <translation type="vanished">L&apos;utilisateur a annulé cette opération.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2404"/>
-        <source>USB sandbox not found; creating: %1</source>
-        <translation>Bac à sable USB introuvable ; création : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3481"/>
-        <source>&lt;br /&gt;you need to be on the Great Patreon level or higher to unlock this feature.</source>
-        <translation>&lt;br /&gt;Vous devez être de niveau « Grand contributeur Patreon » ou plus pour débloquer cette fonction.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4857"/>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</source>
-        <translation>&lt;h3&gt;À propos de sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4865"/>
-        <source>This copy of sandybox is certified for: %1</source>
-        <translation>Cette copie de sandybox est attestée pour : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4867"/>
-        <source>sandybox is free for personal and non-commercial use.</source>
-        <translation>sandybox est gratuit pour une utilisation personnelle et non commerciale.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4871"/>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Features: %3&lt;br /&gt;&lt;br /&gt;Installation: %1&lt;br /&gt;SbieDrv.sys: %4&lt;br /&gt; SbieSvc.exe: %5&lt;br /&gt; SbieDll.dll: %6&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation>sandybox est la poursuite en code source ouvert de sandybox.&lt;br /&gt;Visitez &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; pour plus d&apos;informations.&lt;br /&gt;&lt;br /&gt;%2&lt;br /&gt;&lt;br /&gt;Fonctions : %3&lt;br /&gt;&lt;br /&gt;Installation : %1&lt;br /&gt;SbieDrv.sys : %4&lt;br /&gt; SbieSvc.exe : %5&lt;br /&gt; SbieDll.dll : %6&lt;br /&gt;&lt;br /&gt;Icônes provenant de &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Your Windows build exceeds the current support capabilities of your sandybox version, resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.<byte value="xd"/>
-Please check if there is an update for sandybox.</source>
-        <translation type="vanished">Votre version de Windows excède les capacités de prise en charge de votre version de sandybox, entrainant la désactivation de l&apos;isolation de sécurité basée sur les jetons. Par conséquent, toutes les applications s&apos;exécuteront en mode conteneur d&apos;applications sans isolation sécurisée.
-Veuillez vérifier s&apos;il y a une mise à jour pour sandybox.</translation>
-    </message>
-    <message>
-        <source>Your Windows build exceeds the current known support capabilities of your sandybox version, sandybox will attempt to use the last-known offsets which may cause system instability.</source>
-        <translation type="vanished">Votre version de Windows excède les capacités de prise en charge de votre version de sandybox. Par conséquent, sandybox essaiera d&apos;utiliser les derniers offsets connus, ce qui peut entrainer une instabilité du système.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3284"/>
-        <location filename="SandMan.cpp" line="3288"/>
-        <location filename="SandMan.cpp" line="3290"/>
-        <source> (%1)</source>
-        <translation> (%1)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3377"/>
-        <source>The box %1 is configured to use features exclusively available to project supporters.</source>
-        <translation>Le bac %1 est configuré pour utiliser des fonctions disponibles exclusivement aux adhérents au projet.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3382"/>
-        <source>The box %1 is configured to use features which require an &lt;b&gt;advanced&lt;/b&gt; supporter certificate.</source>
-        <translation>Le bac %1 est configuré pour utiliser des fonctions qui nécessitent un certificat d&apos;adhérent &lt;b&gt;avancé&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3384"/>
-        <location filename="SandMan.cpp" line="3483"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Upgrade your Certificate&lt;/a&gt; to unlock advanced features.</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert&quot;&gt;Mettez à jour votre certificat&lt;/a&gt; afin de débloquer les fonctions avancées.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3479"/>
-        <source>The selected feature requires an &lt;b&gt;advanced&lt;/b&gt; supporter certificate.</source>
-        <translation>La fonction choisie nécessite un certificat d&apos;adhérent &lt;b&gt;avancé&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3493"/>
-        <source>The selected feature set is only available to project supporters.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>La fonction choisie est uniquement disponible aux adhérents au projet.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Devenez un adhérent au projet&lt;/a&gt;, et recevez un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3539"/>
-        <source>The certificate you are attempting to use has been blocked, meaning it has been invalidated for cause. Any attempt to use it constitutes a breach of its terms of use!</source>
-        <translation>Le certificat que vous essayez d&apos;utiliser a été bloqué, ce qui veut dire qu&apos;il a été invalidé pour une bonne raison. Toute tentative de l&apos;utiliser constitue une violation de ses conditions d&apos;utilisation !</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3551"/>
-        <source>The Certificate Signature is invalid!</source>
-        <translation>La signature du certificat est invalide !</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3552"/>
-        <source>The Certificate is not suitable for this product.</source>
-        <translation>Le certificat ne convient pas à ce produit.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3553"/>
-        <source>The Certificate is node locked.</source>
-        <translation>Le certificat est verrouillé par nœud.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3557"/>
-        <source>The support certificate is not valid.
-Error: %1</source>
-        <translation>Le certificat d&apos;adhérent est invalide.
-Erreur : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3733"/>
-        <location filename="SandMan.cpp" line="3758"/>
-        <source>Don&apos;t ask in future</source>
-        <translation>Ne plus demander</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3757"/>
-        <source>Do you want to terminate all processes in encrypted sandboxes, and unmount them?</source>
-        <translation>Voulez-vous arrêter tous les processus dans les bacs à sable chiffrés, puis démonter ces derniers ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3860"/>
-        <source>&lt;b&gt;ERROR:&lt;/b&gt; The sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;official Download page&lt;/a&gt;.</source>
-        <translation>&lt;b&gt;ERREUR :&lt;/b&gt; Le gestionnaire de sandybox (SandMan.exe) n&apos;a pas une signature valide (SandMan.exe.sig). Veuillez télécharger une version fiable depuis la &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get&quot;&gt;page de téléchargement officielle&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4502"/>
-        <source>All processes in a sandbox must be stopped before it can be renamed.</source>
-        <oldsource>A all processes in a sandbox must be stopped before it can be renamed.</oldsource>
-        <translation>Tous les processus d&apos;un bac doivent être arrêtés avant qu&apos;il puisse être renommé.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4506"/>
-        <source>Failed to move box image &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>Échec du déplacement de l&apos;image du bac « %1 » vers « %2 »</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4521"/>
-        <source>The content of an unmounted sandbox can not be deleted</source>
-        <oldsource>The content of an un mounted sandbox can not be deleted</oldsource>
-        <translation>Le contenu d&apos;un bac non monté ne peut pas être supprimé</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4523"/>
-        <source>%1</source>
-        <translation>%1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4530"/>
-        <source>Failed to copy directory &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>Échec de copie du répertoire « %1 » vers « %2 »</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4628"/>
-        <source>Do you want to open %1 in a sandboxed or unsandboxed Web browser?</source>
-        <translation>Voulez-vous ouvrir %1 dans un navigateur web dans un bac ou en dehors ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4632"/>
-        <source>Sandboxed</source>
-        <translation>Dans un bac à sable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4633"/>
-        <source>Unsandboxed</source>
-        <translation>Hors de tout bac à sable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4799"/>
-        <source>Case Sensitive</source>
-        <translation>Sensible à la casse</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4800"/>
-        <source>RegExp</source>
-        <translation>Regex</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4801"/>
-        <source>Highlight</source>
-        <translation>Surligner</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4802"/>
-        <source>Close</source>
-        <translation>Fermer</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4803"/>
-        <source>&amp;Find ...</source>
-        <translation>&amp;Rechercher...</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4804"/>
-        <source>All columns</source>
-        <translation>Toutes les colonnes</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;There is a new build of sandybox available&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;sbie://update/package&quot; style=&quot;color: red;&quot;&gt;Une nouvelle version de sandybox est disponible&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Click to install update</source>
-        <translation type="vanished">Appuyer pour installer la mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1431"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Support sandybox on Patreon&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Soutenez sandybox sur Patreon&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1432"/>
-        <source>Click to open web browser</source>
-        <translation>Appuyer pour ouvrir le navigateur web</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1622"/>
-        <source>Time|Box Name|File Path</source>
-        <translation>Heure|Nom du bac|Chemin du fichier</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="940"/>
-        <location filename="SandMan.cpp" line="1051"/>
-        <location filename="SandMan.cpp" line="1632"/>
-        <source>Recovery Log</source>
-        <translation>Journal de récupération</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1076"/>
-        <source>Import Sandboxes</source>
-        <translation>Importer des bacs</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1078"/>
-        <source>Export Sandboxes</source>
-        <translation>Exporter des bacs</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1413"/>
-        <source>Click to run installer</source>
-        <translation>Appuyer pour lancer l&apos;installeur</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1417"/>
-        <source>Click to apply update</source>
-        <translation>Appuyer pour appliquer la mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1420"/>
-        <source>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update v%1 available&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/check&quot; style=&quot;color: red;&quot;&gt;Une nouvelle mise à jour de sandybox (v%1) est disponible&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1701"/>
-        <source>Do you want to close sandybox Manager?</source>
-        <translation>Voulez-vous quitter le gestionnaire de sandybox ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1718"/>
-        <source>sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
-
-Do you want to do the clean up?</source>
-        <translation>sandybox fonctionnait en mode portable ; il est maintenant nécessaire de purger les services créés. Cela demandera des privilèges d&apos;administrateur.
-
-Voulez-vous faire la purge ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1719"/>
-        <location filename="SandMan.cpp" line="2319"/>
-        <location filename="SandMan.cpp" line="2854"/>
-        <location filename="SandMan.cpp" line="3823"/>
-        <location filename="SandMan.cpp" line="4278"/>
-        <location filename="SandMan.cpp" line="4294"/>
-        <source>Don&apos;t show this message again.</source>
-        <translation>Ne plus afficher ce message</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1911"/>
-        <source>This box provides &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;enhanced security isolation&lt;/a&gt;, it is suitable to test untrusted software.</source>
-        <oldsource>This box provides enhanced security isolation, it is suitable to test untrusted software.</oldsource>
-        <translation>Ce bac apporte &lt;a href=&quot;sbie://docs/security-mode&quot;&gt;une isolation de sécurité renforcée&lt;/a&gt; qui convient au test de logiciels non fiables.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1915"/>
-        <source>This box provides standard isolation, it is suitable to run your software to enhance security.</source>
-        <translation>Ce bac apporte une isolation standard et convient à l&apos;exécution de vos logiciels avec une sécurité accrue.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1919"/>
-        <source>This box does not enforce isolation, it is intended to be used as an &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;application compartment&lt;/a&gt; for software virtualization only.</source>
-        <oldsource>This box does not enforce isolation, it is intended to be used as an application compartment for software virtualization only.</oldsource>
-        <translation>Ce bac n&apos;impose pas d&apos;isolation, il est destiné à &lt;a href=&quot;sbie://docs/compartment-mode&quot;&gt;contenir les applications&lt;/a&gt; pour la virtualisation des logiciels uniquement.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1927"/>
-        <source>&lt;br /&gt;&lt;br /&gt;This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</source>
-        <oldsource>
-
-This box &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;prevents access to all user data&lt;/a&gt; locations, except explicitly granted in the Resource Access options.</oldsource>
-        <translation>&lt;br /&gt;&lt;br /&gt;Ce bac &lt;a href=&quot;sbie://docs/privacy-mode&quot;&gt;empêche l&apos;accès à tous les emplacements contenant les données de l&apos;utilisateur&lt;/a&gt;, sauf si spécifiquement autorisé dans les options d&apos;accès aux ressources.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2097"/>
-        <source>Unknown operation &apos;%1&apos; requested via command line</source>
-        <translation>Opération inconnue &apos;%1&apos; demandée via la ligne de commande</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="216"/>
-        <source>Dismiss Update Notification</source>
-        <translation>Ignorer la notification de mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="292"/>
-        <source> - Driver/Service NOT Running!</source>
-        <translation> - Pilote/Service NON lancé !</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="294"/>
-        <source> - Deleting Sandbox Content</source>
-        <translation> - Suppression du contenu du bac</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="302"/>
-        <source>No pinned sandboxes to show.</source>
-        <translation>Il n&apos;y a aucun bac épinglé à afficher.</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="304"/>
-        <source>No active or pinned sandboxes to show.</source>
-        <translation>Il n&apos;y a aucun bac actif ou épinglé à afficher.</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="305"/>
-        <source>No sandboxes to show.</source>
-        <translation>Aucun bac à afficher.</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="508"/>
-        <source>    Alias: %1
-</source>
-        <translation>    Alias : %1
-</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="509"/>
-        <source>    File root: %1
-</source>
-        <translation>    Racine des fichiers : %1
-</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="510"/>
-        <source>    Registry root: %1
-</source>
-        <translation>    Racine du registre : %1
-</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="511"/>
-        <source>    IPC root: %1
-</source>
-        <translation>    Racine IPC : %1
-</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="513"/>
-        <source>    Disk root: %1
-</source>
-        <translation>    Racine du disque : %1
-</translation>
-    </message>
-    <message>
-        <location filename="SandManTray.cpp" line="514"/>
-        <source>Options:
-    </source>
-        <translation>Options :
-    </translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2528"/>
-        <source>Executing OnBoxDelete: %1</source>
-        <translation>Exécution de OnBoxDelete : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2553"/>
-        <source>Auto Deleting %1 Content</source>
-        <translation>Suppression automatisée du contenu de %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2791"/>
-        <source>Auto deleting content of %1</source>
-        <translation>Suppression automatisée du contenu de %1</translation>
-    </message>
-    <message>
-        <source>Auto Deleting %1 content</source>
-        <translation type="vanished">Supression automatisée du contenu de %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3959"/>
-        <location filename="SandMan.cpp" line="3961"/>
-        <location filename="SandMan.cpp" line="4554"/>
-        <source>sandybox - Error</source>
-        <translation>sandybox - Erreur</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3959"/>
-        <source>Failed to stop all sandybox components</source>
-        <translation>Échec de l&apos;arrêt de tous les composants de sandybox</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3961"/>
-        <source>Failed to start required sandybox components</source>
-        <translation>Impossible de démarrer les composants requis de sandybox</translation>
-    </message>
-    <message>
-        <source>Maintenance operation %1</source>
-        <translation type="vanished">Opération de maintenance %1</translation>
-    </message>
-    <message>
-        <source>Maintenance operation Successful</source>
-        <translation type="vanished">Opération de maintenance réussie</translation>
-    </message>
-    <message>
-        <source>Do you want to check if there is a new version of sandybox?</source>
-        <translation type="vanished">Voulez-vous vérifier s&apos;il existe une nouvelle version de sandybox ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="491"/>
-        <source>WARNING: Sandboxie-Plus.ini in %1 cannot be written to, settings will not be saved.</source>
-        <translation>ATTENTION : Impossible d&apos;écrire dans Sandboxie-Plus.ini dans %1, les réglages ne seront pas sauvegardés.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="947"/>
-        <location filename="SandMan.cpp" line="949"/>
-        <location filename="SandMan.cpp" line="999"/>
-        <location filename="SandMan.cpp" line="1001"/>
-        <source>Pause Forcing Programs</source>
-        <translation>Suspension du forçage des programmes</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1412"/>
-        <source>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox release %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/installer&quot; style=&quot;color: red;&quot;&gt;Une nouvelle version de sandybox (%1) est prête&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="1416"/>
-        <source>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;There is a new sandybox update %1 ready&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://update/apply&quot; style=&quot;color: red;&quot;&gt;Une nouvelle mise à jour de sandybox (%1) est prête&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Some compatibility templates (%1) are missing, probably deleted, do you want to remove them from all boxes?</source>
-        <translation type="vanished">Certains modèles de compatibilité (%1) sont manquants, probablement supprimés, voulez-vous les supprimer de tous les bacs ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2347"/>
-        <source>Cleaned up removed templates...</source>
-        <translation>Purge des modèles supprimés...</translation>
-    </message>
-    <message>
-        <source>Sbie Directory: %1</source>
-        <translation type="vanished">Répertoire de Sbie : %1</translation>
-    </message>
-    <message>
-        <source>Sbie+ Version: %1 (%2)</source>
-        <translation type="vanished">Version de Sbie+ : %1 (%2)</translation>
-    </message>
-    <message>
-        <source>Loaded Config: %1</source>
-        <translation type="vanished">Configuration chargée : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2830"/>
-        <source>Data Directory: %1</source>
-        <translation>Dossier des données : %1</translation>
-    </message>
-    <message>
-        <source>   -   Portable</source>
-        <translation type="vanished">   -   Portable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2851"/>
-        <source>sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?
-Yes will choose: %1
-No will choose: %2</source>
-        <translation>sandybox a été démarré en mode portable ; voulez-vous mettre le dossier Sandbox dans son répertoire parent ?
-« Oui » choisira : %1
-« Non » choisira : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3783"/>
-        <source>Please enter the duration, in seconds, for disabling Forced Programs rules.</source>
-        <translation>Veuillez saisir la durée (en secondes) de suspension du forçage des programmes.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3626"/>
-        <source>The supporter certificate is not valid for this build, please get an updated certificate</source>
-        <translation>Le certificat d&apos;adhérent n&apos;est pas valide pour cette version, veuillez obtenir un certificat à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3629"/>
-        <source>The supporter certificate has expired%1, please get an updated certificate</source>
-        <translation>Ce certificat d&apos;adhérent a expiré%1, veuillez obtenir un certificat à jour</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3630"/>
-        <source>, but it remains valid for the current build</source>
-        <translation>, mais il reste valide pour la version actuelle</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3632"/>
-        <source>The supporter certificate will expire in %1 days, please get an updated certificate</source>
-        <translation>Le certificat d&apos;adhérent expirera dans %1 jour(s), veuillez obtenir un certificat mis à jour</translation>
-    </message>
-    <message>
-        <source>Checking for certificate...</source>
-        <translation type="vanished">Recherche d&apos;un certificat...</translation>
-    </message>
-    <message>
-        <source>No certificate found on server!</source>
-        <translation type="vanished">Aucun certificat trouvé sur le serveur !</translation>
-    </message>
-    <message>
-        <source>There is no updated certificate available.</source>
-        <translation type="vanished">Aucun certificat mis à jour n&apos;est disponible.</translation>
-    </message>
-    <message>
-        <source>The supporter certificate is expired</source>
-        <translation type="vanished">Le certificat d&apos;adhérent est expiré</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2923"/>
-        <source>Default sandbox not found; creating: %1</source>
-        <translation>Bac à sable par défaut non trouvé ; création : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3004"/>
-        <source>   -   NOT connected</source>
-        <translation>   - NON connecté</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3395"/>
-        <source>The program %1 started in box %2 will be terminated in 5 minutes because the box was configured to use features exclusively available to project supporters.</source>
-        <translation>Le programme %1 lancé dans le bac %2 sera arrêté dans 5 minutes car le bac a été configuré pour utiliser des fonctions uniquement disponibles aux adhérents du projet.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3397"/>
-        <source>The box %1 is configured to use features exclusively available to project supporters, these presets will be ignored.</source>
-        <translation>Le bac %1 est configuré pour utiliser des fonctions uniquement disponibles aux adhérents du projet ; ces réglages seront donc ignorés.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3378"/>
-        <location filename="SandMan.cpp" line="3386"/>
-        <location filename="SandMan.cpp" line="3398"/>
-        <location filename="SandMan.cpp" line="3485"/>
-        <source>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Devenez un adhérent du projet&lt;/a&gt;, et recevez un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source>The program %1 started in box %2 will be terminated in 5 minutes because the box was configured to use features exclusively available to project supporters.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation type="vanished">Le programme %1 lancé dans le bac à sable %2 sera terminé dans 5 minutes car le bac a été configuré pour utiliser des fonctions exclusivement disponibles aux adhérents du projet.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Devenez un adhérent au projet&lt;/a&gt;, et recevez un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>PID %1: </source>
-        <translation type="vanished">PID %1 : </translation>
-    </message>
-    <message>
-        <source>%1 (%2): </source>
-        <translation type="vanished">%1 (%2) : </translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3496"/>
-        <source>The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Become a project supporter&lt;/a&gt;, and receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;</source>
-        <translation>La fonction sélectionnée n&apos;est disponible qu&apos;aux adhérents au projet. Les processus lancés dans un bac avec cette fonction activée sans certificat d&apos;adhérent seront arrêtés après 5 minutes.&lt;br /&gt;&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;Devenez un adhérent du projet&lt;/a&gt;, et recevez un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="221"/>
-        <source>Recovering file %1 to %2</source>
-        <translation>Récupération du fichier %1 vers %2</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="233"/>
-        <source>The file %1 already exists, do you want to overwrite it?</source>
-        <translation>Le fichier %1 existe déjà, voulez-vous l&apos;écraser ?</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="198"/>
-        <location filename="SandManRecovery.cpp" line="234"/>
-        <source>Do this for all files!</source>
-        <translation>Faire ceci pour tous les fichiers !</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="124"/>
-        <location filename="SandManRecovery.cpp" line="178"/>
-        <source>Checking file %1</source>
-        <translation>Vérification du fichier %1</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="132"/>
-        <source>The file %1 failed a security check!
-
-%2</source>
-        <oldsource>The file %1 failed a security check!
-
-%2</oldsource>
-        <translation>Le fichier %1 a échoué à la vérification de sécurité !
-
-%2</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="140"/>
-        <source>All files passed the checks</source>
-        <translation>Tous les fichiers ont passé les vérifications</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="197"/>
-        <source>The file %1 failed a security check, do you want to recover it anyway?
-
-%2</source>
-        <oldsource>The file %1 failed a security check, do you want to recover it anyways?
-
-%2</oldsource>
-        <translation>Le fichier %1 a échoué à un test de sécurité ; voulez-vous quand même le récupérer ?
-
-%2</translation>
-    </message>
-    <message>
-        <location filename="SandManRecovery.cpp" line="262"/>
-        <source>Failed to recover some files: 
-</source>
-        <translation>Échec de la récupération de certains fichiers : 
-</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3675"/>
-        <source>Only Administrators can change the config.</source>
-        <translation>Seuls les administrateurs peuvent modifier la configuration.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3685"/>
-        <source>Please enter the configuration password.</source>
-        <translation>Veuillez saisir le mot de passe de la configuration.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3693"/>
-        <source>Login Failed: %1</source>
-        <translation>Échec de la connexion : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3732"/>
-        <source>Do you want to terminate all processes in all sandboxes?</source>
-        <translation>Voulez-vous arrêter tous les processus dans tous les bacs à sable ?</translation>
-    </message>
-    <message>
-        <source>Terminate all without asking</source>
-        <translation type="vanished">Ne plus demander</translation>
-    </message>
-    <message>
-        <source>Please enter the duration for disabling forced programs.</source>
-        <translation type="vanished">Veuillez saisir la durée de désactivation du forçage des programmes.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3822"/>
-        <source>sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.</source>
-        <translation>sandybox a été démarré en mode portable et doit maintenant créer les services nécessaires. Cela demandera des privilèges d&apos;administrateur.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3856"/>
-        <source>CAUTION: Another agent (probably SbieCtrl.exe) is already managing this sandybox session, please close it first and reconnect to take over.</source>
-        <translation>ATTENTION : Un autre agent (probablement SbieCtrl.exe) gère déjà cette session de sandybox, veuillez le fermer d&apos;abord et vous reconnecter pour prendre le contrôle.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3963"/>
-        <source>Maintenance operation failed (%1)</source>
-        <translation>Échec de l&apos;opération de maintenance (%1)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3968"/>
-        <source>Maintenance operation completed</source>
-        <translation>Opération de maintenance terminée</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="3988"/>
-        <source>Executing maintenance operation, please wait...</source>
-        <translation>Exécution de l&apos;opération de maintenance, veuillez patienter...</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4119"/>
-        <source>In the Plus UI, this functionality has been integrated into the main sandbox list view.</source>
-        <translation>Dans l&apos;interface de la version Plus, cette fonction a été intégrée à l&apos;affichage principal de la liste des bacs à sable.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4120"/>
-        <source>Using the box/group context menu, you can move boxes and groups to other groups. You can also use drag and drop to move the items around. Alternatively, you can also use the arrow keys while holding ALT down to move items up and down within their group.&lt;br /&gt;You can create new boxes and groups from the Sandbox menu.</source>
-        <translation>En utilisant le menu contextuel Bac/Groupe, vous pouvez déplacer les bacs et les groupes vers d&apos;autres groupes. Vous pouvez également utiliser le glisser-déposer pour déplacer les éléments. Alternativement, vous pouvez aussi utiliser les touches fléchées tout en maintenant ALT enfoncée pour déplacer les éléments vers le haut ou le bas au sein de leur groupe.&lt;br /&gt;Vous pouvez créer de nouveaux bacs et groupes depuis le menu du bac.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4188"/>
-        <source>Do you also want to reset hidden message boxes (yes), or only all log messages (no)?</source>
-        <translation>Voulez-vous également réinitialiser les messages masqués des bacs (oui), ou seulement tous les messages du journal (non) ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4292"/>
-        <source>The changes will be applied automatically whenever the file gets saved.</source>
-        <translation>Les modifications seront appliquées automatiquement à chaque fois que le fichier sera enregistré.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4293"/>
-        <source>The changes will be applied automatically as soon as the editor is closed.</source>
-        <translation>Les modifications seront appliquées automatiquement dès que l&apos;éditeur sera fermé.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4356"/>
-        <source>sandybox config has been reloaded</source>
-        <translation>La configuration de sandybox a été rechargée</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4483"/>
-        <source>Error Status: 0x%1 (%2)</source>
-        <translation>Statut de l&apos;erreur : 0x%1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4484"/>
-        <source>Unknown</source>
-        <translation>Inconnu</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4500"/>
-        <source>All sandbox processes must be stopped before the box content can be deleted</source>
-        <translation>Tous les processus du bac doivent être arrêtés pour que son contenu puisse être supprimé.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4509"/>
-        <source>Failed to copy box data files</source>
-        <translation>Échec de la copie des fichiers de données du bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4514"/>
-        <source>Failed to remove old box data files</source>
-        <translation>Échec de la suppression des fichiers de données de l&apos;ancien bac</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4520"/>
-        <source>The operation was canceled by the user</source>
-        <translation>L&apos;opération a été annulée par l&apos;utilisateur</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4532"/>
-        <source>Unknown Error Status: 0x%1</source>
-        <translation>Code erreur inconnu : 0x%1</translation>
-    </message>
-    <message>
-        <source>No new updates found, your sandybox is up-to-date.
-
-Note: The update check is often behind the latest GitHub release to ensure that only tested updates are offered.</source>
-        <translation type="vanished">Pas de mise à jour trouvée, votre version de sandybox est à jour.
-
-Remarque : La recherche de mise à jour est souvent en retard par rapport à la dernière version Github pour s&apos;assurer que seules des versions stables soient offertes.</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;A sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Une nouvelle version de sandybox a été téléchargée à l&apos;emplacement suivant : &lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Procéder à l&apos;installation ? Si des programmes tournent dans les bacs à sable, ils seront arrêtés.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 by DavidXanatos&lt;/p&gt;</source>
-        <oldsource>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2023 by DavidXanatos&lt;/p&gt;</oldsource>
-        <translation type="vanished">&lt;h3&gt;À propos de sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2024 par DavidXanatos&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>This copy of sandybox+ is certified for: %1</source>
-        <translation type="vanished">Cette copie de Sanboxie+ est certifiée pour : %1</translation>
-    </message>
-    <message>
-        <source>sandybox+ is free for personal and non-commercial use.</source>
-        <translation type="vanished">sandybox+ est gratuit pour un usage personnel et non commercial.</translation>
-    </message>
-    <message>
-        <source>sandybox is an open source continuation of sandybox.&lt;br /&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Driver version: %1&lt;br /&gt;Features: %2&lt;br /&gt;&lt;br /&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</source>
-        <translation type="vanished">sandybox est la poursuite en code source ouvert de sandybox.&lt;br /&gt;Visitez &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; pour plus d&apos;informations.&lt;br /&gt;&lt;br /&gt;%3&lt;br /&gt;&lt;br /&gt;Version du pilote : %1&lt;br /&gt;Fonctions : %2&lt;br /&gt;&lt;br /&gt;Icônes provenant de &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Error Status: %1</source>
-        <translation type="vanished">Statut d&apos;erreur : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4486"/>
-        <source>Administrator rights are required for this operation.</source>
-        <translation>Les droits d&apos;administrateur sont nécessaires pour cette opération.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4487"/>
-        <source>Failed to execute: %1</source>
-        <translation>Échec de l&apos;exécution : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4488"/>
-        <source>Failed to connect to the driver</source>
-        <translation>Échec de la connexion au pilote</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4489"/>
-        <source>Failed to communicate with sandybox Service: %1</source>
-        <translation>Échec de la communication avec le service sandybox : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4490"/>
-        <source>An incompatible sandybox %1 was found. Compatible versions: %2</source>
-        <translation>Une version (%1) de sandybox incompatible a été trouvée. Versions compatibles : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4491"/>
-        <source>Can&apos;t find sandybox installation path.</source>
-        <translation>Impossible de trouver le chemin d&apos;installation de sandybox.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4492"/>
-        <source>Failed to copy configuration from sandbox %1: %2</source>
-        <translation>Échec de la copie de la configuration du bac %1 : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4493"/>
-        <source>A sandbox of the name %1 already exists</source>
-        <translation>Un bac du nom de %1 existe déjà</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4494"/>
-        <source>Failed to delete sandbox %1: %2</source>
-        <translation>Échec de la suppression du bac %1 : %2</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4495"/>
-        <source>The sandbox name can not be longer than 32 characters.</source>
-        <translation>Le nom du bac ne peut pas comporter plus de 32 caractères.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4496"/>
-        <source>The sandbox name can not be a device name.</source>
-        <translation>Le nom du bac ne peut pas être un nom de périphérique.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4497"/>
-        <source>The sandbox name can contain only letters, digits and underscores which are displayed as spaces.</source>
-        <translation>Le nom du bac ne peut contenir que des lettres, des chiffres et des traits de soulignement qui seront affichés comme des espaces.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4498"/>
-        <source>Failed to terminate all processes</source>
-        <translation>Échec de l&apos;arrêt de tous les processus.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4499"/>
-        <source>Delete protection is enabled for the sandbox</source>
-        <translation>La protection contre la suppression est activée pour ce bac.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4501"/>
-        <source>Error deleting sandbox folder: %1</source>
-        <translation>Erreur lors de la suppression du dossier du bac : %1</translation>
-    </message>
-    <message>
-        <source>A sandbox must be emptied before it can be renamed.</source>
-        <translation type="vanished">Un bac à sable doit être vidé avant de pouvoir être renommé.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4504"/>
-        <source>A sandbox must be emptied before it can be deleted.</source>
-        <translation>Un bac doit être vidé avant de pouvoir être supprimé.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4505"/>
-        <source>Failed to move directory &apos;%1&apos; to &apos;%2&apos;</source>
-        <translation>Impossible de déplacer le dossier « %1 » vers « %2 »</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4507"/>
-        <source>This Snapshot operation can not be performed while processes are still running in the box.</source>
-        <translation>Cette opération d’instantané ne peut pas être effectuée lorsque des processus sont encore en cours dans le bac.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4508"/>
-        <source>Failed to create directory for new snapshot</source>
-        <translation>Impossible de créer un répertoire pour le nouvel instantané</translation>
-    </message>
-    <message>
-        <source>Pause Forced Programs Rules</source>
-        <translation type="vanished">Règles de suspension du forçage des programmes</translation>
-    </message>
-    <message>
-        <source>Installation Directory: %1</source>
-        <translation type="vanished">Dossier d&apos;installation : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2828"/>
-        <source>sandybox Version: %1 (%2)</source>
-        <translation>Version de sandybox : %1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="2829"/>
-        <source>Current Config: %1</source>
-        <translation>Configuration actuelle : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4510"/>
-        <source>Snapshot not found</source>
-        <translation>Instantané introuvable</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4511"/>
-        <source>Error merging snapshot directories &apos;%1&apos; with &apos;%2&apos;, the snapshot has not been fully merged.</source>
-        <translation>Erreur de fusion des répertoires de l&apos;instantané « %1 » avec « %2 », l&apos;instantané n&apos;a pas été entièrement fusionné.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4512"/>
-        <source>Failed to remove old snapshot directory &apos;%1&apos;</source>
-        <translation>Impossible de supprimer l&apos;ancien répertoire de l&apos;instantané « %1 »</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4513"/>
-        <source>Can&apos;t remove a snapshot that is shared by multiple later snapshots</source>
-        <translation>Impossible de supprimer un instantané qui est partagé par plusieurs autres instantanés</translation>
-    </message>
-    <message>
-        <source>Failed to remove old RegHive</source>
-        <translation type="vanished">Impossible de supprimer l&apos;ancienne base de données</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4515"/>
-        <source>You are not authorized to update configuration in section &apos;%1&apos;</source>
-        <translation>Vous n&apos;êtes pas autorisé à mettre à jour la configuration dans la section « %1 »</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4516"/>
-        <source>Failed to set configuration setting %1 in section %2: %3</source>
-        <translation>Échec de la définition du paramètre de configuration %1 dans la section %2 : %3</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4517"/>
-        <source>Can not create snapshot of an empty sandbox</source>
-        <translation>Impossible de créer un instantané d&apos;un bac vide.</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4518"/>
-        <source>A sandbox with that name already exists</source>
-        <translation>Un bac portant ce nom existe déjà</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4519"/>
-        <source>The config password must not be longer than 64 characters</source>
-        <translation>Le mot de passe de la configuration ne doit pas comporter plus de 64 caractères</translation>
-    </message>
-    <message>
-        <source>Unknown Error Status: %1</source>
-        <translation type="vanished">Statut d&apos;erreur inconnu : %1</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4556"/>
-        <source>Operation failed for %1 item(s).</source>
-        <translation>L&apos;opération a échoué pour %1 objet.</translation>
-    </message>
-    <message>
-        <source>Do you want to open %1 in a sandboxed (yes) or unsandboxed (no) Web browser?</source>
-        <translation type="vanished">Voulez-vous ouvrir %1 dans un navigateur web dans le bac à sable (oui) ou en dehors (non) ?</translation>
-    </message>
-    <message>
-        <location filename="SandMan.cpp" line="4629"/>
-        <source>Remember choice for later.</source>
-        <translation>Mémoriser ce choix pour plus tard.</translation>
-    </message>
-    <message>
-        <source>Checking for updates...</source>
-        <translation type="vanished">Vérification des mises à jour...</translation>
-    </message>
-    <message>
-        <source>server not reachable</source>
-        <translation type="vanished">serveur non accessible</translation>
-    </message>
-    <message>
-        <source>Failed to check for updates, error: %1</source>
-        <translation type="vanished">Échec de la vérification des mises à jour, erreur : %1</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Voulez-vous aller à la &lt;a href=&quot;%1&quot;&gt;page d&apos;information&lt;/a&gt; ?&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>Don&apos;t show this announcement in the future.</source>
-        <translation type="vanished">Ne plus afficher cette annonce à l&apos;avenir.</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;There is a new version of sandybox available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Une nouvelle version de sandybox est disponible.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Nouvelle version :&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Do you want to download the latest version?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Voulez-vous télécharger la dernière version ?&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Voulez-vous aller à la &lt;a href=&quot;%1&quot; page de téléchargement&lt;/a&gt; ?&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>Don&apos;t show this message anymore.</source>
-        <translation type="vanished">Ne plus afficher ce message</translation>
-    </message>
-    <message>
-        <source>Downloading new version...</source>
-        <translation type="vanished">Téléchargement de la nouvelle version...</translation>
-    </message>
-    <message>
-        <source>No new updates found, your sandybox is up-to-date.</source>
-        <translation type="vanished">Aucune nouvelle mise à jour trouvée, sandybox est à jour.</translation>
-    </message>
-    <message>
-        <source>Failed to download update from: %1</source>
-        <translation type="vanished">Échec du téléchargement de la mise à jour depuis : %1</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;New sandybox has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;La nouvelle version de sandybox a été téléchargée à l&apos;emplacement suivant :&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Voulez-vous commencer l&apos;installation ? Si des programmes sont en cours d&apos;exécution dans le bac à sable, ils seront terminés.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;h3&gt;About sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2021 by DavidXanatos&lt;/p&gt;</source>
-        <translation type="vanished">&lt;h3&gt;À propos de sandybox&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2021 par DavidXanatos&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;sandybox is an open source continuation of sandybox.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;sandybox est une continuation libre de sandybox.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Visitez&lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; pour plus d&apos;informations.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Icônes par &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <location filename="SbieFindWnd.cpp" line="88"/>
-        <source>The selected window is running as part of program %1 in sandbox %2</source>
-        <translation>La fenêtre sélectionnée est exécutée en tant que partie du programme %1 dans le bac %2</translation>
-    </message>
-    <message>
-        <location filename="SbieFindWnd.cpp" line="95"/>
-        <source>The selected window is not running as part of any sandboxed program.</source>
-        <translation>La fenêtre sélectionnée n&apos;est pas exécutée dans le cadre d&apos;un programme en bac à sable.</translation>
-    </message>
-    <message>
-        <location filename="SbieFindWnd.cpp" line="134"/>
-        <source>Drag the Finder Tool over a window to select it, then release the mouse to check if the window is sandboxed.</source>
-        <translation>Faites glisser l&apos;outil de recherche sur une fenêtre pour la sélectionner, puis relâchez le bouton de la souris pour vérifier si la fenêtre est dans un bac.</translation>
-    </message>
-    <message>
-        <location filename="SbieFindWnd.cpp" line="204"/>
-        <source>sandybox - Window Finder</source>
-        <translation>sandybox - Viseur de fenêtre</translation>
-    </message>
-    <message>
-        <location filename="main.cpp" line="210"/>
-        <source>sandybox Manager can not be run sandboxed!</source>
-        <translation>Le gestionnaire de sandybox ne peut pas être lancé dans un bac !</translation>
-    </message>
-</context>
-<context>
-    <name>CSbieModel</name>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="353"/>
-        <source>Box Group</source>
-        <translation>Groupe de bacs</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="554"/>
-        <source>Empty</source>
-        <translation>Vide</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="832"/>
-        <source>Name</source>
-        <translation>Nom</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="833"/>
-        <source>Process ID</source>
-        <translation>ID du processus</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="834"/>
-        <source>Status</source>
-        <translation>État</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="835"/>
-        <source>Title</source>
-        <translation>Titre</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="836"/>
-        <source>Info</source>
-        <translation>Info</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="840"/>
-        <source>CPU</source>
-        <translation>Processeur</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="841"/>
-        <source>Memory</source>
-        <translation>Mémoire</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="842"/>
-        <source>Private Bytes</source>
-        <translation>Octets privés</translation>
-    </message>
-    <message>
-        <source>Start Time</source>
-        <translation type="vanished">Heure de démarrage</translation>
-    </message>
-    <message>
-        <location filename="Models/SbieModel.cpp" line="843"/>
-        <source>Path / Command Line</source>
-        <translation>Chemin et ligne de commande</translation>
-    </message>
-</context>
-<context>
-    <name>CSbieObject</name>
-    <message>
-        <location filename="Engine/SbieObject.cpp" line="204"/>
-        <source>Run &amp;Un-Sandboxed</source>
-        <translation>Exécuter &amp;hors de tout bac à sable</translation>
-    </message>
-</context>
-<context>
-    <name>CSbieProcess</name>
-    <message>
-        <location filename="SbieProcess.cpp" line="58"/>
-        <source>Sbie RpcSs</source>
-        <translation>Sbie RpcSs</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="59"/>
-        <source>Sbie DcomLaunch</source>
-        <translation>Sbie DcomLaunch</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="60"/>
-        <source>Sbie Crypto</source>
-        <translation>Sbie Crypto</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="61"/>
-        <source>Sbie WuauServ</source>
-        <translation>Sbie WuauServ</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="62"/>
-        <source>Sbie BITS</source>
-        <translation>Sbie BITS</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="63"/>
-        <source>Sbie Svc</source>
-        <translation>Sbie Svc</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="64"/>
-        <source>MSI Installer</source>
-        <translation>Installeur MicroSoft (MSI)</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="65"/>
-        <source>Trusted Installer</source>
-        <translation>Trusted Installer</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="66"/>
-        <source>Windows Update</source>
-        <translation>Windows Update</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="67"/>
-        <source>Windows Explorer</source>
-        <translation>Explorateur de fichiers</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="68"/>
-        <source>Internet Explorer</source>
-        <translation>Internet Explorer</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="69"/>
-        <source>Firefox</source>
-        <translation>Firefox</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="70"/>
-        <source>Windows Media Player</source>
-        <translation>Windows Media Player</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="71"/>
-        <source>Winamp</source>
-        <translation>Winamp</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="72"/>
-        <source>KMPlayer</source>
-        <translation>KMPlayer</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="73"/>
-        <source>Windows Live Mail</source>
-        <translation>Windows Live Mail</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="74"/>
-        <source>Service Model Reg</source>
-        <translation>Outil ServiceModel</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="75"/>
-        <source>RunDll32</source>
-        <translation>RunDll32</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="76"/>
-        <location filename="SbieProcess.cpp" line="77"/>
-        <source>DllHost</source>
-        <translation>DllHost</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="78"/>
-        <source>Windows Ink Services</source>
-        <translation>Services Windows Ink</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="79"/>
-        <source>Chromium Based</source>
-        <translation>Basé sur Chromium</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="80"/>
-        <source>Google Updater</source>
-        <translation>Google Updater</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="81"/>
-        <source>Acrobat Reader</source>
-        <translation>Acrobat Reader</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="82"/>
-        <source>MS Outlook</source>
-        <translation>MS Outlook</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="83"/>
-        <source>MS Excel</source>
-        <translation>MS Excel</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="84"/>
-        <source>Flash Player</source>
-        <translation>Flash Player</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="85"/>
-        <source>Firefox Plugin Container</source>
-        <translation>Conteneur de plugin Firefox</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="86"/>
-        <source>Generic Web Browser</source>
-        <translation>Navigateur web générique</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="87"/>
-        <source>Generic Mail Client</source>
-        <translation>Client de messagerie générique</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="88"/>
-        <source>Thunderbird</source>
-        <translation>Thunderbird</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="98"/>
-        <source>Terminated</source>
-        <translation>Arrêté</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="100"/>
-        <source>Suspended</source>
-        <translation>En attente</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="104"/>
-        <source>Forced </source>
-        <translation>Forcé </translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="102"/>
-        <source>Running</source>
-        <translation>En cours d&apos;exécution</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="108"/>
-        <source> Elevated</source>
-        <translation> avec des privilèges élevés</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="110"/>
-        <source> as System</source>
-        <translation> en tant que Système</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="112"/>
-        <source> fake Admin</source>
-        <translation> faux admin</translation>
-    </message>
-    <message>
-        <location filename="SbieProcess.cpp" line="115"/>
-        <source> in session %1</source>
-        <translation> dans la session %1</translation>
-    </message>
-    <message>
-        <source> (%1)</source>
-        <translation type="vanished"> (%1)</translation>
-    </message>
-</context>
-<context>
-    <name>CSbieTemplatesEx</name>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1047"/>
-        <source>Failed to initialize COM</source>
-        <translation>Échec d&apos;initialisation COM</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1053"/>
-        <source>Failed to create update session</source>
-        <translation>Échec de création de la session de mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1059"/>
-        <source>Failed to create update searcher</source>
-        <translation>Échec de création de la recherche de mise à jour</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1065"/>
-        <source>Failed to set search options</source>
-        <translation>Échec de définition des options de recherche</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1073"/>
-        <source>Failed to enumerate installed Windows updates</source>
-        <oldsource>Failed to search for updates</oldsource>
-        <translation>Échec d&apos;énumération des mises à jour Windows installées</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1079"/>
-        <source>Failed to retrieve update list from search result</source>
-        <translation>Échec de récupération de la liste de mise à jour depuis les résultats de la recherche</translation>
-    </message>
-    <message>
-        <location filename="SbiePlusAPI.cpp" line="1086"/>
-        <source>Failed to get update count</source>
-        <translation>Échec d&apos;obtention du décompte des mises à jour</translation>
-    </message>
-</context>
-<context>
-    <name>CSbieView</name>
-    <message>
-        <location filename="Views/SbieView.cpp" line="176"/>
-        <location filename="Views/SbieView.cpp" line="347"/>
-        <source>Create New Box</source>
-        <translation>Créer un nouveau bac</translation>
-    </message>
-    <message>
-        <source>Add Group</source>
-        <translation type="vanished">Ajouter un groupe</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="474"/>
-        <source>Remove Group</source>
-        <translation>Supprimer le ou les groupes</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="187"/>
-        <location filename="Views/SbieView.cpp" line="358"/>
-        <source>Run</source>
-        <translation>Exécuter</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="178"/>
-        <location filename="Views/SbieView.cpp" line="349"/>
-        <source>Import Boxes</source>
-        <translation>Importer des bacs</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="192"/>
-        <source>Run Program</source>
-        <translation>Exécuter un programme</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="193"/>
-        <source>Run from Start Menu</source>
-        <translation>Exécuter à partir du menu Démarrer</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="203"/>
-        <source>Standard Applications</source>
-        <translation>Applications standard</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="204"/>
-        <source>Default Web Browser</source>
-        <translation>Navigateur web par défaut</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="205"/>
-        <source>Default eMail Client</source>
-        <translation>Client de messagerie par défaut</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="207"/>
-        <source>Windows Explorer</source>
-        <translation>Explorateur de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="208"/>
-        <source>Registry Editor</source>
-        <translation>Éditeur de registre</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="209"/>
-        <source>Programs and Features</source>
-        <translation>Programmes et fonctions</translation>
-    </message>
-    <message>
-        <source>Terminal</source>
-        <translatorcomment>Traduction utilisée par Windows</translatorcomment>
-        <translation type="vanished">Invite de commandes</translation>
-    </message>
-    <message>
-        <source>Terminal (as Admin)</source>
-        <translatorcomment>Traduction utilisée par Windows</translatorcomment>
-        <translation type="vanished">Invite de commandes (en tant qu&apos;administrateur)</translation>
-    </message>
-    <message>
-        <source>Terminal (32-bit)</source>
-        <translatorcomment>Traduction utilisée par Windows</translatorcomment>
-        <translation type="vanished">Invite de commandes (32 bits)</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="220"/>
-        <source>Terminate All Programs</source>
-        <translation>Arrêter tous les programmes</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="135"/>
-        <location filename="Views/SbieView.cpp" line="230"/>
-        <location filename="Views/SbieView.cpp" line="295"/>
-        <location filename="Views/SbieView.cpp" line="411"/>
-        <location filename="Views/SbieView.cpp" line="453"/>
-        <source>Create Shortcut</source>
-        <translation>Créer un raccourci</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="232"/>
-        <location filename="Views/SbieView.cpp" line="393"/>
-        <source>Explore Content</source>
-        <translation>Explorer le contenu</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="234"/>
-        <location filename="Views/SbieView.cpp" line="400"/>
-        <source>Snapshots Manager</source>
-        <translation>Gestionnaire d&apos;instantanés</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="224"/>
-        <source>Recover Files</source>
-        <translation>Récupération de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="196"/>
-        <location filename="Views/SbieView.cpp" line="369"/>
-        <source>(Host) Start Menu</source>
-        <translation>Menu Démarrer (de l&apos;hôte)</translation>
-    </message>
-    <message>
-        <source>More Tools</source>
-        <translation type="vanished">Plus d&apos;outils</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="227"/>
-        <source>Browse Files</source>
-        <translation>Parcourir les fichiers</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="222"/>
-        <location filename="Views/SbieView.cpp" line="389"/>
-        <source>Mount Box Image</source>
-        <translation>Monter une image de bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="223"/>
-        <location filename="Views/SbieView.cpp" line="390"/>
-        <source>Unmount Box Image</source>
-        <translation>Démonter une image de bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="225"/>
-        <location filename="Views/SbieView.cpp" line="392"/>
-        <source>Delete Content</source>
-        <translation>Supprimer le contenu</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="241"/>
-        <source>Sandbox Presets</source>
-        <translation>Préréglages du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="243"/>
-        <source>Ask for UAC Elevation</source>
-        <translation>Demander l&apos;élévation des privilèges avec le contrôle de compte d&apos;utilisateur</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="244"/>
-        <source>Drop Admin Rights</source>
-        <translation>Abandonner les droits d&apos;administrateur</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="245"/>
-        <source>Emulate Admin Rights</source>
-        <translation>Émuler les droits d&apos;administrateur</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="253"/>
-        <source>Block Internet Access</source>
-        <translation>Bloquer l&apos;accès à Internet</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="255"/>
-        <source>Allow Network Shares</source>
-        <translation>Autoriser les partages réseau</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="236"/>
-        <source>Sandbox Options</source>
-        <translation>Options du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="261"/>
-        <source>Disable Force Rules</source>
-        <translation>Désactiver les règles de forçage</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="264"/>
-        <location filename="Views/SbieView.cpp" line="398"/>
-        <source>Sandbox Tools</source>
-        <translation>Outils du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="267"/>
-        <source>Duplicate Box Config</source>
-        <translation>Dupliquer la configuration du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="273"/>
-        <location filename="Views/SbieView.cpp" line="414"/>
-        <source>Rename Sandbox</source>
-        <translation>Renommer le bac</translation>
-    </message>
-    <message>
-        <source>Move to Group</source>
-        <translation type="vanished">Déplacer vers le groupe</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="288"/>
-        <location filename="Views/SbieView.cpp" line="429"/>
-        <source>Remove Sandbox</source>
-        <translation>Supprimer le ou les bacs</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="293"/>
-        <location filename="Views/SbieView.cpp" line="451"/>
-        <source>Terminate</source>
-        <translation>Arrêter</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="296"/>
-        <source>Preset</source>
-        <translation>Présélection</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="133"/>
-        <location filename="Views/SbieView.cpp" line="297"/>
-        <source>Pin to Run Menu</source>
-        <translation>Épingler au menu Exécuter</translation>
-    </message>
-    <message>
-        <source>Import Box</source>
-        <translation type="vanished">Importer un bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="265"/>
-        <location filename="Views/SbieView.cpp" line="402"/>
-        <source>Browse NT Namespace</source>
-        <translation>Parcourir l&apos;espace de nom NT</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="268"/>
-        <source>Duplicate Box with Content</source>
-        <translation>Dupliquer le bac avec son contenu</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="269"/>
-        <source>Export Boxes</source>
-        <translation>Exporter des bacs</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="299"/>
-        <source>Block and Terminate</source>
-        <translation>Bloquer et arrêter</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="303"/>
-        <source>Allow internet access</source>
-        <translation>Autoriser l&apos;accès à Internet</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="305"/>
-        <source>Force into this sandbox</source>
-        <translation>Forcer dans ce bac à sable</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="307"/>
-        <source>Set Linger Process</source>
-        <translatorcomment>https://sandboxie-plus.com/sandboxie/lingerprocess/</translatorcomment>
-        <translation>Définir comme processus persistant</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="309"/>
-        <source>Set Leader Process</source>
-        <translatorcomment>https://sandboxie-plus.com/sandboxie/leaderprocess/</translatorcomment>
-        <translation>Définir comme processus directeur</translation>
-    </message>
-    <message>
-        <source>Run Sandboxed</source>
-        <translation type="vanished">Exécuter dans le bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="363"/>
-        <source>Run Web Browser</source>
-        <translation>Exécuter le navigateur web</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="364"/>
-        <source>Run eMail Reader</source>
-        <translation>Exécuter le client de messagerie</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="365"/>
-        <source>Run Any Program</source>
-        <translation>Exécuter un programme</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="366"/>
-        <source>Run From Start Menu</source>
-        <translation>Exécuter depuis le menu Démarrer</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="374"/>
-        <source>Run Windows Explorer</source>
-        <translation>Exécuter l&apos;explorateur de fichiers</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="388"/>
-        <source>Terminate Programs</source>
-        <translation>Arrêter les programmes</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="391"/>
-        <source>Quick Recover</source>
-        <translation>Récupération rapide</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="396"/>
-        <source>Sandbox Settings</source>
-        <translation>Paramètres du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="404"/>
-        <source>Duplicate Sandbox Config</source>
-        <translation>Dupliquer la configuration du bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="405"/>
-        <source>Duplicate Sandbox with Content</source>
-        <translation>Dupliquer le bac avec son contenu</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="406"/>
-        <source>Export Sandbox</source>
-        <translation>Exporter le bac</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="473"/>
-        <source>Move Group</source>
-        <translation>Déplacer le ou les groupes</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="615"/>
-        <source>    File root: %1
-</source>
-        <translation>    Racine des fichiers : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="616"/>
-        <source>    Registry root: %1
-</source>
-        <translation>    Racine du registre : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="617"/>
-        <source>    IPC root: %1
-</source>
-        <translation>    Racine IPC : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="619"/>
-        <source>    Disk root: %1
-</source>
-        <translation>    Racine du disque : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="621"/>
-        <source>Options:
-    </source>
-        <translation>Options :
-    </translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="638"/>
-        <source>    CPU: %1  |  Memory: %2  |  Private Bytes: %3
-</source>
-        <translation>    Processeur : %1  |  Mémoire : %2  |  Octets privés : %3
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="641"/>
-        <source>    Sandbox: %1
-</source>
-        <translation>    Bac à sable : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="643"/>
-        <source>    Image: %1
-</source>
-        <translation>    Image : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="646"/>
-        <source>    Start Time: %1
-</source>
-        <translation>    Heure de démarrage : %1
-</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="940"/>
-        <source>[None]</source>
-        <translation>[Aucun]</translation>
-    </message>
-    <message>
-        <source>Failed to open archive, wrong password?</source>
-        <translation type="vanished">Échec d&apos;ouverture de l&apos;archive ; mot de passe erroné ?</translation>
-    </message>
-    <message>
-        <source>Failed to open archive (%1)!</source>
-        <translation type="vanished">Échec d&apos;ouverture de l&apos;archive (%1) !</translation>
-    </message>
-    <message>
-        <location filename="Views/SbieView.cpp" line="1447"/>
-        <source>&lt;br /&gt;</source>
+        <source>&lt;p&gt;A Sandybox update has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;</source>
         <translation>&lt;br /&gt;</translation>
     </message>
     <message>
@@ -6929,9 +2608,9 @@ Remarque : La recherche de mise à jour est souvent en retard par rapport à la 
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1913"/>
-        <source>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</source>
-        <oldsource>The sandybox Start Menu will now be displayed. Select an application from the menu, and sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of sandybox.</oldsource>
-        <translation>Le menu Démarrer de sandybox va maintenant s&apos;afficher. Choisissez une application depuis le menu, et sandybox créera une icône de nouveau raccourci sur votre bureau véritable, que vous pouvez utiliser pour invoquer l&apos;application choisie sous la supervision de sandybox.</translation>
+        <source>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a new shortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</source>
+        <oldsource>The Sandybox Start Menu will now be displayed. Select an application from the menu, and Sandybox will create a newshortcut icon on your real desktop, which you can use to invoke the selected application under the supervision of Sandybox.</oldsource>
+        <translation>Le menu Démarrer de Sandybox va maintenant s&apos;afficher. Choisissez une application depuis le menu, et Sandybox créera une icône de nouveau raccourci sur votre bureau véritable, que vous pouvez utiliser pour invoquer l&apos;application choisie sous la supervision de Sandybox.</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1968"/>
@@ -6988,8 +2667,8 @@ Remarque : La recherche de mise à jour est souvent en retard par rapport à la 
     <name>CSelectBoxWindow</name>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="200"/>
-        <source>sandybox - Run Sandboxed</source>
-        <translation>sandybox - Exécuter dans un bac à sable</translation>
+        <source>Sandybox - Run Sandboxed</source>
+        <translation>Sandybox - Exécuter dans un bac à sable</translation>
     </message>
     <message>
         <location filename="Windows/SelectBoxWindow.cpp" line="253"/>
@@ -7006,9 +2685,9 @@ Remarque : La recherche de mise à jour est souvent en retard par rapport à la 
     <name>CSettingsWindow</name>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="197"/>
-        <source>sandybox Plus - Global Settings</source>
-        <oldsource>sandybox Plus - Settings</oldsource>
-        <translation>sandybox - Paramètres généraux</translation>
+        <source>Sandybox Plus - Global Settings</source>
+        <oldsource>Sandybox Plus - Settings</oldsource>
+        <translation>Sandybox - Paramètres généraux</translation>
     </message>
     <message>
         <source>Advanced Config</source>
@@ -7058,12 +2737,12 @@ Remarque : La recherche de mise à jour est souvent en retard par rapport à la 
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="328"/>
         <source>Show Plus icon</source>
-        <translation>Icône Plus (peut nécessiter de redémarrer sandybox)</translation>
+        <translation>Icône Plus (peut nécessiter de redémarrer Sandybox)</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="329"/>
         <source>Show Classic icon</source>
-        <translation>Icône classique (peut nécessiter de redémarrer sandybox)</translation>
+        <translation>Icône classique (peut nécessiter de redémarrer Sandybox)</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="331"/>
@@ -7215,16 +2894,16 @@ Right-click to copy</oldsource>
         <translation>Navigateur web dans un bac à sable</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Ce certificat d&apos;adhérent a expiré, veuillez &lt;a href=&quot;sbie://update/cert&quot;&gt;obtenir un certificat à jour&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation type="vanished">Ce certificat d&apos;adhérent a expiré, veuillez obtenir un certificat à jour.</translation>
     </message>
     <message>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
-        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Pour la version actuelle, les fonctions Plus demeurent activées&lt;/font&gt;, mais vous n&apos;avez plus accès aux services sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage.</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the troubleshooting database.</source>
+        <translation type="vanished">&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Pour la version actuelle, les fonctions Plus demeurent activées&lt;/font&gt;, mais vous n&apos;avez plus accès aux services Sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage.</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez &lt;a href=&quot;sbie://update/cert&quot;&gt;obtenir une mise à jour du certificat&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez obtenir une mise à jour du certificat.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="1997"/>
@@ -7359,18 +3038,18 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3223"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;%1&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>Ce certificat d&apos;adhérent a expiré, veuillez &lt;a href=&quot;%1&quot;&gt;en obtenir un à jour&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation>Ce certificat d&apos;adhérent a expiré, veuillez en obtenir un à jour.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3228"/>
-        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Pour la version actuelle, les fonctions « Plus » demeurent activées&lt;/font&gt;, mais vous n&apos;avez plus accès aux services sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage en ligne.</translation>
+        <source>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;For the current build Plus features remain enabled&lt;/font&gt;, but you no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Pour la version actuelle, les fonctions « Plus » demeurent activées&lt;/font&gt;, mais vous n&apos;avez plus accès aux services Sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage en ligne.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3275"/>
-        <source>; eligible Patreons can always &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtain an updated certificate&lt;/a&gt; from xanasoft.com</source>
-        <translation>; les membres Patreons éligibles peuvent toujours &lt;a href=&quot;https://xanasoft.com/get-supporter-certificate/&quot;&gt;obtenir un certificat à jour&lt;/a&gt; depuis xanasoft.com</translation>
+        <source>; eligible Patreons can always obtain an updated certificate from the project store</source>
+        <translation>; les membres Patreons éligibles peuvent toujours obtenir un certificat à jour depuis the project store</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3303"/>
@@ -7379,8 +3058,8 @@ Right-click to copy</oldsource>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3305"/>
-        <source>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Get a free evaluation certificate&lt;/a&gt; and enjoy all premium features for %1 days.&lt;/b&gt;</source>
-        <translation>&lt;b&gt;&lt;a href=&quot;_&quot;&gt;Obtenez un certificat d&apos;évaluation gratuit&lt;/a&gt; et bénéficiez de toutes les fonctions bonus pendant %1 jours.&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Get a free evaluation certificate and enjoy all premium features for %1 days.&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Obtenez un certificat d&apos;évaluation gratuit et bénéficiez de toutes les fonctions bonus pendant %1 jours.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3306"/>
@@ -7396,8 +3075,8 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3600"/>
-        <source>A mandatory security update for your sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
-        <translation>Une mise à jour de sécurité obligatoire pour votre certificat d&apos;adhérent à sandybox est nécessaire. Voulez-vous télécharger cette mise à jour du certificat maintenant ?</translation>
+        <source>A mandatory security update for your Sandybox Supporter Certificate is required. Would you like to download the updated certificate now?</source>
+        <translation>Une mise à jour de sécurité obligatoire pour votre certificat d&apos;adhérent à Sandybox est nécessaire. Voulez-vous télécharger cette mise à jour du certificat maintenant ?</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3601"/>
@@ -7406,25 +3085,25 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3236"/>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;%2&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <oldsource>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</oldsource>
-        <translation>Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez &lt;a href=&quot;%2&quot;&gt;obtenir un certificat à jour&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <oldsource>This supporter certificate has expired, please get an updated certificate.</oldsource>
+        <translation>Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez obtenir un certificat à jour.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3138"/>
         <location filename="Windows/SettingsWindow.cpp" line="3147"/>
-        <source>HwId: &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</source>
-        <translation>Identifiant matériel : &lt;a href=&quot;show&quot;&gt;[%1]&lt;/a&gt;</translation>
+        <source>HwId: [%1]</source>
+        <translation>Identifiant matériel : [%1]</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3143"/>
-        <source>HwId: &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copy)&lt;/a&gt;</source>
-        <translation>Identifiant matériel : &lt;a href=&quot;hide&quot; style=&quot;text-decoration:none; color:inherit;&quot;&gt;%1&lt;/a&gt; &lt;a href=&quot;copy&quot;&gt;(copier)&lt;/a&gt;</translation>
+        <source>HwId: %1 (copy)</source>
+        <translation>Identifiant matériel : %1 (copier)</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3156"/>
-        <source>sandybox Version: %1</source>
-        <translation>Version de sandybox : %1</translation>
+        <source>Sandybox Version: %1</source>
+        <translation>Version de Sandybox : %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3226"/>
@@ -7432,8 +3111,8 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
         <translation>&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;Les fonctions « Plus » seront désactivées dans %1 jour(s).&lt;/font&gt;</translation>
     </message>
     <message>
-        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;obtenir une mise à jour du certificat&lt;/a&gt;.</translation>
+        <source>This supporter certificate will &lt;font color=&apos;red&apos;&gt;expire in %1 days&lt;/font&gt;, please get an updated certificate.</source>
+        <translation type="vanished">Ce certificat d&apos;adhérent va &lt;font color=&apos;red&apos;&gt;expirer dans %1 jour(s)&lt;/font&gt;, veuillez obtenir une mise à jour du certificat.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3458"/>
@@ -7542,8 +3221,8 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3551"/>
-        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
-        <translation>Bien que ce certificat ait expiré, les fonctions « Plus » demeurent activées pour la version actuellement installée. Cependant, vous n&apos;aurez plus accès aux services sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage en ligne.</translation>
+        <source>Although this certificate has expired, for the currently installed version plus features remain enabled. However, you will no longer have access to Sandybox-Live services, including compatibility updates and the online troubleshooting database.</source>
+        <translation>Bien que ce certificat ait expiré, les fonctions « Plus » demeurent activées pour la version actuellement installée. Cependant, vous n&apos;aurez plus accès aux services Sandybox-Live, incluant les mises à jour de compatibilité et la base de données de dépannage en ligne.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3553"/>
@@ -7609,13 +3288,13 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3293"/>
-        <source>sandybox Desktop (Desk): %1</source>
-        <translation>Bureau sandybox (Desk) : %1</translation>
+        <source>Sandybox Desktop (Desk): %1</source>
+        <translation>Bureau Sandybox (Desk) : %1</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3324"/>
-        <source>This does not look like a sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
-        <translation>Ceci ne ressemble pas à un numéro de série de sandybox.&lt;br /&gt;Si vous avez essayé de saisir la clé de mise à jour ou la signature d&apos;un certificat, c&apos;est incorrect : à la place, veuillez saisir le certificat en entier dans la zone de texte ci-dessus.</translation>
+        <source>This does not look like a Sandybox Serial Number.&lt;br /&gt;If you have attempted to enter the UpdateKey or the Signature from a certificate, that is not correct, please enter the entire certificate into the text area above instead.</source>
+        <translation>Ceci ne ressemble pas à un numéro de série de Sandybox.&lt;br /&gt;Si vous avez essayé de saisir la clé de mise à jour ou la signature d&apos;un certificat, c&apos;est incorrect : à la place, veuillez saisir le certificat en entier dans la zone de texte ci-dessus.</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3331"/>
@@ -7644,8 +3323,8 @@ Ceci est un certificat Patreon temporaire, valable 3 mois. Une fois celui-ci pre
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
-        <source>sandybox - Get EVALUATION Certificate</source>
-        <translation>sandybox - Obtenir un certificat d&apos;ÉVALUATION</translation>
+        <source>Sandybox - Get EVALUATION Certificate</source>
+        <translation>Sandybox - Obtenir un certificat d&apos;ÉVALUATION</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3373"/>
@@ -7685,8 +3364,8 @@ Vous pouvez demander jusqu&apos;à %3 certificats d&apos;évaluation pour chaque
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="3560"/>
-        <source>Thank you for supporting the development of sandybox.</source>
-        <translation>Merci pour votre soutien au développement de sandybox.</translation>
+        <source>Thank you for supporting the development of Sandybox.</source>
+        <translation>Merci pour votre soutien au développement de Sandybox.</translation>
     </message>
     <message>
         <source>This support certificate is not valid.</source>
@@ -7709,7 +3388,7 @@ Vous pouvez demander jusqu&apos;à %3 certificats d&apos;évaluation pour chaque
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2398"/>
-        <source>(info website)</source>
+        <source>(information)</source>
         <translation>(site web d&apos;information)</translation>
     </message>
     <message>
@@ -7725,8 +3404,8 @@ Vous pouvez demander jusqu&apos;à %3 certificats d&apos;évaluation pour chaque
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2466"/>
-        <source>&lt;a href=&quot;check&quot;&gt;Check Now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;check&quot;&gt;Vérifier maintenant&lt;/a&gt;</translation>
+        <source>Check Now</source>
+        <translation>Vérifier maintenant</translation>
     </message>
     <message>
         <location filename="Windows/SettingsWindow.cpp" line="2535"/>
@@ -7871,12 +3550,12 @@ Voulez-vous activer la saisie semi-automatique ?</translation>
         <translation>%1 (Actuel)</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;0&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;0&quot;&gt;%1&lt;/a&gt;</translation>
+        <source>%1</source>
+        <translation type="vanished">%1</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;1&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&quot;1&quot;&gt;%1&lt;/a&gt;</translation>
+        <source>%1</source>
+        <translation type="vanished">%1</translation>
     </message>
     <message>
         <source>Do you want to download the version %1?</source>
@@ -7915,13 +3594,13 @@ Voulez-vous activer la saisie semi-automatique ?</translation>
     <name>CShellPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="533"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; shell integration</source>
-        <translation>Configuration de l&apos;intégration de &lt;b&gt;sandybox&lt;/b&gt; à l&apos;interface système</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; shell integration</source>
+        <translation>Configuration de l&apos;intégration de &lt;b&gt;Sandybox&lt;/b&gt; à l&apos;interface système</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="534"/>
-        <source>Configure how sandybox should integrate with your system.</source>
-        <translation>Configure la façon dont sandybox devrait s&apos;intégrer à votre système.</translation>
+        <source>Configure how Sandybox should integrate with your system.</source>
+        <translation>Configure la façon dont Sandybox devrait s&apos;intégrer à votre système.</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="538"/>
@@ -7935,8 +3614,8 @@ Voulez-vous activer la saisie semi-automatique ?</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="548"/>
-        <source>Add desktop shortcut for starting Web browser under sandybox</source>
-        <translation>Ajouter un raccourci sur le bureau pour démarrer le navigateur web dans sandybox</translation>
+        <source>Add desktop shortcut for starting Web browser under Sandybox</source>
+        <translation>Ajouter un raccourci sur le bureau pour démarrer le navigateur web dans Sandybox</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="553"/>
@@ -7951,8 +3630,8 @@ Voulez-vous activer la saisie semi-automatique ?</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="565"/>
-        <source>Enabling this option prevents changes to the Sandboxie.ini configuration from the user interface without admin rights. Be careful, as using sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
-        <translation>Activer cette option empêche les modifications du fichier Sandboxie.ini depuis l&apos;interface sans droits d&apos;administrateur. Faites attention, car utiliser le gestionnaire de sandybox avec des droits d&apos;utilisateur normal peut provoquer un blocage. Afin de modifier la configuration, vous devez redémarrer le gestionnaire de sandybox en tant qu&apos;administrateur en utilisant « Redémarrer en tant qu&apos;administrateur » dans le menu « Fichier » de la fenêtre principale.</translation>
+        <source>Enabling this option prevents changes to the base configuration file configuration from the user interface without admin rights. Be careful, as using Sandybox Manager with normal user rights may result in a lockout. To make changes to the configuration, you must restart Sandybox Manager as an admin by clicking &apos;Restart as Admin&apos; in the &apos;Sandbox&apos; menu in the main window.</source>
+        <translation>Activer cette option empêche les modifications du fichier base configuration file depuis l&apos;interface sans droits d&apos;administrateur. Faites attention, car utiliser le gestionnaire de Sandybox avec des droits d&apos;utilisateur normal peut provoquer un blocage. Afin de modifier la configuration, vous devez redémarrer le gestionnaire de Sandybox en tant qu&apos;administrateur en utilisant « Redémarrer en tant qu&apos;administrateur » dans le menu « Fichier » de la fenêtre principale.</translation>
     </message>
 </context>
 <context>
@@ -8030,13 +3709,13 @@ Voulez-vous activer la saisie semi-automatique ?</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="831"/>
-        <source>Attach Sandboxie.ini</source>
-        <translation>Joindre Sandboxie.ini</translation>
+        <source>Attach base configuration file</source>
+        <translation>Joindre base configuration file</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="832"/>
-        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the Sandboxie.ini file helps a lot with finding the issue.</source>
-        <translation>La compatibilité des bacs étant liée à la configuration, joindre le fichier Sandboxie.ini file aide donc beaucoup à trouver le problème.</translation>
+        <source>Sandboxing compatibility is reliant on the configuration, hence attaching the base configuration file file helps a lot with finding the issue.</source>
+        <translation>La compatibilité des bacs étant liée à la configuration, joindre le fichier base configuration file file aide donc beaucoup à trouver le problème.</translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="835"/>
@@ -8075,8 +3754,8 @@ Avant l&apos;envoi, vous pouvez consulter les journaux dans la fenêtre principa
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="854"/>
-        <source>We apologize for the inconvenience you are currently facing with sandybox. </source>
-        <translation>Nous nous excusons pour le désagrément auquel vous êtes actuellement confronté avec sandybox. </translation>
+        <source>We apologize for the inconvenience you are currently facing with Sandybox. </source>
+        <translation>Nous nous excusons pour le désagrément auquel vous êtes actuellement confronté avec Sandybox. </translation>
     </message>
     <message>
         <location filename="Wizards/BoxAssistant.cpp" line="861"/>
@@ -8213,11 +3892,11 @@ Les processus dans ce bac seront lancés avec un jeton de processus personnalis�
     <message>
         <location filename="Windows/SupportDialog.cpp" line="43"/>
         <source>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a Great Supporter on Patreon already, sandybox can check online for an update of your certificate.</source>
+If you are a Great Supporter on Patreon already, Sandybox can check online for an update of your certificate.</source>
         <oldsource>This Insider build requires a special certificate of type GREAT_PATREON, PERSONAL-HUGE, or CONTRIBUTOR.
-If you are a great patreaon supporter already, sandybox can check online for an update of your certificate.</oldsource>
+If you are a great patreaon supporter already, Sandybox can check online for an update of your certificate.</oldsource>
         <translation>Cette version d&apos;Inité nécessite un certificat particulier de type GREAT_PATREON, PERSONAL-HUGE, ou CONTRIBUTOR.
-Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier en ligne s&apos;il y a une mise à jour de votre certificat.</translation>
+Si vous êtes déjà « Great Supporter » sur Patreon, Sandybox peut vérifier en ligne s&apos;il y a une mise à jour de votre certificat.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="51"/>
@@ -8232,8 +3911,8 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="163"/>
-        <source>This is a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;exclusive Insider build&lt;/a&gt; of sandybox it is only available to &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon Supporters&lt;/a&gt; on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
-        <translation>Ceci est une &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;version exclusive d&apos;Initié&lt;/a&gt; de Sandboxie-Plus. Elle est uniquement disponible aux &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;adhérents Patreon&lt;/a&gt; de niveaux supérieurs ainsi qu&apos;aux contributeurs du projet et aux détenteurs d&apos;un certificat d&apos;adhérent HUGE.</translation>
+        <source>This is a exclusive Insider build of Sandybox it is only available to Patreon Supporters on higher tiers as well as to project contributors and owners of a HUGE supporter certificate.</source>
+        <translation>Ceci est une version exclusive d&apos;Initié de Sandybox. Elle est uniquement disponible aux adhérents Patreon de niveaux supérieurs ainsi qu&apos;aux contributeurs du projet et aux détenteurs d&apos;un certificat d&apos;adhérent HUGE.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="169"/>
@@ -8242,31 +3921,31 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="171"/>
-        <source>&lt;b&gt;There seems to be however %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>&lt;b&gt;There seams to be howeever %1 sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;support certificates&lt;/a&gt;&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>&lt;b&gt;Il semble cependant y avoir %1 exemplaires de sandybox sur votre réseau, &lt;font color=&apos;red&apos;&gt;vous devez obtenir &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&amp;tip=more&quot;&gt;des certificats d&apos;adhérent&lt;/a&gt; additionels&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;There seems to be however %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>&lt;b&gt;There seams to be howeever %1 Sandybox instances on your network, &lt;font color=&apos;red&apos;&gt;you need to obtain additional support certificates&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>&lt;b&gt;Il semble cependant y avoir %1 exemplaires de Sandybox sur votre réseau, &lt;font color=&apos;red&apos;&gt;vous devez obtenir des certificats d&apos;adhérent additionels&lt;/font&gt;.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="178"/>
-        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</source>
-        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;must be renewed&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</oldsource>
-        <translation>Le certificat d&apos;adhérent installé &lt;b&gt;a expiré il y a %1 jour(s)&lt;/b&gt; et &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;doit être renouvelé&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</source>
+        <oldsource>The installed supporter certificate &lt;b&gt;has expired %1 days ago&lt;/b&gt; and must be renewed.&lt;br /&gt;&lt;br /&gt;</oldsource>
+        <translation>Le certificat d&apos;adhérent installé &lt;b&gt;a expiré il y a %1 jour(s)&lt;/b&gt; et doit être renouvelé.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="180"/>
-        <source>&lt;b&gt;You have installed sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;Vous avez installé sandybox il y a plus de %1 jour(s).&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have installed Sandybox more than %1 days ago.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;Vous avez installé Sandybox il y a plus de %1 jour(s).&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="182"/>
-        <source>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;support certificate&lt;/a&gt;.</source>
-        <oldsource>&lt;u&gt;Commercial use of sandybox past the evaluation period&lt;/u&gt;, requires a valid &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;support certificate&lt;/a&gt;.</oldsource>
-        <translation>&lt;u&gt;L&apos;utilisation commerciale de sandybox passée la période d&apos;évaluation&lt;/u&gt; nécessite un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; valide.</translation>
+        <source>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</source>
+        <oldsource>&lt;u&gt;Commercial use of Sandybox past the evaluation period&lt;/u&gt;, requires a valid support certificate.</oldsource>
+        <translation>&lt;u&gt;L&apos;utilisation commerciale de Sandybox passée la période d&apos;évaluation&lt;/u&gt; nécessite un certificat d&apos;adhérent valide.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="189"/>
-        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of sandybox.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Le certificat d&apos;adhérent installé est &lt;b&gt;périmé&lt;/b&gt; et il n&apos;est &lt;u&gt;pas valide pour&lt;b&gt; cette version&lt;/b&gt;&lt;/u&gt; de sandybox.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>The installed supporter certificate is &lt;b&gt;outdated&lt;/b&gt; and it is &lt;u&gt;not valid for&lt;b&gt; this version&lt;/b&gt;&lt;/u&gt; of Sandybox.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Le certificat d&apos;adhérent installé est &lt;b&gt;périmé&lt;/b&gt; et il n&apos;est &lt;u&gt;pas valide pour&lt;b&gt; cette version&lt;/b&gt;&lt;/u&gt; de Sandybox.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="191"/>
@@ -8276,35 +3955,35 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="193"/>
-        <source>&lt;b&gt;You have been using sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>&lt;b&gt;Vous avez utilisé sandybox pendant plus de %1 jour(s) désormais.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>&lt;b&gt;You have been using Sandybox for more than %1 days now.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>&lt;b&gt;Vous avez utilisé Sandybox pendant plus de %1 jour(s) désormais.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="196"/>
-        <source>sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>sandybox pour ARM64 nécessite un certificat d&apos;adhérent valide pour une utilisation prolongée.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Sandybox on ARM64 requires a valid supporter certificate for continued use.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>Sandybox pour ARM64 nécessite un certificat d&apos;adhérent valide pour une utilisation prolongée.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="198"/>
-        <source>Personal use of sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>L&apos;utilisation personnelle de sandybox est gratuite sur les systèmes x86/x64, bien que certaines fonctions ne soient disponibles qu&apos;aux adhérents du projet.&lt;br /&gt;&lt;br /&gt;</translation>
+        <source>Personal use of Sandybox is free of charge on x86/x64, although some functionality is only available to project supporters.&lt;br /&gt;&lt;br /&gt;</source>
+        <translation>L&apos;utilisation personnelle de Sandybox est gratuite sur les systèmes x86/x64, bien que certaines fonctions ne soient disponibles qu&apos;aux adhérents du projet.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="201"/>
-        <source>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
-        <oldsource>Please continue &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt; by renewing your &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
-        <translation>Veuillez continuer à &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;soutenir le projet&lt;/a&gt; en renouvelant votre &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; afin de continuer à utiliser les &lt;b&gt;fonctions avancées&lt;/b&gt; dans les nouvelles versions.</translation>
+        <source>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</source>
+        <oldsource>Please continue supporting the project by renewing your supporter certificate and continue using the &lt;b&gt;enhanced functionality&lt;/b&gt; in new builds.</oldsource>
+        <translation>Veuillez continuer à soutenir le projet en renouvelant votre certificat d&apos;adhérent afin de continuer à utiliser les &lt;b&gt;fonctions avancées&lt;/b&gt; dans les nouvelles versions.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="204"/>
-        <source>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt; or &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;earning one by contributing&lt;/a&gt; to the project. &lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
-        <oldsource>sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt; not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
-        <translation>sandybox &lt;u&gt;sans&lt;/u&gt; un certificat d&apos;adhérent valide se mettra parfois &lt;b&gt;&lt;font color=&apos;red&apos;&gt;en pause pendant quelques secondes&lt;/font&gt;&lt;/b&gt;, afin de vous donner du temps pour considérer &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;l&apos;achat d&apos;un certificat d&apos;adhérent&lt;/a&gt;ou &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;son gain en contribuant&lt;/a&gt; au projet. &lt;br /&gt;&lt;br /&gt;Un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt; n&apos;enlève pas seulement ce rappel, mais active également &lt;b&gt;des fonctions avancées exclusives&lt;/b&gt; fournissant une sécurité et une compatibilité améliorées.</translation>
+        <source>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;. This pause allows you to consider purchasing a supporter certificate or earning one by contributing to the project. &lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</source>
+        <oldsource>Sandybox &lt;u&gt;without&lt;/u&gt; a valid supporter certificate will sometimes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;pause for a few seconds&lt;/font&gt;&lt;/b&gt;, to give you time to contemplate the option of supporting the project.&lt;br /&gt;&lt;br /&gt;A supporter certificate not just removes this reminder, but also enables &lt;b&gt;exclusive enhanced functionality&lt;/b&gt; providing better security and compatibility.</oldsource>
+        <translation>Sandybox &lt;u&gt;sans&lt;/u&gt; un certificat d&apos;adhérent valide se mettra parfois &lt;b&gt;&lt;font color=&apos;red&apos;&gt;en pause pendant quelques secondes&lt;/font&gt;&lt;/b&gt;, afin de vous donner du temps pour considérer l&apos;achat d&apos;un certificat d&apos;adhérentou son gain en contribuant au projet. &lt;br /&gt;&lt;br /&gt;Un certificat d&apos;adhérent n&apos;enlève pas seulement ce rappel, mais active également &lt;b&gt;des fonctions avancées exclusives&lt;/b&gt; fournissant une sécurité et une compatibilité améliorées.</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="235"/>
-        <source>sandybox - Support Reminder</source>
-        <translation>sandybox - Rappel concernant le soutien</translation>
+        <source>Sandybox - Support Reminder</source>
+        <translation>Sandybox - Rappel concernant le soutien</translation>
     </message>
     <message>
         <location filename="Windows/SupportDialog.cpp" line="310"/>
@@ -8432,8 +4111,8 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
         <location filename="Windows/TestProxyDialog.cpp" line="375"/>
         <location filename="Windows/TestProxyDialog.cpp" line="381"/>
         <location filename="Windows/TestProxyDialog.cpp" line="387"/>
-        <source>sandybox - Test Proxy</source>
-        <translation>sandybox - Test de mandataire</translation>
+        <source>Sandybox - Test Proxy</source>
+        <translation>Sandybox - Test de mandataire</translation>
     </message>
     <message>
         <location filename="Windows/TestProxyDialog.cpp" line="37"/>
@@ -8794,16 +4473,16 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
     <name>CTraceWindow</name>
     <message>
         <location filename="Views/TraceView.cpp" line="830"/>
-        <source>sandybox - Trace Monitor</source>
-        <translation>sandybox - Moniteur de traçage</translation>
+        <source>Sandybox - Trace Monitor</source>
+        <translation>Sandybox - Moniteur de traçage</translation>
     </message>
 </context>
 <context>
     <name>CUIPage</name>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="418"/>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; UI</source>
-        <translation>Configuration de l&apos;interface de &lt;b&gt;sandybox&lt;/b&gt;</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; UI</source>
+        <translation>Configuration de l&apos;interface de &lt;b&gt;Sandybox&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Wizards/SetupWizard.cpp" line="419"/>
@@ -8839,16 +4518,16 @@ Si vous êtes déjà « Great Supporter » sur Patreon, sandybox peut vérifier 
 <context>
     <name>CWFPPage</name>
     <message>
-        <source>Configure &lt;b&gt;sandybox&lt;/b&gt; network filtering</source>
-        <translation type="vanished">Configuration du filtrage réseau de &lt;b&gt;sandybox&lt;/b&gt;</translation>
+        <source>Configure &lt;b&gt;Sandybox&lt;/b&gt; network filtering</source>
+        <translation type="vanished">Configuration du filtrage réseau de &lt;b&gt;Sandybox&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
-        <translation type="vanished">sandybox peut utiliser la plateforme de filtrage Windows (WFP) pour restreindre l&apos;accès réseau.</translation>
+        <source>Sandybox can use the Windows Filtering Platform (WFP) to restrict network access.</source>
+        <translation type="vanished">Sandybox peut utiliser la plateforme de filtrage Windows (WFP) pour restreindre l&apos;accès réseau.</translation>
     </message>
     <message>
-        <source>Using WFP allows sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
-        <translation type="vanished">L&apos;utilisation de WFP permet à sandybox d&apos;appliquer de manière fiable les règles basées sur l&apos;IP/le port pour l&apos;accès au réseau. Contrairement aux pare-feux logiciels au niveau du système, sandybox peut utiliser différentes règles dans chaque bac pour la même application. Si vous avez déjà un bon pare-feu logiciel fiable et que vous n&apos;avez pas besoin de règles par bac, vous pouvez laisser cette option désactivée. Sans WFP activé, sandybox pourra toujours empêcher de manière fiable et totale les processus d&apos;accéder au réseau. Cependant, cela peut provoquer le plantage du processus, car le pilote bloque les points de terminaison du périphérique réseau requis. Même avec WFP désactivé, sandybox propose de définir des règles basées sur l&apos;IP/le port, cependant celles-ci seront appliquées en mode utilisateur uniquement et ne seront pas imposées par le pilote. Par conséquent, sans WFP activé, un processus intentionnellement malveillant pourrait contourner ces règles, mais pas l&apos;ensemble du bloc réseau.</translation>
+        <source>Using WFP allows Sandybox to reliably enforce IP/Port based rules for network access. Unlike system level application firewalls, Sandybox can use different rules in each box for the same application. If you already have a good and reliable application firewall and do not need per box rules, you can leave this option unchecked. Without WFP enabled, Sandybox will still be able to reliably and entirely block processes from accessing the network. However, this can cause the process to crash, as the driver blocks the required network device endpoints. Even with WFP disabled, Sandybox offers to set IP/Port based rules, however these will be applied in user mode only and not be enforced by the driver. Hence, without WFP enabled, an intentionally malicious process could bypass those rules, but not the entire network block.</source>
+        <translation type="vanished">L&apos;utilisation de WFP permet à Sandybox d&apos;appliquer de manière fiable les règles basées sur l&apos;IP/le port pour l&apos;accès au réseau. Contrairement aux pare-feux logiciels au niveau du système, Sandybox peut utiliser différentes règles dans chaque bac pour la même application. Si vous avez déjà un bon pare-feu logiciel fiable et que vous n&apos;avez pas besoin de règles par bac, vous pouvez laisser cette option désactivée. Sans WFP activé, Sandybox pourra toujours empêcher de manière fiable et totale les processus d&apos;accéder au réseau. Cependant, cela peut provoquer le plantage du processus, car le pilote bloque les points de terminaison du périphérique réseau requis. Même avec WFP désactivé, Sandybox propose de définir des règles basées sur l&apos;IP/le port, cependant celles-ci seront appliquées en mode utilisateur uniquement et ne seront pas imposées par le pilote. Par conséquent, sans WFP activé, un processus intentionnellement malveillant pourrait contourner ces règles, mais pas l&apos;ensemble du bloc réseau.</translation>
     </message>
     <message>
         <source>Enable Windows Filtering Platform (WFP) support</source>
@@ -8950,23 +4629,23 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
 <context>
     <name>FileBrowserWindow</name>
     <message>
-        <source>sandybox - Snapshots</source>
-        <translation type="vanished">sandybox - Instantanés</translation>
+        <source>Sandybox - Snapshots</source>
+        <translation type="vanished">Sandybox - Instantanés</translation>
     </message>
 </context>
 <context>
     <name>NewBoxWindow</name>
     <message>
-        <source>sandybox new box</source>
-        <translation type="vanished">sandybox - Nouveau bac</translation>
+        <source>Sandybox new box</source>
+        <translation type="vanished">Sandybox - Nouveau bac</translation>
     </message>
     <message>
         <source>Box Type Preset:</source>
         <translation type="vanished">Préréglage du type de bac :</translation>
     </message>
     <message>
-        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
-        <translation type="vanished">Un bac à sable isole le système hôte des processus lancés dans le bac. Cela les empêche de faire des modifications permanentes aux autres programmes ou aux données de votre ordinateur. Le niveau d&apos;isolation affecte la sécurité mais aussi la compatibilité avec les applications, c&apos;est pourquoi il y a différents niveaux d&apos;isolation en fonction du type de bac choisi. sandybox peut aussi empêcher l&apos;accès à vos données personnelles aux processus tournant sous sa supervision.</translation>
+        <source>A sandbox isolates your host system from processes running within the box, it prevents them from making permanent changes to other programs and data in your computer. The level of isolation impacts your security as well as the compatibility with applications, hence there will be a different level of isolation depending on the selected Box Type. Sandybox can also protect your personal data from being accessed by processes running under its supervision.</source>
+        <translation type="vanished">Un bac à sable isole le système hôte des processus lancés dans le bac. Cela les empêche de faire des modifications permanentes aux autres programmes ou aux données de votre ordinateur. Le niveau d&apos;isolation affecte la sécurité mais aussi la compatibilité avec les applications, c&apos;est pourquoi il y a différents niveaux d&apos;isolation en fonction du type de bac choisi. Sandybox peut aussi empêcher l&apos;accès à vos données personnelles aux processus tournant sous sa supervision.</translation>
     </message>
     <message>
         <source>Box info</source>
@@ -8993,8 +4672,8 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
     <name>OptionsWindow</name>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="32"/>
-        <source>sandybox Options</source>
-        <translation>Options de sandybox Plus</translation>
+        <source>Sandybox Options</source>
+        <translation>Options de Sandybox Plus</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="52"/>
@@ -9401,8 +5080,8 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1308"/>
-        <source>Security note: Elevated applications running under the supervision of sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
-        <translation>Remarque de sécurité : Les applications avec des droits étendus exécutées sous la supervision de sandybox, avec un jeton administrateur ou système, ont plus de possibilités de contourner l&apos;isolation et de modifier le système hors du bac.</translation>
+        <source>Security note: Elevated applications running under the supervision of Sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
+        <translation>Remarque de sécurité : Les applications avec des droits étendus exécutées sous la supervision de Sandybox, avec un jeton administrateur ou système, ont plus de possibilités de contourner l&apos;isolation et de modifier le système hors du bac.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1279"/>
@@ -9431,8 +5110,8 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="90"/>
-        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
-        <translation>&lt;b&gt;Les types de bac avancés&lt;/b&gt; sont réservés exclusivement aux &lt;u&gt;adhérents du projet&lt;/u&gt;. Les bacs dont la confidentialité est renforcée &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protègent les données utilisateurs contre les accès illicites&lt;/font&gt;&lt;/b&gt; des programmes du bac.&lt;br /&gt; Si vous n&apos;êtes pas encore un adhérent, songez à &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;soutenir le projet&lt;/a&gt;, pour recevoir un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;.&lt;br /&gt; Vous pouvez tester les autres type de bac en en créant, cependant les processus de ces bacs seront automatiquement arrêtés après 5 minutes.</translation>
+        <source>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider supporting the project, to receive a supporter certificate.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</source>
+        <translation>&lt;b&gt;Les types de bac avancés&lt;/b&gt; sont réservés exclusivement aux &lt;u&gt;adhérents du projet&lt;/u&gt;. Les bacs dont la confidentialité est renforcée &lt;b&gt;&lt;font color=&apos;red&apos;&gt;protègent les données utilisateurs contre les accès illicites&lt;/font&gt;&lt;/b&gt; des programmes du bac.&lt;br /&gt; Si vous n&apos;êtes pas encore un adhérent, songez à soutenir le projet, pour recevoir un certificat d&apos;adhérent.&lt;br /&gt; Vous pouvez tester les autres type de bac en en créant, cependant les processus de ces bacs seront automatiquement arrêtés après 5 minutes.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="208"/>
@@ -9475,8 +5154,8 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
         <translation>Sécurité avancée</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1891"/>
@@ -9490,13 +5169,13 @@ Idéal s&apos;il y a un grand nombre de petits fichiers, cela rendra l&apos;arch
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2087"/>
-        <source>sandybox token</source>
-        <translation>Jeton de sandybox</translation>
+        <source>Sandybox token</source>
+        <translation>Jeton de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2012"/>
-        <source>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
-        <translation>L&apos;utilisation d&apos;un jeton de sandybox personnalisé permet de mieux isoler les bacs à sable individuels, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
+        <source>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</source>
+        <translation>L&apos;utilisation d&apos;un jeton de Sandybox personnalisé permet de mieux isoler les bacs à sable individuels, et d&apos;afficher dans la colonne Utilisateurs des gestionnaires des tâches le nom du bac dans lequel un processus s&apos;exécute. Certaines solutions de sécurité tierces peuvent cependant avoir des problèmes avec les jetons personnalisés.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2202"/>
@@ -9690,14 +5369,14 @@ Si des processus directeurs sont définis, tous les autres sont traités comme d
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="521"/>
-        <source>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</source>
-        <oldsource>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&apos;s&lt;/a&gt; AES-XTS implementation.</oldsource>
-        <translation>Lorsque le &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;chiffrement de bac&lt;/a&gt; est activé, le dossier racine du bac (y compris sa ruche du registre) est stocké dans une image disque chiffrée en utilisant l&apos;implémentation AES-XTS de &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor&lt;/a&gt;.</translation>
+        <source>When Box Encryption is enabled the box&apos;s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</source>
+        <oldsource>When Box Encryption is enabled the box’s root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor&apos;s AES-XTS implementation.</oldsource>
+        <translation>Lorsque le chiffrement de bac est activé, le dossier racine du bac (y compris sa ruche du registre) est stocké dans une image disque chiffrée en utilisant l&apos;implémentation AES-XTS de Disk Cryptor.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="469"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;Installer le pilote ImDisk&lt;/a&gt; pour activer la prise en charge de disque de mémoire vive et d&apos;image disque.</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>Installer le pilote ImDisk pour activer la prise en charge de disque de mémoire vive et d&apos;image disque.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="567"/>
@@ -9737,8 +5416,8 @@ Si des processus directeurs sont définis, tous les autres sont traités comme d
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1641"/>
-        <source>sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
-        <translation>sandybox est capable de créer des bacs à sable confidentiels qui fournissent une protection robuste contre la surveillance non autorisée ou la falsification par des processus de l&apos;hôte. En utilisant une image de bac chiffrée, cette fonction fournit le plus haut niveau de confidentialité opérationnelle, assurant la sécurité et l&apos;intégrité des processus des bacs.</translation>
+        <source>Sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</source>
+        <translation>Sandybox est capable de créer des bacs à sable confidentiels qui fournissent une protection robuste contre la surveillance non autorisée ou la falsification par des processus de l&apos;hôte. En utilisant une image de bac chiffrée, cette fonction fournit le plus haut niveau de confidentialité opérationnelle, assurant la sécurité et l&apos;intégrité des processus des bacs.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1606"/>
@@ -9815,7 +5494,7 @@ Si des processus directeurs sont définis, tous les autres sont traités comme d
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1729"/>
         <source>When box root is protected require SandMan to run as Administrator in order to access the files</source>
-        <translation>Lorsque la racine du bac est protégée, le gestionnaire de sandybox doit s&apos;exécuter en tant qu&apos;administrateur afin d&apos;accéder aux fichiers</translation>
+        <translation>Lorsque la racine du bac est protégée, le gestionnaire de Sandybox doit s&apos;exécuter en tant qu&apos;administrateur afin d&apos;accéder aux fichiers</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1835"/>
@@ -9834,14 +5513,14 @@ Si des processus directeurs sont définis, tous les autres sont traités comme d
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2051"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2142"/>
-        <source>By default, sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
+        <source>By default, Sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
 Enabling this option uses a LOW integrity token instead, which may improve compatibility but reduces sandbox isolation and security.</source>
-        <translation>Par défaut, sandybox exécute les processus avec un jeton à intégrité NON FIABLE, pour une isolation maximale.
+        <translation>Par défaut, Sandybox exécute les processus avec un jeton à intégrité NON FIABLE, pour une isolation maximale.
 Activer cette option permet d&apos;utiliser un jeton à intégrité FAIBLE, ce qui peut améliorer la compatibilité, mais réduit l&apos;isolation et la sécurité du bac.</translation>
     </message>
     <message>
@@ -9851,9 +5530,9 @@ Activer cette option permet d&apos;utiliser un jeton à intégrité FAIBLE, ce q
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2528"/>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
-        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
-        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;AVERTISSEMENT DE SÉCURITÉ&lt;/font&gt; :&lt;/b&gt; L&apos;utilisation de &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; et/ou &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; en combinaison avec des directives Open[File/Pipe]Path peut compromettre la sécurité, de même que l&apos;utilisation de &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; autorisant tout (*) ou autorisant des extensions non fiables (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1 ; etc…). Veuillez consulter la section de sécurité de chaque option dans la documentation avant utilisation.</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</source>
+        <oldsource>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc…) extensions. Please review the security section for each option in the documentation before use.</oldsource>
+        <translation>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;AVERTISSEMENT DE SÉCURITÉ&lt;/font&gt; :&lt;/b&gt; L&apos;utilisation de BreakoutFolder et/ou BreakoutProcess en combinaison avec des directives Open[File/Pipe]Path peut compromettre la sécurité, de même que l&apos;utilisation de BreakoutDocument autorisant tout (*) ou autorisant des extensions non fiables (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1 ; etc…). Veuillez consulter la section de sécurité de chaque option dans la documentation avant utilisation.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2558"/>
@@ -10485,9 +6164,9 @@ Le niveau de correspondance du processus a une priorité plus élevée que la sp
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1461"/>
-        <source>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
-        <oldsource>Security Isolation through the usage of a heavily restricted process token is sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
-        <translation>L&apos;isolation de sécurité par l&apos;utilisation d&apos;un jeton de processus fortement restreint est le principal moyen utilisé par sandybox pour appliquer les restrictions du bac. Lorsque cette fonction est désactivée, le bac fonctionne en mode conteneur d&apos;applications, c&apos;est-à-dire qu&apos;il ne fournit plus de sécurité fiable, mais seulement une simple compartimentation des applications.</translation>
+        <source>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it&apos;s no longer providing reliable security, just simple application compartmentalization.</source>
+        <oldsource>Security Isolation through the usage of a heavily restricted process token is Sandybox&apos;s primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it’s no longer providing reliable security, just simple application compartmentalization.</oldsource>
+        <translation>L&apos;isolation de sécurité par l&apos;utilisation d&apos;un jeton de processus fortement restreint est le principal moyen utilisé par Sandybox pour appliquer les restrictions du bac. Lorsque cette fonction est désactivée, le bac fonctionne en mode conteneur d&apos;applications, c&apos;est-à-dire qu&apos;il ne fournit plus de sécurité fiable, mais seulement une simple compartimentation des applications.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1030"/>
@@ -10525,8 +6204,8 @@ Le niveau de correspondance du processus a une priorité plus élevée que la sp
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1485"/>
-        <source>Security Filtering used by sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
-        <translation>Le filtrage de sécurité est utilisé par sandybox pour imposer des restrictions d&apos;accès au système de fichiers, au registre, et également aux processus.</translation>
+        <source>Security Filtering used by Sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</source>
+        <translation>Le filtrage de sécurité est utilisé par Sandybox pour imposer des restrictions d&apos;accès au système de fichiers, au registre, et également aux processus.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="964"/>
@@ -10671,7 +6350,7 @@ Remarque : Les paramètres Programmes forcés et Dossiers forcés d&apos;un bac 
     <message>
         <source>API call trace (requires LogAPI to be installed in the Sbie directory)</source>
         <oldsource>API call trace (requirers logapi to be installed in the sbie dir)</oldsource>
-        <translation type="vanished">Tracer les appels API (nécessite que LogAPI soit installé dans le répertoire de sandybox)</translation>
+        <translation type="vanished">Tracer les appels API (nécessite que LogAPI soit installé dans le répertoire de Sandybox)</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5511"/>
@@ -10955,7 +6634,7 @@ Partiellement coché : Aucun groupe ne sera ajouté au jeton nouvellement créé
     <message>
         <source>Some programs retrieve system details via WMI (Windows Management Instrumentation), a built-in Windows database, rather than using conventional methods. For instance, &apos;tasklist.exe&apos; can access a complete list of processes even if &apos;HideOtherBoxes&apos; is enabled. Enable this option to prevent such behavior.</source>
         <oldsource>Some programs read system deatils through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these heavior.</oldsource>
-        <translation type="vanished">Certains programmes lisent les détails du système en se servant de WMI (Windows Management Instrumentation — une base de données incluse avec Windows) au lieu d&apos;utiliser des méthodes normales. Par exemple, « tasklist.exe » peut obtenir la liste complète des processus même si « Masquer les propres processus de sandybox de la liste des tâches » est activé. Activez cette option pour empêcher ce comportement.</translation>
+        <translation type="vanished">Certains programmes lisent les détails du système en se servant de WMI (Windows Management Instrumentation — une base de données incluse avec Windows) au lieu d&apos;utiliser des méthodes normales. Par exemple, « tasklist.exe » peut obtenir la liste complète des processus même si « Masquer les propres processus de Sandybox de la liste des tâches » est activé. Activez cette option pour empêcher ce comportement.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5579"/>
@@ -11107,8 +6786,8 @@ Veuillez noter que ces valeurs sont actuellement spécifiques à l&apos;utilisat
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="742"/>
-        <source>sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. sandybox offers options for handling these cases, which can be configured on this page.</source>
-        <translation>sandybox ne permet pas d&apos;écrire dans des fichiers hôtes, sauf si autorisé par l&apos;utilisateur. Lorsqu&apos;une application dans un bac tente de modifier un fichier, le fichier entier doit être copié dans le bac ; cela peut prendre une quantité de temps significative pour les grands fichiers. sandybox offre des options pour gérer ces cas, et ceci peut se paramétrer sur cette page.</translation>
+        <source>Sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. Sandybox offers options for handling these cases, which can be configured on this page.</source>
+        <translation>Sandybox ne permet pas d&apos;écrire dans des fichiers hôtes, sauf si autorisé par l&apos;utilisateur. Lorsqu&apos;une application dans un bac tente de modifier un fichier, le fichier entier doit être copié dans le bac ; cela peut prendre une quantité de temps significative pour les grands fichiers. Sandybox offre des options pour gérer ces cas, et ceci peut se paramétrer sur cette page.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="752"/>
@@ -11167,18 +6846,18 @@ Veuillez noter que ces valeurs sont actuellement spécifiques à l&apos;utilisat
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4615"/>
-        <source>sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
+        <source>Sandybox&apos;s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. &apos;ClosedFilePath=!iexplore.exe,C:Users*&apos; will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</source>
-        <oldsource>sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
+        <oldsource>Sandybox’s resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. ‘ClosedFilePath=! iexplore.exe,C:Users*’ will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the “Access policies” page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</oldsource>
-        <translation>Les règles d&apos;accès aux ressources de sandybox discriminent souvent les binaires des programmes situés dans le bac. OpenFilePath et OpenKeyPath fonctionnent uniquement pour les binaires des applications situées nativement sur l&apos;hôte. Afin de définir une règle sans cette restriction, OpenPipePath et OpenConfPath doivent être utilisés. De même, toutes les directives Closed(File|Key|Ipc)Path qui sont définies par une négation (par exemple « ClosedFilePath=!iexplore.exe,C:Users* ») seront toujours fermées aux binaires situés dans un bac. Les deux politiques de restriction peuvent être désactivées sur la page « Politiques d&apos;accès ».
+        <translation>Les règles d&apos;accès aux ressources de Sandybox discriminent souvent les binaires des programmes situés dans le bac. OpenFilePath et OpenKeyPath fonctionnent uniquement pour les binaires des applications situées nativement sur l&apos;hôte. Afin de définir une règle sans cette restriction, OpenPipePath et OpenConfPath doivent être utilisés. De même, toutes les directives Closed(File|Key|Ipc)Path qui sont définies par une négation (par exemple « ClosedFilePath=!iexplore.exe,C:Users* ») seront toujours fermées aux binaires situés dans un bac. Les deux politiques de restriction peuvent être désactivées sur la page « Politiques d&apos;accès ».
 Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du bac de créer une copie renommée d&apos;eux-mêmes et d&apos;accéder aux ressources protégées. Un autre vecteur d&apos;exploit est l&apos;injection d&apos;une bibliothèque dans un processus autorisé afin d&apos;accéder à tout ce qu&apos;il est autorisé d&apos;accéder. En utilisant la Protection d&apos;Image de l&apos;Hôte, cela peut être empêché en bloquant les applications (installées sur l&apos;hôte) lancées dans un bac de charger des bibliothèques depuis le bac lui-même.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4639"/>
-        <source>sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
+        <source>Sandybox&apos;s functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</source>
         <oldsource>sandyboxs functionality can be enhanced using optional dll’s which can be loaded into each sandboxed process on start by the SbieDll.dll, the add-on manager in the global settings offers a couple useful extensions, once installed they can be enabled here for the current box.</oldsource>
-        <translation>Les fonctions de sandybox peuvent être améliorées en utilisant des DLL optionnelles qui peuvent être chargées dans chaque processus d&apos;un bac lors de leur démarrage par SbieDll.dll. Le gestionnaire de modules dans les paramètres généraux offre quelques extensions utiles ; une fois installées, celles-ci peuvent être activées ici pour le bac actuel.</translation>
+        <translation>Les fonctions de Sandybox peuvent être améliorées en utilisant des DLL optionnelles qui peuvent être chargées dans chaque processus d&apos;un bac lors de leur démarrage par SbieDll.dll. Le gestionnaire de modules dans les paramètres généraux offre quelques extensions utiles ; une fois installées, celles-ci peuvent être activées ici pour le bac actuel.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2336"/>
@@ -11216,8 +6895,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
         <translation>Seuls les comptes d&apos;utilisateur administrateur peuvent apporter des modifications à ce bac</translation>
     </message>
     <message>
-        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
-        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;AVERTISSEMENT DE SÉCURITÉ&lt;/font&gt; :&lt;/b&gt; L&apos;utilisation de  &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; et/ou &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; en combinaison avec des directives Open[File/Pipe]Path peut compromettre la sécurité. Veuillez consulter la section de sécurité de chaque option dans la documentation avant utilisation.</translation>
+        <source>&lt;b&gt;&lt;font color=&apos;red&apos;&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security. Please review the security section for each option in the documentation before use.</source>
+        <translation type="vanished">&lt;b&gt;&lt;font color=&apos;red&apos;&gt;AVERTISSEMENT DE SÉCURITÉ&lt;/font&gt; :&lt;/b&gt; L&apos;utilisation de  BreakoutFolder et/ou BreakoutProcess en combinaison avec des directives Open[File/Pipe]Path peut compromettre la sécurité. Veuillez consulter la section de sécurité de chaque option dans la documentation avant utilisation.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4058"/>
@@ -11344,7 +7023,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
         <location filename="Forms/OptionsWindow.ui" line="5084"/>
         <source>Some programs read system details through WMI (a Windows built-in database) instead of normal ways. For example, &quot;tasklist.exe&quot; could get full processes list through accessing WMI, even if &quot;HideOtherBoxes&quot; is used. Enable this option to stop this behaviour.</source>
         <oldsource>Some programs read system deatils through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these behaviour.</oldsource>
-        <translation>Certains programmes lisent les détails du système en se servant de WMI (une base de données incluse avec Windows) au lieu d&apos;utiliser des méthodes normales. Par exemple, « tasklist.exe » peut ainsi obtenir la liste complète des processus même si « Masquer les propres processus de sandybox de la liste des tâches » est activé. Utilisez cette option pour empêcher ce comportement.</translation>
+        <translation>Certains programmes lisent les détails du système en se servant de WMI (une base de données incluse avec Windows) au lieu d&apos;utiliser des méthodes normales. Par exemple, « tasklist.exe » peut ainsi obtenir la liste complète des processus même si « Masquer les propres processus de Sandybox de la liste des tâches » est activé. Utilisez cette option pour empêcher ce comportement.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="5087"/>
@@ -11501,8 +7180,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6086"/>
-        <source>The following settings enable the use of sandybox in combination with accessibility software.  Please note that some measure of sandybox protection is necessarily lost when these settings are in effect.</source>
-        <translation>Les paramètres suivants permettent l&apos;utilisation de sandybox en combinaison avec un logiciel d&apos;accessibilité.  Veuillez noter que certaines mesures de protection de sandybox sont nécessairement perdues lorsque ces paramètres sont en vigueur.</translation>
+        <source>The following settings enable the use of Sandybox in combination with accessibility software.  Please note that some measure of Sandybox protection is necessarily lost when these settings are in effect.</source>
+        <translation>Les paramètres suivants permettent l&apos;utilisation de Sandybox en combinaison avec un logiciel d&apos;accessibilité.  Veuillez noter que certaines mesures de protection de Sandybox sont nécessairement perdues lorsque ces paramètres sont en vigueur.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="6139"/>
@@ -11529,8 +7208,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <name>PopUpWindow</name>
     <message>
         <location filename="Forms/PopUpWindow.ui" line="32"/>
-        <source>sandybox Notifications</source>
-        <translation>sandybox - Notifications</translation>
+        <source>Sandybox Notifications</source>
+        <translation>Sandybox - Notifications</translation>
     </message>
 </context>
 <context>
@@ -11602,7 +7281,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <name>RecoveryWindow</name>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="32"/>
-        <source>sandybox - Recovery</source>
+        <source>Sandybox - Recovery</source>
         <translation>Dismisssandybox - Récupération</translation>
     </message>
     <message>
@@ -11692,8 +7371,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <name>SelectBoxWindow</name>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="32"/>
-        <source>sandybox select box</source>
-        <translation>sandybox - sélectionner le Bac</translation>
+        <source>Sandybox select box</source>
+        <translation>Sandybox - sélectionner le Bac</translation>
     </message>
     <message>
         <location filename="Forms/SelectBoxWindow.ui" line="45"/>
@@ -11740,8 +7419,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <name>SettingsWindow</name>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="32"/>
-        <source>sandybox Settings</source>
-        <translation>Paramètres de sandybox</translation>
+        <source>Sandybox Settings</source>
+        <translation>Paramètres de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="55"/>
@@ -11915,7 +7594,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="147"/>
         <source>SandMan Options</source>
-        <translation>Options du gestionnaire de sandybox</translation>
+        <translation>Options du gestionnaire de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="282"/>
@@ -11962,9 +7641,9 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
         <translation>Options des notifications</translation>
     </message>
     <message>
-        <source>sandybox may be issue &lt;a href= &quot;sbie://docs/ sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases, special event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <oldsource>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</oldsource>
-        <translation type="obsolete">sandybox peut émettre &lt;a href= &quot;sbie://docs/ sbiemessages&quot;&gt;des messages SBIE&lt;/a&gt; vers le journal des messages et les afficher dans une fenêtre surgissante. Certains messages sont informatifs et préviennent d&apos;un évènement commun (ou dans certains cas spécial) qui est survenu, les autres messages indiquent une erreur.&lt;br /&gt;Vous pouvez cacher les messages SBIE choisis (ainsi ils ne s&apos;afficheront pas dans une fenêtre surgissante), en utilisant la liste ci-dessous :</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases, special event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <oldsource>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</oldsource>
+        <translation type="obsolete">Sandybox peut émettre des messages SBIE vers le journal des messages et les afficher dans une fenêtre surgissante. Certains messages sont informatifs et préviennent d&apos;un évènement commun (ou dans certains cas spécial) qui est survenu, les autres messages indiquent une erreur.&lt;br /&gt;Vous pouvez cacher les messages SBIE choisis (ainsi ils ne s&apos;afficheront pas dans une fenêtre surgissante), en utilisant la liste ci-dessous :</translation>
     </message>
     <message>
         <source>Disable SBIE messages popups (SBIE will still be logged to the log tab)</source>
@@ -12017,8 +7696,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="399"/>
-        <source>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
-        <translation>sandybox peut émettre &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;des messages SBIE&lt;/a&gt; vers le journal des messages et les afficher dans une fenêtre surgissante. Certains messages sont informatifs et préviennent d&apos;un évènement commun (ou dans certains cas spécial) qui est survenu, les autres messages indiquent une erreur.&lt;br /&gt;Vous pouvez masquer les messages SBIE choisis (ainsi ils ne s&apos;afficheront pas dans une fenêtre surgissante), en utilisant la liste ci-dessous :</translation>
+        <source>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</source>
+        <translation>Sandybox peut émettre des messages SBIE vers le journal des messages et les afficher dans une fenêtre surgissante. Certains messages sont informatifs et préviennent d&apos;un évènement commun (ou dans certains cas spécial) qui est survenu, les autres messages indiquent une erreur.&lt;br /&gt;Vous pouvez masquer les messages SBIE choisis (ainsi ils ne s&apos;afficheront pas dans une fenêtre surgissante), en utilisant la liste ci-dessous :</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="412"/>
@@ -12027,9 +7706,9 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1147"/>
-        <source>Hide sandybox&apos;s own processes from the task list</source>
-        <oldsource>Hide sandybox&apos;s own processes from the task list</oldsource>
-        <translation>Masquer les propres processus de sandybox de la liste des tâches</translation>
+        <source>Hide Sandybox&apos;s own processes from the task list</source>
+        <oldsource>Hide Sandybox&apos;s own processes from the task list</oldsource>
+        <translation>Masquer les propres processus de Sandybox de la liste des tâches</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1264"/>
@@ -12044,7 +7723,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="204"/>
         <source>Hotkey for bringing sandman to the top:</source>
-        <translation>Raccourci pour amener le gestionnaire de sandybox au premier plan :</translation>
+        <translation>Raccourci pour amener le gestionnaire de Sandybox au premier plan :</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="218"/>
@@ -12114,8 +7793,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1687"/>
-        <source>sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
-        <translation>sandybox offre de nombreuses options et prend en charge un large éventail d&apos;extensions. Sur cette page, vous pouvez configurer l&apos;intégration des modules, extensions et autres composants de tierce partie. Les composants optionnels peuvent être téléchargés depuis le web, et certaines installations peuvent demander des privilèges d&apos;administrateur.</translation>
+        <source>Sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</source>
+        <translation>Sandybox offre de nombreuses options et prend en charge un large éventail d&apos;extensions. Sur cette page, vous pouvez configurer l&apos;intégration des modules, extensions et autres composants de tierce partie. Les composants optionnels peuvent être téléchargés depuis le web, et certaines installations peuvent demander des privilèges d&apos;administrateur.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1723"/>
@@ -12134,8 +7813,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1741"/>
-        <source>&lt;a href=&quot;sbie://addons&quot;&gt;update add-on list now&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;sbie://addons&quot;&gt;Mettre à jour la liste des modules&lt;/a&gt;</translation>
+        <source>update add-on list now</source>
+        <translation>Mettre à jour la liste des modules</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1751"/>
@@ -12174,23 +7853,23 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1813"/>
-        <source>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</source>
-        <translation>&lt;a href=&quot;addon://ImDisk&quot;&gt;Installer le pilote ImDisk&lt;/a&gt; pour activer la prise en charge de disque de mémoire vive et d&apos;image disque.</translation>
+        <source>Install ImDisk driver to enable Ram Disk and Disk Image support.</source>
+        <translation>Installer le pilote ImDisk pour activer la prise en charge de disque de mémoire vive et d&apos;image disque.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1899"/>
-        <source>sandybox Support</source>
-        <translation>Soutien technique de sandybox</translation>
+        <source>Sandybox Support</source>
+        <translation>Soutien technique de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1988"/>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation>Ce certificat d&apos;adhérent a expiré ; veuillez &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;obtenir un certificat mis à jour&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation>Ce certificat d&apos;adhérent a expiré ; veuillez obtenir un certificat mis à jour.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2055"/>
-        <source>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation>Les adhérents au projet sandybox peuvent recevoir un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;. C&apos;est comme une clé de licence mais pour les personnes fantastiques qui utilisent des logiciels à code source ouvert. :-)</translation>
+        <source>Supporters of the Sandybox project can receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation>Les adhérents au projet Sandybox peuvent recevoir un certificat d&apos;adhérent. C&apos;est comme une clé de licence mais pour les personnes fantastiques qui utilisent des logiciels à code source ouvert. :-)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1936"/>
@@ -12204,8 +7883,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2023"/>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt;, becoming a patron by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandboxie.</source>
-        <translation>Maintenir sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Vous pouvez soutenir le développement en &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;contribuant directement au projet&lt;/a&gt;, en montrant votre soutien grâce à &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;l&apos;achat d&apos;un certificat d&apos;adhérent&lt;/a&gt;, en devenant un  mécène grâce à une &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;souscription sur Patreon&lt;/a&gt;, ou à travers un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;don PayPal&lt;/a&gt;.&lt;br /&gt;Votre soutien joue un rôle vital dans le progrès et l&apos;entretien de Sandboxie.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becoming a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</source>
+        <translation>Maintenir Sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Vous pouvez soutenir le développement en contribuant directement au projet, en montrant votre soutien grâce à l&apos;achat d&apos;un certificat d&apos;adhérent, en devenant un  mécène grâce à une souscription sur Patreon, ou à travers un don PayPal.&lt;br /&gt;Votre soutien joue un rôle vital dans le progrès et l&apos;entretien de Sandybox.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1922"/>
@@ -12224,13 +7903,13 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2512"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;file system root&lt;/a&gt;: </source>
-        <translation>&lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;Racine du système de fichiers&lt;/a&gt; des bacs : </translation>
+        <source>Sandbox file system root: </source>
+        <translation>Racine du système de fichiers des bacs : </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="173"/>
         <source>Check sandboxes&apos; auto-delete status when Sandman starts</source>
-        <translation>Vérifier l&apos;état d&apos;auto-suppression des bacs à sable lors du démarrage du gestionnaire de sandybox</translation>
+        <translation>Vérifier l&apos;état d&apos;auto-suppression des bacs à sable lors du démarrage du gestionnaire de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="673"/>
@@ -12246,7 +7925,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1442"/>
         <source>Hide SandMan windows from screen capture (UI restart required)</source>
-        <translation>Masquer les fenêtres du gestionnaire de sandybox lors des captures d&apos;écran (redémarrage de l&apos;interface nécessaire)</translation>
+        <translation>Masquer les fenêtres du gestionnaire de Sandybox lors des captures d&apos;écran (redémarrage de l&apos;interface nécessaire)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1872"/>
@@ -12260,8 +7939,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2004"/>
-        <source>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;Certificate usage guide&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;Guide d&apos;utilisation du certificat&lt;/a&gt;</translation>
+        <source>Certificate usage guide</source>
+        <translation>Guide d&apos;utilisation du certificat</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1949"/>
@@ -12271,7 +7950,7 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="134"/>
         <source>Terminate all boxed processes when Sandman exits</source>
-        <translation>Arrêter tous les processus dans les bacs lors de la fermeture du gestionnaire de sandybox</translation>
+        <translation>Arrêter tous les processus dans les bacs lors de la fermeture du gestionnaire de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="686"/>
@@ -12299,8 +7978,8 @@ Ceci est fait pour empêcher les processus malveillants à l&apos;intérieur du 
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2140"/>
-        <source>sandybox Updater</source>
-        <translation>Mise à jour de sandybox</translation>
+        <source>Sandybox Updater</source>
+        <translation>Mise à jour de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2171"/>
@@ -12336,13 +8015,13 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2275"/>
-        <source>Check periodically for new sandybox versions</source>
-        <translation>Vérifier régulièrement les mises à jour de sandybox</translation>
+        <source>Check periodically for new Sandybox versions</source>
+        <translation>Vérifier régulièrement les mises à jour de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2285"/>
-        <source>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</source>
-        <translation>En savoir plus concernant le &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;canal des Initiés&lt;/a&gt;</translation>
+        <source>More about the Insider Channel</source>
+        <translation>En savoir plus concernant le canal des Initiés</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2305"/>
@@ -12356,14 +8035,14 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2569"/>
-        <source>Use a sandybox login instead of an anonymous token</source>
-        <translation>Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme</translation>
+        <source>Use a Sandybox login instead of an anonymous token</source>
+        <translation>Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2406"/>
-        <source>Add &quot;CODE(0x55c9eac1d610)->(sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
-        <oldsource>Add &quot;CODE(0x55c9eac1d610)->(sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
-        <translation>Ajouter le groupe « sandybox\Tous les bacs à sable » au jeton de bac</translation>
+        <source>Add &quot;CODE(0x55c9eac1d610)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token</source>
+        <oldsource>Add &quot;CODE(0x55c9eac1d610)->(Sandybox\All Sandboxes)&quot; group to the sandboxed token (experimental)</oldsource>
+        <translation>Ajouter le groupe « Sandybox\Tous les bacs à sable » au jeton de bac</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2535"/>
@@ -12376,8 +8055,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation>Restreindre l&apos;accès au dossier racine du bac à l&apos;utilisateur qui a créé ce bac</translation>
     </message>
     <message>
-        <source>Sandboxie.ini Presets</source>
-        <translation type="vanished">Préréglages de Sandboxie.ini</translation>
+        <source>base configuration file Presets</source>
+        <translation type="vanished">Préréglages de base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2779"/>
@@ -12387,12 +8066,12 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     <message>
         <location filename="Forms/SettingsWindow.ui" line="267"/>
         <source>Always run SandMan UI as Admin</source>
-        <translation>Toujours exécuter l&apos;interface du gestionnaire de sandybox en tant qu&apos;administrateur</translation>
+        <translation>Toujours exécuter l&apos;interface du gestionnaire de Sandybox en tant qu&apos;administrateur</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="274"/>
         <source>Use the new SandMan style on Windows 11</source>
-        <translation>Utiliser le nouveau style de gestionnaire de sandybox dans Windows 11</translation>
+        <translation>Utiliser le nouveau style de gestionnaire de Sandybox dans Windows 11</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="707"/>
@@ -12496,14 +8175,14 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2631"/>
-        <source>Use sandybox&apos;s own enhanced UAC prompt (recommended)</source>
-        <oldsource>Use sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
-        <translation>Utiliser l&apos;invite améliorée de contrôle de compte d&apos;utilisateur propre à sandybox (recommandé)</translation>
+        <source>Use Sandybox&apos;s own enhanced UAC prompt (recommended)</source>
+        <oldsource>Use Sandybox&apos;s own enhanced UAC prompt (experimental)</oldsource>
+        <translation>Utiliser l&apos;invite améliorée de contrôle de compte d&apos;utilisateur propre à Sandybox (recommandé)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2641"/>
-        <source>Sandboxie.ini</source>
-        <translation>Sandboxie.ini</translation>
+        <source>base configuration file</source>
+        <translation>base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2674"/>
@@ -12536,8 +8215,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2688"/>
-        <source>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
-        <translation>&lt;b&gt;La protection de configuration s&apos;applique uniquement à « Sandboxie.ini ». La configuration de bac portable n&apos;est pas protégée par les méchanisnmes ci-dessous.&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Config protection applyess only to base configuration file portable box configuration is not protected by the below mechanisms&lt;/b&gt;</source>
+        <translation>&lt;b&gt;La protection de configuration s&apos;applique uniquement à « base configuration file ». La configuration de bac portable n&apos;est pas protégée par les méchanisnmes ci-dessous.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2647"/>
@@ -12737,8 +8416,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2589"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;ipc root&lt;/a&gt;: </source>
-        <translation>&lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;Racine IPC&lt;/a&gt; des bacs : </translation>
+        <source>Sandbox ipc root: </source>
+        <translation>Racine IPC des bacs : </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2445"/>
@@ -12757,8 +8436,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2390"/>
-        <source>Sandbox &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registry root&lt;/a&gt;: </source>
-        <translation>&lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;Racine du registre&lt;/a&gt; des bacs : </translation>
+        <source>Sandbox registry root: </source>
+        <translation>Racine du registre des bacs : </translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2582"/>
@@ -12786,8 +8465,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2786"/>
-        <source>Watch Sandboxie.ini for changes</source>
-        <translation>Surveiller les modifications apportées à Sandboxie.ini</translation>
+        <source>Watch base configuration file for changes</source>
+        <translation>Surveiller les modifications apportées à base configuration file</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2720"/>
@@ -12852,8 +8531,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation>Accrocher les appels systèmes Win32k sélectionnés pour permettre l&apos;accélération du processeur graphique (nécessaire pour Chrome et Firefox, entre autres)</translation>
     </message>
     <message>
-        <source>Use a sandybox login instead of an anonymous token (experimental)</source>
-        <translation type="vanished">Utiliser un identifiant de sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
+        <source>Use a Sandybox login instead of an anonymous token (experimental)</source>
+        <translation type="vanished">Utiliser un identifiant de Sandybox au lieu d&apos;un jeton anonyme (expérimental)</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2824"/>
@@ -12886,8 +8565,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2862"/>
-        <source>When any of the following programs is launched outside any sandbox, sandybox will issue message SBIE1301.</source>
-        <translation>Lorsqu&apos;un des programmes suivants est lancé hors de tout bac, sandybox émettra le message SBIE1301.</translation>
+        <source>When any of the following programs is launched outside any sandbox, Sandybox will issue message SBIE1301.</source>
+        <translation>Lorsqu&apos;un des programmes suivants est lancé hors de tout bac, Sandybox émettra le message SBIE1301.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2886"/>
@@ -12945,9 +8624,9 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2382"/>
-        <source>sandybox Config</source>
+        <source>Sandybox Config</source>
         <oldsource>Config Protection</oldsource>
-        <translation>Configuration de sandybox</translation>
+        <translation>Configuration de Sandybox</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="422"/>
@@ -13026,8 +8705,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3126"/>
-        <source>sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
-        <translation>sandybox a détecté les applications logicielles suivantes dans votre système. Appuyez sur OK pour appliquer les paramètres de configuration, qui amélioreront la compatibilité avec ces applications. Ces paramètres de configuration auront un effet dans tous les bacs à sable existants et dans tous les nouveaux.</translation>
+        <source>Sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
+        <translation>Sandybox a détecté les applications logicielles suivantes dans votre système. Appuyez sur OK pour appliquer les paramètres de configuration, qui amélioreront la compatibilité avec ces applications. Ces paramètres de configuration auront un effet dans tous les bacs à sable existants et dans tous les nouveaux.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3179"/>
@@ -13056,14 +8735,14 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2130"/>
-        <source>sandybox Version: 0.0.0</source>
-        <translation>Version de sandybox : 0.0.0</translation>
+        <source>Sandybox Version: 0.0.0</source>
+        <translation>Version de Sandybox : 0.0.0</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3100"/>
-        <source>&lt;a href=&quot;sbie://templates&quot;&gt;update compatibility templates now&lt;/a&gt;</source>
-        <oldsource>&lt;a href=&quot;sbie://templates&quot;&gt;update compatybility templates now&lt;/a&gt;</oldsource>
-        <translation>&lt;a href=&quot;sbie://templates&quot;&gt;Mettre immédiatement à jour les modèles de compatibilité&lt;/a&gt;</translation>
+        <source>update compatibility templates now</source>
+        <oldsource>update compatybility templates now</oldsource>
+        <translation>Mettre immédiatement à jour les modèles de compatibilité</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="3225"/>
@@ -13157,12 +8836,12 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2205"/>
-        <source>Hotpatches for the installed version, updates to the Templates.ini and translations.</source>
-        <translation>Correctifs pour la version installée, mises à jour de Templates.ini et traductions.</translation>
+        <source>Hotpatches for the installed version, updates to the template configuration file and translations.</source>
+        <translation>Correctifs pour la version installée, mises à jour de template configuration file et traductions.</translation>
     </message>
     <message>
-        <source>This supporter certificate has expired, please &lt;a href=&quot;sbie://update/cert&quot;&gt;get an updated certificate&lt;/a&gt;.</source>
-        <translation type="vanished">Ce certificat d&apos;adhérent a expiré, veuillez &lt;a href=&quot;sbie://update/cert&quot;&gt;obtenir un certificat à jour&lt;/a&gt;.</translation>
+        <source>This supporter certificate has expired, please get an updated certificate.</source>
+        <translation type="vanished">Ce certificat d&apos;adhérent a expiré, veuillez obtenir un certificat à jour.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2218"/>
@@ -13184,8 +8863,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation>Rechercher dans le canal Stable</translation>
     </message>
     <message>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;PayPal donation&lt;/a&gt;, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon subscription&lt;/a&gt;.</source>
-        <translation type="vanished">Maintenir sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Veuillez envisager de soutenir ce travail par un don.&lt;br /&gt;Vous pouvez soutenir le développement avec un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;don PayPal&lt;/a&gt;, fonctionnant également avec les cartes de crédit.&lt;br /&gt;Ou vous pouvez offrir un soutien régulier avec une &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;souscription Patreon&lt;/a&gt;.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a PayPal donation, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a Patreon subscription.</source>
+        <translation type="vanished">Maintenir Sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Veuillez envisager de soutenir ce travail par un don.&lt;br /&gt;Vous pouvez soutenir le développement avec un don PayPal, fonctionnant également avec les cartes de crédit.&lt;br /&gt;Ou vous pouvez offrir un soutien régulier avec une souscription Patreon.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="2221"/>
@@ -13193,8 +8872,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation>Rechercher dans le canal des Aperçus</translation>
     </message>
     <message>
-        <source>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation type="vanished">Les adhérents au projet sandybox peuvent recevoir un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;. C&apos;est comme une clé de licence mais pour les personnes fantastiques qui utilisent des logiciels à code source ouvert. :-)</translation>
+        <source>Supporters of the Sandybox project can receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation type="vanished">Les adhérents au projet Sandybox peuvent recevoir un certificat d&apos;adhérent. C&apos;est comme une clé de licence mais pour les personnes fantastiques qui utilisent des logiciels à code source ouvert. :-)</translation>
     </message>
     <message>
         <source>Download Updates automatically</source>
@@ -13205,8 +8884,8 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation type="vanished">Rechercher dans le canal des sorties standards</translation>
     </message>
     <message>
-        <source>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;Patreon subscription&lt;/a&gt;.</source>
-        <translation type="vanished">Maintenir sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Veuillez envisager de soutenir ce travail par un don.&lt;br /&gt;Vous pouvez soutenir le développement avec un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;don PayPal&lt;/a&gt;, fonctionnant également avec des cartes de crédit.&lt;br /&gt;Ou vous pouvez fournir un soutien récurrent avec un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;abonnement à Patreon&lt;/a&gt;.</translation>
+        <source>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. Please consider supporting this work with a donation.&lt;br /&gt;You can support the development with a PayPal donation, working also with credit cards.&lt;br /&gt;Or you can provide continuous support with a Patreon subscription.</source>
+        <translation type="vanished">Maintenir Sandybox à jour avec les nouvelles versions de Windows et compatible avec tous les navigateurs web est un effort sans fin. Veuillez envisager de soutenir ce travail par un don.&lt;br /&gt;Vous pouvez soutenir le développement avec un don PayPal, fonctionnant également avec des cartes de crédit.&lt;br /&gt;Ou vous pouvez fournir un soutien récurrent avec un abonnement à Patreon.</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="1929"/>
@@ -13223,32 +8902,32 @@ Contrairement au canal des Aperçus, cela n&apos;inclut pas les modifications no
         <translation type="vanished">Paramètres de maintenance</translation>
     </message>
     <message>
-        <source>Supporters of the sandybox project receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using open source software. :-)</source>
-        <translation type="vanished">Les adhérents du projet sandybox reçoivent un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;. C&apos;est comme une clé de licence mais pour les personnes géniales qui utilisent des logiciels au code source ouvert. :-)</translation>
+        <source>Supporters of the Sandybox project receive a supporter certificate. It&apos;s like a license key but for awesome people using open source software. :-)</source>
+        <translation type="vanished">Les adhérents du projet Sandybox reçoivent un certificat d&apos;adhérent. C&apos;est comme une clé de licence mais pour les personnes géniales qui utilisent des logiciels au code source ouvert. :-)</translation>
     </message>
     <message>
         <source>This supporter certificate has expired, please get an updated certificate.</source>
         <translation type="vanished">Ce certificat d&apos;adhérent a expiré, veuillez obtenir un certificat à jour.</translation>
     </message>
     <message>
-        <source>Supporters of the sandybox project receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=certificate&quot;&gt;supporter certificate&lt;/a&gt;. It&apos;s like a license key but for awesome people using free software. :-)</source>
-        <translation type="vanished">Les adhérents au projet sandybox reçoivent un &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=certificate&quot;&gt;certificat d&apos;adhérent&lt;/a&gt;. C&apos;est comme une clé de licence, mais pour les personnes géniales qui utilisent des logiciels libres. :-)</translation>
+        <source>Supporters of the Sandybox project receive a supporter certificate. It&apos;s like a license key but for awesome people using free software. :-)</source>
+        <translation type="vanished">Les adhérents au projet Sandybox reçoivent un certificat d&apos;adhérent. C&apos;est comme une clé de licence, mais pour les personnes géniales qui utilisent des logiciels libres. :-)</translation>
     </message>
     <message>
         <source>Install updates automatically</source>
         <translation type="vanished">Installer les mises à jour automatiquement</translation>
     </message>
     <message>
-        <source>Check periodically for updates of sandybox</source>
-        <translation type="vanished">Vérifier périodiquement les mises à jour de sandybox</translation>
+        <source>Check periodically for updates of Sandybox</source>
+        <translation type="vanished">Vérifier périodiquement les mises à jour de Sandybox</translation>
     </message>
 </context>
 <context>
     <name>SnapshotsWindow</name>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="32"/>
-        <source>sandybox - Snapshots</source>
-        <translation>sandybox - Instantanés</translation>
+        <source>Sandybox - Snapshots</source>
+        <translation>Sandybox - Instantanés</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="60"/>

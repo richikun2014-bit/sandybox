@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>SandboxiePlus select box</string>
+   <string>Sandybox select box</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="5" column="0">

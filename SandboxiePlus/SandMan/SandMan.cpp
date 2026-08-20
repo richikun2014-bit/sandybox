@@ -488,7 +488,7 @@ CSandMan::CSandMan(QWidget *parent)
 	CFinder::m_HighlightIcon = GetIcon("Highlight");
 
 	if (!theConf->IsWritable()) {
-		QMessageBox::critical(this, "sandybox", tr("WARNING: Sandboxie-Plus.ini in %1 cannot be written to, settings will not be saved.").arg(theConf->GetConfigDir()));
+		QMessageBox::critical(this, "Sandybox", tr("WARNING: Sandybox configuration cannot be written to %1, settings will not be saved.").arg(theConf->GetConfigDir()));
 	}
 
 	m_bOnTop = false;
@@ -509,9 +509,9 @@ CSandMan::CSandMan(QWidget *parent)
 	UpdateDrives();
 
 #ifdef INSIDER_BUILD
-	QString appTitle = tr("sandybox Insider [%1]").arg(QString(__DATE__));
+	QString appTitle = tr("Sandybox Insider [%1]").arg(QString(__DATE__));
 #else
-	QString appTitle = tr("sandybox v%1").arg(GetVersion());
+	QString appTitle = tr("Sandybox v%1").arg(GetVersion());
 #endif
 	if (IsElevated())
 		appTitle.append(tr(" (Administrator)"));
@@ -591,7 +591,7 @@ CSandMan::CSandMan(QWidget *parent)
 	LoadState();
 
 	m_pProgressDialog = new CProgressDialog("");
-	m_pProgressDialog->setWindowTitle("sandybox");
+	m_pProgressDialog->setWindowTitle("Sandybox");
 	m_pProgressDialog->setWindowModality(Qt::ApplicationModal);
 	connect(m_pProgressDialog, SIGNAL(Cancel()), this, SLOT(OnCancelAsync()));
 	m_pProgressModal = false;
@@ -813,21 +813,12 @@ void CSandMan::CreateViewBaseMenu()
 void CSandMan::CreateHelpMenu(bool bAdvanced)
 {
 	m_pMenuHelp = m_pMenuBar->addMenu(tr("&Help"));
-		//m_pMenuHelp->addAction(tr("Support sandybox on Patreon"), this, SLOT(OnHelp()));
-		//m_pSupport = m_pMenuHelp->addAction(tr("Support sandybox with Donations"), this, SLOT(OnHelp()));
-		//if (!bAdvanced) {
-		//	m_pMenuHelp->removeAction(m_pSupport);
-		//	m_pMenuBar->addAction(m_pSupport);
-		//}
-		m_pContribution = m_pMenuHelp->addAction(CSandMan::GetIcon("Support"), tr("Contribute to sandybox"), this, SLOT(OnHelp()));
 		m_pBoxAssistant = m_pMenuHelp->addAction(CSandMan::GetIcon("FirstAid"), tr("Troubleshooting Wizard"), this, SLOT(OnBoxAssistant()));
-		m_pManual = m_pMenuHelp->addAction(CSandMan::GetIcon("Help"), tr("Online Documentation"), this, SLOT(OnHelp()));
-		m_pForum = m_pMenuHelp->addAction(CSandMan::GetIcon("Forum"), tr("Visit Support Forum"), this, SLOT(OnHelp()));
 		m_pMenuHelp->addSeparator();
 		m_pUpdate = m_pMenuHelp->addAction(CSandMan::GetIcon("Update"), tr("Check for Updates"), this, SLOT(CheckForUpdates()));
 		m_pMenuHelp->addSeparator();
 		m_pAboutQt = m_pMenuHelp->addAction(tr("About the Qt Framework"), this, SLOT(OnAbout()));
-		m_pAbout = m_pMenuHelp->addAction(CSandMan::GetIcon("IconFull", 2), tr("About sandybox"), this, SLOT(OnAbout()));
+		m_pAbout = m_pMenuHelp->addAction(CSandMan::GetIcon("IconFull", 2), tr("About Sandybox"), this, SLOT(OnAbout()));
 }
 
 void CSandMan::CreateMenus(bool bAdvanced)
@@ -963,12 +954,12 @@ void CSandMan::CreateMenus(bool bAdvanced)
 	}
 
 		m_pMenuOptions->addSeparator();
-		m_pEditIni = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor"), tr("Edit Sandboxie.ini"), this, SLOT(OnEditIni()));
+		m_pEditIni = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor"), tr("Edit Base Configuration"), this, SLOT(OnEditIni()));
 		m_pEditIni->setProperty("ini", "sbie");
 		if (bAdvanced) {
-			m_pEditIni2 = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor2"), tr("Edit Templates.ini"), this, SLOT(OnEditIni()));
+			m_pEditIni2 = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor2"), tr("Edit Templates"), this, SLOT(OnEditIni()));
 			m_pEditIni2->setProperty("ini", "tmpl");
-			m_pEditIni3 = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor4"), tr("Edit Sandboxie-Plus.ini"), this, SLOT(OnEditIni()));
+			m_pEditIni3 = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor4"), tr("Edit Sandybox Configuration"), this, SLOT(OnEditIni()));
 			m_pEditIni3->setProperty("ini", "plus");
 		} else
 			m_pEditIni2 = m_pEditIni3 = NULL;
@@ -1108,7 +1099,7 @@ void CSandMan::CreateOldMenus()
 		m_pMenuOptions->addSeparator();
 		QAction* m_pConfigLock = m_pMenuOptions->addAction(CSandMan::GetIcon("Lock"), tr("Lock Configuration"), this, SLOT(OnSettingsAction()));
 		m_pConfigLock->setData("Lock");
-		m_pEditIni = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor"), tr("Edit Sandboxie.ini"), this, SLOT(OnEditIni()));
+			m_pEditIni = m_pMenuOptions->addAction(CSandMan::GetIcon("Editor"), tr("Edit Base Configuration"), this, SLOT(OnEditIni()));
 		m_pEditIni->setProperty("ini", "sbie");
 		m_pEditIni2 = m_pEditIni3 = NULL;
 		m_pReloadIni = m_pMenuOptions->addAction(CSandMan::GetIcon("ReloadIni"), tr("Reload configuration"), this, SLOT(OnReloadIni()));
@@ -1353,8 +1344,8 @@ void CSandMan::CreateToolBar(bool rebuild)
 		{
 			auto but = new QToolButton();
 			but->setIcon(CSandMan::GetIcon("Editor"));
-			but->setToolTip(tr("Edit Sandboxie.ini"));
-			but->setText(tr("Edit Sandboxie.ini"));
+			but->setToolTip(tr("Edit Base Configuration"));
+			but->setText(tr("Edit Base Configuration"));
 			but->setPopupMode(QToolButton::MenuButtonPopup);
 			auto menu = new QMenu(but);
 			menu->addAction(m_pEditIni);
@@ -1409,15 +1400,15 @@ void CSandMan::UpdateLabel()
 	{
 		QString FilePath = theConf->GetString("Updater/InstallerPath");
 		if (!FilePath.isEmpty() && QFile::exists(FilePath)) {
-			LabelText = tr("<a href=\"sbie://update/installer\" style=\"color: red;\">There is a new sandybox release %1 ready</a>").arg(theConf->GetString("Updater/InstallerVersion"));
+			LabelText = tr("<a href=\"sbie://update/installer\" style=\"color: red;\">There is a new Sandybox release %1 ready</a>").arg(theConf->GetString("Updater/InstallerVersion"));
 			LabelTip = tr("Click to run installer");
 		}
 		else if (!theConf->GetString("Updater/UpdateVersion").isEmpty()){
-			LabelText = tr("<a href=\"sbie://update/apply\" style=\"color: red;\">There is a new sandybox update %1 ready</a>").arg(theConf->GetString("Updater/UpdateVersion"));
+			LabelText = tr("<a href=\"sbie://update/apply\" style=\"color: red;\">There is a new Sandybox update %1 ready</a>").arg(theConf->GetString("Updater/UpdateVersion"));
 			LabelTip = tr("Click to apply update");
 		}
 		else {
-			LabelText = tr("<a href=\"sbie://update/check\" style=\"color: red;\">There is a new sandybox update v%1 available</a>").arg(theConf->GetString("Updater/PendingUpdate"));
+			LabelText = tr("<a href=\"sbie://update/check\" style=\"color: red;\">There is a new Sandybox update v%1 available</a>").arg(theConf->GetString("Updater/PendingUpdate"));
 			LabelTip = tr("Click to download update");
 		}
 
@@ -1426,10 +1417,9 @@ void CSandMan::UpdateLabel()
 	}
 	else if (g_Certificate.isEmpty())
 	{
-		LabelText = theConf->GetString("Updater/LabelMessage");
-		if(LabelText.isEmpty())
-			LabelText = tr("<a href=\"https://sandboxie-plus.com/go.php?to=patreon\">Support sandybox on Patreon</a>");
-		LabelTip = tr("Click to open web browser");
+		LabelText.clear();
+		LabelTip.clear();
+		m_pLabel->setGraphicsEffect(NULL);
 
 		//auto neon = new CNeonEffect(10, 4, 240);
 		auto neon = new CNeonEffect(10, 4);
@@ -1698,7 +1688,7 @@ void CSandMan::closeEvent(QCloseEvent *e)
 		}
 		else if(OnClose.compare("Prompt", Qt::CaseInsensitive) == 0)
 		{
-			CExitDialog ExitDialog(tr("Do you want to close sandybox Manager?"));
+			CExitDialog ExitDialog(tr("Do you want to close Sandybox Manager?"));
 			if (!ExitDialog.exec())
 			{
 				e->ignore();
@@ -1715,7 +1705,7 @@ void CSandMan::closeEvent(QCloseEvent *e)
 		if (PortableStop == -1)
 		{
 			bool State = false;
-			auto Ret = CCheckableMessageBox::question(this, "sandybox", tr("sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.\n\nDo you want to do the clean up?")
+			auto Ret = CCheckableMessageBox::question(this, "Sandybox", tr("Sandybox was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.\n\nDo you want to do the clean up?")
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Yes | QDialogButtonBox::No | QDialogButtonBox::Cancel, QDialogButtonBox::Yes, QMessageBox::Question);
 
 			if (Ret == QDialogButtonBox::Cancel)
@@ -2013,16 +2003,16 @@ void CSandMan::OnMessage(const QString& MsgData)
 						theAPI->GetBoxByName(response)->AppendText("ForceProcess", dirOrFile.mid(dirOrFile.lastIndexOf("\\") + 1));
 					}
 					else {
-						QMessageBox::warning(g_GUIParent, tr("sandybox Warning"), tr("The value is not an existing directory or executable."), QMessageBox::Ok, 0);
+						QMessageBox::warning(g_GUIParent, tr("Sandybox Warning"), tr("The value is not an existing directory or executable."), QMessageBox::Ok, 0);
 					}
 				}
 			}
 			else {
-				QMessageBox::warning(g_GUIParent, tr("sandybox Warning"), tr("You typed a wrong box name! Nothing was changed."), QMessageBox::Ok, 0);
+				QMessageBox::warning(g_GUIParent, tr("Sandybox Warning"), tr("You typed a wrong box name! Nothing was changed."), QMessageBox::Ok, 0);
 			}
 		}
 		else {
-			QMessageBox::warning(g_GUIParent, tr("sandybox Warning"), tr("User canceled this operation."), QMessageBox::Yes, 0);
+			QMessageBox::warning(g_GUIParent, tr("Sandybox Warning"), tr("User canceled this operation."), QMessageBox::Yes, 0);
 		}
 	}
 	else if (Message.left(8) == "AddOpen:")
@@ -2034,11 +2024,11 @@ void CSandMan::OnMessage(const QString& MsgData)
 					theAPI->GetBoxByName(response)->AppendText("OpenFilePath", Message.mid(8).replace("\"", ""));
 			}
 			else {
-				QMessageBox::warning(g_GUIParent, tr("sandybox Warning"), tr("You typed a wrong box name! Nothing was changed."), QMessageBox::Ok, 0);
+				QMessageBox::warning(g_GUIParent, tr("Sandybox Warning"), tr("You typed a wrong box name! Nothing was changed."), QMessageBox::Ok, 0);
 			}
 		}
 		else {
-			QMessageBox::warning(g_GUIParent, tr("sandybox Warning"), tr("User canceled this operation."), QMessageBox::Yes, 0);
+			QMessageBox::warning(g_GUIParent, tr("Sandybox Warning"), tr("User canceled this operation."), QMessageBox::Yes, 0);
 		}
 	}
 	else if (Message.left(4) == "Run:")
@@ -2314,7 +2304,7 @@ void CSandMan::timerEvent(QTimerEvent* pEvent)
 			}
 
 			bool State = false;
-			CleanupTemplates = CCheckableMessageBox::question(this, "sandybox", tr("Some compatibility templates are missing:<br /><br />%1<br />Probably deleted, do you want to remove them from all boxes?")
+			CleanupTemplates = CCheckableMessageBox::question(this, "Sandybox", tr("Some compatibility templates are missing:<br /><br />%1<br />Probably deleted, do you want to remove them from all boxes?")
 				.arg(AllTemplatesStr)
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) == QDialogButtonBox::Yes ? 1 : 0;
 
@@ -2810,9 +2800,9 @@ void CSandMan::OnBoxCleaned(CSandBoxPlus* pBoxEx)
 void CSandMan::OnStatusChanged()
 {
 #ifdef INSIDER_BUILD
-	QString appTitle = tr("sandybox Insider [%1]").arg(QString(__DATE__));
+	QString appTitle = tr("Sandybox Insider [%1]").arg(QString(__DATE__));
 #else
-	QString appTitle = tr("sandybox v%1").arg(GetVersion());
+	QString appTitle = tr("Sandybox v%1").arg(GetVersion());
 #endif
 
 	bool bConnected = theAPI->IsConnected();
@@ -2825,7 +2815,7 @@ void CSandMan::OnStatusChanged()
 
 		QString SbiePath = theAPI->GetSbiePath();
 		OnLogMessage(tr("%1 Directory: %2").arg(bPortable ? tr("Application") : tr("Installation")).arg(SbiePath));
-		OnLogMessage(tr("sandybox Version: %1 (%2)").arg(GetVersion()).arg(theAPI->GetVersion()));
+		OnLogMessage(tr("Sandybox Version: %1 (%2)").arg(GetVersion()).arg(theAPI->GetVersion()));
 		OnLogMessage(tr("Current Config: %1").arg(theAPI->GetIniPath()));
 		OnLogMessage(tr("Data Directory: %1").arg(QString(theConf->GetConfigDir()).replace("/","\\")));
 
@@ -2847,8 +2837,8 @@ void CSandMan::OnStatusChanged()
 				if (DosBoxPath != BoxPath + "\\%SANDBOX%")
 				{
 					bool State = false;
-					PortableRootDir = CCheckableMessageBox::question(this, "sandybox",
-						tr("sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?\nYes will choose: %1\nNo will choose: %2")
+					PortableRootDir = CCheckableMessageBox::question(this, "Sandybox",
+						tr("Sandybox was started in portable mode, do you want to put the Sandbox folder into its parent directory?\nYes will choose: %1\nNo will choose: %2")
 						.arg(BoxPath + "\\[BoxName]")
 						.arg(DosBoxPath)
 						, tr("Don't show this message again."), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) == QDialogButtonBox::Yes ? 1 : 0;
@@ -2957,7 +2947,7 @@ void CSandMan::OnStatusChanged()
 
 			if (DynData == 0)
 			{
-				QString Message = tr("Your Windows build %1 exceeds the current support capabilities of your sandybox version, "
+				QString Message = tr("Your Windows build %1 exceeds the current support capabilities of your Sandybox version, "
 					"resulting in the disabling of token-based security isolation. Consequently, all applications will operate in application compartment mode without secure isolation.\n"
 					"Please check if there is an update for sandboxie.").arg(versionInfo.dwBuildNumber);
 				OnLogMessage(Message, true);
@@ -2966,15 +2956,15 @@ void CSandMan::OnStatusChanged()
 				if (IgnoreUnkBuild != versionInfo.dwBuildNumber)
 				{
 					bool Ignore = false;
-					CCheckableMessageBox::question(this, "sandybox", Message, tr("Don't show this message again for the current build."), &Ignore, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Critical);
+					CCheckableMessageBox::question(this, "Sandybox", Message, tr("Don't show this message again for the current build."), &Ignore, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Critical);
 					if (Ignore)
 						theConf->SetValue("Options/IgnoreUnkBuild", (int)versionInfo.dwBuildNumber);
 				}
 			}
 			else if (DynData == -1)
 			{
-				OnLogMessage(tr("Your Windows build %1 exceeds the current known support capabilities of your sandybox version, "
-					"sandybox will attempt to use the last-known offsets which may cause system instability.").arg(versionInfo.dwBuildNumber), true);
+				OnLogMessage(tr("Your Windows build %1 exceeds the current known support capabilities of your Sandybox version, "
+					"Sandybox will attempt to use the last-known offsets which may cause system instability.").arg(versionInfo.dwBuildNumber), true);
 			}
 		}
 
@@ -2984,14 +2974,14 @@ void CSandMan::OnStatusChanged()
 		int WizardLevel = abs(theConf->GetInt("Options/WizardLevel", 0));
 		if (WizardLevel < (!g_CertInfo.active ? SETUP_LVL_3 : (theConf->GetInt("Options/CheckForUpdates", 2) != 1 ? SETUP_LVL_2 : SETUP_LVL_1))) {
 			if (!CSetupWizard::ShowWizard(WizardLevel)) { // if user canceled, mark that and do not show again, until there is something new
-				if(QMessageBox::question(NULL, "sandybox", tr("Do you want the setup wizard to be omitted?"), QMessageBox::Yes, QMessageBox::No | QMessageBox::Default) == QMessageBox::Yes)
+				if(QMessageBox::question(NULL, "Sandybox", tr("Do you want the setup wizard to be omitted?"), QMessageBox::Yes, QMessageBox::No | QMessageBox::Default) == QMessageBox::Yes)
 					theConf->SetValue("Options/WizardLevel", -SETUP_LVL_CURRENT);
 			}
 		}
 
 		if (theConf->GetInt("Options/ScanWindowsUpdates", 1) == 2)
 		{
-			auto Ret = QMessageBox::question(NULL, "sandybox", tr("Sandman did not finish enumerating installed windows updates last time, it probably hangs.\n"
+			auto Ret = QMessageBox::question(NULL, "Sandybox", tr("Sandman did not finish enumerating installed windows updates last time, it probably hangs.\n"
 				"Do you want to disable Windows Updates scanning from the software compatibility detection?"), QMessageBox::Yes, QMessageBox::No | QMessageBox::Default);
 			theConf->SetValue("Options/ScanWindowsUpdates", Ret == QMessageBox::Yes ? 0 : 1);
 		}
@@ -3195,7 +3185,7 @@ void CSandMan::SetupHotKeys()
 	}
 	catch (UException& err) 
 	{
-		QMessageBox::critical(this, "sandybox", tr("Failed to configure hotkey %1, error: %2").arg(HotKey).arg(err.what()));
+		QMessageBox::critical(this, "Sandybox", tr("Failed to configure hotkey %1, error: %2").arg(HotKey).arg(err.what()));
 	}
 }
 
@@ -3253,7 +3243,7 @@ void CSandMan::OnLogMessage(const QString& Message, bool bNotify)
 
 	if (bNotify) {
 		statusBar()->showMessage(Message);
-		m_pTrayIcon->showMessage("sandybox", Message);
+		m_pTrayIcon->showMessage("Sandybox", Message);
 	}
 }
 
@@ -3375,15 +3365,15 @@ void CSandMan::OnLogSbieMessage(quint32 MsgCode, const QStringList& MsgData, qui
 		if ((MsgCode & 0xFFFF) == 6008)
 		{
 			Message = tr("The box %1 is configured to use features exclusively available to project supporters.").arg(MsgData[1]);
-			Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>"));
+			Message.append(tr("<br />Become a project supporter, and receive a supporter certificate"));
 		}
 		else if ((MsgCode & 0xFFFF) == 6009)
 		{
 			Message = tr("The box %1 is configured to use features which require an <b>advanced</b> supporter certificate.").arg(MsgData[1]);
 			if(g_CertInfo.active)
-				Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert\">Upgrade your Certificate</a> to unlock advanced features."));
+				Message.append(tr("<br />Upgrade your Certificate to unlock advanced features."));
 			else
-				Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>"));
+				Message.append(tr("<br />Become a project supporter, and receive a supporter certificate"));
 		}
 		else
 		{
@@ -3395,7 +3385,7 @@ void CSandMan::OnLogSbieMessage(quint32 MsgCode, const QStringList& MsgData, qui
 					Message = tr("The program %1 started in box %2 will be terminated in 5 minutes because the box was configured to use features exclusively available to project supporters.").arg(MsgData[2]).arg(MsgData[1]);
 				else
 					Message = tr("The box %1 is configured to use features exclusively available to project supporters, these presets will be ignored.").arg(MsgData[1]);
-				Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>"));
+				Message.append(tr("<br />Become a project supporter, and receive a supporter certificate"));
 
 				//bCertWarning = false;
 			}
@@ -3448,7 +3438,7 @@ void CSandMan::ShowMessageBox(QWidget* Widget, QMessageBox::Icon Icon, const QSt
 	QMessageBox msgBox(Widget);
 	msgBox.setTextFormat(Qt::RichText);
 	msgBox.setIcon(Icon);
-	msgBox.setWindowTitle("sandybox");
+	msgBox.setWindowTitle("Sandybox");
 	msgBox.setText(Message);
 	msgBox.setStandardButtons(QMessageBox::Ok);
 	msgBox.exec();
@@ -3480,9 +3470,9 @@ bool CSandMan::CheckCertificate(QWidget* pWidget, int iType)
 		if (iType == 2 && CERT_IS_TYPE(g_CertInfo, eCertPatreon))
 			Message.append(tr("<br />you need to be on the Great Patreon level or higher to unlock this feature."));
 		else if (g_CertInfo.active)
-			Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-upgrade-cert\">Upgrade your Certificate</a> to unlock advanced features."));
+			Message.append(tr("<br />Upgrade your Certificate to unlock advanced features."));
 		else
-			Message.append(tr("<br /><a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>"));
+			Message.append(tr("<br />Become a project supporter, and receive a supporter certificate"));
 	}
 	else
 	{
@@ -3491,16 +3481,16 @@ bool CSandMan::CheckCertificate(QWidget* pWidget, int iType)
 
 		if(iType == 2)
 			Message = tr("The selected feature set is only available to project supporters.<br />"
-				"<a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>");
+				"Become a project supporter, and receive a supporter certificate");
 		else
 			Message = tr("The selected feature set is only available to project supporters. Processes started in a box with this feature set enabled without a supporter certificate will be terminated after 5 minutes.<br />"
-				"<a href=\"https://sandboxie-plus.com/go.php?to=sbie-get-cert\">Become a project supporter</a>, and receive a <a href=\"https://sandboxie-plus.com/go.php?to=sbie-cert\">supporter certificate</a>");
+				"Become a project supporter, and receive a supporter certificate");
 	}
 
 	QMessageBox msgBox(pWidget);
 	msgBox.setTextFormat(Qt::RichText);
 	msgBox.setIcon(QMessageBox::Information);
-	msgBox.setWindowTitle("sandybox");
+	msgBox.setWindowTitle("Sandybox");
 	msgBox.setText(Message);
 	msgBox.setStandardButtons(QMessageBox::Ok);
 	msgBox.exec();
@@ -3535,7 +3525,7 @@ SB_STATUS CSandMan::ReloadCert(QWidget* pWidget)
 	}
 	else if (Status.GetStatus() == 0xC0000804L /*STATUS_CONTENT_BLOCKED*/)
 	{
-		QMessageBox::critical(pWidget ? pWidget : this, "sandybox",
+		QMessageBox::critical(pWidget ? pWidget : this, "Sandybox",
 			tr("The certificate you are attempting to use has been blocked, meaning it has been invalidated for cause. Any attempt to use it constitutes a breach of its terms of use!"));
 
 		BYTE CertBlocked = 1;
@@ -3554,7 +3544,7 @@ SB_STATUS CSandMan::ReloadCert(QWidget* pWidget)
 		default:												Info = QString("0x%1").arg((quint32)Status.GetStatus(), 8, 16, QChar('0'));
 		}
 
-		QMessageBox::critical(pWidget ? pWidget : this, "sandybox", tr("The support certificate is not valid.\nError: %1").arg(Info));
+		QMessageBox::critical(pWidget ? pWidget : this, "Sandybox", tr("The support certificate is not valid.\nError: %1").arg(Info));
 	}
 
 #ifdef _DEBUG
@@ -3653,13 +3643,13 @@ void CSandMan::OnQueuedRequest(quint32 ClientPid, quint32 ClientTid, quint32 Req
 
 int CSandMan::ShowQuestion(const QString& question, const QString& checkBoxText, bool* checkBoxSetting, int buttons, int defaultButton, int type, QWidget* pParent)
 {
-	return CCheckableMessageBox::question(pParent, "sandybox", question, checkBoxText, checkBoxSetting, (QDialogButtonBox::StandardButtons)buttons, (QDialogButtonBox::StandardButton)defaultButton, (QMessageBox::Icon)type);
+	return CCheckableMessageBox::question(pParent, "Sandybox", question, checkBoxText, checkBoxSetting, (QDialogButtonBox::StandardButtons)buttons, (QDialogButtonBox::StandardButton)defaultButton, (QMessageBox::Icon)type);
 }
 
 void CSandMan::ShowMessage(const QString& message, int type)
 {
     QMessageBox mb(this);
-    mb.setWindowTitle("sandybox");
+    mb.setWindowTitle("Sandybox");
     mb.setIconPixmap(QMessageBox::standardIcon((QMessageBox::Icon)type));
     mb.setText(message);
     mb.exec();
@@ -3672,7 +3662,7 @@ void CSandMan::OnNotAuthorized(bool bLoginRequired, bool& bRetry)
 {
 	if (!bLoginRequired)
 	{
-		QMessageBox::warning(this, "sandybox", tr("Only Administrators can change the config."));
+		QMessageBox::warning(this, "Sandybox", tr("Only Administrators can change the config."));
 		return;
 	}
 
@@ -3682,7 +3672,7 @@ void CSandMan::OnNotAuthorized(bool bLoginRequired, bool& bRetry)
 	LoginOpen = true;
 	for (;;)
 	{
-		QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the configuration password."), QLineEdit::Password);
+		QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the configuration password."), QLineEdit::Password);
 		if (Value.isEmpty())
 			break;
 		SB_STATUS Status = theAPI->UnlockConfig(Value);
@@ -3690,7 +3680,7 @@ void CSandMan::OnNotAuthorized(bool bLoginRequired, bool& bRetry)
 			bRetry = true;
 			break;
 		}
-		QMessageBox::warning(this, "sandybox", tr("Login Failed: %1").arg(FormatError(Status)));
+		QMessageBox::warning(this, "Sandybox", tr("Login Failed: %1").arg(FormatError(Status)));
 	}
 	LoginOpen = false;
 }
@@ -3729,7 +3719,7 @@ void CSandMan::OnEmptyAll()
  	if (theConf->GetInt("Options/WarnTerminateAll", -1) == -1)
 	{
 		bool State = false;
-		if(CCheckableMessageBox::question(this, "sandybox", tr("Do you want to terminate all processes in all sandboxes?")
+		if(CCheckableMessageBox::question(this, "Sandybox", tr("Do you want to terminate all processes in all sandboxes?")
 			, tr("Don't ask in future"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) != QDialogButtonBox::Yes)
 			return;
 
@@ -3754,7 +3744,7 @@ void CSandMan::OnLockAll()
  	if (theConf->GetInt("Options/WarnLockAll", -1) == -1)
 	{
 		bool State = false;
-		if(CCheckableMessageBox::question(this, "sandybox", tr("Do you want to terminate all processes in encrypted sandboxes, and unmount them?")
+		if(CCheckableMessageBox::question(this, "Sandybox", tr("Do you want to terminate all processes in encrypted sandboxes, and unmount them?")
 			, tr("Don't ask in future"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes, QMessageBox::Information) != QDialogButtonBox::Yes)
 			return;
 
@@ -3780,7 +3770,7 @@ void CSandMan::OnDisableForce()
 		int LastValue = theAPI->GetGlobalSettings()->GetNum("ForceDisableSeconds", 60);
 
 		bool bOK = false;
-		Seconds = QInputDialog::getInt(this, "sandybox", tr("Please enter the duration, in seconds, for disabling Forced Programs rules."), LastValue, 0, INT_MAX, 1, &bOK);
+		Seconds = QInputDialog::getInt(this, "Sandybox", tr("Please enter the duration, in seconds, for disabling Forced Programs rules."), LastValue, 0, INT_MAX, 1, &bOK);
 		if (!bOK)
 			return;
 	}
@@ -3819,7 +3809,7 @@ SB_RESULT(void*) CSandMan::ConnectSbie()
 			if (PortableStart == -1)
 			{
 				bool State = false;
-				PortableStart = CCheckableMessageBox::question(this, "sandybox", tr("sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.")
+				PortableStart = CCheckableMessageBox::question(this, "Sandybox", tr("Sandybox was started in portable mode and it needs to create necessary services. This will prompt for administrative privileges.")
 					, tr("Don't show this message again."), &State, QDialogButtonBox::Ok | QDialogButtonBox::Cancel, QDialogButtonBox::Ok, QMessageBox::Information) == QDialogButtonBox::Ok ? 1 : 0;
 
 				if (State)
@@ -3853,11 +3843,11 @@ SB_STATUS CSandMan::ConnectSbieImpl()
 	}
 
 	if (Status.GetStatus() == 0xC0000038L /*STATUS_DEVICE_ALREADY_ATTACHED*/) {
-		OnLogMessage(tr("CAUTION: Another agent (probably SbieCtrl.exe) is already managing this sandybox session, please close it first and reconnect to take over."));
+		OnLogMessage(tr("CAUTION: Another agent (probably SbieCtrl.exe) is already managing this Sandybox session, please close it first and reconnect to take over."));
 		Status = SB_OK;
 	}
 	else if (Status.GetStatus() == 0xC000A000L /*STATUS_INVALID_SIGNATURE*/) {
-		QMessageBox::critical(this, "sandybox", tr("<b>ERROR:</b> The sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the <a href=\"https://sandboxie-plus.com/go.php?to=sbie-get\">official Download page</a>."));
+		QMessageBox::critical(this, "Sandybox", tr("<b>ERROR:</b> The Sandybox Manager (SandMan.exe) does not have a valid signature (SandMan.exe.sig). Please download a trusted release from the official Download page."));
 		Status = SB_OK;
 	}
 
@@ -3956,9 +3946,9 @@ void CSandMan::HandleMaintenance(SB_RESULT(void*) Status)
 			if (dwStatus != 0)
 			{
 				if(m_bStopPending)
-					QMessageBox::warning(this, tr("sandybox - Error"), tr("Failed to stop all sandybox components"));
+					QMessageBox::warning(this, tr("Sandybox - Error"), tr("Failed to stop all Sandybox components"));
 				else if(m_bConnectPending)
-					QMessageBox::warning(this, tr("sandybox - Error"), tr("Failed to start required sandybox components"));
+					QMessageBox::warning(this, tr("Sandybox - Error"), tr("Failed to start required Sandybox components"));
 
 				OnLogMessage(tr("Maintenance operation failed (%1)").arg((quint32)dwStatus));
 				CheckResults(QList<SB_STATUS>() << SB_ERR(dwStatus), this);
@@ -4115,7 +4105,7 @@ void CSandMan::OnSettingsAction()
 	{
 		QMessageBox *msgBox = new QMessageBox(this);
 		msgBox->setAttribute(Qt::WA_DeleteOnClose);
-		msgBox->setWindowTitle("sandybox");
+		msgBox->setWindowTitle("Sandybox");
 		msgBox->setText(tr("In the Plus UI, this functionality has been integrated into the main sandbox list view."));
 		msgBox->setInformativeText(tr("Using the box/group context menu, you can move boxes and groups to other groups. You can also use drag and drop to move the items around. "
 			"Alternatively, you can also use the arrow keys while holding ALT down to move items up and down within their group.<br />"
@@ -4185,7 +4175,7 @@ void CSandMan::RebuildUI()
 
 void CSandMan::OnResetMsgs()
 {
-	auto Ret = QMessageBox("sandybox", tr("Do you also want to reset hidden message boxes (yes), or only all log messages (no)?"),
+	auto Ret = QMessageBox("Sandybox", tr("Do you also want to reset hidden message boxes (yes), or only all log messages (no)?"),
 		QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No, QMessageBox::Cancel | QMessageBox::Escape, this).exec();
 	if (Ret == QMessageBox::Cancel)
 		return;
@@ -4272,9 +4262,9 @@ void CSandMan::OnEditIni()
 
 		if (theConf->GetBool("Options/NoEditWarn", true)) {
 			bool State = false;
-			CCheckableMessageBox::question(this, "sandybox",
-				tr("You are about to edit the Templates.ini, this is generally not recommended.\n"
-					"This file is part of sandybox and all change done to it will be reverted next time sandybox is updated.")
+			CCheckableMessageBox::question(this, "Sandybox",
+			tr("You are about to edit the template configuration, this is generally not recommended.\n"
+					"This file is part of Sandybox and all change done to it will be reverted next time Sandybox is updated.")
 				, tr("Don't show this message again."), &State, QDialogButtonBox::Ok, QDialogButtonBox::Ok, QMessageBox::Warning);
 
 			if (State)
@@ -4287,7 +4277,7 @@ void CSandMan::OnEditIni()
 
 		if (theConf->GetBool("Options/NoEditInfo", true)) {
 			bool State = false;
-			CCheckableMessageBox::question(this, "sandybox",
+			CCheckableMessageBox::question(this, "Sandybox",
 				theConf->GetBool("Options/WatchIni", true)
 				? tr("The changes will be applied automatically whenever the file gets saved.")
 				: tr("The changes will be applied automatically as soon as the editor is closed.")
@@ -4353,7 +4343,7 @@ void CSandMan::OnReloadIni()
 
 void CSandMan::OnIniReloaded()
 {
-	OnLogSbieMessage(0, QStringList() << tr("sandybox config has been reloaded") << "" << "", 4);
+	OnLogSbieMessage(0, QStringList() << tr("Sandybox config has been reloaded") << "" << "", 4);
 
 	m_pBoxView->ReloadUserConfig();
 	m_pPopUpWindow->ReloadHiddenMessages();
@@ -4486,9 +4476,9 @@ QString CSandMan::FormatError(const SB_STATUS& Error)
 	case SB_NeedAdmin:		Message = tr("Administrator rights are required for this operation."); break;
 	case SB_ExecFail:		Message = tr("Failed to execute: %1"); break;
 	case SB_DriverFail:		Message = tr("Failed to connect to the driver"); break;
-	case SB_ServiceFail:	Message = tr("Failed to communicate with sandybox Service: %1"); break;
-	case SB_Incompatible:	Message = tr("An incompatible sandybox %1 was found. Compatible versions: %2"); break;
-	case SB_PathFail:		Message = tr("Can't find sandybox installation path."); break;
+	case SB_ServiceFail:	Message = tr("Failed to communicate with Sandybox Service: %1"); break;
+	case SB_Incompatible:	Message = tr("An incompatible Sandybox %1 was found. Compatible versions: %2"); break;
+	case SB_PathFail:		Message = tr("Can't find Sandybox installation path."); break;
 	case SB_FailedCopyConf:	Message = tr("Failed to copy configuration from sandbox %1: %2"); break;
 	case SB_AlreadyExists:  Message = tr("A sandbox of the name %1 already exists"); break;
 	case SB_DeleteFailed:	Message = tr("Failed to delete sandbox %1: %2"); break;
@@ -4551,9 +4541,9 @@ void CSandMan::CheckResults(QList<SB_STATUS> Results, QWidget* pParent, bool bAs
 			theGUI->OnLogMessage(Error, true);
 	}
 	else if (Errors.count() == 1)
-		QMessageBox::warning(pParent ? pParent : this, tr("sandybox - Error"), Errors.first());
+		QMessageBox::warning(pParent ? pParent : this, tr("Sandybox - Error"), Errors.first());
 	else if (Errors.count() > 1) {
-		CMultiErrorDialog Dialog("sandybox", tr("Operation failed for %1 item(s).").arg(Errors.size()), Errors, pParent ? pParent : this);
+		CMultiErrorDialog Dialog("Sandybox", tr("Operation failed for %1 item(s).").arg(Errors.size()), Errors, pParent ? pParent : this);
 		theGUI->SafeExec(&Dialog);
 	}
 }
@@ -4590,6 +4580,8 @@ void CSandMan::OpenUrl(QUrl url)
 	QString host = url.host();
 	QString path = url.path();
 	QString query = url.query();
+	if (scheme == "http" || scheme == "https")
+		return;
 
 	if (host == "sandboxie-plus.com" && path == "/go.php") {
 		query += "&language=" + QLocale::system().name();
@@ -4609,7 +4601,7 @@ void CSandMan::OpenUrl(QUrl url)
 		else if (path == "/apply")
 			m_pUpdater->ApplyUpdate(COnlineUpdater::eFull, false);
 		else
-			OpenUrl("https://sandboxie-plus.com/sandboxie" + path);
+			return;
 		return;
 	}
 
@@ -4619,11 +4611,11 @@ void CSandMan::OpenUrl(QUrl url)
 	{
 		bool bCheck = false;
 		//QString Message = tr("Do you want to open %1 in a sandboxed (yes) or unsandboxed (no) Web browser?").arg(url.toString());
-		//QDialogButtonBox::StandardButton Ret = CCheckableMessageBox::question(this, "sandybox", Message , tr("Remember choice for later."),
+		//QDialogButtonBox::StandardButton Ret = CCheckableMessageBox::question(this, "Sandybox", Message , tr("Remember choice for later."),
 		//	&bCheck, QDialogButtonBox::Yes | QDialogButtonBox::No | QDialogButtonBox::Cancel, QDialogButtonBox::Yes, QMessageBox::Question);
 
 		CCheckableMessageBox mb(this);
-		mb.setWindowTitle("sandybox");
+		mb.setWindowTitle("Sandybox");
 		mb.setIconPixmap(QMessageBox::standardIcon(QMessageBox::Question));
 		mb.setText(tr("Do you want to open %1 in a sandboxed or unsandboxed Web browser?").arg(url.toString()));
 		mb.setCheckBoxText(tr("Remember choice for later."));
@@ -4832,17 +4824,6 @@ void CSandMan::LoadLanguage(const QString& Lang, const QString& Module, int Inde
 
 void CSandMan::OnHelp()
 {
-	//if (sender() == m_pSupport)
-	//	QDesktopServices::openUrl(QUrl("https://sandboxie-plus.com/go.php?to=donate"));
-	//else
-	if (sender() == m_pContribution)
-		QDesktopServices::openUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-contribute"));
-	else if (sender() == m_pManual)
-		QDesktopServices::openUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-docs"));
-	else if (sender() == m_pForum)
-		QDesktopServices::openUrl(QUrl("https://sandboxie-plus.com/go.php?to=sbie-forum"));
-	else
-		QDesktopServices::openUrl(QUrl("https://sandboxie-plus.com/go.php?to=patreon"));
 }
 
 void CSandMan::OnAbout()
@@ -4855,22 +4836,21 @@ void CSandMan::OnAbout()
 		}
 
 		QString AboutCaption = tr(
-			"<h3>About sandybox</h3>"
+			"<h3>About Sandybox</h3>"
 			"<p>Version %1</p>"
 			"<p>" MY_COPYRIGHT_STRING "</p>"
 		).arg(theGUI->GetVersion(true));
 
 		QString CertInfo;
 		if (!g_Certificate.isEmpty())
-			CertInfo = tr("This copy of sandybox is certified for: %1").arg(GetArguments(g_Certificate, L'\n', L':').value("NAME"));
+			CertInfo = tr("This copy of Sandybox is certified for: %1").arg(GetArguments(g_Certificate, L'\n', L':').value("NAME"));
 		else
-			CertInfo = tr("sandybox is free for personal and non-commercial use.");
+			CertInfo = tr("Sandybox is free for personal and non-commercial use.");
 
 		QString SbiePath = theAPI->GetSbiePath();
 
 		QString AboutText = tr(
-			"sandybox is an open source continuation of Sandboxie.<br />"
-			"Visit <a href=\"https://sandboxie-plus.com\">sandboxie-plus.com</a> for more information.<br />"
+			"Sandybox is an open source continuation of the original project.<br />"
 			"<br />"
 			"%2<br />"
 			"<br />"
@@ -4879,13 +4859,13 @@ void CSandMan::OnAbout()
 			"Installation: %1<br />"
 			"SbieDrv.sys: %4<br /> SbieSvc.exe: %5<br /> SbieDll.dll: %6<br />"
 			"<br />"
-			"Icons from <a href=\"https://icons8.com\">icons8.com</a>"
+			"Icons included with the application."
 		).arg(SbiePath).arg(CertInfo).arg(theAPI->GetFeatureStr())
 		.arg(GetProductVersion(SbiePath + "\\SbieDrv.sys")).arg(GetProductVersion(SbiePath + "\\SbieSvc.exe")).arg(GetProductVersion(SbiePath + "\\SbieDll.dll"));
 
 		QMessageBox *msgBox = new QMessageBox(this);
 		msgBox->setAttribute(Qt::WA_DeleteOnClose);
-		msgBox->setWindowTitle(tr("About sandybox"));
+		msgBox->setWindowTitle(tr("About Sandybox"));
 		msgBox->setText(AboutCaption);
 		msgBox->setInformativeText(AboutText);
 

@@ -152,7 +152,7 @@ CAddonPtr CAddonManager::GetAddon(const QString& Id, EState State)
 
 SB_PROGRESS CAddonManager::TryInstallAddon(const QString& Id, QWidget* pParent, const QString& Prompt)
 {
-	if (QMessageBox("sandybox", Prompt.isEmpty() ? tr("Do you want to download and install %1?").arg(Id) : Prompt,
+	if (QMessageBox("Sandybox", Prompt.isEmpty() ? tr("Do you want to download and install %1?").arg(Id) : Prompt,
 	  QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, pParent ? pParent : theGUI).exec() != QMessageBox::Yes)
 		return SB_ERR(SB_OtherError);
 
@@ -166,7 +166,7 @@ SB_PROGRESS CAddonManager::TryInstallAddon(const QString& Id, QWidget* pParent, 
 
 SB_PROGRESS CAddonManager::TryRemoveAddon(const QString& Id, QWidget* pParent)
 {
-	if (QMessageBox("sandybox", tr("Do you want to remove %1?").arg(Id),
+	if (QMessageBox("Sandybox", tr("Do you want to remove %1?").arg(Id),
 	  QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, pParent ? pParent : theGUI).exec() != QMessageBox::Yes)
 		return SB_ERR(SB_OtherError);
 

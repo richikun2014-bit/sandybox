@@ -1,4 +1,4 @@
-﻿{
+{
 "Description Text...": "请选择最适合你目前问题的解释说明...",
 "Fix current issues": "解决当前的问题",
 "Fix issues with sandboxing": "解决沙箱/应用沙箱化时的问题",
@@ -80,14 +80,14 @@
 "File is too large to copy into sandbox, opening in read only": "复制进沙箱中的文件太大, 正在以只读模式打开",
 
 "SBIE2181: Failed to load SbieDll.dll": "SBIE2181: 加载 SbieDll.dll 失败",
-"Fix the DACLs of Sandboxie's home folder": "修复 Sandboxie 主文件夹的 DACL 条目",
-"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandboxie home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Chrome 或其他使用应用容器的软件遇到无法加载 SbieDll.dll 时，通常是由 Sandboxie 主目录的无效 DACL 条目引起的。此解决措施将修复它们，这将提示需要为 kmdutil.exe 授予管理员权限。",
+"Fix the DACLs of Sandybox's home folder": "修复 Sandybox 主文件夹的 DACL 条目",
+"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandybox home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Chrome 或其他使用应用容器的软件遇到无法加载 SbieDll.dll 时，通常是由 Sandybox 主目录的无效 DACL 条目引起的。此解决措施将修复它们，这将提示需要为 kmdutil.exe 授予管理员权限。",
 "The DACLs have been adjusted, please try to run your application again and indicate if the issue has been resolved.": "“DACL 条目” 已调整，请尝试再次运行应用程序，并在稍后关注/指示问题是否已解决。",
 "DACLs fix did not resolve the issue": "“DACL 条目修复” 未解决问题",
 
 "SBIE2204: Cannot start a specific sandboxed service": "SBIE2204: 无法启动特定的沙箱化服务。",
-"Sandboxie failed to start a service in the sandbox": "Sandboxie 无法在沙箱中启动服务",
-"The message indicates that Sandboxie was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "该消息指示 Sandboxie 无法启动帮助程序 SandboxieRpcSs 或 SandboxieDcomLaunch 之一。消息中记下的名称可为 rpcss 或 dcomlaunch。\n\n您可以在下一页上提交问题报告，以帮助我们分析问题。",
+"Sandybox failed to start a service in the sandbox": "Sandybox 无法在沙箱中启动服务",
+"The message indicates that Sandybox was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "该消息指示 Sandybox 无法启动帮助程序 SandboxieRpcSs 或 SandboxieDcomLaunch 之一。消息中记下的名称可为 rpcss 或 dcomlaunch。\n\n您可以在下一页上提交问题报告，以帮助我们分析问题。",
 
 "SBIE2224: Sandboxed program has crashed":"SBIE2224：沙箱内程序已崩溃",
 "A Sandboxed program has crashed":"沙箱中的程序已崩溃",
@@ -95,11 +95,11 @@
 "This program is known to work in a Green (App Compartment) type sandbox.":"该程序可在绿色（应用隔离）型沙箱中正常运行。",
 "There is no known workaround for this process. Do you want to report this issue?":"该进程暂无已知解决方案。是否要报告此问题？",
 
-"No, report application to sbie devs":"不，向 Sandboxie 开发者报告此问题",
+"No, report application to sbie devs":"不，向 Sandybox 开发者报告此问题",
 
 "SBIE2313: Could not execute specific process": "SBIE2313: 无法运行一个特定的进程",
-"Sandboxie failed to start a process in the sandbox": "Sandboxie 在沙箱中启动进程失败",
-"Sandboxie was not able to execute one of its own programs. Check access permissions to the Sandboxie installation folder and/or reinstall Sandboxie.\n\nPossible Causes:\n1. Sandboxie was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandboxie 无法执行自己的程序之一。请检查您当前的用户账户对 Sandboxie 的安装文件夹 是否具有可访问权，并且(或者)重新安装 Sandboxie。\n\n可能的原因:\n1. Sandboxie 被配置为阻止对包含其程序文件的文件夹的访问。\n2. 系统中被配置了第三方(HIPS)安全软件来阻止消息中提到的程序的执行。\n\n您可以在下一页提交问题报告，以帮助我们分析问题。",
+"Sandybox failed to start a process in the sandbox": "Sandybox 在沙箱中启动进程失败",
+"Sandybox was not able to execute one of its own programs. Check access permissions to the Sandybox installation folder and/or reinstall Sandybox.\n\nPossible Causes:\n1. Sandybox was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandybox 无法执行自己的程序之一。请检查您当前的用户账户对 Sandybox 的安装文件夹 是否具有可访问权，并且(或者)重新安装 Sandybox。\n\n可能的原因:\n1. Sandybox 被配置为阻止对包含其程序文件的文件夹的访问。\n2. 系统中被配置了第三方(HIPS)安全软件来阻止消息中提到的程序的执行。\n\n您可以在下一页提交问题报告，以帮助我们分析问题。",
 
 "open config": "打开配置",
 "opens box config on a given page": "在已给出的页面中打开沙箱配置",
@@ -111,9 +111,9 @@
 "handle migration error messages": "处理迁移错误消息",
 "The message %1 is caused by the file migration limit being reached.": "消息 %1 是因为文件迁移请求达到限制引起的。",
 
-"fix parental controls breaking sandboxie": "修复导致 Sandboxie 功能失效的家长控制问题",
+"fix parental controls breaking Sandybox": "修复导致 Sandybox 功能失效的家长控制问题",
 "stops AppId driver and AppIdSvc service and disables the offending policy file": "停止 AppId 驱动程序和 AppIdSvc 服务，并禁用有问题的策略文件",
-"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.": "您似乎在启用了家长控制的系统上使用非管理员用户帐户，这种情况下 Sandboxie 显然不会被兼容。\n您可以通过以下选项来解决此问题。",
+"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.": "您似乎在启用了家长控制的系统上使用非管理员用户帐户，这种情况下 Sandybox 显然不会被兼容。\n您可以通过以下选项来解决此问题。",
 
 "SBIEMSG, I'm getting a cryptic SBIExxxx message": "SBIEMSG, 我收到一条神秘的 SBIExxxx 消息",
 "Handle all sbie messages...": "处理所有 sbie 消息...",

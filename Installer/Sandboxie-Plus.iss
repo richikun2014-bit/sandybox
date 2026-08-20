@@ -1,4 +1,4 @@
-﻿#define MyAppName "Sandboxie-Plus"
+﻿#define MyAppName "Sandybox"
 #include "Languages.iss"
 
 ; Use commandline to populate:

@@ -243,11 +243,11 @@ void CRecoveryWindow::OnDelete()
 	QMap<QString, SRecItem> FileMap = GetFiles();
 
 	if (FileMap.isEmpty()) {
-		QMessageBox::information(this, "sandybox", tr("No Files selected!"), QMessageBox::Ok);
+		QMessageBox::information(this, "Sandybox", tr("No Files selected!"), QMessageBox::Ok);
 		return;
 	}
 
-	if (QMessageBox::question(this, "sandybox", tr("Do you really want to delete %1 selected files?").arg(FileMap.count()), QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton) != QMessageBox::Yes)
+	if (QMessageBox::question(this, "Sandybox", tr("Do you really want to delete %1 selected files?").arg(FileMap.count()), QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton) != QMessageBox::Yes)
 		return;
 
 	foreach(const QString & FilePath, FileMap.keys())
@@ -546,7 +546,7 @@ void CRecoveryWindow::RecoverFiles(bool bBrowse, QString RecoveryFolder)
 	QMap<QString, SRecItem> FileMap = GetFiles();
 
 	/*if (HasShare && !bBrowse) {
-		QMessageBox::warning(this, "sandybox", tr("One or more selected files are located on a network share, and must be recovered to a local drive, please select a folder to recover all selected files to."));
+		QMessageBox::warning(this, "Sandybox", tr("One or more selected files are located on a network share, and must be recovered to a local drive, please select a folder to recover all selected files to."));
 		bBrowse = true;
 	}*/
 

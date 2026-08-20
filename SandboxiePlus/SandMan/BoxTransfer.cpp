@@ -426,7 +426,7 @@ static void ExportMultiBoxesAsync(const CSbieProgressPtr& pProgress, const QStri
 void ExportMultiBoxes(QWidget* parent, const QList<CSandBoxPtr>& SandBoxes)
 {
 	if (!CArchive::IsInit()) {
-		QMessageBox::critical(parent, "sandybox", CBoxTransferDialog::tr("7-Zip library is not available."));
+		QMessageBox::critical(parent, "Sandybox", CBoxTransferDialog::tr("7-Zip library is not available."));
 		return;
 	}
 
@@ -441,12 +441,12 @@ void ExportMultiBoxes(QWidget* parent, const QList<CSandBoxPtr>& SandBoxes)
 		if (!pBoxEx) return;
 
 		if (theAPI->HasProcesses(pBoxEx->GetName())) {
-			QMessageBox::warning(parent, "sandybox", CBoxTransferDialog::tr("Cannot export: Sandbox has running processes."));
+			QMessageBox::warning(parent, "Sandybox", CBoxTransferDialog::tr("Cannot export: Sandbox has running processes."));
 			return;
 		}
 
 		if (!pBoxEx->IsInitialized()) {
-			QMessageBox::warning(parent, "sandybox", CBoxTransferDialog::tr("Cannot export: Sandbox is empty."));
+			QMessageBox::warning(parent, "Sandybox", CBoxTransferDialog::tr("Cannot export: Sandbox is empty."));
 			return;
 		}
 
@@ -465,12 +465,12 @@ void ExportMultiBoxes(QWidget* parent, const QList<CSandBoxPtr>& SandBoxes)
 		exportSeparateFiles = dlg.ExportSeparateFiles();
 
 		if (selectedBoxes.isEmpty() && !exportGlobalConfig) {
-			QMessageBox::information(parent, "sandybox", CBoxTransferDialog::tr("Nothing selected for export."));
+			QMessageBox::information(parent, "Sandybox", CBoxTransferDialog::tr("Nothing selected for export."));
 			return;
 		}
 
 		if (exportSeparateFiles && selectedBoxes.isEmpty()) {
-			QMessageBox::information(parent, "sandybox", CBoxTransferDialog::tr("No boxes selected for separate file export."));
+			QMessageBox::information(parent, "Sandybox", CBoxTransferDialog::tr("No boxes selected for separate file export."));
 			return;
 		}
 
@@ -511,7 +511,7 @@ void ExportMultiBoxes(QWidget* parent, const QList<CSandBoxPtr>& SandBoxes)
 	for (const QString& boxName : selectedBoxes) {
 		// Check running processes (skip for single box - already checked above)
 		if (SandBoxes.size() > 1 && theAPI->HasProcesses(boxName)) {
-			int ret = QMessageBox::warning(parent, "sandybox",
+			int ret = QMessageBox::warning(parent, "Sandybox",
 				CBoxTransferDialog::tr("Sandbox '%1' has running processes. Skip it?").arg(boxName),
 				QMessageBox::Yes | QMessageBox::No | QMessageBox::Cancel);
 			if (ret == QMessageBox::Cancel) return;
@@ -866,7 +866,7 @@ static bool ScanArchive(QWidget* parent, const QString& path, SArchiveInfo& info
 			Archive.SetPassword(window.GetPassword());
 			Ret = Archive.Open();
 			if (Ret != ERR_7Z_OK) {
-				QMessageBox::critical(parent, "sandybox", CBoxTransferDialog::tr("Failed to open archive, wrong password?"));
+				QMessageBox::critical(parent, "Sandybox", CBoxTransferDialog::tr("Failed to open archive, wrong password?"));
 				continue;
 			}
 			info.Password = window.GetPassword();
@@ -875,7 +875,7 @@ static bool ScanArchive(QWidget* parent, const QString& path, SArchiveInfo& info
 	}
 
 	if (Ret != ERR_7Z_OK) {
-		QMessageBox::critical(parent, "sandybox", CBoxTransferDialog::tr("Failed to open archive (%1): %2").arg(path).arg(Ret));
+		QMessageBox::critical(parent, "Sandybox", CBoxTransferDialog::tr("Failed to open archive (%1): %2").arg(path).arg(Ret));
 		return false;
 	}
 
@@ -928,7 +928,7 @@ static bool ScanArchive(QWidget* parent, const QString& path, SArchiveInfo& info
 QStringList ImportMultiBoxes(QWidget* parent)
 {
 	if (!CArchive::IsInit()) {
-		QMessageBox::critical(parent, "sandybox", CBoxTransferDialog::tr("7-Zip library is not available."));
+		QMessageBox::critical(parent, "Sandybox", CBoxTransferDialog::tr("7-Zip library is not available."));
 		return QStringList();
 	}
 
@@ -970,7 +970,7 @@ QStringList ImportMultiBoxes(QWidget* parent)
 	}
 
 	if (allBoxes.isEmpty() && !hasAnyGlobalConfig) {
-		QMessageBox::information(parent, "sandybox", CBoxTransferDialog::tr("The selected archives do not contain any sandbox data."));
+		QMessageBox::information(parent, "Sandybox", CBoxTransferDialog::tr("The selected archives do not contain any sandbox data."));
 		return QStringList();
 	}
 
@@ -984,7 +984,7 @@ QStringList ImportMultiBoxes(QWidget* parent)
 	bool importGlobalConfig = dlg.ExportGlobalConfig();
 
 	if (importEntries.isEmpty() && !importGlobalConfig) {
-		QMessageBox::information(parent, "sandybox", CBoxTransferDialog::tr("Nothing selected for import."));
+		QMessageBox::information(parent, "Sandybox", CBoxTransferDialog::tr("Nothing selected for import."));
 		return QStringList();
 	}
 
@@ -995,7 +995,7 @@ QStringList ImportMultiBoxes(QWidget* parent)
 
 	for (auto it = importNameCounts.constBegin(); it != importNameCounts.constEnd(); ++it) {
 		if (it.value() > 1) {
-			QMessageBox::warning(parent, "sandybox",
+			QMessageBox::warning(parent, "Sandybox",
 				CBoxTransferDialog::tr("Cannot import multiple boxes with the same name '%1'. Please rename them first.").arg(it.key()));
 			return QStringList();
 		}
@@ -1010,7 +1010,7 @@ QStringList ImportMultiBoxes(QWidget* parent)
 		// Check if box already exists
 		CSandBoxPtr pExisting = theAPI->GetBoxByName(entry.ImportName);
 		if (!pExisting.isNull()) {
-			int ret = QMessageBox::warning(parent, "sandybox",
+			int ret = QMessageBox::warning(parent, "Sandybox",
 				CBoxTransferDialog::tr("Sandbox '%1' already exists. Its configuration will be overwritten. Continue?").arg(entry.ImportName),
 				QMessageBox::Yes | QMessageBox::No);
 			if (ret != QMessageBox::Yes)

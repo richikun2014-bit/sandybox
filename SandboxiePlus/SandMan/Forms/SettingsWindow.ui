@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>SandboxiePlus Settings</string>
+   <string>Sandybox Settings</string>
   </property>
   <property name="toolTip">
    <string/>
@@ -396,7 +396,7 @@
                   </size>
                  </property>
                  <property name="text">
-                  <string>sandybox may be issue &lt;a href=&quot;sbie://docs/sbiemessages&quot;&gt;SBIE Messages&lt;/a&gt; to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</string>
+                  <string>Sandybox may be issue SBIE Messages to the Message Log and shown them as Popups. Some messages are informational and notify of a common, or in some cases special, event that has occurred, other messages indicate an error condition.&lt;br /&gt;You can hide selected SBIE messages from being popped up, using the below list:</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1144,7 +1144,7 @@
                <item row="10" column="1" colspan="3">
                 <widget class="QCheckBox" name="chkHideCore">
                  <property name="text">
-                  <string>Hide sandybox's own processes from the task list</string>
+                  <string>Hide Sandybox's own processes from the task list</string>
                  </property>
                 </widget>
                </item>
@@ -1684,7 +1684,7 @@
                <item row="0" column="0">
                 <widget class="QLabel" name="label_14">
                  <property name="text">
-                  <string>sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</string>
+                  <string>Sandybox offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1738,7 +1738,7 @@
                <item row="4" column="0">
                 <widget class="QLabel" name="lblUpdateAddons">
                  <property name="text">
-                  <string>&lt;a href=&quot;sbie://addons&quot;&gt;update add-on list now&lt;/a&gt;</string>
+                  <string>update add-on list now</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -1810,7 +1810,7 @@
                <item row="1" column="1" colspan="6">
                 <widget class="QLabel" name="lblImDisk">
                  <property name="text">
-                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</string>
+                  <string>Install ImDisk driver to enable Ram Disk and Disk Image support.</string>
                  </property>
                  <property name="openExternalLinks">
                   <bool>false</bool>
@@ -1896,7 +1896,7 @@
            </property>
            <widget class="QWidget" name="tabCert">
             <attribute name="title">
-             <string>sandybox Support</string>
+             <string>Sandybox Support</string>
             </attribute>
             <layout class="QGridLayout" name="gridLayout_36">
              <item row="0" column="0">
@@ -1985,7 +1985,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>This supporter certificate has expired, please &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-renew-cert&quot;&gt;get an updated certificate&lt;/a&gt;.</string>
+                  <string>This supporter certificate has expired, please get an updated certificate.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -2001,7 +2001,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>&lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-use-cert&quot;&gt;Certificate usage guide&lt;/a&gt;</string>
+                  <string>Certificate usage guide</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -2020,7 +2020,7 @@
                   </sizepolicy>
                  </property>
                  <property name="text">
-                  <string>Keeping sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-contribute&quot;&gt;directly contributing to the project&lt;/a&gt;, showing your support by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-obtain-cert&quot;&gt;purchasing a supporter certificate&lt;/a&gt;, becoming a patron by &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=patreon&quot;&gt;subscribing on Patreon&lt;/a&gt;, or through a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=donate&quot;&gt;PayPal donation&lt;/a&gt;.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandboxie.</string>
+                  <string>Keeping Sandybox up to date with the rolling releases of Windows and compatible with all web browsers is a never-ending endeavor. You can support the development by directly contributing to the project, showing your support by purchasing a supporter certificate, becoming a patron by subscribing on Patreon, or through a PayPal donation.&lt;br /&gt;Your support plays a vital role in the advancement and maintenance of Sandybox.</string>
                  </property>
                  <property name="textFormat">
                   <enum>Qt::TextFormat::RichText</enum>
@@ -2052,7 +2052,7 @@
                <item row="3" column="1" colspan="4">
                 <widget class="QLabel" name="lblSupportCert">
                  <property name="text">
-                  <string>Supporters of the sandybox project can receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;. It's like a license key but for awesome people using open source software. :-)</string>
+                  <string>Supporters of the Sandybox project can receive a supporter certificate. It's like a license key but for awesome people using open source software. :-)</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -2127,7 +2127,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>sandybox Version: 0.0.0</string>
+                  <string>Sandybox Version: 0.0.0</string>
                  </property>
                 </widget>
                </item>
@@ -2137,7 +2137,7 @@
            </widget>
            <widget class="QWidget" name="tabUpdate">
             <attribute name="title">
-             <string>sandybox Updater</string>
+             <string>Sandybox Updater</string>
             </attribute>
             <layout class="QGridLayout" name="gridLayout_38">
              <item row="0" column="0">
@@ -2202,7 +2202,7 @@
                <item row="7" column="2">
                 <widget class="QLabel" name="label_27">
                  <property name="toolTip">
-                  <string>Hotpatches for the installed version, updates to the Templates.ini and translations.</string>
+                  <string>Hotpatches for the installed version, updates to the template configuration file and translations.</string>
                  </property>
                  <property name="text">
                   <string>Incremental Updates</string>
@@ -2272,7 +2272,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="2" column="1" colspan="3">
                 <widget class="QCheckBox" name="chkAutoUpdate">
                  <property name="text">
-                  <string>Check periodically for new sandybox versions</string>
+                  <string>Check periodically for new Sandybox versions</string>
                  </property>
                 </widget>
                </item>
@@ -2282,7 +2282,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                   <string/>
                  </property>
                  <property name="text">
-                  <string>More about the &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-insider&quot;&gt;Insider Channel&lt;/a&gt;</string>
+                  <string>More about the Insider Channel</string>
                  </property>
                 </widget>
                </item>
@@ -2379,7 +2379,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
            </property>
            <widget class="QWidget" name="tabSandbox">
             <attribute name="title">
-             <string>sandybox Config</string>
+             <string>Sandybox Config</string>
             </attribute>
             <layout class="QGridLayout" name="gridLayout_20">
              <item row="0" column="0">
@@ -2387,7 +2387,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="4" column="0" colspan="2">
                 <widget class="QLabel" name="label_16">
                  <property name="text">
-                  <string>Sandbox &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registry root&lt;/a&gt;: </string>
+                  <string>Sandbox registry root: </string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -2509,7 +2509,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="2" column="0" colspan="2">
                 <widget class="QLabel" name="label_15">
                  <property name="text">
-                  <string>Sandbox &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;file system root&lt;/a&gt;: </string>
+                  <string>Sandbox file system root: </string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -2566,7 +2566,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="10" column="1" colspan="6">
                 <widget class="QCheckBox" name="chkSbieLogon">
                  <property name="text">
-                  <string>Use a sandybox login instead of an anonymous token</string>
+                  <string>Use a Sandybox login instead of an anonymous token</string>
                  </property>
                 </widget>
                </item>
@@ -2586,7 +2586,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="5" column="0" colspan="2">
                 <widget class="QLabel" name="label_17">
                  <property name="text">
-                  <string>Sandbox &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;ipc root&lt;/a&gt;: </string>
+                  <string>Sandbox ipc root: </string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -2628,7 +2628,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="12" column="1" colspan="6">
                 <widget class="QCheckBox" name="chkSbieUAC">
                  <property name="text">
-                  <string>Use sandybox's own enhanced UAC prompt (recommended)</string>
+                  <string>Use Sandybox's own enhanced UAC prompt (recommended)</string>
                  </property>
                 </widget>
                </item>
@@ -2638,7 +2638,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
            </widget>
            <widget class="QWidget" name="tabLock">
             <attribute name="title">
-             <string>Sandboxie.ini</string>
+             <string>base configuration file</string>
             </attribute>
             <layout class="QGridLayout" name="gridLayout_19">
              <item row="2" column="2">
@@ -2685,7 +2685,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
              <item row="8" column="2">
               <widget class="QLabel" name="label_30">
                <property name="text">
-                <string>&lt;b&gt;Config protection applyess only to Sandboxie.ini portable box configuration is not protected by the below mechanisms&lt;/b&gt;</string>
+                <string>&lt;b&gt;Config protection applyess only to base configuration file portable box configuration is not protected by the below mechanisms&lt;/b&gt;</string>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>
@@ -2783,7 +2783,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
              <item row="1" column="2">
               <widget class="QCheckBox" name="chkWatchConfig">
                <property name="text">
-                <string>Watch Sandboxie.ini for changes</string>
+                <string>Watch base configuration file for changes</string>
                </property>
               </widget>
              </item>
@@ -2859,7 +2859,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="1" column="0" colspan="2">
                 <widget class="QLabel" name="label_2">
                  <property name="text">
-                  <string>When any of the following programs is launched outside any sandbox, sandybox will issue message SBIE1301.</string>
+                  <string>When any of the following programs is launched outside any sandbox, Sandybox will issue message SBIE1301.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -3097,7 +3097,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="4" column="2">
                 <widget class="QLabel" name="lblUpdateTemplates">
                  <property name="text">
-                  <string>&lt;a href=&quot;sbie://templates&quot;&gt;update compatibility templates now&lt;/a&gt;</string>
+                  <string>update compatibility templates now</string>
                  </property>
                  <property name="alignment">
                   <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
@@ -3123,7 +3123,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
                <item row="0" column="0" colspan="4">
                 <widget class="QLabel" name="label_3">
                  <property name="text">
-                  <string>sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</string>
+                  <string>Sandybox has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>

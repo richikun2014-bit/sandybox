@@ -147,7 +147,7 @@ void COptionsWindow::OnAddRecIgnore()
 
 void COptionsWindow::OnAddRecIgnoreExt()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a file extension to be excluded"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a file extension to be excluded"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 

@@ -338,7 +338,7 @@ QString COptionsWindow::GetAccessModeTip(EAccessMode Mode)
 {
 	switch (Mode)
 	{
-	case eNormal:		return tr("Regular sandybox behavior - allow read and also copy on write.");
+	case eNormal:		return tr("Regular Sandybox behavior - allow read and also copy on write.");
 	case eOpen:			return tr("Allow write-access outside the sandbox.");
 	case eOpen4All:		return tr("Allow write-access outside the sandbox, also for applications installed inside the sandbox.");
 	case eNoRename:		return tr("Don't rename window classes.");
@@ -552,13 +552,13 @@ void COptionsWindow::CloseAccessEdit(QTreeWidgetItem* pItem, bool bSave)
 			case eOpen:
 			case eClosed:
 				if (!isGUID) {
-					QMessageBox::critical(this, "SandboxiePlus", tr("COM objects must be specified by their GUID, like: {00000000-0000-0000-0000-000000000000}"));
+					QMessageBox::critical(this, "Sandybox", tr("COM objects must be specified by their GUID, like: {00000000-0000-0000-0000-000000000000}"));
 					return;
 				}
 				break;
 			case eClosedRT:
 				if (isGUID) {
-					QMessageBox::critical(this, "SandboxiePlus", tr("RT interfaces must be specified by their name."));
+					QMessageBox::critical(this, "Sandybox", tr("RT interfaces must be specified by their name."));
 					return;
 				}
 				break;
@@ -572,7 +572,7 @@ void COptionsWindow::CloseAccessEdit(QTreeWidgetItem* pItem, bool bSave)
 		{
  			if (theConf->GetInt("Options/WarnOpenCOM", -1) == -1) {
 				bool State = false;
-				if (CCheckableMessageBox::question(this, "sandybox", tr("Opening all IPC access also opens COM access, do you still want to restrict COM to the sandbox?")
+				if (CCheckableMessageBox::question(this, "Sandybox", tr("Opening all IPC access also opens COM access, do you still want to restrict COM to the sandbox?")
 				 , tr("Don't ask in future"), &State, QDialogButtonBox::Yes | QDialogButtonBox::No, QDialogButtonBox::Yes) == QDialogButtonBox::Yes)
 					SetTemplate("BoxedCOM", true); // Normal overrides Open even without rule specificity :D
 				if (State)
@@ -582,7 +582,7 @@ void COptionsWindow::CloseAccessEdit(QTreeWidgetItem* pItem, bool bSave)
 
 		if (pItem->data(0, Qt::UserRole).toInt() == eWnd && Mode == eOpen && Path == "#" && !Program.isEmpty())
 		{
-			QMessageBox::warning(this, "sandybox", tr("'OpenWinClass=program.exe,#' is not supported, use 'NoRenameWinClass=program.exe,*' instead"));
+			QMessageBox::warning(this, "Sandybox", tr("'OpenWinClass=program.exe,#' is not supported, use 'NoRenameWinClass=program.exe,*' instead"));
 			Mode = eNoRename;
 			Path = "*";
 		}
@@ -625,7 +625,7 @@ void COptionsWindow::OnAccessItemDoubleClicked(QTreeWidgetItem* pItem, int Colum
 
 	int Type = pItem->data(0, Qt::UserRole).toInt();
 	if (Type == -1) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 
@@ -692,7 +692,7 @@ void COptionsWindow::DeleteAccessEntry(QTreeWidgetItem* pItem, int Column)
 		return;
 
 	if (pItem->data(Column, Qt::UserRole).toInt() == -1) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be removed."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be removed."));
 		return;
 	}
 

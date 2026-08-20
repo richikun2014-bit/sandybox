@@ -15,7 +15,6 @@ if (typeof msgCode === 'undefined') {
   let ret = wizard.showForm(form, tr('Please enter the SBIEMSG ID you have encountered.'));
   msgCode = ret.code;
   if(msgCode.substr(0,4).toUpperCase() == "SBIE") msgCode = msgCode.substr(4);
-  docLink = 'https://sandboxie-plus.com/go.php?to=sbie-sbie' + msgCode;
   msgData = [];
   //sbieMsg = sbie.formatMessage(msgCode, msgData);
   boxName = ret.box;
@@ -29,7 +28,7 @@ if(res === false) {
   if (typeof sbieMsg !== 'undefined')
     message += tr('The full message text is: %1<br />', sbieMsg);
   
-  message += tr('Visit out <a href="%1">online-documentation</a> to learn more about this, and other sbie messages.', docLink);
+  message += tr('Please use the local troubleshooting information for this and other SBIE messages.');
   message += '<br /><br />';
   message += tr('Would you like to collect some logs to help us resolve the issue.');
 

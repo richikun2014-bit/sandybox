@@ -1,4 +1,4 @@
-﻿{
+{
 "Description Text...": "Текст описания...",
 "Fix current issues": "Устранение текущих проблем",
 "Fix issues with sandboxing": "Устранение проблем с песочницей",
@@ -80,14 +80,14 @@
 "File is too large to copy into sandbox, opening in read only": "Файл слишком большой для копирования в песочницу, открытие в режиме только для чтения",
 
 "SBIE2181: Failed to load SbieDll.dll": "SBIE2181: Не удалось загрузить SbieDll.dll",
-"Fix the DACLs of Sandboxie's home folder": "Исправьте DACLs в домашней папке Sandboxie",
-"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandboxie home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Сбой загрузки SbieDll.dll, если он возникает в Chrome или другом ПО, использующем контейнеры приложений, часто вызван недействительными записями DACL для домашней директории Sandboxie. Эта мера устранения проблемы исправит их, поэтому будет запрошено предоставление привилегий администратора для kmdutil.exe.",
+"Fix the DACLs of Sandybox's home folder": "Исправьте DACLs в домашней папке Sandybox",
+"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandybox home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Сбой загрузки SbieDll.dll, если он возникает в Chrome или другом ПО, использующем контейнеры приложений, часто вызван недействительными записями DACL для домашней директории Sandybox. Эта мера устранения проблемы исправит их, поэтому будет запрошено предоставление привилегий администратора для kmdutil.exe.",
 "The DACLs have been adjusted, please try to run your application again and indicate if the issue has been resolved.": "DACLs были скорректированы, попробуйте снова запустить ваше приложение и укажите, решена ли проблема.",
 "DACLs fix did not resolve the issue": "Исправление DACLs не решило проблему",
 
 "SBIE2204: Cannot start a specific sandboxed service": "SBIE2204: Не удалось запустить определенную службу в песочнице",
-"Sandboxie failed to start a service in the sandbox": "Sandboxie не удалось запустить службу в песочнице",
-"The message indicates that Sandboxie was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Сообщение указывает, что Sandboxie не удалось запустить одну из вспомогательных программ SandboxieRpcSs или SandboxieDcomLaunch. Имя, указанное в сообщении, может быть rpcss или dcomlaunch.\n\nВы можете отправить отчет о проблеме на следующей странице, чтобы мы могли проанализировать проблему.",
+"Sandybox failed to start a service in the sandbox": "Sandybox не удалось запустить службу в песочнице",
+"The message indicates that Sandybox was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Сообщение указывает, что Sandybox не удалось запустить одну из вспомогательных программ SandboxieRpcSs или SandboxieDcomLaunch. Имя, указанное в сообщении, может быть rpcss или dcomlaunch.\n\nВы можете отправить отчет о проблеме на следующей странице, чтобы мы могли проанализировать проблему.",
 
 "SBIE2224: Sandboxed program has crashed":"SBIE2224: Sandboxed program has crashed",
 "A Sandboxed program has crashed":"A Sandboxed program has crashed",
@@ -96,8 +96,8 @@
 "There is no known workaround for this process. Do you want to report this issue?":"There is no known workaround for this process. Do you want to report this issue?",
 
 "SBIE2313: Could not execute specific process": "SBIE2313: Не удалось запустить определенный процесс",
-"Sandboxie failed to start a process in the sandbox": "Sandboxie не удалось запустить процесс в песочнице",
-"Sandboxie was not able to execute one of its own programs. Check access permissions to the Sandboxie installation folder and/or reinstall Sandboxie.\n\nPossible Causes:\n1. Sandboxie was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandboxie не удалось запустить одну из своих программ. Проверьте права доступа к папке установки Sandboxie и/или переустановите Sandboxie.\n\nВозможные причины:\n1. Sandboxie настроен на блокировку доступа к папке, содержащей файлы его программ.\n2. Стороннее (HIPS) программное обеспечение безопасности настроено на блокировку выполнения программы, указанной в сообщении.\n\nВы можете отправить отчет о проблеме на следующей странице, чтобы мы могли проанализировать проблему.",
+"Sandybox failed to start a process in the sandbox": "Sandybox не удалось запустить процесс в песочнице",
+"Sandybox was not able to execute one of its own programs. Check access permissions to the Sandybox installation folder and/or reinstall Sandybox.\n\nPossible Causes:\n1. Sandybox was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandybox не удалось запустить одну из своих программ. Проверьте права доступа к папке установки Sandybox и/или переустановите Sandybox.\n\nВозможные причины:\n1. Sandybox настроен на блокировку доступа к папке, содержащей файлы его программ.\n2. Стороннее (HIPS) программное обеспечение безопасности настроено на блокировку выполнения программы, указанной в сообщении.\n\nВы можете отправить отчет о проблеме на следующей странице, чтобы мы могли проанализировать проблему.",
 
 "open config": "открыть конфигурацию",
 "opens box config on a given page": "открывает конфигурацию песочницы на указанной странице",
@@ -109,9 +109,9 @@
 "handle migration error messages": "обработать сообщения об ошибках миграции",
 "The message %1 is caused by the file migration limit being reached.": "Сообщение %1 вызвано превышением лимита миграции файлов.",
 
-"fix parental controls breaking sandboxie": "исправить проблемы с родительским контролем, нарушающим работу Sandboxie",
+"fix parental controls breaking Sandybox": "исправить проблемы с родительским контролем, нарушающим работу Sandybox",
 "stops AppId driver and AppIdSvc service and disables the offending policy file": "останавливает драйвер AppId и службу AppIdSvc и отключает проблемный файл политики",
-"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.": "Похоже, вы используете учетную запись пользователя без прав администратора на системе с включенным родительским контролем, что несовместимо с Sandboxie.\nУ вас есть следующие варианты решения проблемы.",
+"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.": "Похоже, вы используете учетную запись пользователя без прав администратора на системе с включенным родительским контролем, что несовместимо с Sandybox.\nУ вас есть следующие варианты решения проблемы.",
 
 "SBIEMSG, I'm getting a cryptic SBIExxxx message": "SBIEMSG, я получаю загадочное сообщение SBIExxx",
 "Handle all sbie messages...": "Обработать все сообщения sbie...",

@@ -138,7 +138,7 @@ void COptionsWindow::SaveGroups()
 
 void COptionsWindow::OnAddGroup()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a name for the new group"), QLineEdit::Normal, "NewGroup");
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a name for the new group"), QLineEdit::Normal, "NewGroup");
 	if (Value.isEmpty())
 		return;
 	
@@ -226,12 +226,12 @@ void COptionsWindow::OnAddProg()
 
 	if (!pItem)
 	{
-		QMessageBox::warning(this, "SandboxiePlus", tr("Please select group first."));
+		QMessageBox::warning(this, "Sandybox", tr("Please select group first."));
 		return;
 	}
 
 	if (pItem->data(0, Qt::UserRole).toString().isEmpty()) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 
@@ -255,7 +255,7 @@ void COptionsWindow::OnDelProg()
 		return;
 
 	if ((pItem->parent() ? pItem->parent() : pItem)->data(0, Qt::UserRole).toString().isEmpty()) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 

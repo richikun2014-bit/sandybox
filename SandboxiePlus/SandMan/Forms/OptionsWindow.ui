@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>SandboxiePlus Options</string>
+   <string>Sandybox Options</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_93">
    <item row="0" column="0">
@@ -87,7 +87,7 @@
                <item row="11" column="1" colspan="13">
                 <widget class="QLabel" name="lblSupportCert">
                  <property name="text">
-                  <string>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</string>
+                  <string>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider supporting the project, to receive a supporter certificate.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</string>
                  </property>
                  <property name="textFormat">
                   <enum>Qt::TextFormat::RichText</enum>
@@ -466,7 +466,7 @@
                <item row="7" column="2" colspan="4">
                 <widget class="QLabel" name="lblImDisk">
                  <property name="text">
-                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</string>
+                  <string>Install ImDisk driver to enable Ram Disk and Disk Image support.</string>
                  </property>
                 </widget>
                </item>
@@ -518,7 +518,7 @@
                <item row="6" column="2" colspan="4">
                 <widget class="QLabel" name="lblCrypto">
                  <property name="text">
-                  <string>When &lt;a href=&quot;sbie://docs/boxencryption&quot;&gt;Box Encryption&lt;/a&gt; is enabled the box's root folder, including its registry hive, is stored in an encrypted disk image, using &lt;a href=&quot;https://diskcryptor.org&quot;&gt;Disk Cryptor's&lt;/a&gt; AES-XTS implementation.</string>
+                  <string>When Box Encryption is enabled the box's root folder, including its registry hive, is stored in an encrypted disk image, using Disk Cryptor's AES-XTS implementation.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -739,7 +739,7 @@
                <item row="0" column="0" colspan="7">
                 <widget class="QLabel" name="label_31">
                  <property name="text">
-                  <string>sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. sandybox offers options for handling these cases, which can be configured on this page.</string>
+                  <string>Sandybox does not allow writing to host files, unless permitted by the user. When a sandboxed application attempts to modify a file, the entire file must be copied into the sandbox, for large files this can take a significate amount of time. Sandybox offers options for handling these cases, which can be configured on this page.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1305,7 +1305,7 @@
                   </font>
                  </property>
                  <property name="text">
-                  <string>Security note: Elevated applications running under the supervision of sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</string>
+                  <string>Security note: Elevated applications running under the supervision of Sandybox, with an admin or system token, have more opportunities to bypass isolation and modify the system outside the sandbox.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1458,7 +1458,7 @@
                <item row="3" column="2">
                 <widget class="QLabel" name="label_60">
                  <property name="text">
-                  <string>Security Isolation through the usage of a heavily restricted process token is sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it's no longer providing reliable security, just simple application compartmentalization.</string>
+                  <string>Security Isolation through the usage of a heavily restricted process token is Sandybox's primary means of enforcing sandbox restrictions, when this is disabled the box is operated in the application compartment mode, i.e. it's no longer providing reliable security, just simple application compartmentalization.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1482,7 +1482,7 @@
                <item row="5" column="2">
                 <widget class="QLabel" name="label_61">
                  <property name="text">
-                  <string>Security Filtering used by sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</string>
+                  <string>Security Filtering used by Sandybox to enforce filesystem and registry access restrictions, as well as to restrict process access.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1638,7 +1638,7 @@
              <item row="0" column="0" colspan="4">
               <widget class="QLabel" name="label_52">
                <property name="text">
-                <string>sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</string>
+                <string>Sandybox is able to create confidential sandboxes that provide robust protection against unauthorized surveillance or tampering by host processes. By utilizing an encrypted sandbox image, this feature delivers the highest level of operational confidentiality, ensuring the safety and integrity of sandboxed processes.</string>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>
@@ -2009,7 +2009,7 @@
                <item row="9" column="2" colspan="2">
                 <widget class="QLabel" name="label_74">
                  <property name="text">
-                  <string>Using a custom sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</string>
+                  <string>Using a custom Sandybox Token allows to isolate individual sandboxes from each other better, and it shows in the user column of task managers the name of the box a process belongs to. Some 3rd party security solutions may however have problems with custom tokens.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -2048,7 +2048,7 @@
                <item row="8" column="1" colspan="4">
                 <widget class="QCheckBox" name="chkSbieLogon">
                  <property name="text">
-                  <string>Use a sandybox login instead of an anonymous token</string>
+                  <string>Use a Sandybox login instead of an anonymous token</string>
                  </property>
                 </widget>
                </item>
@@ -2084,7 +2084,7 @@
                   <string>Protect the sandbox integrity itself</string>
                  </property>
                  <property name="text">
-                  <string>sandybox token</string>
+                  <string>Sandybox token</string>
                  </property>
                 </widget>
                </item>
@@ -2139,7 +2139,7 @@ Partially checked: No groups will be added to the newly created sandboxed token.
                <item row="11" column="1" colspan="4">
                 <widget class="QCheckBox" name="chkNotUntrusted">
                  <property name="toolTip">
-                  <string>By default, sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
+                  <string>By default, Sandybox runs processes with an UNTRUSTED integrity token for maximum isolation.
 Enabling this option uses a LOW integrity token instead, which may improve compatibility but reduces sandbox isolation and security.</string>
                  </property>
                  <property name="text">
@@ -2525,7 +2525,7 @@ Enabling this option uses a LOW integrity token instead, which may improve compa
                <item row="8" column="0" colspan="2">
                 <widget class="QLabel" name="lblBreakOut">
                  <property name="text">
-                  <string>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using &lt;a href=&quot;sbie://docs/breakoutfolder&quot;&gt;BreakoutFolder&lt;/a&gt; and/or &lt;a href=&quot;sbie://docs/breakoutprocess&quot;&gt;BreakoutProcess&lt;/a&gt; in combination with Open[File/Pipe]Path directives can compromise security, as can the use of &lt;a href=&quot;sbie://docs/breakoutdocument&quot;&gt;BreakoutDocument&lt;/a&gt; allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</string>
+                  <string>&lt;b&gt;&lt;font color='red'&gt;SECURITY ADVISORY&lt;/font&gt;:&lt;/b&gt; Using BreakoutFolder and/or BreakoutProcess in combination with Open[File/Pipe]Path directives can compromise security, as can the use of BreakoutDocument allowing any * or insecure (*.exe;*.dll;*.ocx;*.cmd;*.bat;*.lnk;*.pif;*.url;*.ps1;etc...) extensions. Please review the security section for each option in the documentation before use.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -4612,7 +4612,7 @@ The process match level has a higher priority than the specificity and describes
                <item row="4" column="1" colspan="2">
                 <widget class="QCheckBox" name="chkHostProtect">
                  <property name="toolTip">
-                  <string>sandybox's resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. 'ClosedFilePath=!iexplore.exe,C:Users*' will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
+                  <string>Sandybox's resource access rules often discriminate against program binaries located inside the sandbox. OpenFilePath and OpenKeyPath work only for application binaries located on the host natively. In order to define a rule without this restriction, OpenPipePath or OpenConfPath must be used. Likewise, all Closed(File|Key|Ipc)Path directives which are defined by negation e.g. 'ClosedFilePath=!iexplore.exe,C:Users*' will be always closed for binaries located inside a sandbox. Both restriction policies can be disabled on the &quot;Access policies&quot; page.
 This is done to prevent rogue processes inside the sandbox from creating a renamed copy of themselves and accessing protected resources. Another exploit vector is the injection of a library into an authorized process to get access to everything it is allowed to access. Using Host Image Protection, this can be prevented by blocking applications (installed on the host) running inside a sandbox from loading libraries from the sandbox itself.</string>
                  </property>
                  <property name="text">
@@ -4636,7 +4636,7 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
                   </sizepolicy>
                  </property>
                  <property name="text">
-                  <string>sandybox's functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</string>
+                  <string>Sandybox's functionality can be enhanced by using optional DLLs which can be loaded into each sandboxed process on start by the SbieDll.dll file, the add-on manager in the global settings offers a couple of useful extensions, once installed they can be enabled here for the current box.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -6083,7 +6083,7 @@ Please note that this values are currently user specific and saved globally for 
                <item row="0" column="1" colspan="3">
                 <widget class="QLabel" name="label_43">
                  <property name="text">
-                  <string>The following settings enable the use of sandybox in combination with accessibility software.  Please note that some measure of sandybox protection is necessarily lost when these settings are in effect.</string>
+                  <string>The following settings enable the use of Sandybox in combination with accessibility software.  Please note that some measure of Sandybox protection is necessarily lost when these settings are in effect.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>

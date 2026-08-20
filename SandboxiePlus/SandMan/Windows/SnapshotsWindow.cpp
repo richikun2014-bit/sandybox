@@ -183,7 +183,7 @@ void CSnapshotsWindow::OnSaveInfo()
 
 void CSnapshotsWindow::OnTakeSnapshot()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a name for the new Snapshot."), QLineEdit::Normal, tr("New Snapshot"));
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a name for the new Snapshot."), QLineEdit::Normal, tr("New Snapshot"));
 	if (Value.isEmpty())
 		return;
 
@@ -206,7 +206,7 @@ void CSnapshotsWindow::OnSelectEmpty()
 
 void CSnapshotsWindow::SelectSnapshot(const QString& ID)
 {
-	if (QMessageBox("sandybox", tr("Do you really want to switch the active snapshot? Doing so will delete the current state!"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+	if (QMessageBox("Sandybox", tr("Do you really want to switch the active snapshot? Doing so will delete the current state!"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 		return;
 
 	HandleResult(m_pBox->SelectSnapshot(ID));
@@ -240,7 +240,7 @@ void CSnapshotsWindow::OnRemoveSnapshot()
 {
 	QVariant ID = GetCurrentItem();
 
-	if (QMessageBox("sandybox", tr("Do you really want to delete the selected snapshot?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+	if (QMessageBox("Sandybox", tr("Do you really want to delete the selected snapshot?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 		return;
 
 	ui.groupBox->setEnabled(false);

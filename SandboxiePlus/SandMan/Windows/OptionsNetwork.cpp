@@ -441,7 +441,7 @@ void COptionsWindow::CloseINetEdit(QTreeWidgetItem* pItem, bool bSave)
 
 		QString NewProgram = pCombo->currentText();
 		if (NewProgram.isEmpty()) {
-			QMessageBox::warning(this, "SandboxiePlus", tr("A non empty program name is required."));
+			QMessageBox::warning(this, "Sandybox", tr("A non empty program name is required."));
 			return;
 		}
 		int NewMode = pMode->currentData().toInt();
@@ -709,7 +709,7 @@ void COptionsWindow::OnNetFwItemDoubleClicked(QTreeWidgetItem* pItem, int Column
 {
 	int Action = pItem->data(1, Qt::UserRole).toInt();
 	if (Action == -1) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 
@@ -936,7 +936,7 @@ void COptionsWindow::SaveDnsFilter()
 
 void COptionsWindow::OnAddDnsFilter()
 {
-	QString Domain = QInputDialog::getText(this, "sandybox", tr("Please enter a domain to be filtered"));
+	QString Domain = QInputDialog::getText(this, "Sandybox", tr("Please enter a domain to be filtered"));
 	if (Domain.isEmpty())
 		return;
 	AddDnsFilter("", Domain);
@@ -991,7 +991,7 @@ void COptionsWindow::OnTestNetProxy()
 	QString Pass = pItem->data(5, Qt::UserRole).toString();
 
 	if (IP.isEmpty() || Port.isEmpty()) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Please enter IP and Port."));
+		QMessageBox::warning(this, "Sandybox", tr("Please enter IP and Port."));
 		return;
 	}
 
@@ -1173,12 +1173,12 @@ void COptionsWindow::SaveNetProxy()
 		QString Bypass = pItem->data(6, Qt::UserRole).toString();
 
 		if (IP.isEmpty() || Port.isEmpty()) {
-			QMessageBox::warning(this, "SandboxiePlus", tr("Entry %1 : IP or Port cannot be empty").arg(QString::number(i + 1)));
+			QMessageBox::warning(this, "Sandybox", tr("Entry %1 : IP or Port cannot be empty").arg(QString::number(i + 1)));
 			continue;
 		}
 
 		//if (QHostAddress(IP).isNull()) {
-		//	QMessageBox::warning(this, "SandboxiePlus", QString::number(i + 1) + tr(" entry: Address must be IP, not host name"));
+		//	QMessageBox::warning(this, "Sandybox", QString::number(i + 1) + tr(" entry: Address must be IP, not host name"));
 		//	continue;
 		//}
 

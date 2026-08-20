@@ -22,7 +22,7 @@ CTestProxyDialog::CTestProxyDialog(const QString& IP, const QString& Port, COpti
 
 	ui.setupUi(this);
 	RestoreDefaults();
-	this->setWindowTitle(tr("sandybox - Test Proxy"));
+	this->setWindowTitle(tr("Sandybox - Test Proxy"));
 	this->setFixedSize(this->size());
 	ui.stackedWidget->setCurrentIndex(0);
 
@@ -59,7 +59,7 @@ CTestProxyDialog::CTestProxyDialog(const QString& IP, const QString& Port, COpti
 		if (!ui.checkBoxTest1->isChecked())
 		{
 			ui.checkBoxTest1->setChecked(true);
-			QMessageBox::warning(this, tr("sandybox - Test Proxy"), tr("This test cannot be disabled."));
+			QMessageBox::warning(this, tr("Sandybox - Test Proxy"), tr("This test cannot be disabled."));
 		}
 	});
 }
@@ -365,26 +365,26 @@ void CTestProxyDialog::OnTestSettingsSave()
 	m_TestTimeout = ui.lineEditTimeout->text().toInt(&ok);
 	if (!ok || m_TestTimeout < 1 || m_TestTimeout > 60)
 	{
-		QMessageBox::warning(this, tr("sandybox - Test Proxy"), tr("Invalid Timeout value. Please enter a value between 1 and 60."));
+		QMessageBox::warning(this, tr("Sandybox - Test Proxy"), tr("Invalid Timeout value. Please enter a value between 1 and 60."));
 		return;
 	}
 	m_TestTimeout *= 1000; // Convert to ms
 	m_TestPort = ui.lineEditPort->text().toInt(&ok);
 	if (!ok || m_TestPort < 1 || m_TestPort > 65535)
 	{
-		QMessageBox::warning(this, tr("sandybox - Test Proxy"), tr("Invalid Port value. Please enter a value between 1 and 65535."));
+		QMessageBox::warning(this, tr("Sandybox - Test Proxy"), tr("Invalid Port value. Please enter a value between 1 and 65535."));
 		return;
 	}
 	m_TestHost = ui.lineEditHost->text();
 	if (m_TestHost.isEmpty() || m_TestHost.contains(QRegularExpression("http[s]?://")))
 	{
-		QMessageBox::warning(this, tr("sandybox - Test Proxy"), tr("Invalid Host value. Please enter a valid host name excluding 'http[s]://'."));
+		QMessageBox::warning(this, tr("Sandybox - Test Proxy"), tr("Invalid Host value. Please enter a valid host name excluding 'http[s]://'."));
 		return;
 	}
 	m_TestPingCount = ui.spinBoxPingCount->value();
 	if (m_TestPingCount < 1 || m_TestPingCount > 10)
 	{
-		QMessageBox::warning(this, tr("sandybox - Test Proxy"), tr("Invalid Ping Count value. Please enter a value between 1 and 10."));
+		QMessageBox::warning(this, tr("Sandybox - Test Proxy"), tr("Invalid Ping Count value. Please enter a value between 1 and 10."));
 		return;
 	}
 

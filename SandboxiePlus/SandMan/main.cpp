@@ -207,7 +207,7 @@ int main(int argc, char *argv[])
 	}
 	
 	if (IsBoxed) {
-		QMessageBox::critical(NULL, "sandybox", CSandMan::tr("sandybox Manager can not be run sandboxed!"));
+		QMessageBox::critical(NULL, "Sandybox", CSandMan::tr("Sandybox Manager can not be run sandboxed!"));
 		return -1;
 	}
 

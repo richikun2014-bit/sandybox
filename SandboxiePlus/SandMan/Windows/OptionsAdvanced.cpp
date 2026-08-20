@@ -1031,7 +1031,7 @@ void COptionsWindow::OnOptionItemDoubleClicked(QTreeWidgetItem* pItem, int Colum
 
 	QString Name = pItem->data(0, Qt::UserRole).toString();
 	if (Name.isEmpty()) {
-		QMessageBox::warning(this, "SandboxiePlus", tr("Template values can not be edited."));
+		QMessageBox::warning(this, "Sandybox", tr("Template values can not be edited."));
 		return;
 	}
 
@@ -1184,7 +1184,7 @@ void COptionsWindow::AddTriggerItem(const QString& Value, ETriggerAction Type, b
 
 void COptionsWindow::OnAddAutoRun()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1194,7 +1194,7 @@ void COptionsWindow::OnAddAutoRun()
 
 void COptionsWindow::OnAddAutoSvc()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter a service identifier"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter a service identifier"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1204,7 +1204,7 @@ void COptionsWindow::OnAddAutoSvc()
 
 void COptionsWindow::OnAddAutoExec()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1214,7 +1214,7 @@ void COptionsWindow::OnAddAutoExec()
 
 void COptionsWindow::OnAddDeleteCmd()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1224,7 +1224,7 @@ void COptionsWindow::OnAddDeleteCmd()
 
 void COptionsWindow::OnAddTerminateCmd()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1234,7 +1234,7 @@ void COptionsWindow::OnAddTerminateCmd()
 
 void COptionsWindow::OnAddRecoveryCheck()
 {
-	QString Value = QInputDialog::getText(this, "sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
+	QString Value = QInputDialog::getText(this, "Sandybox", tr("Please enter the command line to be executed"), QLineEdit::Normal);
 	if (Value.isEmpty())
 		return;
 
@@ -1268,7 +1268,7 @@ void COptionsWindow::OnDelProcess()
 
 void COptionsWindow::OnHostProcessAllow()
 {
-	QString Process = QInputDialog::getText(this, "sandybox", tr("Please enter a program file name to allow access to this sandbox"));
+	QString Process = QInputDialog::getText(this, "Sandybox", tr("Please enter a program file name to allow access to this sandbox"));
 	if (Process.isEmpty())
 		return;
 
@@ -1279,7 +1279,7 @@ void COptionsWindow::OnHostProcessAllow()
 
 void COptionsWindow::OnHostProcessDeny()
 {
-	QString Process = QInputDialog::getText(this, "sandybox", tr("Please enter a program file name to deny access to this sandbox"));
+	QString Process = QInputDialog::getText(this, "Sandybox", tr("Please enter a program file name to deny access to this sandbox"));
 	if (Process.isEmpty())
 		return;
 

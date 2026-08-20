@@ -197,7 +197,7 @@ CSelectBoxWindow::CSelectBoxWindow(const QStringList& Commands, const QString& B
 	}
 
 	ui.setupUi(this);
-	this->setWindowTitle(tr("sandybox - Run Sandboxed"));
+	this->setWindowTitle(tr("Sandybox - Run Sandboxed"));
 
 	connect(ui.radBoxed, SIGNAL(clicked(bool)), this, SLOT(OnBoxType()));
 	connect(ui.radBoxedNew, SIGNAL(clicked(bool)), this, SLOT(OnBoxType()));
@@ -250,7 +250,7 @@ void CSelectBoxWindow::OnRun()
 		Flags |= CSbieAPI::eStartElevated;
 	if (ui.radUnBoxed->isChecked())
 	{
-		if (QMessageBox("sandybox", tr("Are you sure you want to run the program outside the sandbox?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+		if (QMessageBox("Sandybox", tr("Are you sure you want to run the program outside the sandbox?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 			return;
 
 		BoxNames.append("");
@@ -270,7 +270,7 @@ void CSelectBoxWindow::OnRun()
 			Flags |= CSbieAPI::eStartFCP;
 		BoxNames = m_pBoxPicker->GetBoxNames();
 		if (BoxNames.isEmpty()) {
-			QMessageBox("sandybox", tr("Please select a sandbox."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
+			QMessageBox("Sandybox", tr("Please select a sandbox."), QMessageBox::Information, QMessageBox::Ok, QMessageBox::NoButton, QMessageBox::NoButton, this).exec();
 			return;
 		}
 	}

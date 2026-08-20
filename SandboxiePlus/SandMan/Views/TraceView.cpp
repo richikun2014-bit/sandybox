@@ -739,7 +739,7 @@ void CTraceView::SaveToFile()
 
 	QFile File(Path);
 	if (!File.open(QFile::WriteOnly)) {
-		QMessageBox::critical(this, "sandybox", tr("Failed to open log file for writing"));
+		QMessageBox::critical(this, "Sandybox", tr("Failed to open log file for writing"));
 		return;
 	}
 
@@ -827,7 +827,7 @@ CTraceWindow::CTraceWindow(QWidget *parent)
 	//flags &= ~Qt::WindowSystemMenuHint;
 	setWindowFlags(flags);
 
-	this->setWindowTitle(tr("sandybox - Trace Monitor"));
+	this->setWindowTitle(tr("Sandybox - Trace Monitor"));
 
 	this->setWindowFlag(Qt::WindowStaysOnTopHint, theGUI->IsAlwaysOnTop());
 

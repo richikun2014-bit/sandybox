@@ -1,4 +1,4 @@
-﻿{
+{
 "Description Text...": "Beschreibungstext...",
 "Fix current issues": "Aktuelle Probleme beheben",
 "Fix issues with sandboxing": "Sandboxprobleme beheben",
@@ -80,8 +80,8 @@
 "File is too large to copy into sandbox, opening in read only": "Die Datei ist zu groß, um sie in die Sandbox zu kopieren, öffne Datei nur schreibgeschützt",
 
 "SBIE2181: Failed to load SbieDll.dll": "SBIE2181: SbieDll.dll konnte nicht geladen werden",
-"Fix the DACLs of Sandboxie's home folder": "Reparieren der DACLs des Sandboxie-Ordners",
-"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandboxie home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Wenn Chrome oder eine andere Software, die App-Container verwendet, die Datei SbieDll.dll nicht laden kann, wird dies häufig durch ungültige DACL-Einträge für das Sandboxie-Verzeichnis verursacht. Diese Problementschärfungsmaßnahme wird die DACL-Einträge reparieren. Aus diesem Grund wird sie Adminrechte anfordern, die für kmdutil.exe gewährt werden müssen.",
+"Fix the DACLs of Sandybox's home folder": "Reparieren der DACLs des Sandybox-Ordners",
+"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandybox home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Wenn Chrome oder eine andere Software, die App-Container verwendet, die Datei SbieDll.dll nicht laden kann, wird dies häufig durch ungültige DACL-Einträge für das Sandybox-Verzeichnis verursacht. Diese Problementschärfungsmaßnahme wird die DACL-Einträge reparieren. Aus diesem Grund wird sie Adminrechte anfordern, die für kmdutil.exe gewährt werden müssen.",
 "The DACLs have been adjusted, please try to run your application again and indicate if the issue has been resolved.": "Die DACLs wurden angepasst. Bitte versuchen Sie, Ihre Anwendung erneut auszuführen und geben Sie an, ob das Problem behoben wurde.",
 "DACLs fix did not resolve the issue": "Reparatur der DACLs hat das Problem nicht behoben",
 
@@ -89,11 +89,11 @@
 "Application is likely chromium based but its image type is not set to chrome": "Die Anwendung basiert wahrscheinlich auf Chromium, aber ihr Image-Typ ist nicht auf Chrome gesetzt",
 "The Process \"%1\" is likely chromium based but its image type is not set to chrome, it is likely to fail. Do you want to set its ImageType setting to chrome for this box?": "Der Prozess \"%1\" basiert wahrscheinlich auf Chromium, aber sein Image-Typ ist nicht auf Chrome gesetzt. Das Ausführen des Prozesses wird wahrscheinlich scheitern. Möchten Sie für dieses Box seinen Image-Typ auf Chrome setzen?",
 "Yes, add \"%1\" to Sandboxie.ini": "Ja, füge \"%1\" der Sandboxie.ini hinzu",
-"No, report application to sbie devs": "Nein, melde die Anwendung den Sandboxie-Entwicklern",
+"No, report application to sbie devs": "Nein, melde die Anwendung den Sandybox-Entwicklern",
 
 "SBIE2204: Cannot start a specific sandboxed service": "SBIE2204: Kann einen bestimmten sandgeboxten Dienst nicht starten",
-"Sandboxie failed to start a service in the sandbox": "Sandboxie konnte einen Dienst in der Sandbox nicht starten",
-"The message indicates that Sandboxie was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Die Nachricht zeigt an, dass Sandboxie nicht in der Lage war, eines der Hilfsprogramme SandboxieRpcSs oder SandboxieDcomLaunch zu starten. Der in der Nachricht angegebene Name kann rpcss oder dcomlaunch sein.\n\nAuf der nächsten Seite können Sie einen Problembericht einreichen, um uns bei der Analyse des Problems zu helfen.",
+"Sandybox failed to start a service in the sandbox": "Sandybox konnte einen Dienst in der Sandbox nicht starten",
+"The message indicates that Sandybox was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Die Nachricht zeigt an, dass Sandybox nicht in der Lage war, eines der Hilfsprogramme SandboxieRpcSs oder SandboxieDcomLaunch zu starten. Der in der Nachricht angegebene Name kann rpcss oder dcomlaunch sein.\n\nAuf der nächsten Seite können Sie einen Problembericht einreichen, um uns bei der Analyse des Problems zu helfen.",
 
 "SBIE2224: Sandboxed program has crashed": "SBIE2224: Sandgeboxtes Programm ist abgestürzt",
 "A Sandboxed program has crashed": "Ein sandgeboxtes Programm ist abgestürzt",
@@ -102,8 +102,8 @@
 "There is no known workaround for this process. Do you want to report this issue?": "Es gibt keinen bekannten Workaround für diesen Prozess. Möchten Sie dieses Problem melden?",
 
 "SBIE2313: Could not execute specific process": "SBIE2313: Konnte bestimmten Prozess nicht ausführen",
-"Sandboxie failed to start a process in the sandbox": "Sandboxie konnte einen Prozess in der Sandbox nicht starten",
-"Sandboxie was not able to execute one of its own programs. Check access permissions to the Sandboxie installation folder and/or reinstall Sandboxie.\n\nPossible Causes:\n1. Sandboxie was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandboxie war nicht in der Lage, eines seiner eigenen Programme auszuführen. Überprüfen Sie die Zugriffsrechte auf den Sandboxie-Installationsordner und/oder installieren Sie Sandboxie neu.\n\nMögliche Ursachen:\n1. Sandboxie wurde so konfiguriert, dass der Zugriff auf den Ordner mit seinen Programmdateien blockiert wird.\n2. Eine Sicherheitssoftware eines Drittanbieters (HIPS) wurde so konfiguriert, dass sie die Ausführung des in der Nachricht genannten Programms blockiert.\n\nAuf der nächsten Seite können Sie einen Problembericht einreichen, um uns bei der Analyse des Problems zu helfen.",
+"Sandybox failed to start a process in the sandbox": "Sandybox konnte einen Prozess in der Sandbox nicht starten",
+"Sandybox was not able to execute one of its own programs. Check access permissions to the Sandybox installation folder and/or reinstall Sandybox.\n\nPossible Causes:\n1. Sandybox was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandybox war nicht in der Lage, eines seiner eigenen Programme auszuführen. Überprüfen Sie die Zugriffsrechte auf den Sandybox-Installationsordner und/oder installieren Sie Sandybox neu.\n\nMögliche Ursachen:\n1. Sandybox wurde so konfiguriert, dass der Zugriff auf den Ordner mit seinen Programmdateien blockiert wird.\n2. Eine Sicherheitssoftware eines Drittanbieters (HIPS) wurde so konfiguriert, dass sie die Ausführung des in der Nachricht genannten Programms blockiert.\n\nAuf der nächsten Seite können Sie einen Problembericht einreichen, um uns bei der Analyse des Problems zu helfen.",
 
 "open config": "Konfiguration öffnen",
 "opens box config on a given page": "Öffnet die Boxkonfiguration auf einer bestimmten Seite",
@@ -115,9 +115,9 @@
 "handle migration error messages": "Migrationsfehlernachrichten behandeln",
 "The message %1 is caused by the file migration limit being reached.": "Die Nachricht %1 wird dadurch verursacht, dass das Limit für die Dateimigration erreicht wurde.",
 
-"fix parental controls breaking sandboxie": "Kindersicherungsprobleme von Sandboxie beheben",
+"fix parental controls breaking Sandybox": "Kindersicherungsprobleme von Sandybox beheben",
 "stops AppId driver and AppIdSvc service and disables the offending policy file": "Stoppt den AppId-Treiber und den AppIdSvc-Dienst und deaktiviert die problemverursachende Richtliniendatei",
-"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.": "Es scheint, dass Sie ein nicht-administratives Benutzerkonto auf einem System mit aktivierter Kindersicherung verwenden, das bekanntermaßen nicht mit Sandboxie kompatibel ist.\nSie haben folgende Möglichkeiten, das Problem zu lösen.",
+"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.": "Es scheint, dass Sie ein nicht-administratives Benutzerkonto auf einem System mit aktivierter Kindersicherung verwenden, das bekanntermaßen nicht mit Sandybox kompatibel ist.\nSie haben folgende Möglichkeiten, das Problem zu lösen.",
 
 "SBIEMSG, I'm getting a cryptic SBIExxxx message": "SBIEMSG, ich erhalte eine kryptische SBIExxxx Nachricht",
 "Handle all sbie messages...": "Alle SBIE Nachrichten behandeln...",

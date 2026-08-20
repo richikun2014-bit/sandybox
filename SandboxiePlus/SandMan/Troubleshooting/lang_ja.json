@@ -1,4 +1,4 @@
-﻿{
+{
 "Description Text...": "説明テキスト...",
 "Fix current issues": "現在の問題を修正",
 "Fix issues with sandboxing": "サンドボックスに関する問題を修正",
@@ -80,14 +80,14 @@
 "File is too large to copy into sandbox, opening in read only": "ファイルが大きすぎるためサンドボックスにコピーできません。読み取り専用で開いています",
 
 "SBIE2181: Failed to load SbieDll.dll": "SBIE2181: SbieDll.dllの読み込みに失敗しました",
-"Fix the DACLs of Sandboxie's home folder": "SandboxieのホームフォルダーのDACLを修正する",
-"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandboxie home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Chromeやアプリコンテナーを使用する他のソフトウェアでSbieDll.dllの読み込みに失敗する場合、多くはSandboxieのホームディレクトリのDACLエントリが無効であることが原因です。この緩和策はそれらを修正します。このため、kmdutil.exeに付与する必要がある管理者権限のプロンプトが表示されます。",
+"Fix the DACLs of Sandybox's home folder": "SandboxieのホームフォルダーのDACLを修正する",
+"Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, it is often caused by invalid DACL entries for the Sandybox home directory. This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.": "Chromeやアプリコンテナーを使用する他のソフトウェアでSbieDll.dllの読み込みに失敗する場合、多くはSandboxieのホームディレクトリのDACLエントリが無効であることが原因です。この緩和策はそれらを修正します。このため、kmdutil.exeに付与する必要がある管理者権限のプロンプトが表示されます。",
 "The DACLs have been adjusted, please try to run your application again and indicate if the issue has been resolved.": "DACLが調整されました。アプリケーションを再度実行し、問題が解決したかどうかをお知らせください。",
 "DACLs fix did not resolve the issue": "DACLの修正では問題が解決しませんでした",
 
 "SBIE2204: Cannot start a specific sandboxed service": "SBIE2204: 特定のサンドボックス化されたサービスを開始できません",
-"Sandboxie failed to start a service in the sandbox": "Sandboxieはサンドボックス内のサービスの開始に失敗しました",
-"The message indicates that Sandboxie was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "このメッセージは、SandboxieがヘルパープログラムであるSandboxieRpcSsまたはSandboxieDcomLaunchのいずれかを開始できなかったことを示します。メッセージに記載されている名前はrpcssまたはdcomlaunchです。\n\n次のページで問題レポートを送信して、問題の分析にご協力いただけます。",
+"Sandybox failed to start a service in the sandbox": "Sandboxieはサンドボックス内のサービスの開始に失敗しました",
+"The message indicates that Sandybox was unable to start one of the helper programs SandboxieRpcSs or SandboxieDcomLaunch. The name noted in the message can be rpcss or dcomlaunch.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "このメッセージは、SandboxieがヘルパープログラムであるSandboxieRpcSsまたはSandboxieDcomLaunchのいずれかを開始できなかったことを示します。メッセージに記載されている名前はrpcssまたはdcomlaunchです。\n\n次のページで問題レポートを送信して、問題の分析にご協力いただけます。",
 
 "SBIE2224: Sandboxed program has crashed": "SBIE2224: サンドボックス化されたプログラムがクラッシュしました",
 "A Sandboxed program has crashed": "サンドボックス化されたプログラムがクラッシュしました",
@@ -96,8 +96,8 @@
 "There is no known workaround for this process. Do you want to report this issue?": "このプロセスには既知の回避策がありません。この問題を報告しますか？",
 
 "SBIE2313: Could not execute specific process": "SBIE2313: 特定のプロセスを実行できませんでした",
-"Sandboxie failed to start a process in the sandbox": "Sandboxieはサンドボックス内でプロセスの開始に失敗しました",
-"Sandboxie was not able to execute one of its own programs. Check access permissions to the Sandboxie installation folder and/or reinstall Sandboxie.\n\nPossible Causes:\n1. Sandboxie was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandboxieは自身のプログラムの1つを実行できませんでした。Sandboxieのインストールフォルダーへのアクセス許可を確認するか、Sandboxieを再インストールしてください。\n\n考えられる原因:\n1. Sandboxieが、そのプログラムファイルを含むフォルダーへのアクセスをブロックするように構成されていました。\n2. サードパーティ製の(HIPS)セキュリティソフトウェアが、メッセージに記載されているプログラムの実行をブロックするように構成されていました。\n\n次のページで問題レポートを送信して、問題の分析にご協力いただけます。",
+"Sandybox failed to start a process in the sandbox": "Sandboxieはサンドボックス内でプロセスの開始に失敗しました",
+"Sandybox was not able to execute one of its own programs. Check access permissions to the Sandybox installation folder and/or reinstall Sandybox.\n\nPossible Causes:\n1. Sandybox was configured to block access to the folder containing its program files.\n2. A third-party (HIPS) security software was configured to block the execution of the program mentioned in the message.\n\nYou can submit an issue report on the next page to help us to analyze the issue.": "Sandboxieは自身のプログラムの1つを実行できませんでした。Sandboxieのインストールフォルダーへのアクセス許可を確認するか、Sandboxieを再インストールしてください。\n\n考えられる原因:\n1. Sandboxieが、そのプログラムファイルを含むフォルダーへのアクセスをブロックするように構成されていました。\n2. サードパーティ製の(HIPS)セキュリティソフトウェアが、メッセージに記載されているプログラムの実行をブロックするように構成されていました。\n\n次のページで問題レポートを送信して、問題の分析にご協力いただけます。",
 
 "open config": "設定を開く",
 "opens box config on a given page": "指定されたページでボックス設定を開きます",
@@ -109,9 +109,9 @@
 "handle migration error messages": "移行エラーメッセージを処理する",
 "The message %1 is caused by the file migration limit being reached.": "メッセージ %1 は、ファイル移行の制限に達したことが原因です。",
 
-"fix parental controls breaking sandboxie": "Sandboxieを破損させる保護者による制限を修正する",
+"fix parental controls breaking Sandybox": "Sandboxieを破損させる保護者による制限を修正する",
 "stops AppId driver and AppIdSvc service and disables the offending policy file": "AppIDドライバーとAppIDSvcサービスを停止し、問題のあるポリシーファイルを無効にします",
-"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandboxie.\nYou have the following options to resolve the issue.": "保護者による制限が有効なシステムで、管理者ではないユーザーアカウントを使用しているようです。これはSandboxieと互換性がないことが知られています。\n問題を解決するには、次のオプションがあります。",
+"It seems you are using a non-administrative user account on a system with enabled parental controls, this is known to be incompatible with Sandybox.\nYou have the following options to resolve the issue.": "保護者による制限が有効なシステムで、管理者ではないユーザーアカウントを使用しているようです。これはSandboxieと互換性がないことが知られています。\n問題を解決するには、次のオプションがあります。",
 
 "SBIEMSG, I'm getting a cryptic SBIExxxx message": "SBIEMSG、不可解なSBIExxxxメッセージが表示されます",
 "Handle all sbie messages...": "すべてのSBIEメッセージを処理...",

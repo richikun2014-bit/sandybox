@@ -21,7 +21,7 @@ CPopUpWindow::CPopUpWindow(QWidget* parent) : QMainWindow(parent)
 	//flags &= ~Qt::WindowCloseButtonHint;
 	setWindowFlags(flags);
 
-	this->setWindowTitle(tr("sandybox Notifications"));
+	this->setWindowTitle(tr("Sandybox Notifications"));
 
 	QWidget* centralWidget = new QWidget();
 	ui.setupUi(centralWidget);
@@ -263,7 +263,7 @@ void CPopUpWindow::OnHideMessage()
 {
 	CPopUpMessage* pEntry = qobject_cast<CPopUpMessage*>(sender());
 	
-	if (QMessageBox("sandybox", theAPI->GetSbieMsgStr(3647, theGUI->m_LanguageId).arg(pEntry->GetMsgId()).arg("")
+	if (QMessageBox("Sandybox", theAPI->GetSbieMsgStr(3647, theGUI->m_LanguageId).arg(pEntry->GetMsgId()).arg("")
 		, QMessageBox::Question, QMessageBox::Yes | QMessageBox::Default, QMessageBox::No | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 		return;
 

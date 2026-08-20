@@ -2,12 +2,12 @@
 *	group: other
 *	class: sandboxing
 * name: SBIE2181: Failed to load SbieDll.dll
-* description: Fix the DACLs of Sandboxie's home folder
+* description: Fix the DACLs of Sandybox's home folder
 *
 */
 
 wizard.showStatus(tr('Failures to load SbieDll.dll when encountered by Chrome, or another software employing app containers, ' +
- 'it is often caused by invalid DACL entries for the Sandboxie home directory. ' + 
+ 'it is often caused by invalid DACL entries for the Sandybox home directory. ' + 
  'This mitigation measure will fix them, for this reason it will prompt for admin privileges which need to be granted for kmdutil.exe.'), true);
 
 let ret = system.execute(system.expandPath('%SbieHome%\\kmdutil.exe'), 'fixdacls', {elevate: true});

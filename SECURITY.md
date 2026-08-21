@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-1. Please report any found security vulnerability directly to me at xanatosdavid[at]gmail.com or through the [Report a vulnerability](https://github.com/sandboxie-plus/Sandboxie/security/advisories/new) form provided by GitHub.
+1. Please report any found security vulnerability directly to me at xanatosdavid[at]gmail.com or through the [Report a vulnerability] form provided by GitHub.
 
 2. Please describe the issue in full detail and, if possible, include a proof of concept exploit.
 
@@ -11,7 +11,7 @@
 ## Fixed vulnerabilities
 
 ### SECURITY ISSUE ID-40 (reported by b0l0k)
-Sandboxie APC Injection Sandbox Escape
+Sandybox APC Injection Sandbox Escape
 
 fixed in: 1.17.6 / 5.72.6
 
@@ -41,7 +41,7 @@ Issues with GetRawInputDeviceInfoSlave (CVE-2026-34459)
 fixed in: 1.17.3 / 5.72.3
 
 ### SECURITY ISSUE ID-34 (reported by sammy12342)
-EditAdminOnly bypass via INI CRLF injection in Sandboxie Plus (CVE-2026-34458)
+EditAdminOnly bypass via INI CRLF injection in Sandybox (CVE-2026-34458)
 
 fixed in: 1.17.3 / 5.72.3
 
@@ -77,7 +77,7 @@ Buffer overflow in SbieIniServer (CVE-2025-64721)
 fixed in: 1.16.7 / 5.71.7
 
 ### SECURITY ISSUE ID-27 (thanks love-code-yeyixiao)
-Leak of encrypted sandbox key during password change ([CVE-2025-54422](https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-jp7r-vgv9-43p7))
+Leak of encrypted sandbox key during password change ([CVE-2025-54422])
 
 fixed in: 1.16.2 / 5.71.2
 
@@ -92,7 +92,7 @@ A new method of exploiting HostInjectDll mechanism for local privilege escalatio
 fixed in: 1.15.9 / 5.70.9
 
 ### SECURITY ISSUE ID-24
-Files stored inside a sandbox folder were accessible to all users on a system, resulting in security issues in multi-user scenarios ([CVE-2024-49360](https://github.com/sandboxie-plus/Sandboxie/security/advisories/GHSA-4chj-3c28-gvmp))
+Files stored inside a sandbox folder were accessible to all users on a system, resulting in security issues in multi-user scenarios ([CVE-2024-49360])
 
 fixed in: 1.15.0 / 5.70.0
 
@@ -116,8 +116,8 @@ Sandboxed programs could read the memory of host processes, presumably this was 
 
 fixed in: 1.0.16 / 5.55.16
 
-### SECURITY ISSUE ID-19 [#1714](https://github.com/sandboxie-plus/Sandboxie/issues/1714)
-NtGetNextThread was not properly filtered by the Sandboxie driver, hence a sandboxed process could obtain a handle on an unsandboxed thread with write privileges. The issue can be remedied on older Sandboxie versions by enabling EnableObjectFiltering=y
+### SECURITY ISSUE ID-19 [#1714]
+NtGetNextThread was not properly filtered by the Sandybox driver, hence a sandboxed process could obtain a handle on an unsandboxed thread with write privileges. The issue can be remedied on older Sandybox versions by enabling EnableObjectFiltering=y
 
 fixed in: 1.0.14 / 5.55.14
 
@@ -141,17 +141,17 @@ The HostInjectDll mechanism allowed for local privilege escalation
 
 fixed in: 0.7.2 / 5.49.0
 
-### SECURITY ISSUE ID-14 (thanks hg421) [#552](https://github.com/sandboxie-plus/Sandboxie/issues/552)
+### SECURITY ISSUE ID-14 (thanks hg421) [#552]
 "\Device\DeviceApi\CMApi" is now filtered by the driver, this allowed elevated processes to change hardware configuration
 
 fixed in: 0.7.0 / 5.48.0
 
-### SECURITY ISSUE ID-13 (thanks hg421) [#553](https://github.com/sandboxie-plus/Sandboxie/issues/553)
+### SECURITY ISSUE ID-13 (thanks hg421) [#553]
 "\RPC Control\samss lpc" is now filtered by the driver, this allowed elevated processes to change passwords, delete users and alike
 
 fixed in: 0.7.0 / 5.48.0
 
-### SECURITY ISSUE ID-12 (thanks typpos) [#549](https://github.com/sandboxie-plus/Sandboxie/pull/549)
+### SECURITY ISSUE ID-12 (thanks typpos) [#549]
 A race condition in the driver allowed to obtain an elevated rights handle to an unsandboxed process
 
 fixed in: 0.7.0 / 5.48.0
@@ -192,7 +192,7 @@ Added print spooler filter to prevent printers from being set up outside the san
 fixed in: 0.5.4 / 5.46.0
 
 ### SECURITY ISSUE ID-4 (thanks Diversenok)
-Sandboxie now strips particularly problematic privileges from sandboxed system tokens. With those, a process could attempt to bypass the sandbox isolation
+Sandybox now strips particularly problematic privileges from sandboxed system tokens. With those, a process could attempt to bypass the sandbox isolation
 
 fixed in: 0.5.4 / 5.46.0
 

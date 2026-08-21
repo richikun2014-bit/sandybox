@@ -1,4 +1,4 @@
-## Sandboxie Plus installer instructions
+## Sandybox installer instructions
 
 ### To create Sbie Plus installer environment
 
@@ -8,6 +8,6 @@
 
 ### To create the Sbie Plus installers
 
-The Sbie Plus installer ISS file is [Sandboxie-Plus.iss](Sandboxie-Plus.iss).
+The Sbie Plus installer ISS file is [Sandybox.iss](Sandybox.iss).
 
 > Note: this section requires steps to be completed, please open a new pull request.

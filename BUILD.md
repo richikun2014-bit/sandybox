@@ -1,6 +1,6 @@
-# Sandboxie 本地编译指南（x64）
+# Sandybox 本地编译指南（x64）
 
-本文档基于 `.github/workflows/main.yml` 整理，涵盖从零开始编译 Sandboxie x64 版本的完整步骤及已知问题。
+本文档基于 `.github/workflows/main.yml` 整理，涵盖从零开始编译 Sandybox x64 版本的完整步骤及已知问题。
 
 ---
 
@@ -24,9 +24,9 @@
 
 ## 二、首次编译完整流程
 
-打开 **PowerShell**，进入仓库根目录（`C:\Users\guohe\code\Sandboxie`），按顺序执行以下命令：
+打开 **PowerShell**，进入仓库根目录（`C:\Users\guohe\code\Sandybox`），按顺序执行以下命令：
 
-### 步骤 1：编译 Sandboxie 核心（用户模式组件）
+### 步骤 1：编译 Sandybox 核心（用户模式组件）
 
 ```powershell
 # x86 DLLs & svc（必须，即使目标平台是 x64）
@@ -65,7 +65,7 @@ SandboxiePlus\install_jom.cmd
 >
 > **网络注意**：从 GitHub 下载 Qt 包（约几百 MB）可能需要较长时间。如果下载卡住，可手动下载对应 `.7z` 文件放到仓库根目录，再重新运行脚本。
 
-### 步骤 4：编译 Sandboxie Plus（GUI 及组件）
+### 步骤 4：编译 Sandybox（GUI 及组件）
 
 `qmake` 需要直接调用 MSVC 编译器 `cl.exe`，因此**必须先初始化 VS 的 x64 编译环境**，再执行脚本。
 
@@ -86,7 +86,7 @@ cmd /c "call `"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxili
 msbuild /t:restore,build -p:RestorePackagesConfig=true SandboxiePlus\SbieShell\SbieShell.sln /p:Configuration="Release" /p:Platform=x64
 ```
 
-### 步骤 6：编译 Sandboxie Tools
+### 步骤 6：编译 Sandybox Tools
 
 ```powershell
 msbuild /t:build SandboxieTools\SandboxieTools.sln /p:Configuration="Release" /p:Platform=x64 -maxcpucount:8

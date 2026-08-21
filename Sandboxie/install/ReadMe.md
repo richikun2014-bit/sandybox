@@ -1,4 +1,4 @@
-## Sandboxie Classic installer instructions
+## Sandybox Classic installer instructions
 
 ### To create Sbie NSIS installer environment
 
@@ -15,7 +15,7 @@
 	`Libiconv2.dll`
 	`Libintl3.dll`
 
-	Copy these 3 binaries into a folder under the Sandboxie source tree named `tools\iconv` at the same level as Sandbox.sln (e.g. `C:\src\Sbie\tools\iconv`)
+	Copy these 3 binaries into a folder under the Sandybox source tree named `tools\iconv` at the same level as Sandbox.sln (e.g. `C:\src\Sbie\tools\iconv`)
 
 Everything above only needs to be done once. Then your machine should be good to go.
 
@@ -24,7 +24,7 @@ Everything above only needs to be done once. Then your machine should be good to
 The Sbie installer NSI file is [\install\SandboxieVS.nsi](../install/SandboxieVS.nsi).
 
 > Note: this section contains obsolete information, as it is only valid for the old code signing not mediated by Microsoft.
-> Please refer to issue [#1248](https://github.com/sandboxie-plus/Sandboxie/issues/1248) and open a new pull request to update the following steps:
+> Please refer to issue [#1248] and open a new pull request to update the following steps:
 
 1) Sign the binaries (if applicable).
 2) Set the #defines in [\common\my_version.h](../common/my_version.h) (SBIE_INSTALLER_PATH, etc.) to the location of your binaries. (These #defines are read by SandboxieVS.nsi).

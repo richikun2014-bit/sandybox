@@ -1,9 +1,9 @@
-## Sandboxie Classic build instructions
+## Sandybox Classic build instructions
 
-- Please note: there is another [ReadMe.md](./install/ReadMe.md) file in the [install](./install/) folder that explains how to create the Sandboxie Classic installers.
+- Please note: there is another [ReadMe.md](./install/ReadMe.md) file in the [install](./install/) folder that explains how to create the Sandybox Classic installers.
 - Please note: the following instructions may lag behind the [CI workflow](../.github/workflows/main.yml), so be aware of any version change.
 
-Sandboxie Classic builds under Visual Studio 2019, as it offers the widest compatibility range, allowing us to build a driver which works with Windows 7 up to Windows 11.
+Sandybox Classic builds under Visual Studio 2019, as it offers the widest compatibility range, allowing us to build a driver which works with Windows 7 up to Windows 11.
 
 1) Download [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products)
 2) In the Visual Studio Installer, tick _Desktop development with C++_
@@ -22,7 +22,7 @@ Sandboxie Classic builds under Visual Studio 2019, as it offers the widest compa
 
 ### Source projects (in alphabetical order)
 
-> Note: the core of Sandboxie are the driver, SbieDrv, the service, SbieSvc, and the injection DLL, SbieDll. Study these projects first.
+> Note: the core of Sandybox are the driver, SbieDrv, the service, SbieSvc, and the injection DLL, SbieDll. Study these projects first.
 
 [Common (\apps\common)](./apps/common). It builds common.lib, which contains some common GUI objects, and it is used by the Control and Start projects.
 
@@ -43,9 +43,9 @@ Sandboxie Classic builds under Visual Studio 2019, as it offers the widest compa
 
 [SandboxWUAU (\apps\com\WUAU)](./apps/com/WUAU). It creates SandboxieWUAU.exe, the Sbie's wrapper for the Windows Automatic Update Service (WUAUSERV).
 
-[SbieControl (\apps\control)](./apps/control). It builds SbieCtrl.exe, the Sandboxie Control app that displays real-time sandboxed application activity.
+[SbieControl (\apps\control)](./apps/control). It builds SbieCtrl.exe, the Sandybox Control app that displays real-time sandboxed application activity.
 
-[SbieIni (\apps\ini)](./apps/ini). It creates SbieIni.exe, a utility for querying and updating the sandboxie.ini configuration file.
+[SbieIni (\apps\ini)](./apps/ini). It creates SbieIni.exe, a utility for querying and updating the Sandboxie.ini configuration file.
 
 [SboxDcomLaunch (\apps\com\DcomLaunch)](./apps/com/DcomLaunch). It creates SandboxieDcomLaunch.exe.
 
